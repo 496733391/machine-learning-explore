@@ -1,0 +1,16 @@
+*.py[cod]
+*$py.class
+*.pyc
+*.log
+.project
+.pydevproject
+.settings
+*.DS_Store
+*.xml
+.project
+*.ipynb
+/.idea
+.vscode
+LOG_PATH_REPLACEMENT
+src/mathartsys/Log
+/src/.idea
