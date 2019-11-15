@@ -1,6 +1,6 @@
 #! /usr/bin/python
+# -*- coding: utf-8 -*-
 
-from __future__ import print_function
 from sklearn import neighbors, linear_model, datasets
 from sklearn.preprocessing import MinMaxScaler, minmax_scale
 from sklearn.preprocessing import StandardScaler
