@@ -7,6 +7,7 @@ import sys
 import pandas as pd
 import numpy as np
 import xgboost as xgb
+import matplotlib.pyplot as plt
 
 from copy import deepcopy
 from itertools import combinations
@@ -132,7 +133,9 @@ month_get_list2 = list(combinations(month_list, 2))
 
 feature_list = list(predict_data_ready.columns)
 pred_dfs1 = pd.DataFrame()
-for com in month_get_list2:
+err_all = 0
+# for com in month_get_list2:
+for com in month_get_list1:
     train_data = all_data_ready[~all_data_ready['month'].isin(com)].reset_index(drop=True)
     test_data = all_data_ready[all_data_ready['month'].isin(com)].reset_index(drop=True)
 
@@ -144,8 +147,8 @@ for com in month_get_list2:
     dtrain = xgb.DMatrix(train_x, train_y)
     dtest = xgb.DMatrix(test_x, test_y)
     params = {
-                'eta': 0.1,
-                'max_depth': 8,
+                'eta': 0.01,
+                'max_depth': 3,
                 'min_child_weight': 3,
                 'gamma': 0.1,
                 'subsample': .8,
@@ -157,11 +160,18 @@ for com in month_get_list2:
     xgb_model = xgb.train(params=params, dtrain=dtrain, num_boost_round=1000, early_stopping_rounds=100,
                           evals=watchlist)
 
-    test_pred_df = pd.concat([test_y, pd.DataFrame(xgb_model.predict(dtest), columns=['error_pred'])], axis=1)
-    test_pred_df['err_err'] = test_pred_df['error'] - test_pred_df['error_pred']
-    test_pred_df['error_q'] = 0
-    test_pred_df['error_pred_q'] = 0
-    test_pred_df.loc[test_pred_df['error'] >= 0, 'error_q'] = 1
-    test_pred_df.loc[test_pred_df['error_pred'] >= 0, 'error_pred_q'] = 1
-    test_pred_df['q_error'] = test_pred_df['error_q'] - test_pred_df['error_pred_q']
+    # fig, ax = plt.subplots(figsize=(18, 18))
 
+    # xgb.plot_importance(xgb_model, ax=ax)
+    # plt.show()
+
+    test_pred_df = pd.concat([test_y, pd.DataFrame(xgb_model.predict(dtest), columns=['error_pred'])], axis=1)
+    test_pred_df['err_err'] = np.abs(test_pred_df['error'] - test_pred_df['error_pred'])
+    err_all += test_pred_df['err_err'].mean()
+    # test_pred_df['error_q'] = 0
+    # test_pred_df['error_pred_q'] = 0
+    # test_pred_df.loc[test_pred_df['error'] >= 0, 'error_q'] = 1
+    # test_pred_df.loc[test_pred_df['error_pred'] >= 0, 'error_pred_q'] = 1
+    # test_pred_df['q_error'] = np.abs(test_pred_df['error_q'] - test_pred_df['error_pred_q'])
+err_mean = float(err_all / 9)
+print(err_mean)
