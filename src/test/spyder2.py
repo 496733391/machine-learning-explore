@@ -23,14 +23,22 @@ class Crawler:
         # 启动Chrome浏览器
         driver = webdriver.Chrome(location_driver)
         # 最大化窗口
-        driver.maximize_window()
+        # driver.maximize_window()
         # 浏览器打开爬取页面
         driver.get(self.url)
+        # 加载下一页
+        # for i in range(100):
+        #     driver.find_element_by_class_name('c-icon-pager-next').click()
         return driver
 
     def page_analy(self, driver):
-        type(driver.page_source)
-        return
+        soup = bs(driver.page_source, 'lxml')
+        text_list = soup.find_all('div', class_='sc_content')
+        for text in text_list:
+            for i in range(len(text.contents)//2):
+                print(text.contents[2*i+1].text)
+        print(text_list[0].text)
+        return text_list
 
     def run(self):
 
