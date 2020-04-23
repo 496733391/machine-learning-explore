@@ -4,6 +4,7 @@
 from selenium import webdriver
 from tqdm import tqdm
 import time
+import datetime
 from bs4 import BeautifulSoup as bs
 
 
@@ -27,8 +28,8 @@ class Crawler:
         # 浏览器打开爬取页面
         driver.get(self.url)
         # 加载下一页
-        # for i in range(100):
-        #     driver.find_element_by_class_name('c-icon-pager-next').click()
+        for i in tqdm(range(65)):
+            driver.find_element_by_class_name('c-icon-pager-next').click()
         return driver
 
     def page_analy(self, driver):
@@ -49,5 +50,7 @@ class Crawler:
 
 
 if __name__ == '__main__':
+    print(datetime.datetime.now())
     craw = Crawler()
     craw.run()
+    print(datetime.datetime.now())
