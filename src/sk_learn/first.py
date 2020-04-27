@@ -13,7 +13,7 @@ x_digits = digits.data / digits.data.max()
 
 std = StandardScaler()
 x_digits2 = std.fit_transform(digits.data)
-print (x_digits2)
+print(x_digits2)
 y_digits = digits.target
 
 x_train = x_digits[:-180]
