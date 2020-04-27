@@ -41,11 +41,7 @@ class Crawler:
     def page_analy(self, driver):
         soup = bs(driver.page_source, 'lxml')
         result_list = soup.find_all(class_='nova-v-person-item__body')
-        # print('********************')
-        # print(driver.page_source)
 
-        # result_list = re.findall(r'<body(.+)body>', driver.page_source, re.S)
-        # result = '<body' + result_list[0] + 'body>'
         for result in result_list:
             for content in result.contents:
                 name = content.find(itemprop='name').text
