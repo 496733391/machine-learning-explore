@@ -6,19 +6,23 @@ from tqdm import tqdm
 import time
 import datetime
 from bs4 import BeautifulSoup as bs
+import re
 import requests
 
 
-base_url_part = 'https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q='
-search_query = 'shanghai+university'  # 检索的关键词
-location_driver = 'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'  # Chrome驱动程序在电脑中的位置
+base_url = 'https://www.researchgate.net/search/researcher?q='
+
+# 检索的关键词，名+%2+姓
+search_key = 'jianbo' + '%2B' + 'wang'
+# Chrome驱动程序在电脑中的位置
+location_driver = 'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
+# 页码
+page_no = '&page=1'
 
 
 class Crawler:
     def __init__(self):
-        self.url = base_url_part + search_query
-        self.url = 'http://xueshu.baidu.com/s?wd=清华大学&pn=0&tn=SE_baiduxueshu_' \
-                   'c1gjeupa&ie=utf-8&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&sc_hit=1'
+        self.url = base_url + search_key + page_no
 
     # 启动Chrome浏览器驱动
     def start_brower(self):
@@ -31,16 +35,21 @@ class Crawler:
         # 加载下一页
         # for i in tqdm(range(65)):
         #     driver.find_element_by_class_name('c-icon-pager-next').click()
+        time.sleep(10)
         return driver
 
     def page_analy(self, driver):
         soup = bs(driver.page_source, 'lxml')
-        text_list = soup.find_all('div', class_='sc_content')
-        for text in text_list:
-            for i in range(len(text.contents)//2):
-                print(text.contents[2*i+1].text)
-        print(text_list[0].text)
-        return text_list
+        result_list = soup.find_all(class_='nova-v-person-item__body')
+        # print('********************')
+        # print(driver.page_source)
+
+        # result_list = re.findall(r'<body(.+)body>', driver.page_source, re.S)
+        # result = '<body' + result_list[0] + 'body>'
+        for result in result_list:
+            for content in result.contents:
+                name = content.find(itemprop='name').text
+        return result_list
 
     def run(self):
 
