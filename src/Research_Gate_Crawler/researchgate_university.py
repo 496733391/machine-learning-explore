@@ -18,7 +18,7 @@ from researchgate_author_detail import CrawlerAuthorDetail
 base_url1 = 'https://www.researchgate.net/institution/'
 base_url2 = '/members'
 
-# 检索的关键词，名+%2B+姓
+# 检索的关键词
 name_list = ['Fourth', 'Military', 'Medical', 'University']
 search_key = '_'.join(name_list)
 # Chrome驱动程序在电脑中的位置
@@ -30,12 +30,18 @@ database = 'local'
 username = 'root'
 password = 'admin'
 
+db_url = "mysql+pymysql://{username}:{password}@{host}:{port}/{db}?charset=UTF8MB4". \
+            format(username=username, password=password, host=host, port=port, db=database)
+
 
 class CrawlerUniversity:
     def __init__(self):
-        self.url = base_url1 + search_key + base_url2
+        '''
 
-    # 启动Chrome浏览器驱动
+        '''
+        self.url = base_url1 + search_key + base_url2
+        self.engine = create_engine(db_url)
+
     def start_brower(self):
         # 启动Chrome浏览器
         driver = webdriver.Chrome(location_driver)
@@ -43,7 +49,12 @@ class CrawlerUniversity:
         # driver.maximize_window()
         return driver
 
-    def catch_pipeline(self, driver):
+    def catch_url(self, driver):
+        '''
+
+        :param driver:
+        :return:
+        '''
         # 获取最大页码
         driver.get(self.url)
         random_seconds = random.uniform(2, 4)
@@ -52,10 +63,10 @@ class CrawlerUniversity:
         page_no = []
         for element in page_list:
             page_no.append(int(element.text))
-        # max_page = max(page_no)
-        max_page = 1
+        max_page = max(page_no)
+        # max_page = 1
         author_url = []
-        # 逐页抓取
+        # 逐页提取学者页码url
         for i in range(1, max_page + 1):
             url = self.url + '/%i' % i
             # req = requests.get(url=url)
@@ -71,16 +82,13 @@ class CrawlerUniversity:
 
         return author_url
 
-    def run(self):
-        driver = self.start_brower()
-        author_url = self.catch_pipeline(driver)
-        driver.close()
-
-        return author_url
-
     def main_prog(self):
+        '''
+
+        :return: final_result
+        '''
         driver = self.start_brower()
-        author_url = self.catch_pipeline(driver)
+        author_url = self.catch_url(driver)
         driver.close()
         url_list = ['https://www.researchgate.net/' + i for i in author_url]
 
@@ -90,7 +98,16 @@ class CrawlerUniversity:
         author_craw = CrawlerAuthorDetail(url_list)
         final_result, final_result_dict = author_craw.run()
         author_craw.dict2json(final_result_dict)
-        result_df = pd.DataFrame(data=final_result, columns=['name', 'institution', 'department', 'current_position',
+
+        return final_result
+
+    def deal_result(self, final_result):
+        '''
+
+        :param final_result:
+        :return: basic_info, all_experience, all_publication
+        '''
+        result_df = pd.DataFrame(data=final_result, columns=['url', 'name', 'institution', 'department', 'current_position',
                                                              'expertise', 'experience_list', 'publication_list'])
 
         time_num = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
@@ -123,22 +140,21 @@ class CrawlerUniversity:
         return basic_info, all_experience, all_publication
 
     def w2sql(self, df, table_name):
-        db_url = "mysql+pymysql://{username}:{password}@{host}:{port}/{db}?charset=UTF8MB4". \
-            format(username=username, password=password, host=host, port=port, db=database)
-
-        engine = create_engine(db_url)
-
+        # 指定字段类型
         datatype = {c: types.VARCHAR(df[c].str.len().max()) for c in df.columns[df.dtypes == 'object'].tolist()}
+        # 写入数据库
+        df.to_sql(table_name, self.engine, index=False, if_exists='append', dtype=datatype)
 
-        df.to_sql(table_name, engine, index=False, if_exists='append', dtype=datatype)
+    def run(self):
+        final_result = self.main_prog()
+        basic_info, all_experience, all_publication = self.deal_result(final_result)
+        self.w2sql(basic_info, 'basic_info')
+        self.w2sql(all_experience, 'experience_passed')
+        self.w2sql(all_publication, 'publication')
 
 
 if __name__ == '__main__':
     print(datetime.datetime.now())
     craw = CrawlerUniversity()
-    # author_url = craw.run()
-    basic_info, all_experience, all_publication = craw.main_prog()
-    craw.w2sql(basic_info, 'basic_info')
-    craw.w2sql(all_experience, 'experience_passed')
-    craw.w2sql(all_publication, 'publication')
+    craw.run()
     print(datetime.datetime.now())

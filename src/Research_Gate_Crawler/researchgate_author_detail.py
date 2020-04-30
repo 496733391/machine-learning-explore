@@ -138,7 +138,7 @@ class CrawlerAuthorDetail:
         # 合并成字符串
         publication_list = ' ; '.join(publication_list)
 
-        author_information = [name, institution, department, current_position,
+        author_information = [url, name, institution, department, current_position,
                               expertise, experience_list, publication_list]
         author_information_dict['publication'] = publication_dict
 

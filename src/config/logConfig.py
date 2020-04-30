@@ -7,11 +7,6 @@
 import os
 import logging
 import logging.config
-from mathartsys.Config.rootConfig import LOG_PATH_ROOT, LOG_PATH_RS, LOG_PATH_WP, \
-    LOG_PATH_DL, LOG_PATH_REPLACEMENT, LOG_PATH_ADV, LOG_PATH_CANCEL
-
-if not os.path.exists(LOG_PATH_ROOT):
-    os.makedirs(LOG_PATH_ROOT)
 
 
 logging.config.dictConfig({
