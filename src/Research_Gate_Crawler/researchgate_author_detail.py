@@ -39,7 +39,7 @@ class CrawlerAuthorDetail:
         name = '' if not name_info else name_info.contents[0].text
         author_information_dict['name'] = name
 
-        # 需要人机验证时，终端
+        # 需要人机验证时，中断
         if not name_info:
             return 0, 0
 
