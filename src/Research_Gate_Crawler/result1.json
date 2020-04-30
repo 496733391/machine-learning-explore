@@ -1,0 +1,2609 @@
+{
+    "0": {
+        "name": "Zhen-Hua Ai",
+        "institution": "Fourth Military Medical University",
+        "department": "Cell Engineering Research Center (CERC)",
+        "current_position": "",
+        "expertise": "Real-Time PCR,Western Blot,PCR,Cancer Cells",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Overexpression of FOXM1 predicts poor prognosis and promotes cancer cell proliferation, migration and invasion in epithelial ovarian cancer",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "1": {
+                "title": "Basigin-2 is the predominant basigin isoform that promotes tumor cell migration and invasion and correlates with poor prognosis in epithelial ovarian cancer",
+                "type": "Article",
+                "publish_date": "Apr 2013"
+            },
+            "2": {
+                "title": "FoxM1 expression is significantly associated with cisplatin-based chemotherapy resistance and poor prognosis in advanced non-small cell lung cancer patients",
+                "type": "Article",
+                "publish_date": "Nov 2012"
+            },
+            "3": {
+                "title": "Point mutation of 5\u2032 noncoding region of BCL-6 gene in primary gastric lymphomas",
+                "type": "Article",
+                "publish_date": "Feb 2005"
+            },
+            "4": {
+                "title": "Statistical correlation between hard X-ray bursts and integral flux of interplanetary proton events",
+                "type": "Article",
+                "publish_date": "Oct 1994"
+            }
+        }
+    },
+    "1": {
+        "name": "Fan Ailin",
+        "institution": "Fourth Military Medical University",
+        "department": "Xi\u2019an, China",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {}
+    },
+    "2": {
+        "name": "Jiaze An",
+        "institution": "Fourth Military Medical University",
+        "department": "Xi\u2019an, China",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {}
+    },
+    "3": {
+        "name": "Qiang An",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Biomedical Engineering",
+        "current_position": "Lecturer",
+        "expertise": "",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "RPCA-Based High Resolution Through-the-Wall Human Motion Detection and Classification",
+                "type": "Preprint",
+                "publish_date": "Jan 2020"
+            },
+            "1": {
+                "title": "Range-Max Enhanced Ultra-Wideband Micro-Doppler Signatures of Behind Wall Indoor Human Activities",
+                "type": "Preprint",
+                "publish_date": "Jan 2020"
+            },
+            "2": {
+                "title": "2-D Coherence Factor for Sidelobe and Ghost Suppressions in Radar Imaging",
+                "type": "Article",
+                "publish_date": "Sep 2019"
+            },
+            "3": {
+                "title": "Three\u2010Dimensional Ground Penetrating Radar Imaging Through Multilayered Subsurface",
+                "type": "Article",
+                "publish_date": "Jul 2019"
+            },
+            "4": {
+                "title": "Range Coherence Factor for Down Range Sidelobes Suppression in Radar Imaging Through Multilayered Dielectric Media",
+                "type": "Article",
+                "publish_date": "Apr 2019"
+            },
+            "5": {
+                "title": "2-D Coherence Factor for Sidelobe and Ghost Suppressions in Radar Imaging",
+                "type": "Preprint",
+                "publish_date": "Mar 2019"
+            },
+            "6": {
+                "title": "Detection of People Trapped under the Ruins Using Dual-frequency IR-UWB Radar",
+                "type": "Conference Paper",
+                "publish_date": "Sep 2018"
+            },
+            "7": {
+                "title": "Total Variation Constrained Sparse Image Reconstruction of Multiple Stationary Human Targets Behind Walls",
+                "type": "Conference Paper",
+                "publish_date": "Jun 2018"
+            },
+            "8": {
+                "title": "Detection of multiple stationary humans using UWB MIMO radar",
+                "type": "Article",
+                "publish_date": "Nov 2016"
+            },
+            "9": {
+                "title": "Advancements in bio-radar speech signal detection technology",
+                "type": "Article",
+                "publish_date": "Oct 2016"
+            },
+            "10": {
+                "title": "Imaging of multiple stationary humans using a UWB MIMO bio-radar",
+                "type": "Article",
+                "publish_date": "Oct 2016"
+            },
+            "11": {
+                "title": "Detection and Identification of Multiple Stationary Human Targets Via Bio-Radar Based on the Cross-Correlation Method",
+                "type": "Article",
+                "publish_date": "Oct 2016"
+            },
+            "12": {
+                "title": "Detection and Identification of Multiple Stationary Human Targets Via Bio-Radar Based on the Cross-Correlation Method",
+                "type": "Article",
+                "publish_date": "Oct 2016"
+            },
+            "13": {
+                "title": "A novel approach to simulate chest wall micro-motion for bio-radar life detection purpose",
+                "type": "Conference Paper",
+                "publish_date": "Oct 2016"
+            },
+            "14": {
+                "title": "Study on the detection performance of UWB bio-radar with segmented time window",
+                "type": "Conference Paper",
+                "publish_date": "Oct 2016"
+            },
+            "15": {
+                "title": "Noncontanct detection of static humans using dual-channel SFCW bioradar",
+                "type": "Conference Paper",
+                "publish_date": "Aug 2016"
+            },
+            "16": {
+                "title": "A novel time-frequency analysis method based on HHT for finer-grained human activity using SFCW radar",
+                "type": "Conference Paper",
+                "publish_date": "Aug 2016"
+            },
+            "17": {
+                "title": "A 94GHz millimeter-wave radar conduct speech enhancement based on signal subspace algorithm",
+                "type": "Conference Paper",
+                "publish_date": "Aug 2016"
+            },
+            "18": {
+                "title": "Wavelet Based human target detection in complex ruins using a low center frequency UWB radar",
+                "type": "Conference Paper",
+                "publish_date": "Aug 2016"
+            },
+            "19": {
+                "title": "Noise Suppression in 94 GHz Radar-Detected Speech Based on Perceptual Wavelet Packet",
+                "type": "Article",
+                "publish_date": "Jul 2016"
+            },
+            "20": {
+                "title": "An Adaptive-MSSA-Based Algorithm for Detection of Trapped Victims Using UWB Radar",
+                "type": "Article",
+                "publish_date": "Sep 2015"
+            }
+        }
+    },
+    "4": {
+        "name": "Qun-Xing An",
+        "institution": "Fourth Military Medical University",
+        "department": "Xi\u2019an, China",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {}
+    },
+    "5": {
+        "name": "Yanxin An",
+        "institution": "Fourth Military Medical University",
+        "department": "State Key Laboratory of Cancer Biology and Xijing Hospital of Digestive Diseases.",
+        "current_position": "Medical Doctor",
+        "expertise": "",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Interleukin-1\u03b2 induces autophagy by affecting calcium homeostasis and trypsinogen activation in pancreatic acinar cells",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "1": {
+                "title": "MiR-17-5p promotes proliferation by targeting SOCS6 in gastric cancer cells",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "2": {
+                "title": "MiR-19a/b modulate the metastasis of gastric cancer cells by targeting the tumour suppressor MXD1",
+                "type": "Article",
+                "publish_date": "Mar 2014"
+            },
+            "3": {
+                "title": "The effects of pulsed electromagnetic field on the functions of osteoblasts on implant surfaces with different topographies",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "4": {
+                "title": "The effect of different titanium nitride coatings on the adhesion of Candida albicans to titanium",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "5": {
+                "title": "MiR-508-5p regulates multidrug resistance of gastric cancer by targeting ABCB1 and ZNRD1",
+                "type": "Article",
+                "publish_date": "Jul 2013"
+            },
+            "6": {
+                "title": "Coronin 3 promotes gastric cancer metastasis via the up-regulation of MMP-9 and cathepsin K",
+                "type": "Article",
+                "publish_date": "Sep 2012"
+            },
+            "7": {
+                "title": "Elevated expression of MGb2-Ag/TRAK1 is correlated with poor prognosis in patients with colorectal cancer",
+                "type": "Article",
+                "publish_date": "May 2011"
+            },
+            "8": {
+                "title": "Stem Cell Associated Genes Working with One MiRNA Cluster Have Different Clinic Pathologic Values in Gastric Cancer",
+                "type": "Article",
+                "publish_date": "May 2011"
+            }
+        }
+    },
+    "6": {
+        "name": "Ying An",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Periodontology and Oral Medicine",
+        "current_position": "Medical Doctor",
+        "expertise": "Stem Cell Differentiation,Stem Cell Isolation,Cell Culture,Flow Cytometry,Stem Cell Culture,Stem Cell Biology,PCR,Cell Differentiation",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Macrophage polarization in human gingival tissue in response to periodontal disease",
+                "type": "Article",
+                "publish_date": "Oct 2018"
+            },
+            "1": {
+                "title": "Activation of autophagy in periodontal ligament mesenchymal stem cells promotes angiogenesis in periodontitis",
+                "type": "Article",
+                "publish_date": "Apr 2018"
+            },
+            "2": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Feb 2018"
+            },
+            "3": {
+                "title": "Autophagy controls mesenchymal stem cell properties and senescence during bone aging",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "4": {
+                "title": "Effects of cathepsin K on Emdogain-induced hard tissue formation by human periodontal ligament stem cells",
+                "type": "Article",
+                "publish_date": "Oct 2017"
+            },
+            "5": {
+                "title": "Decreased MORF leads to prolonged endoplasmic reticulum stress in periodontitis-associated chronic inflammation",
+                "type": "Article",
+                "publish_date": "Jul 2016"
+            },
+            "6": {
+                "title": "Tumor Necrosis Factor-alpha Attenuates the Osteogenic Differentiation Capacity of Periodontal Ligament Stem Cells by Activating Protein Kinase Like Endoplasmic Reticulum Kinase Signaling",
+                "type": "Article",
+                "publish_date": "Apr 2016"
+            },
+            "7": {
+                "title": "Increased autophagy is required to protect periodontal ligament stem cells from apoptosis in inflammatory microenvironment",
+                "type": "Article",
+                "publish_date": "Mar 2016"
+            },
+            "8": {
+                "title": "The complete nucleotide sequence of the mitochondrial genome of the Asian longhorn beetle, Anoplophora glabripennis (Coleoptera: Cerambycidae)",
+                "type": "Article",
+                "publish_date": "Feb 2015"
+            },
+            "9": {
+                "title": "The effect of the coumarin-like derivative osthole on the osteogenic properties of human periodontal ligament and jaw bone marrow mesenchymal stem cell sheets",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "10": {
+                "title": "Mesenchymal stem cells inhibit multiple myeloma cells via the Fas-L/Fas pathway.",
+                "type": "Article",
+                "publish_date": "Sep 2013"
+            },
+            "11": {
+                "title": "Comparison of mesenchymal stem cells derived from gingival tissue and periodontal ligament in different incubation conditions",
+                "type": "Article",
+                "publish_date": "Jun 2013"
+            },
+            "12": {
+                "title": "Surface-engineering of glycidyl methacrylated dextran/gelatin microcapsules with thermo-responsive poly(N-isopropylacrylamide) gates for controlled delivery of stromal cell-derived factor-1\u03b1",
+                "type": "Article",
+                "publish_date": "May 2013"
+            },
+            "13": {
+                "title": "The effect of aging on the pluripotential capacity and regenerative potential of human periodontal ligament stem cells",
+                "type": "Article",
+                "publish_date": "Jul 2012"
+            },
+            "14": {
+                "title": "A review on endogenous regenerative technology in periodontal regenerative medicine",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "15": {
+                "title": "New insights into and novel applications of release technology in periodontal reconstructive therapies",
+                "type": "Article",
+                "publish_date": "Oct 2010"
+            }
+        }
+    },
+    "7": {
+        "name": "Fu Bai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Anesthesiology, Xijing Hospital",
+        "current_position": "",
+        "expertise": "Anesthesiology",
+        "experience": {},
+        "publication": {}
+    },
+    "8": {
+        "name": "Hao Bai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Neurosurgery (Tangdu)",
+        "current_position": "",
+        "expertise": "Neurological Diseases,Clinical Neurology,Brain Injury,Traumatic Brain Injury",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Adiponectin peptide alleviates oxidative stress and NLRP3 inflammasome activation after cerebral ischemia-reperfusion injury by regulating AMPK/GSK-3\u03b2",
+                "type": "Article",
+                "publish_date": "Apr 2020"
+            },
+            "1": {
+                "title": "Recombinant adiponectin peptide promotes neuronal survival after intracerebral haemorrhage by suppressing mitochondrial and ATF4\u2010CHOP apoptosis pathways in diabetic mice via Smad3 signalling inhibition",
+                "type": "Article",
+                "publish_date": "Jan 2020"
+            },
+            "2": {
+                "title": "Recombinant Adiponectin Peptide Ameliorates Brain Injury Following Intracerebral Hemorrhage by Suppressing Astrocyte-Derived Inflammation via the Inhibition of Drp1-Mediated Mitochondrial Fission",
+                "type": "Article",
+                "publish_date": "Jan 2020"
+            },
+            "3": {
+                "title": "Pterostilbene Attenuates Astrocytic Inflammation and Neuronal Oxidative Injury After Ischemia-Reperfusion by Inhibiting NF-\u03baB Phosphorylation",
+                "type": "Article",
+                "publish_date": "Oct 2019"
+            },
+            "4": {
+                "title": "Comparison of endoscopic evacuation, stereotactic aspiration, and craniotomy for treatment of basal ganglia hemorrhage",
+                "type": "Article",
+                "publish_date": "Jul 2019"
+            },
+            "5": {
+                "title": "Adiponectin confers neuroprotection against cerebral ischemia-reperfusion injury through activating the cAMP/PKA-CREB-BDNF signaling",
+                "type": "Article",
+                "publish_date": "Nov 2018"
+            },
+            "6": {
+                "title": "Adiponectin Attenuates Oxygen\u2013Glucose Deprivation-Induced Mitochondrial Oxidative Injury and Apoptosis in Hippocampal HT22 Cells via the JAK2/STAT3 Pathway",
+                "type": "Article",
+                "publish_date": "Jun 2018"
+            },
+            "7": {
+                "title": "Remote limb ischemic postconditioning protects against cerebral ischemia-reperfusion injury by activating AMPK-dependent autophagy",
+                "type": "Article",
+                "publish_date": "Feb 2018"
+            },
+            "8": {
+                "title": "Adiponectin attenuates NADPH oxidase-mediated oxidative stress and neuronal damage induced by cerebral ischemia-reperfusion injury",
+                "type": "Article",
+                "publish_date": "Aug 2017"
+            }
+        }
+    },
+    "9": {
+        "name": "Ming Bai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Nephrology",
+        "current_position": "Medical Doctor",
+        "expertise": "Hepatic Encephalopathy,CRRT,IGA Glomerulonephritis,Dialysis,Amyloid",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "A Comparative Study of the Gut Microbiota Associated with Immunoglobulin A Nephropathy and Membranous Nephropathy",
+                "type": "Preprint",
+                "publish_date": "Feb 2020"
+            },
+            "1": {
+                "title": "Characteristics and outcomes of Stanford type A aortic dissection patients with post-operation severe hyperbilirubinemia: a retrospective cohort study",
+                "type": "Preprint",
+                "publish_date": "Jan 2020"
+            },
+            "2": {
+                "title": "Hypoxia\u2010induced HE4 in tubular epithelial cells promotes extracellular matrix accumulation and renal fibrosis via NF\u2010\u03baB",
+                "type": "Article",
+                "publish_date": "Dec 2019"
+            },
+            "3": {
+                "title": "Safety and efficacy of regional citrate anticoagulation for continuous renal replacement therapy in liver failure patients: a systematic review and meta-analysis",
+                "type": "Article",
+                "publish_date": "Dec 2019"
+            },
+            "4": {
+                "title": "Continuous renal replacement therapy without anticoagulation in critically ill patients at high risk of bleeding: a systematic review and meta-analysis",
+                "type": "Preprint",
+                "publish_date": "Sep 2019"
+            },
+            "5": {
+                "title": "Regional Citrate Anticoagulation versus No-Anticoagulation for Continuous Venovenous Hemofiltration in Acute Severe Hypernatremia Patients with Increased Bleeding Risk: A Retrospective Cohort Study",
+                "type": "Article",
+                "publish_date": "Sep 2019"
+            },
+            "6": {
+                "title": "The efficacy and safety of bortezomib-based chemotherapy for immunoglobulin light chain amyloidosis: A systematic review and meta-analysis",
+                "type": "Article",
+                "publish_date": "Aug 2019"
+            },
+            "7": {
+                "title": "FP318SAFETY AND EFFICACY OF REGIONAL CITRATE ANTICOAGULATION FOR CONTINUOUS RENAL REPLACEMENT THERAPY IN LIVER FAILURE PATIENTS: A SYSTEMATIC REVIEW AND META-ANALYSIS",
+                "type": "Article",
+                "publish_date": "Jun 2019"
+            },
+            "8": {
+                "title": "FP325REGIONAL CITRATE ANTICOAGULATION VERSUS NO-ANTICOAGULATION FOR CONTINUOUS VENOVENOUS HEMOFILTRATION IN ACUTE SEVERE HYPERNATREMIA PATIENTS WITH INCREASED BLEEDING RISK: A RETROSPECTIVE COHORT STUDY",
+                "type": "Article",
+                "publish_date": "Jun 2019"
+            },
+            "9": {
+                "title": "SP273CYCLOPHOSPHAMIDE, THALIDOMIDE AND DEXAMETHASONE VERSUS MELPHALAN PLUS DEXAMETHASONE FOR THE TREATMENT OF AL AMYLOIDOSIS WITH KIDNEY INVOLVEMENT",
+                "type": "Article",
+                "publish_date": "Jun 2019"
+            },
+            "10": {
+                "title": "Cyclophosphamide + Thalidomide + Dexamethasone Versus Melphalan + Dexamethasone for the Treatment of Amyloid Light-chain Amyloidosis With Kidney Involvement: A Retrospective Study in Chinese Patients",
+                "type": "Article",
+                "publish_date": "Feb 2019"
+            },
+            "11": {
+                "title": "Supplementary Material 1",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "12": {
+                "title": "Supplementary Material 4",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "13": {
+                "title": "Supplementary Material 5",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "14": {
+                "title": "Supplementary Material 6",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "15": {
+                "title": "Supplementary Material 3",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "16": {
+                "title": "Supplementary Material 2",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "17": {
+                "title": "MicroRNA-493 targets STMN-1 and promotes hypoxia-induced epithelial cell cycle arrest in G 2 /M and renal fibrosis",
+                "type": "Article",
+                "publish_date": "Sep 2018"
+            },
+            "18": {
+                "title": "p53 Upregulated by HIF-1\u03b1 Promotes Hypoxia-induced G2/M Arrest and Renal Fibrosis in vitro and in vivo",
+                "type": "Article",
+                "publish_date": "Jul 2018"
+            },
+            "19": {
+                "title": "Small-diameter covered stents do not affect efficacy but reduce hepatic encephalopathy in transjugular intrahepatic portosystemic shunt for the prevention of variceal rebleeding in cirrhosis",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "20": {
+                "title": "Hypoxia-induced activation of Twist/miR-214/E-cadherin axis promotes renal tubular epithelial cell mesenchymal transition and renal fibrosis",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "21": {
+                "title": "The associations of Bmi-1 with progression of glomerular chronic kidney disease",
+                "type": "Article",
+                "publish_date": "Oct 2017"
+            },
+            "22": {
+                "title": "Risk model for deaths and renal replacement therapy dependence in patients with acute kidney injury after cardiac surgery",
+                "type": "Article",
+                "publish_date": "Jun 2017"
+            },
+            "23": {
+                "title": "Eight millimeter covered TIPS does not compromise shunt function but reduces hepatic encephalopathy in preventing variceal rebleeding",
+                "type": "Article",
+                "publish_date": "May 2017"
+            },
+            "24": {
+                "title": "Transjugular Intrahepatic Portosystemic Shunt for Symptomatic Portal Hypertension with or without Portal Vein Thrombosis in 1,171 Patients with Cirrhosis: A 14-Year Retrospective Study from a Single Center",
+                "type": "Article",
+                "publish_date": "Dec 2016"
+            },
+            "25": {
+                "title": "Tips versus Endoscopy plus Propranolol and Anticoagulation For Variceal Rebleeding in Cirrhotic Patients with Portal Vein Thrombosis: Results of a Randomized Controlled Trial",
+                "type": "Article",
+                "publish_date": "Dec 2016"
+            },
+            "26": {
+                "title": "Hepatic Myelopathy after Transjugular Intrahepatic Portosystemic Shunt: Prevalence, Risk Factors, and Long-Term Outcome",
+                "type": "Article",
+                "publish_date": "Dec 2016"
+            },
+            "27": {
+                "title": "Continuous venovenous hemofiltration combined with hemoperfusion for toxic epidermal necrolysis: a retrospective cohort study",
+                "type": "Article",
+                "publish_date": "Sep 2016"
+            },
+            "28": {
+                "title": "The reduction rate of serum sodium and mortality in critically ill patients undergoing continuous venovenous hemofiltration for acute severe hypernatremia",
+                "type": "Article",
+                "publish_date": "Jun 2016"
+            },
+            "29": {
+                "title": "Quality of systematic review and meta-analysis may decide its clinical significance and publication",
+                "type": "Article",
+                "publish_date": "Apr 2016"
+            },
+            "30": {
+                "title": "Citrate versus heparin anticoagulation for continuous renal replacement therapy: An updated meta-analysis of RCTs",
+                "type": "Article",
+                "publish_date": "Oct 2015"
+            },
+            "31": {
+                "title": "Continuous Venovenous Hemofiltration (CVVH) Versus Conventional Treatment for Acute Severe Hypernatremia in Critically Ill Patients: A Retrospective Study",
+                "type": "Article",
+                "publish_date": "Oct 2015"
+            },
+            "32": {
+                "title": "Continuous Venovenous Hemofiltration (CVVH) Versus Conventional Treatment for Acute Severe Hypernatremia in Critically Ill Patients: A Retrospective Study",
+                "type": "Article",
+                "publish_date": "Oct 2015"
+            },
+            "33": {
+                "title": "High-volume hemofltration plus hemoperfusion for hyperlipidemic severe acute pancreatitis: A controlled pilot study",
+                "type": "Article",
+                "publish_date": "Sep 2015"
+            },
+            "34": {
+                "title": "Transjugular intrahepatic portosystemic shunt for portal vein thrombosis with variceal bleeding in liver cirrhosis: Outcomes and predictors in a prospective cohort study",
+                "type": "Article",
+                "publish_date": "Aug 2015"
+            },
+            "35": {
+                "title": "Online-to-print Lags and Baseline Number of Citations in 5 Science Citation Index Journals Related to Liver Diseases (2013\u20132014)",
+                "type": "Article",
+                "publish_date": "Apr 2015"
+            },
+            "36": {
+                "title": "Nonselective beta-blockers in cirrhotic patients with no or small varices: A meta-analysis",
+                "type": "Article",
+                "publish_date": "Mar 2015"
+            },
+            "37": {
+                "title": "Associations of Antiphospholipid Antibodies With Splanchnic Vein Thrombosis: A Systematic Review With Meta-Analysis",
+                "type": "Article",
+                "publish_date": "Jan 2015"
+            },
+            "38": {
+                "title": "Percutaneous Transhepatic Biliary Metal Stent for Malignant Hilar Obstruction: Results and Predictive Factors for Efficacy in 159 Patients from a Single Center",
+                "type": "Article",
+                "publish_date": "Oct 2014"
+            },
+            "39": {
+                "title": "Nonselective \u03b2-blockers may induce development of portal vein thrombosis in cirrhosis",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "40": {
+                "title": "Pharmacologic Prophylaxis of Portal Venous System Thrombosis after Splenectomy: A Meta-Analysis",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "41": {
+                "title": "Transjugular Intrahepatic Portosystemic Shunt for Acute Variceal Bleeding: A Meta-analysis",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "42": {
+                "title": "Transarterial chemoembolization combined with sorafenib for unresectable hepatocellular carcinoma: A systematic review and meta-analysis",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "43": {
+                "title": "SRF expedites metastasis and modulates the epithelial to mesenchymal transition by regulating miR-199a-5p expression in human gastric cancer",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "44": {
+                "title": "Selection of a TIPS stent for management of portal hypertension in liver cirrhosis: An evidence-based review",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "45": {
+                "title": "EVS vs TIPS shunt for gastric variceal bleeding in patients with cirrhosis: A meta-Analysis",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "46": {
+                "title": "The Prognostic Value of 18F-FDG PET/CT for Hepatocellular Carcinoma Treated with Transarterial Chemoembolization (TACE)",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "47": {
+                "title": "Randomised clinical trial: L-ornithine-L-aspartate reduces significantly the increase of venous ammonia concentration after TIPSS",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "48": {
+                "title": "Portal hypertension complicating myelofibrosis in a patient without portal or hepatic vein thrombosis",
+                "type": "Article",
+                "publish_date": "Apr 2014"
+            },
+            "49": {
+                "title": "P951 TIPS IMPROVED LIVER-TRANSPLANTATION-FREE SURVIVAL IN CIRRHOTIC PATIENTS WITH REFRACTORY ASCITES: AN UPDATED META-ANALYSIS POOLING SURVIVAL AS A TIME-TO-EVENT OUTCOME",
+                "type": "Article",
+                "publish_date": "Apr 2014"
+            },
+            "50": {
+                "title": "TIPS improves liver transplantation-free survival in cirrhotic patients with refractory ascites: An updated meta-analysis",
+                "type": "Article",
+                "publish_date": "Mar 2014"
+            },
+            "51": {
+                "title": "Combined therapies versus monotherapies for the first variceal bleeding in patients with high-risk varices: A meta-analysis of randomized controlled trials",
+                "type": "Article",
+                "publish_date": "Mar 2014"
+            },
+            "52": {
+                "title": "Shunting branch of portal vein and stent position predict survival after transjugular intrahepatic portosystemic shunt",
+                "type": "Article",
+                "publish_date": "Jan 2014"
+            },
+            "53": {
+                "title": "RhoE Promotes Metastasis in Gastric Cancer through a Mechanism Dependent on Enhanced Expression of CXCR4",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "54": {
+                "title": "Prognostic factors in non-malignant and non-cirrhotic patients with portal cavernoma: An 8-year retrospective single-center study",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "55": {
+                "title": "Child-Na Score: A Predictive Model for Survival in Cirrhotic Patients with Symptomatic Portal Hypertension Treated with TIPS",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "56": {
+                "title": "Radiofrequency Ablation Versus Hepatic Resection for Small Hepatocellular Carcinoma A Meta- analysis of Randomized Controlled Trials",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "57": {
+                "title": "Restrictive vs liberal transfusion for upper gastrointestinal bleeding: A meta-analysis of randomized controlled trials",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "58": {
+                "title": "Transjugular intrahepatic portosystemic shunt for Budd-Chiari syndrome: Techniques, indications and results on 51 Chinese patients from a single centre",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "59": {
+                "title": "Midodrine for Paracentesis-induced Circulatory Dysfunction",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "60": {
+                "title": "Transjugular Intrahepatic Portosystemic Shunt in Combination With or Without Variceal Embolization for the Prevention of Variceal Rebleeding: A Meta-Analysis.",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "61": {
+                "title": "Transjugular intrahepatic portosystemic shunt combined with amplatzer plugging device therapy for cirrhotic portal hypertension with spontaneous spleno-gastric-renal shunt",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "62": {
+                "title": "Transjugular intrahepatic portosystemic shunt for the prevention of variceal rebleeding in cirrhotic patients with portal vein thrombosis: Study protocol for a randomised controlled trial",
+                "type": "Article",
+                "publish_date": "Jul 2013"
+            },
+            "63": {
+                "title": "Transarterial chemoembolization in hepatocellular carcinoma with vascular invasion or extrahepatic metastasis: A systematic review",
+                "type": "Article",
+                "publish_date": "May 2013"
+            },
+            "64": {
+                "title": "Familial Budd-Chiari Syndrome in China: A Systematic Review of the Literature",
+                "type": "Article",
+                "publish_date": "Feb 2013"
+            },
+            "65": {
+                "title": "L-ornithine-L-aspartate for Hepatic Encephalopathy in Patients with Cirrhosis: A Meta-analysis of Randomized Controlled Trials.",
+                "type": "Article",
+                "publish_date": "Feb 2013"
+            },
+            "66": {
+                "title": "MiR-206 inhibits gastric cancer proliferation in part by repressing CyclinD2",
+                "type": "Article",
+                "publish_date": "Jan 2013"
+            },
+            "67": {
+                "title": "Prevalence of Inherited Antithrombin, Protein C, and Protein S Deficiencies in Portal Vein System Thrombosis and Budd-Chiari Syndrome - A Systematic Review and Meta-Analysis of Observational Studies.",
+                "type": "Article",
+                "publish_date": "Dec 2012"
+            },
+            "68": {
+                "title": "Which journal published more randomized controlled trials in the field of cirrhosis and portal hypertension?",
+                "type": "Article",
+                "publish_date": "Nov 2012"
+            },
+            "69": {
+                "title": "Transjugular intrahepatic portosystemic shunt may be superior to conservative therapy for variceal rebleeding in cirrhotic patients with non-tumoral portal vein thrombosis: A hypothesis",
+                "type": "Article",
+                "publish_date": "Aug 2012"
+            },
+            "70": {
+                "title": "Transjugular Intrahepatic Portosystemic Shunt for Portal Cavernoma with Symptomatic Portal Hypertension in Non-cirrhotic Patients",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            },
+            "71": {
+                "title": "Prevalence of the JAK2V617F mutation in Chinese patients with Budd-Chiari syndrome and portal vein thrombosis: A prospective study",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            },
+            "72": {
+                "title": "Transjugular intrahepatic portosystemic shunt for portal vein thrombosis in cirrhosis",
+                "type": "Article",
+                "publish_date": "Jul 2011"
+            },
+            "73": {
+                "title": "[Early hepatic encephalopathy after transjugular intrahepatic portosystemic shunt: the risk factors and long-time survival]",
+                "type": "Article",
+                "publish_date": "Jul 2011"
+            },
+            "74": {
+                "title": "Predictors of hepatic encephalopathy after transjugular intrahepatic portosystemic shunt in cirrhotic patients: A systematic review",
+                "type": "Article",
+                "publish_date": "Jun 2011"
+            },
+            "75": {
+                "title": "Occlusive portal vein thrombosis as a new marker of decompensated cirrhosis",
+                "type": "Article",
+                "publish_date": "Apr 2011"
+            },
+            "76": {
+                "title": "Meta-analysis: The significance of screening for JAK2V617F mutation in Budd-Chiari syndrome and portal venous system thrombosis",
+                "type": "Article",
+                "publish_date": "Mar 2011"
+            },
+            "77": {
+                "title": "Anticoagulation and variceal bleeding in non-cirrhotic patients with portal vein thrombosis",
+                "type": "Article",
+                "publish_date": "Feb 2011"
+            },
+            "78": {
+                "title": "A Large Portal Vein: A Rare Finding of Recent Portal Vein Thrombosis",
+                "type": "Article",
+                "publish_date": "Jan 2011"
+            },
+            "79": {
+                "title": "Stage of portal vein thrombosis",
+                "type": "Article",
+                "publish_date": "Dec 2010"
+            },
+            "80": {
+                "title": "Patency and clinical outcomes of transjugular intrahepatic portosystemic shunt with polytetrafluoroethylene-covered stents versus bare stents: A meta-analysis",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "81": {
+                "title": "Transjugular intrahepatic portosystemic shunt for portal vein thrombosis with symptomatic portal hypertension in liver cirrhosis",
+                "type": "Article",
+                "publish_date": "Aug 2010"
+            },
+            "82": {
+                "title": "Two Hypotheses for Decreasing Hepatic Encephalopathy Risk After Transjugular Intrahepatic Portosystemic Shunt",
+                "type": "Article",
+                "publish_date": "Jun 2010"
+            }
+        }
+    },
+    "10": {
+        "name": "Shizhu Bai",
+        "institution": "Fourth Military Medical University",
+        "department": "Xi\u2019an, China",
+        "current_position": "",
+        "expertise": "Computer-Aided Design,Dentistry",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "miR-34a promotes bone regeneration in irradiated bone defects by enhancing osteoblastic differentiation of mesenchymal stromal cells in rats",
+                "type": "Article",
+                "publish_date": "Dec 2019"
+            },
+            "1": {
+                "title": "Human Freeze-dried Dentin Matrix as a Biologically Active Scaffold for Tooth Tissue Engineering",
+                "type": "Article",
+                "publish_date": "Sep 2019"
+            },
+            "2": {
+                "title": "Three-Dimensionally-Printed Polyether-Ether-Ketone Implant with a Cross-Linked Structure and Acid-Etched Microporous Surface Promotes Integration with Soft Tissue",
+                "type": "Article",
+                "publish_date": "Aug 2019"
+            },
+            "3": {
+                "title": "Application of robotics in stomatology",
+                "type": "Article",
+                "publish_date": "Jan 2019"
+            },
+            "4": {
+                "title": "Combined use of a facial scanner and an intraoral scanner to acquire a digital scan for the fabrication of an orbital prosthesis",
+                "type": "Article",
+                "publish_date": "Nov 2018"
+            },
+            "5": {
+                "title": "Endothelial progenitor cells improve the therapeutic effect of mesenchymal stem cell sheets on irradiated bone defect repair in a rat model",
+                "type": "Article",
+                "publish_date": "May 2018"
+            },
+            "6": {
+                "title": "Supplementary Material 1",
+                "type": "Data",
+                "publish_date": "May 2018"
+            },
+            "7": {
+                "title": "Supplementary Material 3",
+                "type": "Data",
+                "publish_date": "May 2018"
+            },
+            "8": {
+                "title": "Supplementary Material 2",
+                "type": "Data",
+                "publish_date": "May 2018"
+            },
+            "9": {
+                "title": "Three-dimensional study of facial soft tissue changes in patients with skeletal Class \u2162 malocclusion before and after orthognathic surgery",
+                "type": "Article",
+                "publish_date": "May 2018"
+            },
+            "10": {
+                "title": "Occlusion Guided Double-Barreled Fibular Osteoseptocutaneous Free Flap for Refined Mandibular Reconstruction Aided by Virtual Surgical Planning",
+                "type": "Article",
+                "publish_date": "Jul 2017"
+            },
+            "11": {
+                "title": "Cell Sheets of Co-cultured Endothelial Progenitor Cells and Mesenchymal Stromal Cells Promote Osseointegration in Irradiated Rat Bone",
+                "type": "Article",
+                "publish_date": "Jun 2017"
+            },
+            "12": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Jun 2017"
+            },
+            "13": {
+                "title": "Comparative study of three kinds of fibula cutting guides in reshaping fibula for the reconstruction of mandible: An accuracy simulation study in vitro",
+                "type": "Article",
+                "publish_date": "Apr 2017"
+            },
+            "14": {
+                "title": "Figure S1",
+                "type": "Data",
+                "publish_date": "Sep 2016"
+            },
+            "15": {
+                "title": "Fabrication of gelatin methacrylate/nanohydroxyapatite microgel arrays for periodontal tissue regeneration",
+                "type": "Article",
+                "publish_date": "Sep 2016"
+            },
+            "16": {
+                "title": "The use of platelet-rich fibrin combined with periodontal ligament and jaw bone mesenchymal stem cell sheets for periodontal tissue engineering",
+                "type": "Article",
+                "publish_date": "Jun 2016"
+            },
+            "17": {
+                "title": "In vitro studies on human periodontal ligament stem cell sheets enhanced by enamel matrix derivative",
+                "type": "Article",
+                "publish_date": "Jan 2016"
+            },
+            "18": {
+                "title": "Microarc-oxidized titanium surfaces functionalized with microRNA-21-loaded chitosan/hyaluronic acid nanoparticles promote the osteogenic differentiation of human bone marrow mesenchymal stem cells",
+                "type": "Article",
+                "publish_date": "Oct 2015"
+            },
+            "19": {
+                "title": "A Comprehensive Strategy for Reconstruction of a Missing Midface",
+                "type": "Article",
+                "publish_date": "Jul 2015"
+            },
+            "20": {
+                "title": "Mussel Adhesive Protein/platelet-rich Plasma Composite-coated Titanium Surfaces Increase Functionality of Dermal Fibroblasts",
+                "type": "Article",
+                "publish_date": "Jun 2015"
+            },
+            "21": {
+                "title": "Advanced biomaterials and their potential applications in the treatment of periodontal disease",
+                "type": "Article",
+                "publish_date": "May 2015"
+            },
+            "22": {
+                "title": "Application of Three-Dimensional-Printing Technology to Kirschner-Wire Fixation of Adolescent Condyle Fracture",
+                "type": "Article",
+                "publish_date": "Apr 2015"
+            },
+            "23": {
+                "title": "[Application of computer aided design and computer aided manufacture techniques in the treatment of craniofacial deformities]",
+                "type": "Article",
+                "publish_date": "Apr 2015"
+            },
+            "24": {
+                "title": "Improved Fibroblast Functionalities by Microporous Pattern Fabricated by Microelectromechanical Systems",
+                "type": "Article",
+                "publish_date": "Jul 2014"
+            },
+            "25": {
+                "title": "Development and application of a rapid rehabilitation system for reconstruction of maxillofacial soft-tissue defects related to war and traumatic injuries",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "26": {
+                "title": "A new method to achieve frontal facial photographs of natural head position.",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "27": {
+                "title": "MAPs/bFGF-PLGA microsphere composite-coated titanium surfaces promote increased adhesion and proliferation of fibroblasts",
+                "type": "Article",
+                "publish_date": "Apr 2014"
+            },
+            "28": {
+                "title": "A new method for fabricating orbital prosthesis with a CAD/CAM negative mold",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "29": {
+                "title": "Prefabrication of vascularized bone grafts using a combination of bone marrow mesenchymal stem cells and vascular bundles with \u03b2-tricalcium phosphate ceramics",
+                "type": "Article",
+                "publish_date": "Nov 2012"
+            },
+            "30": {
+                "title": "Influence of sex and body mass index on facial soft tissue thickness measurements of the northern Chinese adult population",
+                "type": "Article",
+                "publish_date": "Jun 2012"
+            },
+            "31": {
+                "title": "Computer-Aided Design and Computer-Aided Manufacturing Locating Guides Accompanied With Prebent Titanium Plates in Orthognathic Surgery",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "32": {
+                "title": "Computer-Aided Design/Computer-Aided Manufacturing Implant Guide Used in Flapless Surgery for Auricular Prosthesis",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "33": {
+                "title": "Platelet-Rich Plasma Promotes Angiogenesis of Prefabricated Vascularized Bone Graft",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "34": {
+                "title": "Increased fibroblast functionality on CNN2-loaded titania nanotubes",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "35": {
+                "title": "[Digital surgical technology in reconstruction of orbital frame]",
+                "type": "Article",
+                "publish_date": "Aug 2011"
+            },
+            "36": {
+                "title": "Odontoblast-like cell differentiation and dentin formation induced with TGF-\u03b21",
+                "type": "Article",
+                "publish_date": "Jun 2011"
+            },
+            "37": {
+                "title": "Three-dimensional anthropometric analysis of the Chinese nose",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "38": {
+                "title": "CAD/CAM surface templates as an alternative to the intermediate wafer in orthognathic surgery",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "39": {
+                "title": "Three-Dimensional Anthropometric Analysis of Chinese Faces and Its Application in Evaluating Facial Deformity",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "40": {
+                "title": "Virtual Transplantation in Designing a Facial Prosthesis for Extensive Maxillofacial Defects that Cross the Facial Midline Using Computer-Assisted Technology",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "41": {
+                "title": "Parylene coating hinders Candida albicans adhesion to silicone elastomers and denture bases resin",
+                "type": "Article",
+                "publish_date": "Jun 2010"
+            },
+            "42": {
+                "title": "Computed tomography measurement of the auricle in Han population of north China",
+                "type": "Article",
+                "publish_date": "May 2010"
+            },
+            "43": {
+                "title": "Computer-assisted technique for the design and manufacture of realistic facial prostheses",
+                "type": "Article",
+                "publish_date": "Mar 2010"
+            },
+            "44": {
+                "title": "[Construction of three-dimensional finite element model of human edentulous maxilla and cranial skeleton]",
+                "type": "Article",
+                "publish_date": "Dec 2005"
+            }
+        }
+    },
+    "11": {
+        "name": "Xue-Fan Bai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Infectious Diseases",
+        "current_position": "Chief Physician",
+        "expertise": "Liver Diseases,Cirrhosis,Liver Cirrhosis,Liver Failure,Liver Diseases and Immunology,Hepatitis B,Hepatitis C,Hepatitis,Viral Hepatitis,Chronic Hepatitis C",
+        "experience": {
+            "0": {
+                "period": "October 1983 - present",
+                "institution_p": "Fourth Military Medical University",
+                "department_p": "Department of Infectious Diseases",
+                "position_p": "Chief Physician"
+            }
+        },
+        "publication": {
+            "0": {
+                "title": "Study on expression of plasma sCD138 in patients with hemorrhagic fever with renal syndrome",
+                "type": "Article",
+                "publish_date": "Mar 2018"
+            },
+            "1": {
+                "title": "Effect of 48-week pegylated interferon \u03b1-2a or nucleos(t)ide analogue therapy on renal function in Chinese patients with chronic hepatitis B",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "2": {
+                "title": "Notch Signaling Contributes to Liver Inflammation by Regulation of Interleukin-22-Producing Cells in Hepatitis B Virus Infection",
+                "type": "Article",
+                "publish_date": "Oct 2016"
+            },
+            "3": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Oct 2016"
+            },
+            "4": {
+                "title": "[Clinical characteristics of pediatric hemorrhagic fever with renal syndrome]",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "5": {
+                "title": "A Fusion DNA Vaccine Encoding Middle Version of HBV Envelope Protein Fused to Interleukin-21 Did Not Enhance HBV-Specific Immune Response in Mice",
+                "type": "Article",
+                "publish_date": "Sep 2014"
+            },
+            "6": {
+                "title": "Early indicators of severity and construction of a risk model for prognosis based upon laboratory parameters in patients with hemorrhagic fever with renal syndrome",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "7": {
+                "title": "A Retrospective Study of Continuous Renal Therapy and Anticoagulation in Patients with Hemorrhagic Fever with Renal Syndrome",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "8": {
+                "title": "Clinical characteristics and outcomes in critical patients with hemorrhagic fever with renal syndrome",
+                "type": "Article",
+                "publish_date": "Apr 2014"
+            },
+            "9": {
+                "title": "Quantification of Hantaan virus with a SYBR green I-based one-step qRT-PCR assay",
+                "type": "Article",
+                "publish_date": "Dec 2013"
+            },
+            "10": {
+                "title": "Development of a SYBR Green I based one-step real-time PCR assay for the detection of Hantaan virus",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "11": {
+                "title": "Telbivudine plus adefovir therapy for chronic hepatitis B patients with virological breakthrough or genotypic resistance to telbivudine",
+                "type": "Article",
+                "publish_date": "Feb 2013"
+            },
+            "12": {
+                "title": "Hantaan Virus Triggers TLR4-Dependent Innate Immune Responses",
+                "type": "Article",
+                "publish_date": "Jul 2012"
+            },
+            "13": {
+                "title": "[The role of Th17 cells in liver diseases]",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "14": {
+                "title": "Dysregulation of the \u03b23 integrin-VEGFR2 complex in Hantaan virus-directed hyperpermeability upon treatment with VEGF",
+                "type": "Article",
+                "publish_date": "Mar 2012"
+            },
+            "15": {
+                "title": "Inhibition of Viral Replication Downregulates CD4(+)CD25(high) Regulatory T Cells and Programmed Death-Ligand 1 in Chronic Hepatitis B",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "16": {
+                "title": "[Immune response to HBsAg can not be enhanced with B7-H1 protein vaccine]",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "17": {
+                "title": "[Peg-IFNa-2a/RBV antiviral efficacy in cirrhotic hepatitis C patients after splenectomy or partial splenic embolization]",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "18": {
+                "title": "A Proinflammatory Role for Interleukin-22 in the Immune Response to Hepatitis B Virus",
+                "type": "Article",
+                "publish_date": "Jun 2011"
+            },
+            "19": {
+                "title": "SS11-6 A Proinflammatory role for IL-22 in acute hepatitis B",
+                "type": "Article",
+                "publish_date": "Oct 2010"
+            },
+            "20": {
+                "title": "Circulating Toll-like receptor (TLR) 2, TLR4, and regulatory T cells in patients with chronic hepatitis C",
+                "type": "Article",
+                "publish_date": "Apr 2010"
+            },
+            "21": {
+                "title": "Circulating CD4 + CD25 high Regulatory T Cells and Expression of PD-1 and BTLA on CD4 + T Cells in Patients with Chronic Hepatitis B Virus Infection",
+                "type": "Article",
+                "publish_date": "Feb 2010"
+            },
+            "22": {
+                "title": "Overexpression of Toll-like receptor 2/4 on monocytes modulates the activities of CD4(+)CD25(+) regulatory T cells in chronic hepatitis B virus infection",
+                "type": "Article",
+                "publish_date": "Nov 2009"
+            },
+            "23": {
+                "title": "Correlation of Circulating TLR2/4 Expression with CD3 + /4 + /8 + T Cells and Treg cells in HBV-Related Liver Cirrhosis",
+                "type": "Article",
+                "publish_date": "Oct 2009"
+            },
+            "24": {
+                "title": "[Forecasting of hepatitis C virus CTL epitopes and design of multi-epitopes vaccine]",
+                "type": "Article",
+                "publish_date": "Oct 2009"
+            },
+            "25": {
+                "title": "Analysis of the Immune Response to Hantaan Virus Nucleocapsid Protein C-Terminal-Specific CD8 + T Cells in Patients with Hemorrhagic Fever with Renal Syndrome",
+                "type": "Article",
+                "publish_date": "Aug 2009"
+            },
+            "26": {
+                "title": "Inhibition of Hepatitis C Virus Infection by Interferon-\u03b3 Through Downregulating Claudin-1",
+                "type": "Article",
+                "publish_date": "Feb 2009"
+            },
+            "27": {
+                "title": "Expression of L protein of Hantaan virus 84FLi strain and its application for recovery of minigenomes",
+                "type": "Article",
+                "publish_date": "Jan 2009"
+            },
+            "28": {
+                "title": "Hantaan virus induces toll-like receptor 4 expression, leading to enhanced production of beta interferon, interleukin-6 and tumor necrosis factor-alpha",
+                "type": "Article",
+                "publish_date": "Sep 2008"
+            },
+            "29": {
+                "title": "Therapeutic effect of RANTES-KDEL on inhibition of HIV-1 in CD34+ human hematopoietic stem cells (hHSC)",
+                "type": "Article",
+                "publish_date": "Aug 2008"
+            },
+            "30": {
+                "title": "[Construction of the eukaryotic expression vector pEGFP-claudin-1 and its expression in 293T cells]",
+                "type": "Article",
+                "publish_date": "Jun 2008"
+            },
+            "31": {
+                "title": "Prokaryotic expression and monoclonal antibody preparation of Mycobacterium tuberculosis ferric uptake regulator B",
+                "type": "Article",
+                "publish_date": "Jun 2008"
+            },
+            "32": {
+                "title": "[Isolation of exosomes derived from dendritic cells by ultrafiltration centrifugalization and their morphologic characteristics]",
+                "type": "Article",
+                "publish_date": "Jan 2008"
+            },
+            "33": {
+                "title": "Identification of a functional ITAM-like sequence within G1 cytoplasmic tail of Hantaan virus",
+                "type": "Article",
+                "publish_date": "Dec 2007"
+            },
+            "34": {
+                "title": "[Integrin alphavbeta3 and virus infection]",
+                "type": "Article",
+                "publish_date": "Dec 2007"
+            },
+            "35": {
+                "title": "Toll-like receptor 4 siRNA attenuates LPS-induced secretion of inflammatory cytokines and chemokines by macrophages",
+                "type": "Article",
+                "publish_date": "Aug 2007"
+            },
+            "36": {
+                "title": "The short hairpin RNA driven by polymerase II suppresses both wild-type and lamivudine-resistant hepatitis B virus strains",
+                "type": "Article",
+                "publish_date": "Feb 2007"
+            },
+            "37": {
+                "title": "[The construction and primary screening of a phage display library of HCV C and E1 genes evolved with an artificial pattern]",
+                "type": "Article",
+                "publish_date": "Oct 2006"
+            },
+            "38": {
+                "title": "Effects of insulin-like growth factor I on the development of osteoblasts in hyperglycemia",
+                "type": "Article",
+                "publish_date": "Aug 2006"
+            },
+            "39": {
+                "title": "Cellular entry of Hantaan virus A9 strain: Specific interactions with \u03b23 integrins and a novel 70kDa protein",
+                "type": "Article",
+                "publish_date": "Feb 2006"
+            },
+            "40": {
+                "title": "[Subacute severe hepatitis as the initial presentation of autoimmune hepatitis: report of 2 cases]",
+                "type": "Article",
+                "publish_date": "Jan 2006"
+            },
+            "41": {
+                "title": "Stable inhibition of hepatitis B virus expression and replication by expressed siRNA",
+                "type": "Article",
+                "publish_date": "Nov 2005"
+            },
+            "42": {
+                "title": "[Exosome: Trojan horse in immunotherapy]",
+                "type": "Article",
+                "publish_date": "May 2005"
+            },
+            "43": {
+                "title": "[Chronic hepatitis C viral infection with persistent normal serum alanine aminotransferases]",
+                "type": "Article",
+                "publish_date": "Feb 2005"
+            },
+            "44": {
+                "title": "[The relationship between cellular infection by Hantaan virus and expression of beta3 integrin]",
+                "type": "Article",
+                "publish_date": "Nov 2004"
+            },
+            "45": {
+                "title": "[Antitumor activity on murine mastocytoma induced by immunization with fusion of dendritic cells and P815 cells in mice]",
+                "type": "Article",
+                "publish_date": "Oct 2004"
+            },
+            "46": {
+                "title": "Modulation of cellular and humoral immune responses to a HIV-1 nucleic acid vaccine by RANTES, MIP-1\u03b1 gene immunization",
+                "type": "Article",
+                "publish_date": "Aug 2004"
+            },
+            "47": {
+                "title": "[Acceleration of mixed lymphocyte reaction by HCV C-Fc gene-transferred murine dendritic cells]",
+                "type": "Article",
+                "publish_date": "Jun 2004"
+            },
+            "48": {
+                "title": "[Experimental study on immune responses induced in mice by gp120 gene vaccine of Chinese HIV-1 strain]",
+                "type": "Article",
+                "publish_date": "May 2004"
+            },
+            "49": {
+                "title": "[Experimental study on the effect of VEGF165 antisense RNA on human squamous cell carcinoma of esophagus]",
+                "type": "Article",
+                "publish_date": "Apr 2004"
+            },
+            "50": {
+                "title": "Inhibition of HIV-1 infection by phenotypic knockout of HIV-1 chemokine coreceptor CXCR4 and CCR5",
+                "type": "Article",
+                "publish_date": "Jan 2004"
+            },
+            "51": {
+                "title": "Hepatocyte transplantation intrasplenically for rats with acute hepatic failure",
+                "type": "Article",
+                "publish_date": "Dec 2003"
+            },
+            "52": {
+                "title": "[Construction of human integrin beta3 subunit eukaryotic expression vector and efficient surface expression of integrin alphaIIbbeta3].",
+                "type": "Article",
+                "publish_date": "Jun 2003"
+            },
+            "53": {
+                "title": "[Inhibition of momordica anti-HIV protein of MAP30 on HBeAg expression by laser scanning confocal microscopy].",
+                "type": "Article",
+                "publish_date": "Apr 2003"
+            },
+            "54": {
+                "title": "Hepatic stem cells: Existence and origin",
+                "type": "Article",
+                "publish_date": "Mar 2003"
+            },
+            "55": {
+                "title": "Anti-HBV effect of targeted lamivudy palmitate solid lipid nano-particles",
+                "type": "Article",
+                "publish_date": "Feb 2003"
+            },
+            "56": {
+                "title": "Effect of ribozymes on inhibiting expression of HBV mRNA in HepG2 cells",
+                "type": "Article",
+                "publish_date": "Feb 2003"
+            },
+            "57": {
+                "title": "[Advances in research on pathogenesis of epidemic hemorrhagic fever]",
+                "type": "Article",
+                "publish_date": "Dec 1993"
+            }
+        }
+    },
+    "12": {
+        "name": "Yinlan Bai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Microbiology (DOM)",
+        "current_position": "",
+        "expertise": "Mycobacterium Tuberculosis,Bacterial Pathogenesis,Immunology of Infectious Diseases,Tuberculosis,Proteins,ATP,Molecular Biology,Immunology,Microbiology,Affinity Chromatography",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Cyclic di-AMP in Mycobacterium tuberculosis",
+                "type": "Chapter",
+                "publish_date": "Mar 2020"
+            },
+            "1": {
+                "title": "Recombinant BCG With Bacterial Signaling Molecule Cyclic di-AMP as Endogenous Adjuvant Induces Elevated Immune Responses After Mycobacterium tuberculosis InfectionData_Sheet_1.doc",
+                "type": "Article",
+                "publish_date": "Jul 2019"
+            },
+            "2": {
+                "title": "Biological Characteristics of Severe Combined Immunodeficient Mice Produced by CRISPR/Cas9-Mediated Rag2 and IL2rg Mutation",
+                "type": "Article",
+                "publish_date": "Apr 2019"
+            },
+            "3": {
+                "title": "Phosphatidylethanolamine-binding protein 4 promotes the epithelial-to-mesenchymal transition in non-small cell lung cancer cells by activating the sonic hedgehog signaling pathway: JIAN et al.",
+                "type": "Article",
+                "publish_date": "Oct 2018"
+            },
+            "4": {
+                "title": "Immunological characteristics of Mycobacterium tuberculosis subunit vaccines immunized through different routes",
+                "type": "Article",
+                "publish_date": "Sep 2018"
+            },
+            "5": {
+                "title": "Antitumor effect of recombinant Mycobacterium\ufffdsmegmatis expressing MAGEA3 and SSX2 fusion proteins",
+                "type": "Article",
+                "publish_date": "Jul 2018"
+            },
+            "6": {
+                "title": "Deletion of the cyclic di-AMP phosphodiesterase gene (cnpB) in Mycobacterium tuberculosis leads to reduced virulence in a mouse model of infection",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "7": {
+                "title": "Construction and Immunogenicity of the DNA Vaccine of Mycobacterium Tuberculosis Dormancy Antigen Rv1733c",
+                "type": "Article",
+                "publish_date": "Feb 2014"
+            },
+            "8": {
+                "title": "Cyclic Di-AMP Impairs Potassium Uptake Mediated by a Cyclic Di-AMP Binding Protein in Streptococcus pneumoniae",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "9": {
+                "title": "Two DHH Subfamily 1 Proteins in Streptococcus pneumoniae Possess Cyclic Di-AMP Phosphodiesterase Activity and Affect Bacterial Growth and Virulence",
+                "type": "Article",
+                "publish_date": "Sep 2013"
+            },
+            "10": {
+                "title": "Mycobacterium tuberculosis Rv3586 (DacA) is a diadenylate cyclase that converts ATP or ADP into c-di-AMP",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "11": {
+                "title": "Expression, purification and characterization of Mycobacterium tuberculosis RpfE protein\u2606",
+                "type": "Article",
+                "publish_date": "Jan 2012"
+            },
+            "12": {
+                "title": "Expression of Mycobacterium tuberculosis Ferric Uptake Regulator A Gene in Escherichia coli and Generation of Monoclonal Antibodies to FurA",
+                "type": "Article",
+                "publish_date": "Aug 2011"
+            },
+            "13": {
+                "title": "Recombinant Mycobacterium smegmatis Expressing an ESAT6\u2010CFP10 Fusion Protein Induces Anti\u2010Mycobacterial Immune Responses and Protects Against Mycobacterium tuberculosis Challenge in Mice",
+                "type": "Article",
+                "publish_date": "Oct 2010"
+            },
+            "14": {
+                "title": "Production and Characterization of Monoclonal Antibody Against Mycobacterium tuberculosis RpfB Domain",
+                "type": "Article",
+                "publish_date": "Aug 2010"
+            },
+            "15": {
+                "title": "[Immunoprophylaxis of recombinant Mycobacterium vaccae secreted MPT64 of Mycobacterium tuberculosis]",
+                "type": "Article",
+                "publish_date": "Apr 2009"
+            },
+            "16": {
+                "title": "Immunogenicity and protective efficacy of a DNA vaccine encoding the fusion protein of mycobacterium heat shock protein 65(Hsp65) with human interleukin-2 against Mycobacterium tuberculosis in BALB/c mice",
+                "type": "Article",
+                "publish_date": "Jan 2009"
+            },
+            "17": {
+                "title": "[Immune response induced by Rpf domain from Micrococcus luteus in mice]",
+                "type": "Article",
+                "publish_date": "Jul 2008"
+            },
+            "18": {
+                "title": "Expression and purification of Mycobacterium tuberculosis ESAT-6 and MPT64 fusion protein and its immunoprophylactic potential in mouse model",
+                "type": "Article",
+                "publish_date": "Jul 2008"
+            },
+            "19": {
+                "title": "[Preparation and characterization of monoclonal antibodies against Micrococcus luteus Rpf domain]",
+                "type": "Article",
+                "publish_date": "Jun 2008"
+            },
+            "20": {
+                "title": "Effect of site-directed PEGylation of trichosanthin on its biological activity, immunogenicity, and pharmacokinetics",
+                "type": "Article",
+                "publish_date": "Jan 2008"
+            },
+            "21": {
+                "title": "[Immune response induced by Mycobacterium tuberculosis Rv2450 protein in mice]",
+                "type": "Article",
+                "publish_date": "Nov 2007"
+            },
+            "22": {
+                "title": "Expression, purification, and characterization of soluble RpfD with high bioactivity as a recombinant protein in Mycobacterium vaccae",
+                "type": "Article",
+                "publish_date": "Oct 2007"
+            },
+            "23": {
+                "title": "Immune response and protective efficacy induced by fusion protein ESAT6-CFP10 of M.tuberculosis in mice",
+                "type": "Article",
+                "publish_date": "Aug 2006"
+            },
+            "24": {
+                "title": "Immunity characteristics induced by a genetic vaccine expressing Ag85B-ESAT6 fusion protein",
+                "type": "Article",
+                "publish_date": "Nov 2005"
+            },
+            "25": {
+                "title": "Screening and construction of recombinant BCG strains expressing the Ag85B-ESAT6 fusion protein",
+                "type": "Article",
+                "publish_date": "May 2005"
+            },
+            "26": {
+                "title": "[Mycobacterium tuberculosis secreting protein Ag85B-ESAT6 fused expression and purification]",
+                "type": "Article",
+                "publish_date": "Mar 2004"
+            },
+            "27": {
+                "title": "[Effects of Th1 cytokine gene on anti-CFP10 antibody production in BALB/c mice induced by Mycobacterium tuberculosis DNA vaccine].",
+                "type": "Article",
+                "publish_date": "Jun 2003"
+            }
+        }
+    },
+    "13": {
+        "name": "Guoqiang Bao",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of General Surgery",
+        "current_position": "",
+        "expertise": "Cancer,Surgical Oncology,Laparoscopic Surgery,General Surgery,Abdominal Surgery,Minimally Invasive Surgery,Cancer Diagnostics,Cancer Biomarkers,Cancer Biology,Clinical Oncology",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Genetic polymorphisms are associated with the risk of gastric and colorectal cancers in a Han Chinese population",
+                "type": "Article",
+                "publish_date": "Feb 2017"
+            },
+            "1": {
+                "title": "Prognostic Significance of Tag SNP rs1045411 in HMGB1 of the Aggressive Gastric Cancer in a Chinese Population",
+                "type": "Article",
+                "publish_date": "Apr 2016"
+            },
+            "2": {
+                "title": "S1 Table",
+                "type": "Data",
+                "publish_date": "Apr 2016"
+            },
+            "3": {
+                "title": "S2 Table",
+                "type": "Data",
+                "publish_date": "Apr 2016"
+            },
+            "4": {
+                "title": "S3 Table",
+                "type": "Data",
+                "publish_date": "Apr 2016"
+            },
+            "5": {
+                "title": "Genetic polymorphisms in circadian negative feedback regulation genes predict overall survival and response to chemotherapy in gastric cancer patients",
+                "type": "Article",
+                "publish_date": "Mar 2016"
+            },
+            "6": {
+                "title": "Ionizing Radiation Induces HMGB1 Cytoplasmic Translocation and Extracellular Release",
+                "type": "Article",
+                "publish_date": "Mar 2016"
+            },
+            "7": {
+                "title": "Supplementary Tables",
+                "type": "Data",
+                "publish_date": "Mar 2016"
+            },
+            "8": {
+                "title": "Short telomere length in peripheral blood leukocyte predicts poor prognosis and indicates an immunosuppressive phenotype in gastric cancer patients",
+                "type": "Article",
+                "publish_date": "Dec 2014"
+            },
+            "9": {
+                "title": "[Application study of totally laparoscopic distal gastrectomy with delta-shaped anastomosis]",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "10": {
+                "title": "A polysaccharide from Salvia miltiorrhiza Bunge improves immune function in gastric cancer rats",
+                "type": "Article",
+                "publish_date": "Oct 2014"
+            },
+            "11": {
+                "title": "IL-17 gene polymorphism is associated with susceptibility to gastric cancer",
+                "type": "Article",
+                "publish_date": "Jul 2014"
+            },
+            "12": {
+                "title": "Short leukocyte telomere length predicts poor prognosis and indicates altered immune functions in colorectal cancer patients",
+                "type": "Article",
+                "publish_date": "Mar 2014"
+            },
+            "13": {
+                "title": "AhR expression is increased in hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Apr 2013"
+            },
+            "14": {
+                "title": "Increased MMP-21 expression is associated with poor overall survival of patients with gastric cancer",
+                "type": "Article",
+                "publish_date": "Mar 2013"
+            },
+            "15": {
+                "title": "High ??-Radiation Sensitivity Is Associated with Increased Gastric Cancer Risk in a Chinese Han Population: A Case-Control Analysis",
+                "type": "Article",
+                "publish_date": "Aug 2012"
+            },
+            "16": {
+                "title": "Figure S1",
+                "type": "Data",
+                "publish_date": "Aug 2012"
+            },
+            "17": {
+                "title": "Table S1",
+                "type": "Data",
+                "publish_date": "Aug 2012"
+            },
+            "18": {
+                "title": "Strong Inhibition of UDP-Glucuronosyltransferase (UGT) 1A1 by Levothyroxine Indicates the Potential UGT-Inhibition Based Adverse Effect of Levothyroxine",
+                "type": "Article",
+                "publish_date": "Jun 2012"
+            },
+            "19": {
+                "title": "Genetic Variations in Stem Cell-Related Genes and Colorectal Cancer Prognosis",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "20": {
+                "title": "Potentially functional genetic variants in KDR gene as prognostic markers in patients with resected colorectal cancer",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            },
+            "21": {
+                "title": "Association Between Mitochondrial DNA Content in Leukocytes and Colorectal Cancer Risk",
+                "type": "Article",
+                "publish_date": "Jul 2011"
+            },
+            "22": {
+                "title": "GWAS-identified colorectal cancer susceptibility locus associates with disease prognosis",
+                "type": "Article",
+                "publish_date": "Mar 2011"
+            },
+            "23": {
+                "title": "Prognostic value of HMGB1 overexpression in resectable gastric adenocarcinomas",
+                "type": "Article",
+                "publish_date": "Jun 2010"
+            },
+            "24": {
+                "title": "Irradiation-induced telomerase activity and gastric cancer risk: A case-control analysis in a Chinese Han population",
+                "type": "Article",
+                "publish_date": "Jun 2010"
+            },
+            "25": {
+                "title": "Constitutive telomere length and gastric cancer risk: Case-control analysis in Chinese Han population",
+                "type": "Article",
+                "publish_date": "Apr 2009"
+            },
+            "26": {
+                "title": "Expression and biological significance of c-FLIP in human hepatocellular carcinomas",
+                "type": "Article",
+                "publish_date": "Mar 2009"
+            },
+            "27": {
+                "title": "Prediction of doxorubicin sensitivity in gastric cancers based on a set of novel markers",
+                "type": "Article",
+                "publish_date": "Nov 2008"
+            },
+            "28": {
+                "title": "Reduced expression of N-Myc downstream-regulated gene 2 in human thyroid cancer",
+                "type": "Article",
+                "publish_date": "Nov 2008"
+            }
+        }
+    },
+    "14": {
+        "name": "Junxiang Bao",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Aerospace Hygiene",
+        "current_position": "",
+        "expertise": "Arteries,Carotid Arteries,Thoracic Aorta,Vascular Diseases,Atherosclerotic Vascular Diseases,Metabolic Syndrome,Peripheral Vascular Diseases",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "BK Ca compensates impaired coronary vasoreactivity through RhoA/ROCK pathway in hind-limb unweighted rats",
+                "type": "Article",
+                "publish_date": "Sep 2019"
+            },
+            "1": {
+                "title": "Acid sphingomyelinase mediates the noise induced liver disorder in mice",
+                "type": "Article",
+                "publish_date": "Mar 2019"
+            },
+            "2": {
+                "title": "Caveolae Depletion Contributes to Vasorelaxant Effects of Chenodeoxycholic Acid",
+                "type": "Article",
+                "publish_date": "Jun 2017"
+            },
+            "3": {
+                "title": "RNA sequencing analysis reveals new findings of hyperbaric oxygen treatment on rats with acute carbon monoxide poisoning",
+                "type": "Article",
+                "publish_date": "Nov 2016"
+            },
+            "4": {
+                "title": "Caveolae regulate vasoconstriction of conduit arteries to angiotensin II in hindlimb unweighted rats",
+                "type": "Article",
+                "publish_date": "Aug 2015"
+            },
+            "5": {
+                "title": "Gender Differences in the Prevalence and Development of Metabolic Syndrome in Chinese Population with Abdominal Obesity",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "6": {
+                "title": "Increased Vascular Cell Adhesion Molecule\u20131 Was Associated with Impaired Endothelium\u2013Dependent Relaxation of Cerebral and Carotid Arteries in Simulated Microgravity Rats",
+                "type": "Article",
+                "publish_date": "Mar 2008"
+            }
+        }
+    },
+    "15": {
+        "name": "Long Bi",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Orthopaedics (Xijing)",
+        "current_position": "",
+        "expertise": "Fracture,Trauma Surgery",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Zinc Silicate/Nano-Hydroxyapatite/Collagen Scaffolds Promote Angiogenesis and Bone Regeneration via the p38 MAPK Pathway in Activated Monocytes",
+                "type": "Article",
+                "publish_date": "Mar 2020"
+            },
+            "1": {
+                "title": "3D-bioprinted functional and biomimetic hydrogel scaffolds incorporated with nanosilicates to promote bone healing in rat calvarial defect model",
+                "type": "Article",
+                "publish_date": "Mar 2020"
+            },
+            "2": {
+                "title": "The effect of fluid shear stress on fibroblasts and stem cells on plane and groove topographies",
+                "type": "Article",
+                "publish_date": "Jan 2020"
+            },
+            "3": {
+                "title": "Cover Image, Volume 53, Issue 1",
+                "type": "Article",
+                "publish_date": "Jan 2020"
+            },
+            "4": {
+                "title": "Blockade of adrenergic \u03b2\u2010receptor activation through local delivery of propranolol from a 3D collagen/polyvinyl alcohol/hydroxyapatite scaffold promotes bone repair in vivo",
+                "type": "Article",
+                "publish_date": "Nov 2019"
+            },
+            "5": {
+                "title": "Effects of cyclic fluid stress at different frequencies on behaviors of cells incubated on titanium alloy",
+                "type": "Article",
+                "publish_date": "Nov 2019"
+            },
+            "6": {
+                "title": "Evaluation of the osteogenesis and osseointegration of titanium alloys coated with graphene: An in vivo study",
+                "type": "Article",
+                "publish_date": "Dec 2018"
+            },
+            "7": {
+                "title": "Enhancement of surface bioactivity on carbon fiber-reinforced polyether ether ketone via graphene modification",
+                "type": "Article",
+                "publish_date": "Jun 2018"
+            },
+            "8": {
+                "title": "Graphene coating on the surface of CoCrMo alloy enhances the adhesion and proliferation of bone marrow mesenchymal stem cells",
+                "type": "Article",
+                "publish_date": "Feb 2018"
+            },
+            "9": {
+                "title": "Nano-biphasic calcium phosphate/polyvinyl alcohol composites with enhanced bioactivity for bone repair via low-temperature three-dimensional printing and loading with platelet-rich fibrin",
+                "type": "Article",
+                "publish_date": "Jan 2018"
+            },
+            "10": {
+                "title": "Application of Rapid Prototyping Technology in Orthopedics",
+                "type": "Chapter",
+                "publish_date": "Jan 2018"
+            },
+            "11": {
+                "title": "Biosafety and Antibacterial Ability of Graphene and Graphene Oxide In Vitro and In Vivo",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "12": {
+                "title": "Ginsenoside Rb2 inhibits osteoclast differentiation through nuclear factor-kappaB and signal transducer and activator of transcription protein 3 signaling pathway",
+                "type": "Article",
+                "publish_date": "Aug 2017"
+            },
+            "13": {
+                "title": "Graphene modified titanium alloy promote the adhesion, proliferation and osteogenic differentiation of bone marrow stromal cells",
+                "type": "Article",
+                "publish_date": "May 2017"
+            },
+            "14": {
+                "title": "Expression profile of cytokines and chemokines in osteoarthritis patients: Proinflammatory roles for CXCL8 and CXCL11 to chondrocytes",
+                "type": "Article",
+                "publish_date": "Nov 2016"
+            },
+            "15": {
+                "title": "Synergistic Effect of Mesoporous Silica and Hydroxyapatite in Loaded Poly(DL-lactic-co-glycolic acid) Microspheres on the Regeneration of Bone Defects",
+                "type": "Article",
+                "publish_date": "Aug 2016"
+            },
+            "16": {
+                "title": "Effects of Nano-hydroxyapatite/Poly(DL-lactic-co-glycolic acid) Microsphere-Based Composite Scaffolds on Repair of Bone Defects: Evaluating the Role of Nano-hydroxyapatite Content",
+                "type": "Article",
+                "publish_date": "Jul 2016"
+            },
+            "17": {
+                "title": "Effects of Hindlimb Unweighting on MBP and GDNF Expression and Morphology in Rat Dorsal Root Ganglia Neurons",
+                "type": "Article",
+                "publish_date": "May 2016"
+            },
+            "18": {
+                "title": "Activation of GLP-1 Receptor Promotes Bone Marrow Stromal Cell Osteogenic Differentiation through beta-Catenin (vol 6, pg 579, 2016)",
+                "type": "Article",
+                "publish_date": "Apr 2016"
+            },
+            "19": {
+                "title": "Low temperature additive manufacturing biomimic three-dimensional hydroxyapatite/collagen scaffolds for bone regeneration",
+                "type": "Article",
+                "publish_date": "Mar 2016"
+            },
+            "20": {
+                "title": "Activation of GLP-1 Receptor Promotes Bone Marrow Stromal Cell Osteogenic Differentiation through \u03b2-Catenin",
+                "type": "Article",
+                "publish_date": "Mar 2016"
+            },
+            "21": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Jan 2016"
+            },
+            "22": {
+                "title": "Effects of Graphene Modification on the Bioactivation of Polyethylene-Terephthalate-Based Artificial Ligaments",
+                "type": "Article",
+                "publish_date": "Jun 2015"
+            },
+            "23": {
+                "title": "Effects of Artificial Ligaments with Different Porous Structures on the Migration of BMSCs",
+                "type": "Article",
+                "publish_date": "Jun 2015"
+            },
+            "24": {
+                "title": "Pre-implanted Sensory Nerve Could Enhance the Neurotization in Tissue-Engineered Bone Graft",
+                "type": "Article",
+                "publish_date": "May 2015"
+            },
+            "25": {
+                "title": "Stem Cell-Biomaterial Interactions for Tissue Engineering",
+                "type": "Article",
+                "publish_date": "May 2015"
+            },
+            "26": {
+                "title": "A Rat Model Designed for the Continuous Intraarterial Infusion of Cyclosporine",
+                "type": "Article",
+                "publish_date": "Mar 2015"
+            },
+            "27": {
+                "title": "Different Effects of Implanting Sensory Nerve or Blood Vessel on the Vascularization, Neurotization, and Osteogenesis of Tissue-Engineered Bone In Vivo",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "28": {
+                "title": "Local Sympathetic Denervation of Femoral Artery in a Rabbit Model by Using 6-Hydroxydopamine In Situ",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "29": {
+                "title": "Neuropeptide Substance P Improves Osteoblastic and Angiogenic Differentiation Capacity of Bone Marrow Stem Cells In Vitro",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "30": {
+                "title": "Microsurgical Techniques Used to Construct the Vascularized and Neurotized Tissue Engineered Bone",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "31": {
+                "title": "FFAs-ROS-ERK/P38 pathway plays a key role in adipocyte lipotoxicity on osteoblasts in co-culture",
+                "type": "Article",
+                "publish_date": "Jan 2014"
+            },
+            "32": {
+                "title": "Exendin-4, a Glucagon-Like Peptide-1 Receptor Agonist, Prevents Osteopenia by Promoting Bone Formation and Suppressing Bone Resorption in Aged Ovariectomized Rats",
+                "type": "Article",
+                "publish_date": "Jul 2013"
+            },
+            "33": {
+                "title": "Characterization of Synthesized NANO\u2212encapsulated Drug for Bone Loss on Hind Limb Suspension Rat Model by NMR and Micro-CT",
+                "type": "Article",
+                "publish_date": "Jun 2013"
+            },
+            "34": {
+                "title": "Enhancing the bioactivity of Poly(lactic-co-glycolic acid) scaffold with a nano-hydroxyapatite coating for the treatment of segmental bone defect in a rabbit model",
+                "type": "Article",
+                "publish_date": "May 2013"
+            },
+            "35": {
+                "title": "The mechanical and biological studies of calcium phosphate cement-fibrin glue for bone reconstruction of rabbit femoral defects",
+                "type": "Article",
+                "publish_date": "Mar 2013"
+            },
+            "36": {
+                "title": "Effects of Sodium Hydroxide, Sodium Hypochlorite, and Gaseous Hydrogen Peroxide on the Natural Properties of Cancellous Bone",
+                "type": "Article",
+                "publish_date": "Feb 2013"
+            },
+            "37": {
+                "title": "Exendin\u20104, a Glucagon\u2010",
+                "type": "Article",
+                "publish_date": "Jan 2013"
+            },
+            "38": {
+                "title": "The Potential Use of Allogeneic Platelet-Rich Plasma for Large Bone Defect Treatment: Immunogenicity and Defect Healing Efficacy",
+                "type": "Article",
+                "publish_date": "Aug 2012"
+            },
+            "39": {
+                "title": "Effects of dimethylolpropionic acid modification on the characteristics of polyethylene terephthalate fibers",
+                "type": "Article",
+                "publish_date": "Jul 2012"
+            },
+            "40": {
+                "title": "Evaluation of a novel reconstituted bone xenograft using processed bovine cancellous bone in combination with purified bovine bone morphogenetic protein",
+                "type": "Article",
+                "publish_date": "Mar 2012"
+            },
+            "41": {
+                "title": "Increased levels of calcitonin gene-related peptide in serum accelerate fracture healing following traumatic brain injury",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "42": {
+                "title": "The Dose-Effect of Icariin on the Proliferation and Osteogenic Differentiation of Human Bone Mesenchymal Stem Cells",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            },
+            "43": {
+                "title": "A combined chitosan/nano-size hydroxyapatite system for the controlled release of icariin",
+                "type": "Article",
+                "publish_date": "Nov 2011"
+            },
+            "44": {
+                "title": "Fabrication and characterization of a biphasic scaffold for osteochondral tissue engineering",
+                "type": "Article",
+                "publish_date": "Jul 2011"
+            },
+            "45": {
+                "title": "Research Progress of Titanium Alloy in Skeletal Trauma and Joint-Surgery",
+                "type": "Article",
+                "publish_date": "Jul 2011"
+            },
+            "46": {
+                "title": "Effects of different cross-linking conditions on the properties of genipin-cross-linked chitosan/collagen scaffolds for cartilage tissue engineering",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "47": {
+                "title": "The influence of approaches for the purification of natural cancellous bone grafts: Morphology, microstructure, composition, strength and biocompatibility study",
+                "type": "Article",
+                "publish_date": "Oct 2010"
+            },
+            "48": {
+                "title": "Reconstruction of goat tibial defects using an injectable tricalcium phosphate/chitosan in combination with autologous platelet plasma",
+                "type": "Article",
+                "publish_date": "Apr 2010"
+            },
+            "49": {
+                "title": "Mineral status and mechanical properties of cancellous bone exposed to hydrogen peroxide for various time periods",
+                "type": "Article",
+                "publish_date": "Oct 2009"
+            },
+            "50": {
+                "title": "Multi-variety bone bank in China",
+                "type": "Article",
+                "publish_date": "Sep 2009"
+            },
+            "51": {
+                "title": "[Influence of immersed time by hydrogen dioxide on xenogeneic bone substitute]",
+                "type": "Article",
+                "publish_date": "May 2009"
+            },
+            "52": {
+                "title": "Recombined bone xenografts enhance tendon graft osteointegration of anterior cruciate ligament reconstruction",
+                "type": "Article",
+                "publish_date": "Feb 2009"
+            },
+            "53": {
+                "title": "Construction of Two-Gene Modified Artificial Bone by Using Recombinant Adenovirus",
+                "type": "Article",
+                "publish_date": "Jan 2009"
+            },
+            "54": {
+                "title": "The Mechanical and Biological Properties of an Injectable Calcium Phosphate Cement-Fibrin Glue Composite for Bone Regeneration",
+                "type": "Article",
+                "publish_date": "Jan 2009"
+            },
+            "55": {
+                "title": "Gelatin Microspheres Containing TGF-\u03b23 Enhance the Chondrogenesis of Mesenchymal Stem Cells in Modified Pellet Culture",
+                "type": "Article",
+                "publish_date": "Apr 2008"
+            },
+            "56": {
+                "title": "Treatment of contaminated bone defects with clindamycin-reconstituted bone xenograft-composites",
+                "type": "Article",
+                "publish_date": "Aug 2007"
+            }
+        }
+    },
+    "16": {
+        "name": "Huijie Bian",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Cell Biology",
+        "current_position": "Research Director",
+        "expertise": "Liver,Hepatocellular Carcinoma,Liver Cirrhosis",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Meplazumab treats COVID-19 pneumonia: an open-labelled, concurrent controlled add-on clinical trial",
+                "type": "Preprint",
+                "publish_date": "Mar 2020"
+            },
+            "1": {
+                "title": "SARS-CoV-2 invades host cells via a novel route: CD147-spike protein",
+                "type": "Preprint",
+                "publish_date": "Mar 2020"
+            },
+            "2": {
+                "title": "Salivary Glycopatterns as Biomarkers for Differential Diagnosis of HBV-Induced Cirrhosis and Hepatocellular Carcinoma",
+                "type": "Article",
+                "publish_date": "Jan 2020"
+            },
+            "3": {
+                "title": "Doxycycline Inducible Chimeric Antigen Receptor T Cells Targeting CD147 for Hepatocellular Carcinoma Therapy",
+                "type": "Article",
+                "publish_date": "Oct 2019"
+            },
+            "4": {
+                "title": "Identification of crucial genes based on expression profiles of hepatocellular carcinomas by bioinformatics analysis",
+                "type": "Article",
+                "publish_date": "Aug 2019"
+            },
+            "5": {
+                "title": "Intercellular interaction dictates cancer cell ferroptosis via NF2\u2013YAP signalling",
+                "type": "Article",
+                "publish_date": "Aug 2019"
+            },
+            "6": {
+                "title": "Publisher Correction: Intercellular interaction dictates cancer cell ferroptosis via NF2\u2013YAP signalling",
+                "type": "Article",
+                "publish_date": "Aug 2019"
+            },
+            "7": {
+                "title": "Gamma-secretase complex-dependent intramembrane proteolysis of CD147 regulates the Notch1 signaling pathway in hepatocellular carcinoma: Intramembrane proteolysis of CD147 regulates Notch1 signaling pathway",
+                "type": "Article",
+                "publish_date": "Jun 2019"
+            },
+            "8": {
+                "title": "MFGE8 protects against CCl 4 -induced liver injury by reducing apoptosis and promoting proliferation of hepatocytes: LI et al.",
+                "type": "Article",
+                "publish_date": "Feb 2019"
+            },
+            "9": {
+                "title": "Chimeric antigen receptor T cell targeting EGFRvIII for metastatic lung cancer therapy",
+                "type": "Article",
+                "publish_date": "Feb 2019"
+            },
+            "10": {
+                "title": "Adoptive cell transfer therapy for hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Jan 2019"
+            },
+            "11": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Jul 2018"
+            },
+            "12": {
+                "title": "Supplemental Digital Content",
+                "type": "Data",
+                "publish_date": "Jun 2018"
+            },
+            "13": {
+                "title": "Systems analysis of key genes and pathways in the progression of hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Jun 2018"
+            },
+            "14": {
+                "title": "E3 Ligase Trim21 Ubiquitylates and Stabilizes Keratin 17 to Induce STAT3 Activation in Psoriasis",
+                "type": "Article",
+                "publish_date": "May 2018"
+            },
+            "15": {
+                "title": "CD147 Promotes CXCL1 Expression and Modulates Liver Fibrogenesis",
+                "type": "Article",
+                "publish_date": "Apr 2018"
+            },
+            "16": {
+                "title": "Basolateral CD147 Induces Hepatocyte Polarity Loss by E-cadherin Ubiquitination and Degradation in Hepatocellular Carcinoma Progress",
+                "type": "Article",
+                "publish_date": "Jan 2018"
+            },
+            "17": {
+                "title": "Integrated genomic analyses of lung squamous cell carcinoma for identification of a possible competitive endogenous RNA network by means of TCGA datasets",
+                "type": "Article",
+                "publish_date": "Jan 2018"
+            },
+            "18": {
+                "title": "Supplemental Information 1",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "19": {
+                "title": "Supplemental Information 2",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "20": {
+                "title": "Supplemental Information 3",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "21": {
+                "title": "Supplemental Information 4",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "22": {
+                "title": "Supplemental Information 6",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "23": {
+                "title": "Supplemental Information 7",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "24": {
+                "title": "Supplemental Information 5",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "25": {
+                "title": "Supplemental Information 8",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "26": {
+                "title": "System analysis of the regulation of the immune response by CD147 and FOXC1 in cancer cell lines",
+                "type": "Article",
+                "publish_date": "Jan 2018"
+            },
+            "27": {
+                "title": "Supplementary Material 5",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "28": {
+                "title": "Supplementary Material 1",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "29": {
+                "title": "Supplementary Material 2",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "30": {
+                "title": "Supplementary Material 4",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "31": {
+                "title": "Supplementary Material 3",
+                "type": "Data",
+                "publish_date": "Jan 2018"
+            },
+            "32": {
+                "title": "Expression of proteins associated with epithelial\u2011mesenchymal transition in esophageal squamous cell carcinoma",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "33": {
+                "title": "Fighting Cancer with Viruses: Oncolytic Virus Therapy in China",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "34": {
+                "title": "\u03b12,6-linked sialic acid serves as a high-affinity receptor for cancer oncolytic virotherapy with Newcastle disease virus",
+                "type": "Article",
+                "publish_date": "Jul 2017"
+            },
+            "35": {
+                "title": "Combination of CALR and PDIA3 is a potential prognostic biomarker for non-small cell lung cancer",
+                "type": "Article",
+                "publish_date": "Jun 2017"
+            },
+            "36": {
+                "title": "Supplementary Material 1",
+                "type": "Data",
+                "publish_date": "Jun 2017"
+            },
+            "37": {
+                "title": "Supplementary Material 2",
+                "type": "Data",
+                "publish_date": "Jun 2017"
+            },
+            "38": {
+                "title": "A three-caller pipeline for variant analysis of cancer whole-exome sequencing data",
+                "type": "Article",
+                "publish_date": "Mar 2017"
+            },
+            "39": {
+                "title": "Promoter mutations and cellular distribution of telomerase in non-clear cell and clear cell hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Feb 2017"
+            },
+            "40": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Feb 2017"
+            },
+            "41": {
+                "title": "Regulation of a TGF-\u03b21-CD147 self-sustaining network in the differentiation plasticity of hepatocellular carcinoma cells",
+                "type": "Article",
+                "publish_date": "Apr 2016"
+            },
+            "42": {
+                "title": "Alteration of N-glycoproteins/N-glycosites in human hepatic stellate cells activated with transforming growth factor-\u03b21",
+                "type": "Article",
+                "publish_date": "Mar 2016"
+            },
+            "43": {
+                "title": "Identification and localization of Xylose-binding proteins and as potential biomarkers for liver fibrosis/cirrhosis",
+                "type": "Article",
+                "publish_date": "Dec 2015"
+            },
+            "44": {
+                "title": "CD147 Overexpression Promotes Tumorigenicity in Chinese Hamster Ovary Cells",
+                "type": "Article",
+                "publish_date": "Dec 2015"
+            },
+            "45": {
+                "title": "Oncolytic Newcastle disease virus expressing chimeric antibody enhanced anti-tumor efficacy in orthotopic hepatoma-bearing mice",
+                "type": "Article",
+                "publish_date": "Dec 2015"
+            },
+            "46": {
+                "title": "Activation of TGF-\u03b21-CD147 positive feedback loop in hepatic stellate cells promotes liver fibrosis",
+                "type": "Article",
+                "publish_date": "Nov 2015"
+            },
+            "47": {
+                "title": "Characterization and Sub-cellular Localization of GalNAc-Binding Proteins Isolated from Human Hepatic Stellate Cells",
+                "type": "Article",
+                "publish_date": "Nov 2015"
+            },
+            "48": {
+                "title": "Alteration and localization of Glycan-binding proteins in human hepatic stellate cells during liver fibrosis",
+                "type": "Article",
+                "publish_date": "Jun 2015"
+            },
+            "49": {
+                "title": "Cell expression patterns of CD147 in N-diethylnitrosamine/phenobarbital-induced mouse hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Dec 2014"
+            },
+            "50": {
+                "title": "A chimeric antibody targeting CD147 inhibits hepatocellular carcinoma cell motility via FAK-PI3K-Akt-Girdin signaling pathway",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "51": {
+                "title": "Randomized Trial of [I-131] Metuximab in Treatment of Hepatocellular Carcinoma After Percutaneous Radiofrequency Ablation",
+                "type": "Article",
+                "publish_date": "Aug 2014"
+            },
+            "52": {
+                "title": "Full-length soluble CD147 promotes MMP-2 expression and is a potential serological marker in detection of hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Jul 2014"
+            },
+            "53": {
+                "title": "HAb18G/CD147 is involved in TGF-\u03b2-induced epithelial-mesenchymal transition and hepatocellular carcinoma invasion",
+                "type": "Article",
+                "publish_date": "Jul 2014"
+            },
+            "54": {
+                "title": "A Regulatory Loop Involving miR-22, Sp1, and c-Myc Modulates CD147 Expression in Breast Cancer Invasion and Metastasis",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "55": {
+                "title": "Reply to: \"The role of CD147 in liver injury - The truth is in the details\"",
+                "type": "Article",
+                "publish_date": "Nov 2012"
+            },
+            "56": {
+                "title": "Analysis of Glycan-Related Genes Expression and Glycan Profiles in Mice with Liver Fibrosis",
+                "type": "Article",
+                "publish_date": "Oct 2012"
+            },
+            "57": {
+                "title": "HAb18G/CD147 promotes activation of hepatic stellate cells and is a target for antibody therapy of liver fibrosis",
+                "type": "Article",
+                "publish_date": "Aug 2012"
+            },
+            "58": {
+                "title": "Immunotherapy of Hepatocellular Carcinoma",
+                "type": "Chapter",
+                "publish_date": "Aug 2012"
+            },
+            "59": {
+                "title": "Analysis of Three Properties of Newcastle Disease Virus for Fighting Cancer: Tumor-Selective Replication, Antitumor Cytotoxicity, and Immunostimulation",
+                "type": "Article",
+                "publish_date": "Aug 2012"
+            },
+            "60": {
+                "title": "Alteration of protein glycosylation in human hepatic stellate cells activated with transforming growth factor-\u03b21",
+                "type": "Article",
+                "publish_date": "May 2012"
+            },
+            "61": {
+                "title": "Construction of Recombinant Newcastle Disease Virus Italien Strain for Oncolytic Virotherapy of Tumors",
+                "type": "Article",
+                "publish_date": "Feb 2012"
+            },
+            "62": {
+                "title": "Promoter hypomethylation up-regulates CD147 expression through increasing Sp1 binding and associates with poor prognosis in human hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Jun 2011"
+            },
+            "63": {
+                "title": "HAb18G/CD147 promotes epithelial-mesenchymal transition through TGF-?? signaling and is transcriptionally regulated by Slug",
+                "type": "Article",
+                "publish_date": "May 2011"
+            },
+            "64": {
+                "title": "Construction of a minigenome rescue system for Newcastle disease virus strain Italien",
+                "type": "Article",
+                "publish_date": "Apr 2011"
+            },
+            "65": {
+                "title": "Hepatic Stellate Cells in Inflammation-Fibrosis-Carcinoma Axis",
+                "type": "Article",
+                "publish_date": "Sep 2010"
+            },
+            "66": {
+                "title": "Involvement of HAb18G/CD147 in T cell activation and immunological synapse formation",
+                "type": "Article",
+                "publish_date": "Aug 2010"
+            },
+            "67": {
+                "title": "No Contribution to Liver Fibrosis, But Possible Carcinogenesis?",
+                "type": "Article",
+                "publish_date": "Apr 2010"
+            },
+            "68": {
+                "title": "HAb18G (CD147), a cancer-associated biomarker and its role in cancer detection",
+                "type": "Article",
+                "publish_date": "May 2009"
+            },
+            "69": {
+                "title": "Newcastle disease virus represses the activation of human hepatic stellate cells and reverses the development of hepatic fibrosis in mice",
+                "type": "Article",
+                "publish_date": "Feb 2009"
+            },
+            "70": {
+                "title": "Characterization of the genome sequence of an oncolytic Newcastle disease virus strain Italien",
+                "type": "Article",
+                "publish_date": "Sep 2008"
+            },
+            "71": {
+                "title": "siRNA targeted against HAb18G/CD147 inhibits MMP-2 secretion, actin and FAK expression in hepatocellular carcinoma cell line via ERK1/2 pathway",
+                "type": "Article",
+                "publish_date": "Apr 2007"
+            },
+            "72": {
+                "title": "A Randomized controlled trial of Licartin for preventing hepatoma recurrence after liver transplantation",
+                "type": "Article",
+                "publish_date": "Feb 2007"
+            },
+            "73": {
+                "title": "In vivo efficacy of systemic tumor targeting of a viral RNA vector with oncolytic properties using a bispecific adapter protein",
+                "type": "Article",
+                "publish_date": "Jan 2007"
+            },
+            "74": {
+                "title": "Radioimmunotherapy of human colon cancer xenografts by using I-131 labeled-CAb(1) F(ab ')(2)",
+                "type": "Article",
+                "publish_date": "Dec 2006"
+            },
+            "75": {
+                "title": "Recombinant Chimeric Antibody hCAb as a Novel Anti-human Colorectal Carcinoma Agent",
+                "type": "Article",
+                "publish_date": "Sep 2006"
+            },
+            "76": {
+                "title": "Targeting radioimmunotherapy of hepatocellular carcinoma with iodine (131I) metuximab injection: Clinical Phase I/II trials",
+                "type": "Article",
+                "publish_date": "Jul 2006"
+            },
+            "77": {
+                "title": "Regulation of Matrix Metalloproteinase Production and Tumor Cell Invasion by Four Monoclonal Antibodies Against Different Epitopes of HAb18G/CD147 Extracellular Domain",
+                "type": "Article",
+                "publish_date": "May 2006"
+            },
+            "78": {
+                "title": "Biodistribution and localization of iodine-131-labeled Metuximab in patients with hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Apr 2006"
+            },
+            "79": {
+                "title": "Tumor-targeted gene transfer in vivo via recombinant Newcastle disease virus modified by a bispecific fusion protein",
+                "type": "Article",
+                "publish_date": "Sep 2005"
+            },
+            "80": {
+                "title": "Selective gene transfer in vitro to tumor cells via recombinant Newcastle disease virus",
+                "type": "Article",
+                "publish_date": "Apr 2005"
+            },
+            "81": {
+                "title": "Selective gene transfer to tumor cells by recombinant Newcastle Disease Virus via a bispecific fusion protein",
+                "type": "Article",
+                "publish_date": "Mar 2005"
+            },
+            "82": {
+                "title": "Pharmacokinetics of radioimmunotherapeutic agent of direct labeling mAb 188Re-HAb18",
+                "type": "Article",
+                "publish_date": "Mar 2002"
+            },
+            "83": {
+                "title": "Serologic Diagnosis of Hantaan Virus Infection Based on a Peptide Antigen",
+                "type": "Article",
+                "publish_date": "Feb 2002"
+            },
+            "84": {
+                "title": "Application of cell engineering technology to the tumour immunotherapeutic drug: A review",
+                "type": "Article",
+                "publish_date": "Feb 2001"
+            },
+            "85": {
+                "title": "Direct technetium-99m labeling of anti-hepatoma monoclonal antibody fragment: A radioimmunoconjugate for hepatocellular carcinoma imaging",
+                "type": "Article",
+                "publish_date": "Jul 2000"
+            },
+            "86": {
+                "title": "Pharmacokinetics of technetium-99m labeled anti-hepatoma monoclonal antibody HAb18 and it's F(ab')2 fragment in mice",
+                "type": "Article",
+                "publish_date": "Jul 2000"
+            },
+            "87": {
+                "title": "Anion separation by high-performance ion chromatography coupled with indirect photometric detection and 1,2-dihydroxybenzene-3,5-disulfonate or sodium sulfosalicylate as the eluent",
+                "type": "Article",
+                "publish_date": "Nov 1997"
+            },
+            "88": {
+                "title": "Simultaneous separation of inorganic anions and cations using binary eluent by ion chromatography with indirect photometric detection",
+                "type": "Article",
+                "publish_date": "Nov 1996"
+            },
+            "89": {
+                "title": "Simultaneous determination of inorganic anions and cations by ion chromatography with indirect photometric detection",
+                "type": "Article",
+                "publish_date": "Dec 1993"
+            }
+        }
+    },
+    "17": {
+        "name": "Yongqian Bian",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of General Surgery",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {}
+    },
+    "18": {
+        "name": "su Binxiao",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Anesthesiology",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Ischemic postconditioning protects the spinal cord from ischemia-reperfusion injury via modulation of redox signaling",
+                "type": "Article",
+                "publish_date": "Dec 2012"
+            },
+            "1": {
+                "title": "TREK1 activation mediates spinal cord ischemic tolerance induced by isoflurane preconditioning in rats",
+                "type": "Article",
+                "publish_date": "Mar 2012"
+            },
+            "2": {
+                "title": "Sevoflurane Preconditioning Induces Rapid Ischemic Tolerance Against Spinal Cord Ischemia/Reperfusion Through Activation of Extracellular Signal-Regulated Kinase in Rabbits",
+                "type": "Article",
+                "publish_date": "Oct 2009"
+            },
+            "3": {
+                "title": "Su B, Dong H, Ma R, Zhang X, Ding Q, Xiong LCannabinoid 1 receptor mediation of spinal cord ischemic tolerance induced by limb remote ischemia preconditioning in rats. J Thorac Cardiovasc Surg 138:1409-1416",
+                "type": "Article",
+                "publish_date": "Sep 2009"
+            },
+            "4": {
+                "title": "Activation of orexin signal in basal forebrain facilitates the emergence from sevoflurane anesthesia in rat",
+                "type": "Article",
+                "publish_date": "Jul 2009"
+            }
+        }
+    },
+    "19": {
+        "name": "Zheng Bobo",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of General Surgery",
+        "current_position": "",
+        "expertise": "Hernia Surgery,General Surgery,Laparoscopic Surgery,Gastrointestinal Surgery,Surgical Gastroenterology,Gastric Surgery,Laparo-Endoscopic Surgery,Colorectal Cancer",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "First-line cetuximab versus bevacizumab for RAS and BRAF wild-type metastatic colorectal cancer: A systematic review and meta-analysis",
+                "type": "Article",
+                "publish_date": "Dec 2019"
+            },
+            "1": {
+                "title": "A comparison of open, laparoscopic and robotic TME: trial sequential analysis and network meta\u2010analysis",
+                "type": "Article",
+                "publish_date": "Oct 2019"
+            },
+            "2": {
+                "title": "b-Shaped Laparoscopic Dual Anastomosis for Mid-Low Rectal Cancer: A Safe and Feasible Technique",
+                "type": "Article",
+                "publish_date": "Jun 2019"
+            },
+            "3": {
+                "title": "Robotic gastrectomy versus laparoscopic gastrectomy for gastric cancer: meta-analysis and trial sequential analysis of prospective observational studies",
+                "type": "Article",
+                "publish_date": "Apr 2019"
+            },
+            "4": {
+                "title": "Preoperative short-course radiotherapy and long-course radiochemotherapy for locally advanced rectal cancer: Meta-analysis with trial sequential analysis of long-term survival data",
+                "type": "Article",
+                "publish_date": "Jul 2018"
+            },
+            "5": {
+                "title": "S3 Table",
+                "type": "Data",
+                "publish_date": "Jul 2018"
+            },
+            "6": {
+                "title": "S1 File",
+                "type": "Data",
+                "publish_date": "Jul 2018"
+            },
+            "7": {
+                "title": "S4 Table",
+                "type": "Data",
+                "publish_date": "Jul 2018"
+            },
+            "8": {
+                "title": "S2 Table",
+                "type": "Data",
+                "publish_date": "Jul 2018"
+            },
+            "9": {
+                "title": "S1 Table",
+                "type": "Data",
+                "publish_date": "Jul 2018"
+            },
+            "10": {
+                "title": "Application value of the clearance of No.253 lymph nodes with priority to fascial space and preserving left colic artery in laparoscopic radical proctectomy",
+                "type": "Article",
+                "publish_date": "Jun 2018"
+            },
+            "11": {
+                "title": "Application of Overlap method to digestive tract reconstruction of totally laparoscopic left colectomy",
+                "type": "Article",
+                "publish_date": "Mar 2018"
+            },
+            "12": {
+                "title": "Application of \u03b2-shaped intracorporeal Roux-en-y reconstruction in totally laparoscopic distal gastrectomy",
+                "type": "Article",
+                "publish_date": "Nov 2015"
+            },
+            "13": {
+                "title": "[Comparison of cranial-to-caudal medial versus traditional medial approach in laparoscopic right hemicolectomy: a case-control study]",
+                "type": "Article",
+                "publish_date": "Aug 2015"
+            },
+            "14": {
+                "title": "Meta-analysis of Randomized Controlled Trials Comparing Lichtenstein and Totally Extra-peritoneal Laparoscopic Hernioplasty in Treatment of Inguinal Hernias",
+                "type": "Article",
+                "publish_date": "Dec 2014"
+            },
+            "15": {
+                "title": "[Application study of totally laparoscopic distal gastrectomy with delta-shaped anastomosis]",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "16": {
+                "title": "Anterior approach versus conventional liver resection for hepatocellular carcinoma",
+                "type": "Chapter",
+                "publish_date": "May 2013"
+            },
+            "17": {
+                "title": "Endoscopic stenting versus gastrojejunostomy for palliation of malignant gastric outlet obstruction",
+                "type": "Article",
+                "publish_date": "Mar 2012"
+            },
+            "18": {
+                "title": "Meta-analysis of randomized controlled trials comparing D2 and D4 lymphadenectomy for gastric cancer",
+                "type": "Article",
+                "publish_date": "Oct 2011"
+            }
+        }
+    }
+}
