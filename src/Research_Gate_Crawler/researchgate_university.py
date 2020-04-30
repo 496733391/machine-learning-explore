@@ -10,6 +10,7 @@ import re
 import requests
 import random
 import pandas as pd
+from sqlalchemy import create_engine, types
 
 from researchgate_author_detail import CrawlerAuthorDetail
 
@@ -22,6 +23,12 @@ name_list = ['Fourth', 'Military', 'Medical', 'University']
 search_key = '_'.join(name_list)
 # Chrome驱动程序在电脑中的位置
 location_driver = 'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
+# 数据库信息
+host = 'localhost'
+port = '3306'
+database = 'local'
+username = 'root'
+password = 'admin'
 
 
 class CrawlerUniversity:
@@ -45,7 +52,8 @@ class CrawlerUniversity:
         page_no = []
         for element in page_list:
             page_no.append(int(element.text))
-        max_page = max(page_no)
+        # max_page = max(page_no)
+        max_page = 1
         author_url = []
         # 逐页抓取
         for i in range(1, max_page + 1):
@@ -77,19 +85,60 @@ class CrawlerUniversity:
         url_list = ['https://www.researchgate.net/' + i for i in author_url]
 
         # test
-        url_list = url_list[:20]
+        url_list = url_list[:30]
 
         author_craw = CrawlerAuthorDetail(url_list)
         final_result, final_result_dict = author_craw.run()
         author_craw.dict2json(final_result_dict)
         result_df = pd.DataFrame(data=final_result, columns=['name', 'institution', 'department', 'current_position',
                                                              'expertise', 'experience_list', 'publication_list'])
-        result_df.to_excel('result.xlsx', index=False)
+
+        time_num = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+        all_experience = pd.DataFrame(data=None, columns=None)
+        all_publication = pd.DataFrame(data=None, columns=None)
+        for i in range(len(result_df)):
+            result_df.loc[i, 'person_id'] = time_num + str(i)
+            if result_df.loc[i, 'experience_list']:
+                experience_list = result_df.loc[i, 'experience_list'].split(' ; ')
+                experience_list = [e.split(' , ') for e in experience_list]
+                experience_df = pd.DataFrame(data=experience_list,
+                                             columns=['period', 'institution_p', 'department_p', 'position_p'])
+                experience_df['person_id'] = time_num + str(i)
+                all_experience = all_experience.append(experience_df, ignore_index=True)
+
+            if result_df.loc[i, 'publication_list']:
+                publication_list = result_df.loc[i, 'publication_list'].split(' ; ')
+                publication_list = [p.split(' , ') for p in publication_list]
+                publication_df = pd.DataFrame(data=publication_list,
+                                              columns=['title', 'pub_type', 'publish_date'])
+                publication_df['person_id'] = time_num + str(i)
+                all_publication = all_publication.append(publication_df, ignore_index=True)
+
+        basic_info = result_df.drop(['experience_list', 'publication_list'], axis=1)
+
+        basic_info.to_excel('basic_info.xlsx', index=False)
+        all_publication.to_excel('all_publication.xlsx', index=False)
+        all_experience.to_excel('all_experience.xlsx', index=False)
+
+        return basic_info, all_experience, all_publication
+
+    def w2sql(self, df, table_name):
+        db_url = "mysql+pymysql://{username}:{password}@{host}:{port}/{db}?charset=UTF8MB4". \
+            format(username=username, password=password, host=host, port=port, db=database)
+
+        engine = create_engine(db_url)
+
+        datatype = {c: types.VARCHAR(df[c].str.len().max()) for c in df.columns[df.dtypes == 'object'].tolist()}
+
+        df.to_sql(table_name, engine, index=False, if_exists='append', dtype=datatype)
 
 
 if __name__ == '__main__':
     print(datetime.datetime.now())
     craw = CrawlerUniversity()
     # author_url = craw.run()
-    craw.main_prog()
+    basic_info, all_experience, all_publication = craw.main_prog()
+    craw.w2sql(basic_info, 'basic_info')
+    craw.w2sql(all_experience, 'experience_passed')
+    craw.w2sql(all_publication, 'publication')
     print(datetime.datetime.now())

@@ -69,7 +69,7 @@ class CrawlerAuthorDetail:
             expertise_list = []
             for e in expertise_info:
                 expertise_list.append(e.text)
-            expertise = ','.join(expertise_list)
+            expertise = ' ; '.join(expertise_list)
         author_information_dict['expertise'] = expertise
 
         # 过往科研经历及所在机构
@@ -104,7 +104,7 @@ class CrawlerAuthorDetail:
                 temp_dict['position_p'] = position_p
                 experience_dict[i] = temp_dict
                 # 合并成字符串
-                one_experience = ','.join([period, institution_p, department_p, position_p])
+                one_experience = ' , '.join([period, institution_p, department_p, position_p])
                 experience_list.append(one_experience)
         author_information_dict['experience'] = experience_dict
         # 合并成字符串
@@ -132,7 +132,7 @@ class CrawlerAuthorDetail:
 
                 publication_dict[i] = temp_dict
                 # 合并成字符串
-                one_publication = ','.join([title, type, publish_date])
+                one_publication = ' , '.join([title, type, publish_date])
                 publication_list.append(one_publication)
 
         # 合并成字符串
@@ -155,7 +155,7 @@ class CrawlerAuthorDetail:
             if complete_num == len(self.url_list):
                 break
 
-            wait_time = random.uniform(15, 30)
+            wait_time = random.uniform(5, 10)
             time.sleep(wait_time)
             driver = self.start_chrome()
 

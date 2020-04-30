@@ -1,17 +1,15 @@
 #! /usr/bin/python
 # -*- coding: utf-8 -*-
 
-import pymysql
-from sqlalchemy import create_engine
-import sqlalchemy
+from sqlalchemy import create_engine, types
 import pandas as pd
 
 
 host = 'localhost'
 port = '3306'
-database = 'local_test'
+database = 'local'
 username = 'root'
-password = 'pass1234'
+password = 'admin'
 
 db_url = "mysql+pymysql://{username}:{password}@{host}:{port}/{db}?charset=UTF8MB4".\
     format(username=username, password=password, host=host, port=port, db=database)
@@ -23,4 +21,7 @@ result = conn.execute("select * from con_test")
 print(result.fetchone())
 
 df = pd.read_sql('select * from con_test', engine)
-df.to_sql('con_test', engine, index=False, if_exists='append')
+
+datatype = {c: types.VARCHAR(df[c].str.len().max()) for c in df.columns[df.dtypes == 'object'].tolist()}
+
+df.to_sql('con_test', engine, index=False, if_exists='append', dtype=datatype)

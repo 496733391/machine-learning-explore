@@ -4,7 +4,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Cell Engineering Research Center (CERC)",
         "current_position": "",
-        "expertise": "Real-Time PCR,Western Blot,PCR,Cancer Cells",
+        "expertise": "Real-Time PCR ; Western Blot ; PCR ; Cancer Cells",
         "experience": {},
         "publication": {
             "0": {
@@ -236,7 +236,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Periodontology and Oral Medicine",
         "current_position": "Medical Doctor",
-        "expertise": "Stem Cell Differentiation,Stem Cell Isolation,Cell Culture,Flow Cytometry,Stem Cell Culture,Stem Cell Biology,PCR,Cell Differentiation",
+        "expertise": "Stem Cell Differentiation ; Stem Cell Isolation ; Cell Culture ; Flow Cytometry ; Stem Cell Culture ; Stem Cell Biology ; PCR ; Cell Differentiation",
         "experience": {},
         "publication": {
             "0": {
@@ -335,7 +335,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Neurosurgery (Tangdu)",
         "current_position": "",
-        "expertise": "Neurological Diseases,Clinical Neurology,Brain Injury,Traumatic Brain Injury",
+        "expertise": "Neurological Diseases ; Clinical Neurology ; Brain Injury ; Traumatic Brain Injury",
         "experience": {},
         "publication": {
             "0": {
@@ -390,7 +390,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Nephrology",
         "current_position": "Medical Doctor",
-        "expertise": "Hepatic Encephalopathy,CRRT,IGA Glomerulonephritis,Dialysis,Amyloid",
+        "expertise": "Hepatic Encephalopathy ; CRRT ; IGA Glomerulonephritis ; Dialysis ; Amyloid",
         "experience": {},
         "publication": {
             "0": {
@@ -815,7 +815,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Xi\u2019an, China",
         "current_position": "",
-        "expertise": "Computer-Aided Design,Dentistry",
+        "expertise": "Computer-Aided Design ; Dentistry",
         "experience": {},
         "publication": {
             "0": {
@@ -1050,7 +1050,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Infectious Diseases",
         "current_position": "Chief Physician",
-        "expertise": "Liver Diseases,Cirrhosis,Liver Cirrhosis,Liver Failure,Liver Diseases and Immunology,Hepatitis B,Hepatitis C,Hepatitis,Viral Hepatitis,Chronic Hepatitis C",
+        "expertise": "Liver Diseases ; Cirrhosis ; Liver Cirrhosis ; Liver Failure ; Liver Diseases and Immunology ; Hepatitis B ; Hepatitis C ; Hepatitis ; Viral Hepatitis ; Chronic Hepatitis C",
         "experience": {
             "0": {
                 "period": "October 1983 - present",
@@ -1357,7 +1357,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Microbiology (DOM)",
         "current_position": "",
-        "expertise": "Mycobacterium Tuberculosis,Bacterial Pathogenesis,Immunology of Infectious Diseases,Tuberculosis,Proteins,ATP,Molecular Biology,Immunology,Microbiology,Affinity Chromatography",
+        "expertise": "Mycobacterium Tuberculosis ; Bacterial Pathogenesis ; Immunology of Infectious Diseases ; Tuberculosis ; Proteins ; ATP ; Molecular Biology ; Immunology ; Microbiology ; Affinity Chromatography",
         "experience": {},
         "publication": {
             "0": {
@@ -1507,7 +1507,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of General Surgery",
         "current_position": "",
-        "expertise": "Cancer,Surgical Oncology,Laparoscopic Surgery,General Surgery,Abdominal Surgery,Minimally Invasive Surgery,Cancer Diagnostics,Cancer Biomarkers,Cancer Biology,Clinical Oncology",
+        "expertise": "Cancer ; Surgical Oncology ; Laparoscopic Surgery ; General Surgery ; Abdominal Surgery ; Minimally Invasive Surgery ; Cancer Diagnostics ; Cancer Biomarkers ; Cancer Biology ; Clinical Oncology",
         "experience": {},
         "publication": {
             "0": {
@@ -1662,7 +1662,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Aerospace Hygiene",
         "current_position": "",
-        "expertise": "Arteries,Carotid Arteries,Thoracic Aorta,Vascular Diseases,Atherosclerotic Vascular Diseases,Metabolic Syndrome,Peripheral Vascular Diseases",
+        "expertise": "Arteries ; Carotid Arteries ; Thoracic Aorta ; Vascular Diseases ; Atherosclerotic Vascular Diseases ; Metabolic Syndrome ; Peripheral Vascular Diseases",
         "experience": {},
         "publication": {
             "0": {
@@ -1707,7 +1707,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Orthopaedics (Xijing)",
         "current_position": "",
-        "expertise": "Fracture,Trauma Surgery",
+        "expertise": "Fracture ; Trauma Surgery",
         "experience": {},
         "publication": {
             "0": {
@@ -2002,7 +2002,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of Cell Biology",
         "current_position": "Research Director",
-        "expertise": "Liver,Hepatocellular Carcinoma,Liver Cirrhosis",
+        "expertise": "Liver ; Hepatocellular Carcinoma ; Liver Cirrhosis",
         "experience": {},
         "publication": {
             "0": {
@@ -2506,7 +2506,7 @@
         "institution": "Fourth Military Medical University",
         "department": "Department of General Surgery",
         "current_position": "",
-        "expertise": "Hernia Surgery,General Surgery,Laparoscopic Surgery,Gastrointestinal Surgery,Surgical Gastroenterology,Gastric Surgery,Laparo-Endoscopic Surgery,Colorectal Cancer",
+        "expertise": "Hernia Surgery ; General Surgery ; Laparoscopic Surgery ; Gastrointestinal Surgery ; Surgical Gastroenterology ; Gastric Surgery ; Laparo-Endoscopic Surgery ; Colorectal Cancer",
         "experience": {},
         "publication": {
             "0": {
@@ -2605,5 +2605,776 @@
                 "publish_date": "Oct 2011"
             }
         }
+    },
+    "20": {
+        "name": "Guo-Hong Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "Institute of Neurobiology",
+        "current_position": "PhD Student",
+        "expertise": "Pain Medicine ; Pain Behavior ; Antioxidants",
+        "experience": {
+            "0": {
+                "period": "September 2013 - present",
+                "institution_p": "Fourth Military Medical University",
+                "department_p": "School of Preclinical Medicine",
+                "position_p": "PhD Student"
+            },
+            "1": {
+                "period": "July 2013 - September 2019",
+                "institution_p": "Fourth Military Medical University",
+                "department_p": "Institute of Neurobiology",
+                "position_p": "PhD Student"
+            },
+            "2": {
+                "period": "September 2008 - July 2013",
+                "institution_p": "Fourth Military Medical University",
+                "department_p": "Department of Human Anatomy and Histoembryology",
+                "position_p": "Medical student"
+            }
+        },
+        "publication": {
+            "0": {
+                "title": "Brain mGluR5 in Shank3B\u2212/\u2212 Mice Studied With in vivo [18F]FPEB PET Imaging and ex vivo Immunoblotting",
+                "type": "Article",
+                "publish_date": "Feb 2019"
+            },
+            "1": {
+                "title": "Corrigendum: Chronic Inflammatory Pain Impairs mGluR5-Mediated Depolarization-Induced Suppression of Excitation in the Anterior Cingulate Cortex",
+                "type": "Article",
+                "publish_date": "Jun 2018"
+            },
+            "2": {
+                "title": "[EXPRESS] Chronic Inflammatory Pain Decreases the Glutamate Vesicles in Presynaptic Terminals of the Nucleus Accumbens",
+                "type": "Article",
+                "publish_date": "May 2018"
+            },
+            "3": {
+                "title": "Astroglial-Kir4.1 in Lateral Habenula Drives Neuronal Bursts to Mediate Depression",
+                "type": "Article",
+                "publish_date": "Feb 2018"
+            },
+            "4": {
+                "title": "Chronic Inflammatory Pain Impairs mGluR5-Mediated Depolarization-Induced Suppression of Excitation in the Anterior Cingulate Cortex",
+                "type": "Article",
+                "publish_date": "May 2017"
+            },
+            "5": {
+                "title": "Midazolam and ropivacaine act synergistically to inhibit bone cancer pain with different mechanisms in rats",
+                "type": "Article",
+                "publish_date": "Nov 2016"
+            },
+            "6": {
+                "title": "The analgesic effect of rolipram is associated with the inhibition of the activation of the spinal astrocytic JNK/CCL2 pathway in bone cancer pain",
+                "type": "Article",
+                "publish_date": "Sep 2016"
+            },
+            "7": {
+                "title": "Pathophysiology of pain",
+                "type": "Article",
+                "publish_date": "Jul 2016"
+            },
+            "8": {
+                "title": "Exposure to Sevoflurane Affects the Development of Parvalbumin Interneurons in the Main Olfactory Bulb in Mice",
+                "type": "Article",
+                "publish_date": "Jun 2016"
+            },
+            "9": {
+                "title": "Anxiolytic effect of essential oils of Salvia miltiorrhiza in rats",
+                "type": "Article",
+                "publish_date": "Nov 2015"
+            },
+            "10": {
+                "title": "The overexpression membrane type 1 matrix metalloproteinase is associated with the progression and prognosis in breast cancer",
+                "type": "Article",
+                "publish_date": "Mar 2015"
+            },
+            "11": {
+                "title": "As2O3 induces apoptosis in human hepatocellular carcinoma HEPG2 cells through a ROS-mediated mitochondrial pathway and activation of caspases",
+                "type": "Article",
+                "publish_date": "Feb 2015"
+            },
+            "12": {
+                "title": "Prognostic value of p53 alterations in human osteosarcoma: A meta analysis",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "13": {
+                "title": "Patchouli Alcohol Dampens Lipopolysaccharide Induced Mastitis in Mice",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "14": {
+                "title": "Combination Therapy of Sorafenib and TACE for Unresectable HCC: A Systematic Review and Meta-Analysis",
+                "type": "Article",
+                "publish_date": "Mar 2014"
+            },
+            "15": {
+                "title": "Birthdate study of GABAergic neurons in the lumbar spinal cord of the glutamic acid decarboxylase 67-green fluorescent protein knock-in mouse",
+                "type": "Article",
+                "publish_date": "Dec 2013"
+            },
+            "16": {
+                "title": "MicroRNAs and liver disease: Viral hepatitis, liver fibrosis and hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "17": {
+                "title": "Antioxidant Therapy for Pain Relief in Patients with Chronic Pancreatitis: Systematic Review and Meta-analysis",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "18": {
+                "title": "Transarterial chemoembolization in hepatocellular carcinoma with vascular invasion or extrahepatic metastasis: A systematic review",
+                "type": "Article",
+                "publish_date": "May 2013"
+            },
+            "19": {
+                "title": "Transjugular Intrahepatic Portosystemic Shunt for Symptomatic Portal Hypertension in Hepatocellular Carcinoma with Portal Vein Tumor Thrombosis.",
+                "type": "Article",
+                "publish_date": "May 2013"
+            },
+            "20": {
+                "title": "Diagnosing Advanced Versus Early-Stage Hepatocellular Carcinoma",
+                "type": "Article",
+                "publish_date": "May 2012"
+            },
+            "21": {
+                "title": "Considerations in the significance of Dickkopf-1 levels in human hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Jan 2012"
+            },
+            "22": {
+                "title": "Deregulation of microRNAs expression occurs in stages of multistep hepatocarcinogenesis: Why is it different?",
+                "type": "Article",
+                "publish_date": "Jan 2012"
+            },
+            "23": {
+                "title": "Methodological considerations in studying natural history of HBeAg-negative and -positive chronic hepatitis B",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            }
+        }
+    },
+    "21": {
+        "name": "Hongwei Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "Xi\u2019an, China",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Tumor Hypervascularity and hand-foot-skin reaction predict better outcomes in combination treatment of TACE and Sorafenib for intermediate hepatocellular carcinoma",
+                "type": "Article",
+                "publish_date": "Dec 2019"
+            },
+            "1": {
+                "title": "Angioplasty with versus without routine stent placement for Budd-Chiari syndrome: a randomised controlled trial",
+                "type": "Article",
+                "publish_date": "Jul 2019"
+            },
+            "2": {
+                "title": "Early TIPS with covered stents versus standard treatment for acute variceal bleeding in patients with advanced cirrhosis: a randomised controlled trial",
+                "type": "Article",
+                "publish_date": "May 2019"
+            },
+            "3": {
+                "title": "Supplementary Material 1",
+                "type": "Data",
+                "publish_date": "Apr 2019"
+            },
+            "4": {
+                "title": "Supplementary Material 2",
+                "type": "Data",
+                "publish_date": "Apr 2019"
+            },
+            "5": {
+                "title": "GS-04-Addition of stent placement to angioplasty for Budd-Chiari syndrome improves recanalization patency and reduces symptom recurrence with adequate safety: A randomised controlled trial",
+                "type": "Article",
+                "publish_date": "Apr 2019"
+            },
+            "6": {
+                "title": "PS-024-Early TIPS with covered stent versus standard treatment for acute variceal bleeding among patients with advanced cirrhosis: A randomised controlled trial",
+                "type": "Article",
+                "publish_date": "Apr 2019"
+            },
+            "7": {
+                "title": "Routine Addition of Stent Placement in Angioplasty for Budd-Chiari Syndrome Improves Recanalization Patency and Reduces Symptom Recurrence with Adequate Safety: A Randomized Controlled Trial",
+                "type": "Article",
+                "publish_date": "Jan 2019"
+            },
+            "8": {
+                "title": "Hand-foot-skin reaction of grade \u2265 2 within sixty days as the optimal clinical marker best help predict survival in sorafenib therapy for HCC",
+                "type": "Article",
+                "publish_date": "Jul 2018"
+            },
+            "9": {
+                "title": "Small-diameter covered stents do not affect efficacy but reduce hepatic encephalopathy in transjugular intrahepatic portosystemic shunt for the prevention of variceal rebleeding in cirrhosis",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "10": {
+                "title": "Covered TIPS versus endoscopic band ligation plus propranolol for the prevention of variceal rebleeding in cirrhotic patients with portal vein thrombosis: A randomised controlled trial",
+                "type": "Article",
+                "publish_date": "Sep 2017"
+            },
+            "11": {
+                "title": "Eight millimeter covered TIPS does not compromise shunt function but reduces hepatic encephalopathy in preventing variceal rebleeding",
+                "type": "Article",
+                "publish_date": "May 2017"
+            },
+            "12": {
+                "title": "Chemoembolization for Hepatocellular Carcinoma in Patients with Extrahepatic Spread: Prognostic Determinants and Appropriate Candidates",
+                "type": "Article",
+                "publish_date": "Apr 2017"
+            },
+            "13": {
+                "title": "Tips versus Endoscopy plus Propranolol and Anticoagulation For Variceal Rebleeding in Cirrhotic Patients with Portal Vein Thrombosis: Results of a Randomized Controlled Trial",
+                "type": "Article",
+                "publish_date": "Dec 2016"
+            },
+            "14": {
+                "title": "mRECIST response combined with sorafenib\u2010related adverse events is superior to either criterion alone in predicting survival in HCC patients treated with TACE plus sorafenib",
+                "type": "Article",
+                "publish_date": "Sep 2016"
+            },
+            "15": {
+                "title": "The Prognostic Value of Alpha-Fetoprotein Response for Advanced-Stage Hepatocellular Carcinoma Treated with Sorafenib Combined with Transarterial Chemoembolization",
+                "type": "Article",
+                "publish_date": "Feb 2016"
+            },
+            "16": {
+                "title": "Randomised clinical trial: L-ornithine-L-aspartate reduces significantly the increase of venous ammonia concentration after TIPSS",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "17": {
+                "title": "Optimal Caliper Width for Propensity Score Matching of Three Treatment Groups: A Monte Carlo Study",
+                "type": "Article",
+                "publish_date": "Dec 2013"
+            },
+            "18": {
+                "title": "Transjugular intrahepatic portosystemic shunt for the prevention of variceal rebleeding in cirrhotic patients with portal vein thrombosis: Study protocol for a randomised controlled trial",
+                "type": "Article",
+                "publish_date": "Jul 2013"
+            },
+            "19": {
+                "title": "Author's manuscript",
+                "type": "Data",
+                "publish_date": "Jul 2013"
+            },
+            "20": {
+                "title": "Transjugular intrahepatic portosystemic shunt may be superior to conservative therapy for variceal rebleeding in cirrhotic patients with non-tumoral portal vein thrombosis: A hypothesis",
+                "type": "Article",
+                "publish_date": "Aug 2012"
+            },
+            "21": {
+                "title": "A web-based system for patient registering and matching in a prospective and observational clinical study",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            },
+            "22": {
+                "title": "Comparison of balance ability of minimization, simple and stratified block randomization from true data of a clinical trial",
+                "type": "Article",
+                "publish_date": "Dec 2011"
+            },
+            "23": {
+                "title": "Implementation and experience of a web-based allocation system with Pocock and Simon's minimization methods",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "24": {
+                "title": "Design of adaptive two-stage double-arm clinical trials for dichotomous variables",
+                "type": "Article",
+                "publish_date": "Feb 2010"
+            },
+            "25": {
+                "title": "A generic minimization random allocation and blinding system on web",
+                "type": "Article",
+                "publish_date": "Jan 2007"
+            }
+        }
+    },
+    "22": {
+        "name": "Min Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of psychiatry, Xijing Hospital",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "A Double-blind, Randomized, Sham-controlled Study of Cranial Electrotherapy Stimulation as an Add-on Treatment for Tic Disorders in Children and Adolescents",
+                "type": "Article",
+                "publish_date": "Feb 2020"
+            },
+            "1": {
+                "title": "Repetitive Transcranial Magnetic Stimulation Elicits Antidepressant- and Anxiolytic-like Effect via Nuclear Factor-E2-related Factor 2-mediated Anti-inflammation Mechanism in Rats",
+                "type": "Article",
+                "publish_date": "Jan 2020"
+            },
+            "2": {
+                "title": "Sex Differences in Intergenerational Transfer Risk of Major Depressive Disorder",
+                "type": "Article",
+                "publish_date": "Dec 2019"
+            },
+            "3": {
+                "title": "Potential Anti-Depressive Treatment Maneuvers from Bench to Bedside",
+                "type": "Chapter",
+                "publish_date": "Nov 2019"
+            },
+            "4": {
+                "title": "Electroacupuncture Pretreatment Ameliorates PTSD-Like Behaviors in Rats by Enhancing Hippocampal Neurogenesis via the Keap1/Nrf2 Antioxidant Signaling PathwayImage_1.JPEG",
+                "type": "Article",
+                "publish_date": "Jun 2019"
+            },
+            "5": {
+                "title": "Prediction of early response to overall treatment for schizophrenia: A functional magnetic resonance imaging study",
+                "type": "Article",
+                "publish_date": "Jan 2019"
+            },
+            "6": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Jan 2019"
+            },
+            "7": {
+                "title": "TREK-2 Mediates the Neuroprotective Effect of Isoflurane Preconditioning Against Acute Cerebral Ischemia in the Rat",
+                "type": "Article",
+                "publish_date": "Nov 2018"
+            },
+            "8": {
+                "title": "Potential Benefits of Melatonergic Treatment in Schizophrenia: Ameliorating Demyelination via Inhibiting CDK5-Mediated Hyper Autophagy",
+                "type": "Article",
+                "publish_date": "Jan 2018"
+            },
+            "9": {
+                "title": "Aberrant perfusion and its connectivity within default mode network of first-episode drug-na\u00efve schizophrenia patients and their unaffected first-degree relatives",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "10": {
+                "title": "Clustered repetitive transcranial magnetic stimulation for the prevention of depressive relapse/recurrence: A randomized controlled trial",
+                "type": "Article",
+                "publish_date": "Dec 2017"
+            },
+            "11": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Nov 2017"
+            },
+            "12": {
+                "title": "Risperidone ameliorates cognitive deficits, promotes hippocampal proliferation, and enhances Notch signaling in a murine model of schizophrenia",
+                "type": "Article",
+                "publish_date": "Oct 2017"
+            },
+            "13": {
+                "title": "rTMS Ameliorates PTSD Symptoms in Rats by Enhancing Glutamate Transmission and Synaptic Plasticity in the ACC via the PTEN/Akt Signalling Pathway",
+                "type": "Article",
+                "publish_date": "May 2017"
+            },
+            "14": {
+                "title": "Tanshinone \u2161A elicits neuroprotective effect via activating the nuclear factor erythroid 2-related factor -dependent antioxidant response",
+                "type": "Article",
+                "publish_date": "Feb 2017"
+            },
+            "15": {
+                "title": "Kelch-like ECH-associated Protein 1-dependent Nuclear Factor-E2\u2013related Factor 2 Activation in Relation to Antioxidation Induced by Sevoflurane Preconditioning",
+                "type": "Article",
+                "publish_date": "Dec 2016"
+            },
+            "16": {
+                "title": "An assessor-blinded, randomized comparison of efficacy and tolerability of switching from olanzapine to ziprasidone and the combination of both in schizophrenia spectrum disorders",
+                "type": "Article",
+                "publish_date": "Nov 2016"
+            },
+            "17": {
+                "title": "Elevated Expression of Carboxy-Terminal Modulator Protein (CTMP) Aggravates Brain Ischemic Injury in Diabetic db/db Mice",
+                "type": "Article",
+                "publish_date": "May 2016"
+            },
+            "18": {
+                "title": "Apigenin-7- O - \u03b2 -D-(-6''- p -coumaroyl)-Glucopyranoside Treatment Elicits Neuroprotective Effect against Experimental Ischemic Stroke",
+                "type": "Article",
+                "publish_date": "Jan 2016"
+            },
+            "19": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Jan 2016"
+            },
+            "20": {
+                "title": "Up-Regulating MEF2D Alleviates Hypoxia-Induced Injury in Cultured Rat Cortical Neurons",
+                "type": "Article",
+                "publish_date": "Jul 2015"
+            },
+            "21": {
+                "title": "Gastrodin Alleviates Cerebral Ischemic Damage in Mice by Improving Anti-oxidant and Anti-inflammation Activities and Inhibiting Apoptosis Pathway",
+                "type": "Article",
+                "publish_date": "Jan 2015"
+            },
+            "22": {
+                "title": "Mn-SOD Upregulation by Electroacupuncture Attenuates Ischemic Oxidative Damage via CB1R-Mediated STAT3 Phosphorylation",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "23": {
+                "title": "Genistein Attenuates Brain Damage induced by Transient Cerebral Ischemia Through Up-regulation of ERK Activity in Ovariectomized Mice",
+                "type": "Article",
+                "publish_date": "Apr 2014"
+            },
+            "24": {
+                "title": "Neuroprotective Gases - Fantasy or Reality for Clinical Use?",
+                "type": "Article",
+                "publish_date": "Jan 2014"
+            },
+            "25": {
+                "title": "The Loss of Estrogen Efficacy against Cerebral Ischemia in Aged Postmenopausal Female Mice.",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "26": {
+                "title": "Recombinant human thioredoxin-1 promotes neurogenesis and facilitates cognitive recovery following cerebral ischemia in mice",
+                "type": "Article",
+                "publish_date": "Nov 2013"
+            },
+            "27": {
+                "title": "Activation of K2P channel-TREK1 mediates the neuroprotection induced by sevoflurane preconditioning",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "28": {
+                "title": "Hemopexin induces neuroprotection in the rat subjected to focal cerebral ischemia",
+                "type": "Article",
+                "publish_date": "Jun 2013"
+            },
+            "29": {
+                "title": "EMMPRIN Is an Independent Negative Prognostic Factor for Patients with Astrocytic Glioma",
+                "type": "Article",
+                "publish_date": "Mar 2013"
+            }
+        }
+    },
+    "23": {
+        "name": "Tongjian Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Occupational and Environmental Health",
+        "current_position": "",
+        "expertise": "Neurodegeneration ; Cell Cycle ; Neurodegenerative Diseases ; Signaling Pathways",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "The role of NLRP3-CASP1 in inflammasome-mediated neuroinflammation and autophagy dysfunction in manganese-induced, hippocampal-dependent impairment of learning and memory ability",
+                "type": "Article",
+                "publish_date": "Feb 2017"
+            },
+            "1": {
+                "title": "Presence of nano-sized chitosan-layered silicate composites protects against toxicity induced by lead ions",
+                "type": "Article",
+                "publish_date": "Nov 2016"
+            },
+            "2": {
+                "title": "The History, Status, Gaps, and Future Directions of Neurotoxicology in China",
+                "type": "Article",
+                "publish_date": "Jan 2016"
+            },
+            "3": {
+                "title": "Layer-by-Layer Immobilized Catalase on Electrospun Nanofibrous Mats Protects Against Oxidative Stress Induced by Hydrogen Peroxide",
+                "type": "Article",
+                "publish_date": "Jul 2014"
+            },
+            "4": {
+                "title": "The changes of miRNA expression in rat hippocampus following chronic lead exposure",
+                "type": "Article",
+                "publish_date": "Jun 2014"
+            },
+            "5": {
+                "title": "Erratum to: The Role of Autophagy Dysregulation in Manganese-Induced Dopaminergic Neurodegeneration",
+                "type": "Article",
+                "publish_date": "Jan 2014"
+            },
+            "6": {
+                "title": "Erratum to: The Role of Autophagy Dysregulation in Manganese-Induced Dopaminergic Neurodegeneration",
+                "type": "Article",
+                "publish_date": "Apr 2013"
+            },
+            "7": {
+                "title": "The Role of \u03b1-synuclein and Tau Hyperphosphorylation-Mediated Autophagy and Apoptosis in Lead-induced Learning and Memory Injury",
+                "type": "Article",
+                "publish_date": "Jul 2012"
+            },
+            "8": {
+                "title": "Manganese induces p21 expression in PC12 cells at the transcriptional level",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "9": {
+                "title": "Hexavalent chromium Cr (VI) up-regulates COX-2 expression through an NF\u03baB/c-Jun/AP-1-dependent pathway",
+                "type": "Article",
+                "publish_date": "Apr 2012"
+            },
+            "10": {
+                "title": "N-3 Polyunsaturated fatty acids inhibit lipopolysaccharide-induced microglial activation and dopaminergic injury in rats",
+                "type": "Article",
+                "publish_date": "Mar 2012"
+            },
+            "11": {
+                "title": "The Effects of Berry Extracts on Cell Signaling Pathways: Leading to Cellular Transformation",
+                "type": "Chapter",
+                "publish_date": "Nov 2011"
+            },
+            "12": {
+                "title": "Lead poisoning in China Reply",
+                "type": "Article",
+                "publish_date": "Nov 2011"
+            },
+            "13": {
+                "title": "A cross-talk between NFAT and NF-\u03baB pathways is crucial for nickel-induced COX-2 expression in Beas-2B cells",
+                "type": "Article",
+                "publish_date": "Jun 2011"
+            },
+            "14": {
+                "title": "Lead poisoning in China: A nightmare from industrialisation",
+                "type": "Article",
+                "publish_date": "Apr 2011"
+            },
+            "15": {
+                "title": "Abstract 4373: JNK1 participates in the VHL-independent HIF-1 degradation pathway by regulating Hsp90/Hsp70 turnover and the HDAC6-dependent chaperone activity",
+                "type": "Article",
+                "publish_date": "Jan 2011"
+            },
+            "16": {
+                "title": "Abstract 4371: PI3K/Akt/JNK/c-Jun signaling pathway is a mediator for arsenite-induced cyclin D1 expression and cell growth in human bronchial epithelial cells",
+                "type": "Article",
+                "publish_date": "Jan 2011"
+            },
+            "17": {
+                "title": "Manganese induces the overexpression of \u03b1-synuclein in PC12 cells via ERK activation",
+                "type": "Article",
+                "publish_date": "Nov 2010"
+            },
+            "18": {
+                "title": "Manganese Induces Tau Hyperphosphorylation through the Activation of ERK MAPK Pathway in PC12 Cells",
+                "type": "Article",
+                "publish_date": "Oct 2010"
+            },
+            "19": {
+                "title": "\u03b1-Synuclein overexpression during manganese-induced apoptosis in SH-SY5Y neuroblastoma cells",
+                "type": "Article",
+                "publish_date": "Mar 2010"
+            },
+            "20": {
+                "title": "Bid mediates anti-apoptotic COX-2 induction through the IKKbeta/NFkappaB pathway due to 5-MCDE exposure",
+                "type": "Article",
+                "publish_date": "Feb 2010"
+            },
+            "21": {
+                "title": "Molecular cloning and functional characterization of a mouse gene upregulated by lipopolysaccharide treatment reveals alternative splicing",
+                "type": "Article",
+                "publish_date": "Nov 2009"
+            },
+            "22": {
+                "title": "Effect of Microglia Activation on Dopaminergic Neuronal Injury Induced by Manganese, and Its Possible Mechanism",
+                "type": "Article",
+                "publish_date": "Aug 2009"
+            },
+            "23": {
+                "title": "EB1089 Induces Skp2-Dependent p27 Accumulation, Leading to Cell Growth Inhibition and Cell Cycle G1 Phase Arrest in Human Hepatoma Cells",
+                "type": "Article",
+                "publish_date": "Feb 2009"
+            },
+            "24": {
+                "title": "WITHDRAWN: \u03b1-Synuclein up-regulation during manganese-induced apoptosis in human neuroblastoma SH-SY5Y cells",
+                "type": "Article",
+                "publish_date": "Feb 2009"
+            },
+            "25": {
+                "title": "Manganese Induces Dopaminergic Neurodegeneration via Microglial Activation in a Rat Model of Manganism",
+                "type": "Article",
+                "publish_date": "Nov 2008"
+            },
+            "26": {
+                "title": "Acute cold exposure and rewarming enhanced spatial memory and activated the MAPK cascades in the rat brain",
+                "type": "Article",
+                "publish_date": "Sep 2008"
+            },
+            "27": {
+                "title": "Over-expression and siRNA of a novel environmental lipopolysaccharide-responding gene on the cell cycle of the human hepatoma-derived cell line HepG2",
+                "type": "Article",
+                "publish_date": "Feb 2008"
+            },
+            "28": {
+                "title": "Proteasome inhibition is associated with manganese-induced oxidative injury in PC12 cells",
+                "type": "Article",
+                "publish_date": "Jan 2008"
+            }
+        }
+    },
+    "24": {
+        "name": "Xiaoqing Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Physiology",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {}
+    },
+    "25": {
+        "name": "Xiqiang Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "State Key Laboratory of Cancer Biology",
+        "current_position": "",
+        "expertise": "Tumors ; Cancer Cells ; Cancer Stem Cells",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "A global burden of gastric cancer: the major impact of China",
+                "type": "Article",
+                "publish_date": "Mar 2017"
+            },
+            "1": {
+                "title": "Berberine inhibits EGFR signaling and enhances the antitumor effects of EGFR inhibitors in gastric cancer",
+                "type": "Article",
+                "publish_date": "Oct 2016"
+            },
+            "2": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Aug 2016"
+            },
+            "3": {
+                "title": "SIRT1 Is Reduced in Gastric Adenocarcinoma and Acts as a Potential Tumor Suppressor in Gastric Cancer",
+                "type": "Article",
+                "publish_date": "Nov 2015"
+            },
+            "4": {
+                "title": "Biased random walk model for the prioritization of drug resistance associated proteins",
+                "type": "Article",
+                "publish_date": "Jun 2015"
+            },
+            "5": {
+                "title": "Genistein suppresses FLT4 and inhibits human colorectal cancer metastasis",
+                "type": "Article",
+                "publish_date": "Dec 2014"
+            },
+            "6": {
+                "title": "Supplementary Material",
+                "type": "Data",
+                "publish_date": "Dec 2014"
+            },
+            "7": {
+                "title": "Elevated O-GlcNAcylation promotes gastric cancer cells proliferation by modulating cell cycle related proteins and ERK 1/2 signaling",
+                "type": "Article",
+                "publish_date": "Nov 2014"
+            },
+            "8": {
+                "title": "Decreased Expression of FOXJ1 is a Potential Prognostic Predictor for Progression and Poor Survival of Gastric Cancer",
+                "type": "Article",
+                "publish_date": "May 2014"
+            },
+            "9": {
+                "title": "Roles of Epithelial-Mesenchymal Transition in Cancer Drug Resistance",
+                "type": "Article",
+                "publish_date": "Oct 2013"
+            },
+            "10": {
+                "title": "Meta-Analysis: The Relationship between TNF-Alpha Polymorphisms and Susceptibility to Primary Biliary Cirrhosis",
+                "type": "Article",
+                "publish_date": "Nov 2012"
+            },
+            "11": {
+                "title": "MicroRNA-149 Inhibits Proliferation and Cell Cycle Progression through the Targeting of ZBTB2 in Human Gastric Cancer",
+                "type": "Article",
+                "publish_date": "Oct 2012"
+            },
+            "12": {
+                "title": "Table S1",
+                "type": "Data",
+                "publish_date": "Oct 2012"
+            },
+            "13": {
+                "title": "Figure S2",
+                "type": "Data",
+                "publish_date": "Oct 2012"
+            },
+            "14": {
+                "title": "Figure S3",
+                "type": "Data",
+                "publish_date": "Oct 2012"
+            },
+            "15": {
+                "title": "Osteopontin Contributes to TGF-\u03b21 Mediated Hepatic Stellate Cell Activation",
+                "type": "Article",
+                "publish_date": "Jun 2012"
+            },
+            "16": {
+                "title": "Identification of cancer stem cells in vincristine preconditioned SGC7901 gastric cancer cell line",
+                "type": "Article",
+                "publish_date": "Jan 2012"
+            }
+        }
+    },
+    "26": {
+        "name": "Yuanzhen Cai",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Orthopaedics (Xijing)",
+        "current_position": "",
+        "expertise": "Patenting ; Alignment ; Patents ; Navigation",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Sagittal component alignment is less reliable than coronal component alignment in a Chinese population undergoing navigated TKA",
+                "type": "Article",
+                "publish_date": "Jul 2014"
+            },
+            "1": {
+                "title": "Non-equilibrium Thermodynamic Extension of the Phenomenological Theories of First-order Phase Transitions",
+                "type": "Article",
+                "publish_date": "Mar 2014"
+            },
+            "2": {
+                "title": "Traditional Herbal Medicine and IP: Status Quo of THM Protection and Future Possibilities with Emphasis on China",
+                "type": "Article",
+                "publish_date": ""
+            }
+        }
+    },
+    "27": {
+        "name": "Hand Cao",
+        "institution": "Fourth Military Medical University",
+        "department": "Graduate School",
+        "current_position": "primary researcher",
+        "expertise": "Cancer Biology ; Western Blot Analysis ; Cell Signaling ; Cancer Biomarkers ; Molecular Cell Biology ; Cancer Cell Biology ; Protein Kinases",
+        "experience": {},
+        "publication": {}
+    },
+    "28": {
+        "name": "Ruidan Cao",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Aerospace Biodynamics",
+        "current_position": "",
+        "expertise": "Eyes ; Glaucoma",
+        "experience": {},
+        "publication": {
+            "0": {
+                "title": "Protective effects of hydrogen-rich saline against N-methyl-N-nitrosourea-induced photoreceptor degeneration",
+                "type": "Article",
+                "publish_date": "May 2016"
+            },
+            "1": {
+                "title": "Intraocular Pressure and Ocular Perfusion Pressure in Myopes During 21 min Head-Down Rest",
+                "type": "Article",
+                "publish_date": "Apr 2010"
+            }
+        }
+    },
+    "29": {
+        "name": "Tiesheng Cao",
+        "institution": "Fourth Military Medical University",
+        "department": "Department of Ultrasound Diagnostics",
+        "current_position": "",
+        "expertise": "",
+        "experience": {},
+        "publication": {}
     }
 }
