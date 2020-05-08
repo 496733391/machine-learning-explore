@@ -27,7 +27,7 @@ parser = reqparse.RequestParser()
 parser.add_argument('task', type=str)
 
 
-#  show a single todo item and lets you delete them
+#  show a single todo_id item and lets you delete them
 class Todo(Resource):
     def get(self, todo_id):
         abort_if_todo_doesnt_exist(todo_id)
@@ -65,4 +65,6 @@ api.add_resource(Todo, '/todos/<todo_id>')
 
 
 if __name__ == '__main__':
+    from multiprocessing import cpu_count
+    print(cpu_count())
     app.run(host='0.0.0.0', debug=True)
