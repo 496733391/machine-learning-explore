@@ -59,7 +59,7 @@ class CrawlerUniversity:
         driver.get(self.url)
         random_seconds = random.uniform(2, 4)
         time.sleep(random_seconds)
-        page_list = bs(driver.page_source, 'lxml').find_all(rel='noindex, follow')
+        page_list = bs(driver.page_source, 'lxml').find_all(class_='nova-c-pagination__item')
         page_no = []
         for element in page_list:
             page_no.append(int(element.text))
