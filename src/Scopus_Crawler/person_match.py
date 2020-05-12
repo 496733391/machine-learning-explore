@@ -14,6 +14,7 @@ from src.Scopus_Crawler.scopus_config import cookie, headers, ins_url, proxies
 from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 from src.Scopus_Crawler.authorID_get import get_id
 from src.Scopus_Crawler.get_data import catch_info
+from src.Scopus_Crawler.update_cookies import update_cookies
 from src.config.DBUtil import DBUtil
 
 
@@ -21,15 +22,17 @@ def match(author_name, author_ins, authorID_list):
     for author_id in authorID_list:
         url = ins_url % author_id
         print(url)
-        passed_exp = requests.get(url,
-                                  proxies=proxies,
-                                  headers=headers,
-                                  timeout=300,
-                                  )
         try:
+            passed_exp = requests.get(url,
+                                      proxies=proxies,
+                                      headers=headers,
+                                      timeout=300,
+                                      cookies=cookie
+                                      )
             result_list = eval(passed_exp.text)
         except Exception:
-            raise Exception('无法获取到数据，请更换cookies')
+            update_cookies()
+            raise Exception('cookies已更新，请重新运行')
 
         institute_list = [i['affiliationName'].replace('  ', ' ').lower().strip() for i in result_list]
         print(institute_list, '\n')

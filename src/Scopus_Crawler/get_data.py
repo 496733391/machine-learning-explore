@@ -25,8 +25,7 @@ def catch_info(author_id):
 
     soup = bs(detail.text, 'lxml')
     doc_element = soup.find('div', class_='panel-body')
-    if doc_element is None:
-        raise Exception('无法获取到数据，请更换cookies')
+
     doc_num = doc_element.find('span', class_='fontLarge').text
     cite_count = soup.find(id='totalCiteCount').text
 
