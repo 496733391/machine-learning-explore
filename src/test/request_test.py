@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 import json
 
-url = 'https://www.scopus.com/author/affilHistory.uri?auId=55574234356'
+url = 'https://www.scopus.com/author/affilHistory.uri?auId=56425884500'
 
 # url = 'https://www.scopus.com/onclick/export.uri?oneClickExport=%7b%22Format' \
 #       '%22%3a%22CSV%22%2c%22SelectedFields%22%3a%22+' \
@@ -115,4 +115,11 @@ text = requests.get(url,
 #
 # df = pd.read_csv('result.csv', na_values=0, keep_default_na=False)
 # print(df)
-print(text.text)
+result_list = eval(text.text)
+for element in result_list:
+    element['start'] = element['dateRange'][0]
+    element['end'] = element['dateRange'][1]
+    element.pop('dateRange')
+
+result_df = pd.DataFrame(result_list)
+pass
