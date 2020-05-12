@@ -40,11 +40,11 @@ class DBUtil:
 
         if not self.conn:
             self.conn = pymysql.connect(
-                        host=host,
-                        port=port,
-                        user=username,
-                        password=password,
-                        database=database,
+                        host=self.host,
+                        port=self.port,
+                        user=self.username,
+                        password=self.password,
+                        database=self.database,
                         charset='utf8'
                     )
 
@@ -77,6 +77,8 @@ class DBUtil:
         return result
 
     def insert_value(self, sql, values):
+        if not self.cursor:
+            self.create_cursor()
         self.cursor.executemany(sql, values)
 
     def execute_commit(self):
@@ -105,5 +107,6 @@ if __name__ == '__main__':
     password = 'admin'
 
     dbUtil = DBUtil(host, port, database, username, password)
+    dbUtil.create_cursor()
     print(dbUtil.engine)
     dbUtil.close()
