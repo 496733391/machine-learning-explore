@@ -1,0 +1,2629 @@
+60010006;Shearwater Corporation
+60010007;Trinity Lutheran Hospital
+60010008;Xuchang University
+60010009;Azienda Ospedaliera di Verona
+60010010;Memorial Hermann-Texas Medical Center
+60010011;Roche Colorado
+60010012;Avaya Inc.
+60010014;Walton Hospital
+60010015;Chiba Industrial Technology Research Institute
+60010016;Axys Pharmaceuticals, Inc.
+60010017;Baqiyatallah University of Medical Sciences
+60010018;Nuffield College, University Of Oxford
+60010019;Korea Christian University
+60010020;Huntington Veterans Affairs Medical Center
+60010021;University of Central Oklahoma
+60010023;University of Groningen
+60010024;Saudi Aramco Medical Services Organization
+60010025;Toyama Prefectural Environmental Science Research Center
+60010026;Universitatea Româno-Americana din Bucuresti
+60010027;Education Development Center, Inc.
+60010028;Institut Jean-Godinot
+60010029;Ripon College
+60010030;Regional Engineering College Tiruchirapalli
+60010031;University of Agriculture, Makurdi
+60010033;Manukau Institute of Technology
+60010034;Eichsfeld Klinikum
+60010035;Aomori Prefectural Fisheries Research Center, Inland Water Fisheries Institute
+60010036;Katholisches Krankenhaus St. Johann Nepomuk
+60010037;National Health Research Institutes Taiwan
+60010038;Univerzita Paradubice Fakulta Restaurování
+60010039;National Mental Health Association
+60010040;New York Academy of Medicine
+60010041;New Hampshire Technical Institute
+60010042;Marien-Hospital Erftstadt-Frauenthal
+60010043;Applied Research Corporation
+60010044;Brighton and Hove City Teaching Primary Care Trust
+60010045;Sawtooth Equine Service
+60010046;Kleinwachau Sächsisches Epilepsiezentrum Radeberg
+60010047;Sygehus Vendsyssel - Brønderslev Neurorehabiliteringscenter
+60010048;USDA ARS Arthropod-Borne Animal Diseases Research Laboratory
+60010049;Victoria Hospital Cork
+60010050;Australian Institute of Sport
+60010051;AgroParisTech
+60010052;CHU Averroes
+60010053;King Gustaf V Research Institute
+60010054;AMAX Materials Research Center
+60010055;Gubkin Russian State University of Oil and Gas
+60010056;SpineCare Medical Group
+60010057;London Business School
+60010058;Water Research Centre
+60010059;Suntechno College
+60010060;Vanderbilt University School of Engineering
+60010061;Southern Connecticut State University
+60010062;Istituto Superiore Di Sanita
+60010063;Home Nursing Service Groene Kruis Zorg
+60010064;Kyoto Institute of Oceanic and Fishery Science
+60010065;The University of Arizona
+60010066;Maine Historic Preservation Commission
+60010067;Instytut Automatyki Systemow Energetycznych
+60010068;Norwegian Institute for Cultural Heritage Research
+60010070;Kreiskrankenhäuser Sonneberg und Neuhaus gGmbH
+60010071;Southwest Sciences Incorporated
+60010072;Bridgestone Corporation
+60010073;The Genomics Institute of the Novartis Research Foundation
+60010074;K.J. Somaiya Institute of Management Studies and Research
+60010076;Bezirkskrankenhaus Augsburg
+60010077;Pilgrim Hospital
+60010078;National Center for Immunization and Respiratory Diseases
+60010079;Academy of Natural Sciences Philadelphia
+60010080;Nanjing University of Science and Technology
+60010081;Rissho University
+60010082;Century Aluminum Company
+60010083;University of Utah Institute for Biomedical Engineering
+60010084;Siddhartha Medical College
+60010085;Institute of Cell Biology, Monterotondo
+60010086;Intermountain Orthopaedics
+60010087;Klinikum Rosenheim
+60010088;Royal London Hospital
+60010089;St. Marys Medical Center
+60010090;Islamic Azad University, Mashhad Branch
+60010091;Ecosystems Consultants
+60010092;Central Public Health Laboratory
+60010094;Hilton Head Health Institute
+60010095;Xcenda, LLC
+60010096;Eastern Connecticut State University
+60010097;Halifax Lab.
+60010098;GV Instruments Ltd
+60010100;Western Illinois University
+60010101;Institute of Wood Science
+60010102;INTEGRIS Baptist Medical Center
+60010103;Sensors Unlimited, Inc.
+60010104;Akdeniz Üniversitesi
+60010105;Asian Institute of Technology Thailand
+60010106;Saint Luke's Hospital Kansas City
+60010107;Anchor Products
+60010108;Panteion University of Social and Political Sciences
+60010109;Myungshin University
+60010110;Università degli Studi di Sassari
+60010112;Norwegian University of Science and Technology, Faculty of Medicine
+60010113;St. Vincent's Medical Center Bridgeport
+60010114;Indiana University Center for Bioethics
+60010115;Bethany Medical Center
+60010116;Universidade do Estado do Amazonas, Faculdade de Medicina
+60010118;Instituto Nacional de Enfermedades Infecciosas
+60010119;TCL Corporation
+60010120;Dianalund Epilepsy Hospital
+60010121;Deaconess Billings Clinics
+60010122;Youjiang Medical College for Nationalities
+60010123;International Centre for Diarrhoeal Disease Research Bangladesh
+60010125;Martin and Chock Incorporated
+60010126;Indian Institute of Technology Guwahati
+60010127;Potato Research Centre
+60010128;Fraser Paper Ltd
+60010129;Klinikum Landshut
+60010131;Dayalbagh Educational Institute
+60010132;Mental Health Center of Boulder County, Inc.
+60010133;Brain Foundation of the Netherlands
+60010134;Sea Technology Magazine
+60010137;Kentucky State University
+60010138;Vanderbilt University Institute of Imaging Science
+60010139;Gesellschaft fur Wissenschaftliche Datenverarbeitung Göttingen
+60010141;Yamaguchi Prefectural Industrial Technology Institute
+60010142;American Dental Education Association
+60010143;RWE AG
+60010144;Universidad Arturo Prat
+60010145;Logan General Hospital
+60010146;Università degli Studi di Catania
+60010147;Klinik fur Viszeralchirurgie
+60010148;Hyundai Motor Company
+60010149;St.Vincenz-Krankenhaus Paderborn
+60010150;Zoecon Corporation
+60010151;Carleton University, School of Computer Science
+60010152;Federal Reserve Bank of Atlanta
+60010153;Utah State University Tooele Regional Campus
+60010154;Nishina Center for Accelerated based Science
+60010155;Chirurgische Privatklinik Dr. Mütsch Dr. Kußmaul
+60010156;Telefonica
+60010157;Soil Fertility Research Institute Slovakia
+60010158;Harvard Digestive Disease Center
+60010161;Hogan Assessment Systems
+60010162;Children's Cancer Institute Australia for Medical Research
+60010163;Evanston Northwestern Healthcare Department of Radiology
+60010164;Istituto di Scienze delle Produzioni Alimentari
+60010165;University of Arkansas System
+60010166;Hessische Berglandklinik Koller GmbH
+60010167;Bonneville Power Administration
+60010168;Syntroleum Corporation
+60010170;Shanghai University of Traditional Chinese Medicine
+60010171;Baptist Health, Jacksonville
+60010172;American Geotechnical
+60010174;Imi Hale Native Hawaiian Cancer Awareness
+60010175;Westfield State University
+60010176;New York Power Authority
+60010177;University of Florida Institute of Food and Agricultural Sciences
+60010178;Università degli Studi di Ferrara, Facoltà di Medicina e Chirurgia
+60010179;Vysoka skola v Plzni
+60010181;Sentara Norfolk General Hospital
+60010182;Institution Nationale des Invalides
+60010183;Saga Prefectural Fruit Tree Experiment Station
+60010184;Centro de Investigacion Principe Felipe
+60010185;Central Region Agricultural Research Center, NARO
+60010186;San Diego Hospice & Palliative Care Center for Palliative Studies
+60010188;Sechenov First Moscow State Medical University
+60010189;Henry Ford Bi-County Hospital
+60010190;National Geophysical Data Center
+60010191;Wotco Inc
+60010192;Adecco
+60010194;Sygehus Vendsyssel - Frederikshavn
+60010195;Westing Associates in Environment
+60010196;Dezhou University
+60010197;NOAA Air Resources Laboratory - Research Triangle Park
+60010198;Jeddah National Hospital
+60010199;Asklepios Kliniken, Bad Abbach
+60010200;Southern Polytechnic State University
+60010201;Tropical Forest Research Institute (TFRI), Jabalpur
+60010202;Ebonyi State University
+60010203;Hon Hai Precision Industry
+60010204;Pius-Hospital Oldenburg
+60010205;Grand View College
+60010206;Shanxi Normal University
+60010207;Automated Analysis Corporation
+60010208;National Audubon Society
+60010209;Istituto Per La Microelettronica E Microsistemi, Catania
+60010210;Universidad Autónoma Metropolitana - Xochimilco
+60010211;Washakie Medical Center
+60010212;Paccar
+60010213;St.Elisabeth-Klinik Saarlouis
+60010215;Population Council, Johannesburg
+60010216;St. Mary's Orthopaedic Hospital
+60010217;Hopital Nord CHU de Clermont-Ferrand
+60010218;Stockholms universitet Fysikum
+60010219;Agro Water - Bennekom
+60010220;Cirrus Logic
+60010221;Applied Science Associates Incorporated
+60010222;Universidade Sao Marcos
+60010223;Sunoco
+60010225;South Dakota Game Fish and Parks
+60010226;King Fahd Armed Forces Hospital
+60010227;Kreis- und Stadtkrankenhaus Witzenhausen GmbH
+60010230;Southwestern University
+60010231;Laconia Women's Health Center
+60010232;Krankenhaus Porz am Rhein
+60010233;Autoridad Regulatoria Nuclear
+60010234;Aalborg Psykiatriske Sygehus
+60010235;Vanderbilt Stallworth Rehabilitation Hospital
+60010236;Portland Community College Sylvania Campus
+60010237;Food and Drug Administration
+60010238;Ruttonjee Hospital Hong Kong
+60010239;Straub Corporation
+60010240;Hospital General de Castellon
+60010241;Fukuoka University School of Medicine
+60010242;University of Basel, Department of Chemistry
+60010243;Office of Legacy Management
+60010244;ConocoPhillips Company
+60010245;Sungkonghoe University
+60010246;Heart Disease Research Foundation - Brooklyn
+60010247;Hopital de Hautepierre
+60010248;Institutt for energiteknikk
+60010249;Ayerst Research Laboratory
+60010251;Istituto Internazionale Di Storia Economica, Prato
+60010252;Hospital de Molina
+60010253;Universidade do Extremo Sul Catarinense
+60010254;Florida Hospital Cancer Institute
+60010255;Institut des Sciences Cognitives
+60010256;ASPCA Animal Poison Control Center
+60010257;Christchurch Women's Hospital
+60010258;Kings County Hospital Center
+60010259;ESR - Environmental Science and Research
+60010260;Medical University of Sofia Faculty of Stomatology
+60010261;Washington University in St. Louis
+60010262;Children's Orthopedic Hospital
+60010263;Perinatal Research Center
+60010264;Louisiana Department of Transportation and Development
+60010265;University of Colorado at Colorado Springs
+60010266;Society of Petroleum Engineers International
+60010267;University of Connecticut Waterbury Campus
+60010268;Akademia im. Jana Dlugosza w Czestochowie
+60010269;The Medical Research Council Laboratory of Molecular Biology
+60010270;University de Chile Campus Norte
+60010271;Rheuma-Zentrum Baden-Baden
+60010272;International Plant Genetic Resources Institute, Maccarese
+60010273;Krankenhaus St.Elisabeth - Damme
+60010274;Shulton, Inc.
+60010275;Hiroshima City Technology Center
+60010276;U.S. Army Aviation and Missile Life Cycle Management Command
+60010277;Delta State University Nigeria
+60010278;Metabasis Therapeutics, Inc.
+60010279;Adrian College
+60010280;Pillsbury Company
+60010281;Australian Cotton Research Institute
+60010282;II. sz. Sebeszeti Klinika
+60010283;MDS Inc.
+60010284;Medical Center of Central Georgia
+60010285;Centro para el Desarrollo Tecnológico Industrial
+60010286;Hopital Antoine Beclere
+60010287;Coastal Engineering Research Center
+60010288;Qualia Clinical Services Inc.
+60010289;Southwest Oncology Group Statistical Center
+60010290;Takara Bio Inc.
+60010291;Basic Magnesium Incorporated
+60010292;NPRA
+60010293;New York State Office of Mental Health
+60010294;Cairo University
+60010295;Universidade Santa Ursula
+60010296;Dunedin School of Medicine
+60010297;Laboratoire de Physique UMR CNRS-ENSL
+60010298;St. Luke Hospital West
+60010299;Reliability Center for Electronic Components of Japan
+60010300;Fundacion Hospital Asil de Granollers
+60010301;Hebrew Hospital for Chronic Sick
+60010303;Jerusalem University College
+60010304;The Wellcome Research Laboratories, USA
+60010305;Elisabeth Krankenhaus Recklinghausen
+60010306;USGS MD-DE-DC Water Science Center
+60010307;University of Colorado at Denver
+60010308;Hebrew Rehabilitation Center
+60010309;Oklahoma Foundation for Medical Quality
+60010310;Augenklinik Bad Rothenfelde
+60010311;Institute of Artificial Intelligence Problems
+60010312;Iran Polymer and Petrochemical Institute
+60010313;Eleanor Roosevelt Institute
+60010314;Fachklinik Helmsweg
+60010315;Erikson Institute
+60010316;Kantonsspital Aarau Neurochirurgische Klinik
+60010317;Cape Cod Hospital
+60010318;Ayudhaya Hospital
+60010320;Universidad de Colima, Facultad de Medicina
+60010321;Instituto de Investigaciones en Fisicoquímica de Cordoba
+60010322;Mastio & Company
+60010323;Nagano Agricultural Experiment Station
+60010324;PDA Engineering
+60010325;Istituto Di Calcolo E Reti Ad Alte Prestazioni, Rende
+60010328;Escola Superior de Ciencias da Santa Casa de Misericordia de Vitoria, Escola de Medicina
+60010329;Universidad Del Zulia Facultad Experimental de Ciencias
+60010330;Slovak Academy of Sciences
+60010331;Acadia Institute of Oceanography
+60010332;St. Patrick Hospital and Health Sciences Center
+60010333;Aswan University, Faculty of Science
+60010334;Microcide Pharmaceuticals, Inc.
+60010335;Zentrum für Soziale Psychiatrie Rheinblick
+60010336;Juntendo University Urayasu Hospital
+60010337;The Institute of Cancer Research, London
+60010338;Hamburg University of Technology
+60010339;Florida Institute of Technology
+60010340;Corporación de Estudios para Latinoamérica
+60010341;Batchelar Animal Health Laboratory
+60010342;Loma Linda University Health
+60010343;Hindu College, Moradabad
+60010345;Högskolan i Skövde
+60010346;University of Texas-Pan American
+60010347;Astraea Therapeutics LLC
+60010348;Universitetet i Oslo
+60010349;Nebraska State Historical Society
+60010350;Lemuel Shattuck Hospital
+60010351;AKAD PrivatHochschule
+60010352;Alaska Department of Game and Fisheries
+60010354;Indian National Academy of Engineering
+60010355;Sankt-Peterburgskij Gosudarstvennyj Elektrotehniceskij Universitet
+60010356;Direct Radiography Corporation
+60010357;Colorado Mesa University
+60010358;Roddey Engineering, Inc.
+60010359;Veterans Institute. Centre for Research and Expertise
+60010360;R and D Systems, Inc.
+60010361;University of Joensuu
+60010362;CHAM of North America Inc
+60010363;St. Joseph's Healthcare Hamilton
+60010364;Orthopedic Institute Gaetano Pini, Milan
+60010365;The University of British Columbia
+60010366;Alexianer-Brüdergemeinschaft GmbH
+60010367;Das Kommunalunternehmen des Landkreises Würzburg
+60010368;Korteweg-de Vries Institute for Mathematics
+60010369;Anuenue Fisheries Research Center
+60010370;Tochigi Prefectural Institute of Public Health and Environmental Science
+60010371;Barbara Davis Center for Childhood Diabetes
+60010372;USDA ARS Moscow Forestry Sciences Lab
+60010373;Keggi Orthopaedic Foundation
+60010374;Medical College of Virginia
+60010375;Foundation Centre 45
+60010377;Iowa State University, Geotechnical Engineering
+60010379;West Virginia Medical Institute
+60010380;Japan Ability Development Engineering Center, Incorporation
+60010381;Troy University - Phenix City Campus
+60010382;University of Ilorin
+60010384;ITT
+60010385;Fraunhofer eGovernment Zentrum
+60010386;Theological University of the Reformed Churches
+60010387;Sompo Japan Insurance
+60010389;Glan Clwyd Hospital
+60010390;Comprehensive Stroke Research Center
+60010391;AHA Press
+60010392;Malmo University Hospital
+60010393;Fischer Medical Technologies
+60010394;Lewis-Clark State College, Lewiston
+60010395;Creative BioMolecules, Inc.
+60010396;CSIC - Instituto de Óptica Daza de Valdés; (IO-CSIC)
+60010397;Law Offices Sterns and Tennen
+60010398;Natural Products Research Group
+60010399;Welding Institute, Ljubljana
+60010400;Pantai Holdings Sdn Bhd
+60010401;American Institute of Aeronautics and Astronautics, Inc.
+60010402;Harvard Division of Continuing Education
+60010403;Kinderklinik Gelsenkirchen
+60010404;Indian Institute of Entrepreneurship
+60010405;Krankenhaus Nordwest, Frankfurt am Main
+60010406;SSK Ankara Maternity Hospital
+60010407;Jiaying University
+60010408;ENSR Consulting and Engineering - Fort Collins
+60010410;Cork University Hospital
+60010411;St.-Marien-Stift Frieso
+60010412;Colorado Foundation for Medical Care
+60010413;Universiteit Hasselt
+60010414;Tottori University
+60010415;Unigene Laboratories Incorporated
+60010416;Miyazaki Prefectural Fisheries Experimental Station
+60010417;Stanford Law School
+60010420;Bureau of Microbial Hazards
+60010421;Southwest Jiaotong University
+60010422;Institut fur Geowissenschaften, Leoben
+60010424;Substance Abuse Treatment Unit
+60010425;Universidad Latina de America
+60010426;St George's Hospital, London
+60010427;City of Hope Beckman Research Institute
+60010428;Wilhelmstift Katholisches Kinderkrankenhaus
+60010429;Kyushu Okinawa Agricultural Research Center, NARO
+60010431;Japan Monkey Centre
+60010432;Soochow University
+60010433;Province of Zeeland
+60010434;Arizona Game and Fish Department
+60010435;Scripps Memorial Hospital
+60010436;Blessed Gérard's Hospice
+60010437;Quintiles Transnational Corporation
+60010438;Universidad Catolica de Santa Fe
+60010439;Egg Nutrition Center
+60010440;Misericordia Hospital School of Nursing
+60010441;Wayne State University Department of Chemistry
+60010442;Guangzhou Institute of Chemistry Chinese Academy of Sciences
+60010443;HortResearch Kerikeri
+60010444;Ospedale Garibaldi
+60010445;Society of Nuclear Medicine
+60010446;Rheumatologische Universitätsklinik und Poliklinik
+60010447;Centre de Recherche en Economie et Statistique
+60010448;The Ministry of the Environment and Water Resources, Government of Singapore
+60010449;Apple Computer
+60010450;Japan Environmental Measurement & Chemical Analysis Association
+60010451;Santa Clara University
+60010452;St. Stephen's Hospital, New Delhi
+60010453;Dissertation Statistical Services
+60010454;Kissei Pharmaceutical Co., Ltd.
+60010455;West Vancouver Laboratory
+60010456;Hampton University Center for Atmospheric Sciences
+60010457;Kosum Phisai Hospital
+60010458;Western New England University
+60010459;Inova Fairfax Hospital
+60010461;National Institute of Metrology China
+60010463;Universidade Braz Cubas
+60010464;Central Mining Research Institute India
+60010465;Thailand Ministry of Industry
+60010466;Fukui Prefectural Institute of Public Health and Environmental Science
+60010467;Woman's Hospital
+60010468;DrieMaasStede Nursing Home
+60010469;Auburn University School of Nursing
+60010471;National Institute of Agrobiological Resources
+60010472;Universidad de Las Palmas de Gran Canaria, Facultad de Medicina
+60010473;Asahikawa Medical University
+60010474;Health Sciences Library
+60010475;Ontario Ministry of Natural Resources
+60010476;Naturhistorisches Museum Bern
+60010477;Işik Üniversitesi
+60010478;Methodist Health System
+60010479;Hopital Cardiologique
+60010480;Mayo Clinic Cancer Center
+60010481;Florida Society of Gynecologic Oncologists
+60010482;Cheyenne Leads
+60010483;Mur Sentret
+60010484;Samsung Group
+60010485;University of Basel Department of Biophysical Chemistry
+60010486;Alzheimer's Association - DC
+60010488;Tasmanian Herbarium
+60010489;University of Oklahoma Tulsa
+60010490;Lakes Region General Hospital
+60010491;University of Mississippi
+60010492;Netherlands Patient / Consumer Federation - NP/CF
+60010493;Työterveyslaitos
+60010494;University of Southern Maine
+60010495;National Institute of Fitness and Sports Kanoya
+60010497;GGZ Foundation for Mental Health Care Regio Breda
+60010498;SenterNovem, the Dutch agency for sustainable innovation
+60010499;University of KwaZulu-Natal
+60010500;Fraunhofer Institute for Manufacturing Technology and Advanced Materials IFAM
+60010501;Africa Institute of South Africa
+60010502;WHO Regional Office for Europe
+60010503;Plymouth Marine Laboratory
+60010504;Wireless Information Resource Center
+60010505;Goteborg University Department of Clinical Immunology
+60010508;Queen Margaret Hospital
+60010510;Water Authority De Stichtse Rijnlanden / Policy and Planning
+60010511;Ohio Heart and Vascular Center
+60010512;Universitats-HNO-Klinik, Innsbruck
+60010513;Observatoire de la Côte d'Azur
+60010514;Mediclin AG, Soltau
+60010516;St. Loman's Hospital
+60010517;Noxubee National Wildlife Refuge
+60010518;Shenyang Medical College
+60010519;Wilderness Medical Associates
+60010520;Cerus Corporation
+60010521;Berkshire Health Systems
+60010522;Fort Sanders Regional Medical Center
+60010524;Colorado Department of Human Services
+60010525;Henderson State University
+60010526;Dynamac Corporation
+60010527;Indiana Wesleyan University
+60010528;Independent Administrative Institution National Museum Kyushu National Museum
+60010529;Lovelace Respiratory Research Institute
+60010530;Haskell Indian Nations University
+60010531;CINVESTAV Unidad Merida
+60010532;Instituto Nacional de Investigaciones Nucleares
+60010533;Silverstein Institute
+60010534;The Brookings Institution
+60010535;Wageningen Research Centre
+60010536;Iowa Health System
+60010537;Fairfield University
+60010538;Saudi Center for Organ Transplantation
+60010539;GTE Lab Inc.
+60010540;Central Research Institute for Chemistry Hungarian Academy of Sciences
+60010542;Deutsches Institut für Angewandte Pflegeforschung
+60010543;Aomori Prefectural Agriculture and Forestry Research Center
+60010544;University of North Texas Health Science Center
+60010545;Matrosov Institute for System Dynamics and Control Theory of Siberian Branch of Russian Academy of Sciences
+60010546;International Finance Corporation
+60010547;Sarnoff Corporation
+60010548;National Microbiology Laboratory
+60010549;Pneumo Precision, Inc.
+60010550;Namazi Hospital
+60010553;Fukuoka Women's University
+60010554;Louisiana College
+60010555;Fundación CTA
+60010556;Maharashtra Institute of Medical Education and Research
+60010557;Fundacion Claudio Sanchez Albornoz
+60010558;Japan Patent Information Organization
+60010559;Università Carlo Cattaneo
+60010560;NWO Social Sciences Research Council
+60010562;Marienhaus Klinikum Neuwied
+60010564;North Shore Veterinary Hospital
+60010566;RMT, Inc.
+60010567;Vitanas Netzwerk für Gesundheit
+60010568;St. Joseph’s Health Centre Toronto
+60010569;Institute of Clinical Science
+60010570;Rogosin Institute
+60010571;University of Newcastle, Australia
+60010572;Sygehus Vendsyssel - Skagen Gigt- og Rygcenter
+60010573;Pulmologisches Zentrum
+60010574;Hewlett Packard Laboratories
+60010575;Kunstakademie Düsseldorf
+60010576;Maricopa Integrated Health System
+60010577;Montana Energy Research & Development Institute
+60010578;Collège de France
+60010579;Mount Sinai Medical Center Miami Beach
+60010580;China Three Gorges University
+60010581;Ministry of Defence, United Kingdom
+60010582;Immpheron Incorporated
+60010583;Salem Hospital
+60010584;Johnson & Johnson
+60010585;Tata Iron & Steel Company Limited
+60010586;Universität Ulm
+60010588;Waksman Institute of Microbiology
+60010589;Flanders Marine Institute
+60010591;Huazhong Normal University
+60010592;Clarkson College of Technology
+60010594;University Medical Center, Fresno
+60010595;Universidad Autonoma de Entre Rios
+60010596;University of Canberra College
+60010597;Universidad Autónoma de Chapingo
+60010599;Kern Institute
+60010600;BCSIR Laboratories, Dhaka
+60010602;Universidade Candido Mendes
+60010603;Biomathematics & Statistics Scotland
+60010604;Lion Copolymer LLC
+60010605;Corning Optical Communications LLC
+60010606;East China Jiaotong University
+60010607;Kagoshima Prefectural Institute of Industrial Technology
+60010608;Kessler Institute for Rehabilitation
+60010609;Lucent Technologie Nederland BV - Bell Labs Center Twente
+60010610;Electrochemical Research Center Tehran
+60010611;University of Alabama Hospital at Birmingham
+60010612;Institute of Molecular Genetics of the Academy of Sciences of the Czech Republic
+60010614;Université de Neuchâtel, Le Centre d'Hydrogéologie et de Géothermie
+60010615;Greenbrier Valley Medical Center
+60010616;Kyoto Human Rights Research Institute
+60010617;Massachusetts Mental Health Center
+60010618;Vellore Institute of Technology, Vellore
+60010619;Bunting Magnetics
+60010620;St. Marien-Hospital Hamm
+60010621;USDA ARS Carl Hayden Bee Research Center
+60010622;University of Groningen, Institute for Science Education and Communication (ISEC)
+60010624;Behavioral Research Center
+60010625;Adventista Teológiai Fõiskola
+60010626;Instituto de Salud Publica de Chile
+60010627;Centro Tecnologico de Confeccion
+60010628;Odessa National Academy of Food Technologies
+60010629;Saga Prefectural Agricultural Research Center
+60010630;Gene Conservation Laboratory
+60010631;Youngdong University
+60010633;Netaji Subhas Institute of Technology
+60010634;Wildlife Conservation Society - Idaho
+60010635;Centro Ricerche Sociali
+60010636;Cardiology Unit Burlington
+60010637;University of Ottawa Faculty of Health Sciences
+60010639;USDA Forest Service - Kootenai National Forest
+60010640;Grantham Hospital Hong Kong
+60010641;Industrial Toxicology Research Centre India
+60010643;Instituto Nacional de Investigacao Cientifica
+60010644;Hungarian Natural History Museum
+60010645;Faber Associates
+60010646;Evangelisches Krankenhaus Plettenberg
+60010647;Torbay Hospital
+60010648;Grafschafter Klinikum
+60010649;Laboratoire des Écoulements Géophysiques et Industriels
+60010650;Chicago Department of Public Health
+60010651;Fairview Health Service
+60010652;Instituto de Fomento Pesquero
+60010653;European Software Institute - TECNALIA
+60010654;National Institute of Health and Nutrition Tokyo
+60010655;Sopharma Pharmaceuticals
+60010656;Public Health Foundation
+60010657;Animal Production Research Finland
+60010658;Steadman Hawkins Research Foundation
+60010659;Oregon Health and Science University, Department of Obstetrics & Gynecology
+60010660;Deutsches Diabetes-Zentrum
+60010661;América Móvil
+60010662;Genzyme Genetics
+60010663;Geological Survey of Iran
+60010664;Universidad de la Laguna, Facultad de Medicina
+60010665;Medical College Hospital India
+60010666;Halifax Community Health System
+60010667;Panepistimion Pireos
+60010668;Tim Porter - O'Grady Associates, Inc.
+60010669;Universidade Metropolitana de Santos, Faculdade de Medicina
+60010670;Southview Hospital
+60010671;Asklepios Kliniken Weißenfels
+60010672;Kherson State University
+60010673;Ministry of Housing, Spatial Planning and the Environment, Netherlands
+60010674;National Institute Sericultural Entomological Sciences Tsukuba
+60010675;Australian Government Department of Human Services
+60010676;Office of Research Statistics - DC
+60010677;St. Martinus-Krankenhaus Düsseldorf
+60010678;Nencki Institute of Experimental Biology of the Polish Academy of Sciences
+60010679;Australian Catholic University
+60010680;International Max Planck Research School for Maritime Affairs
+60010681;ICAR - Sugarcane Breeding Institute, Coimbatore
+60010682;Oklahoma City University
+60010683;Anglo-americká vysoká škola
+60010684;Studsvik Nuclear AB
+60010685;Krankenhaus Neuwittelsbach
+60010687;Shantou University Medical College
+60010688;Ottawa Regional Cancer Centre
+60010689;Research Center for Eco-Environmental Sciences Chinese Academy of Sciences
+60010690;Universidad Nacional de Santiago del Estero
+60010691;International Max Planck Research School for Moduli Spaces
+60010692;Florida Maxima Corporation
+60010693;General Hospital Nottingham
+60010694;Rice Research and Extension Center
+60010695;Santa Barbara Botanic Garden
+60010696;Manitoba Institute of Cell Biology
+60010697;Haws Corporation
+60010698;Toronto East General Hospital
+60010699;Nebraska Public Health Laboratory
+60010700;Radiation Effects Research Foundation
+60010701;KIinikum Wahrendorff GmbH
+60010703;eDocHelp
+60010704;Cornell Dubilier
+60010705;ARC-Animal Improvement Institute
+60010706;Edogawa University
+60010708;Institute of Oceanographic Sciences, Godalming
+60010709;Krankenhaus Warstein
+60010710;University of Sydney Faculty of Medicine
+60010711;Esso Research Laboratory, Baton Rouge
+60010712;Centro Internacional de Agricultura Tropical Bangkok
+60010713;Kno Wal Lin Home Care
+60010714;Rhone Poulenc SA
+60010715;CHR d'Orléans
+60010716;Israel Atomic Energy Commission
+60010717;Wyoming Test Fixtures Inc. Laramie
+60010718;Orthopaedic Center of the Rockies
+60010719;National Heart and Lung Institute
+60010721;Nantan General Hospital
+60010723;Phoenix Corporation Research Laboratories
+60010724;Infrastructure Development Institute Japan
+60010725;National Taichung Institute of Technology Taiwan
+60010726;Doshisha University
+60010727;Texas Department of State Health Services
+60010728;American College of Surgeons
+60010729;Harrogate and District NHS Foundation Trust
+60010730;West Virginia State University
+60010731;Kelly Walsh High School
+60010732;Manor Hospital
+60010733;Technology Foundation
+60010734;Bacterin International, Inc.
+60010735;Forskningscenter for Livskvalitet
+60010736;Cytogen Corporation
+60010737;Power Engineering, Tulsa
+60010739;Alkermes, Inc.
+60010740;Hospital Psiquiatrico de Tenerife
+60010741;USDA ARS Forage Seed and Cereal Research Unit
+60010742;Utsunomiya University
+60010743;BIA Separations d.o.o.
+60010744;Robert Wood Johnson University Hospital Rahway
+60010745;Kansas State Teachers College
+60010746;Intermountain Gynecologic Oncology
+60010747;Harcourt Butler Technological Institute
+60010748;Instituto Nacional de Cardiologia Ignacio Chavez
+60010749;Universidad Nacional de Lujan
+60010750;Hochschule für Fernsehen und Film München
+60010751;JEOL Ltd., Japan
+60010752;Chongqing Normal University
+60010753;Kreiskrankenhaus Burg gGmbH
+60010754;Institute Pasteur Hellenique
+60010755;Bay Pines VA Medical Center
+60010756;Dartmouth College
+60010757;Ocala Heart and Vascular Institute
+60010758;Université de Mons
+60010759;Medicare Payment Advisory Commission
+60010760;Na Homolce Hospital
+60010761;Elisabeth-Klinik Bigge
+60010762;Nagasaki Shiritsu Shimin Hospital
+60010764;Kliniken Nordoberpfalz AG
+60010765;Franklin Pierce College Rindge
+60010766;Kaohsiung Medical University, College of Medicine
+60010768;Ellsworth AFB
+60010769;CSIC - Instituto de Acuicultura de Torre de la Sal (IATS)
+60010770;Instituto de Ciencias Biologicas da Universidade Federal de Minas Gerais
+60010772;Grampian University Hospitals
+60010773;MEDTAP International Incorporated
+60010774;DEBORAH Heart and Lung Center
+60010775;Koyasan University
+60010776;Spine Institute
+60010777;Institut de Recherches sur la Catalyse IRC
+60010778;Queen Sirikit National Institute of Child Health
+60010779;Hawaii Department of Agriculture
+60010780;Jersey Central Power and Light
+60010781;Hopital Geriatrique les Bateliers
+60010782;British Aerospace
+60010783;University of Wyoming College of Business
+60010784;Peninsula Health
+60010785;National Physical Laboratory
+60010786;Emergency Medicine Residency Grand Rapids Medical Education and Research Center
+60010787;Oregon Health and Science University, Department of Physiology and Pharmacology
+60010788;Tygerberg Hospital
+60010789;Tsinghua Tongfang
+60010790;Research Institute of Pharmaceutical Chemistry Budapest
+60010791;Jewish Hospital Heart and Lung Institute
+60010792;Fisons Pharmaceuticals
+60010793;Ladprao Hospital
+60010794;Institute of Chinese Affairs
+60010795;Conservation Science Program
+60010796;The Nebraska Medical Center
+60010797;Armstrong Cork Company
+60010798;Aultman Hospital
+60010799;Ahmadu Bello University
+60010800;Universidade para o Desenvolvimento do Estado e da Regiao do Pantanal, Faculdade de Medicina
+60010801;Hopital Boucicaut
+60010802;United Scientific Council, GIS-Technology, Russian Academy of Sciences
+60010803;The Wistar Institute
+60010804;Central Statistical Service
+60010805;Department of Nephrology
+60010806;University of Rhode Island
+60010807;Presentation Health System
+60010809;Observatoire de Besancon
+60010810;Perth Observatory
+60010811;Istanbul Üniversitesi-Cerrahpaşa Tıp Fakültesi
+60010812;Milpark Hospital
+60010813;CSIRO Division of Soils
+60010814;Institut d'Investigacions Biomèdiques August Pi i Sunyer - IDIBAPS
+60010815;Ecole Nationale d'Ingenieurs de Belfort
+60010816;CHU Mohammed-VI
+60010817;The Ipswich Hospital NHS Trust
+60010818;University of Kent
+60010819;Universitätsklinikum Ulm
+60010820;American Association of Physics Teachers
+60010821;Borgess Health
+60010823;Computer Research Center of Islamic Sciences of Qom
+60010825;Jissen Women's University
+60010826;Kanagawa Prefectural Natural Environment Conservation Center
+60010827;Miyagi Prefecture Fisheries Research and Development Center
+60010828;Bard College
+60010830;TIAS School for Business and Society
+60010831;Universidade Ibirapuera
+60010832;Emerson Hospital
+60010833;Fisheries and Oceans Canada
+60010834;The Research Institute of Tuberculosis, Japan Anti-Tuberculosis Association
+60010835;Universidade Paranaense
+60010836;Research Institute for Astronomy and Astrophysics of Maragha
+60010837;Kreiskrankenhaus Mallersdorf
+60010838;USDA Forest Service North Central Research Station
+60010839;Atlas Powder Company
+60010840;St. Joseph's Hospital, Tampa
+60010841;Le Moyne College
+60010842;Hans Carossa Klinik
+60010843;Neurologisches Rehabilitationszentrum Greifswald gGmbH
+60010844;Universitat d'Alacant
+60010845;Institut de Veille Sanitaire
+60010846;Université Nancy 2
+60010847;Engelhard Corporation
+60010848;University of Fukui
+60010849;Virginia Department of Transportation
+60010850;Sanofi S.A.
+60010851;Hohai University
+60010852;Kaplan Cancer Center
+60010853;University of Manitoba, Faculty of Medicine
+60010854;ISITEM Nantes
+60010857;Miyazaki Livestock Experimental Station
+60010858;DeSoto, Inc.
+60010859;Federation University Australia
+60010860;University of Texas Dental Branch at Houston
+60010861;UCI Beckman Laser Institute & Medical Clinic
+60010862;Keldysh Institute of Applied Mathematics of Russian Academy of Sciences
+60010863;Hospital de Antequera
+60010864;Riverview Psychiatric Center
+60010865;Our Lady of Lourdes Medical Center
+60010867;Freehold Area Health Department
+60010868;Guidant Corporation
+60010869;Channing Division of Network Medicine
+60010870;Innovus Research Inc.
+60010871;Strategic Diagnostics Incorporated
+60010872;NARO National Food Research Institute
+60010873;The Polytechnic, Ibadan
+60010874;College of the Holy Cross
+60010875;Luddy School of Informatics, Computing, and Engineering
+60010876;Universidad del Bio Bio, Chillan
+60010878;ENSEEG - INP Grenoble
+60010879;Naval Institute for Dental and Biomedical Research
+60010880;Onex
+60010881;Kyoto University Hospital
+60010882;ENSICA Ecole Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques
+60010883;EGG Energy Measurements Inc
+60010884;Western University
+60010885;Universidade Federal do Piaui, Centro de Ciencias da Saude, Faculdade de Medicina
+60010886;Patrick Air Force Base
+60010887;Jackson Laboratory
+60010888;Wyoming Game and Fish Department
+60010890;Zollernalb Klinikum, Hechingen
+60010891;St Vincent 's Comprehensive Cancer Center
+60010892;Tomsk State University of Control Systems and Radioelectronics
+60010893;Ehime Chuyo Fisheries Experimental Station
+60010894;Hillsdale College
+60010895;Centro de Educacion Medica e Investigaciones Clinicas Norberto Quirno
+60010896;Institute of Engineering Thermophysics Chinese Academy of Sciences
+60010897;Chubu Aerospace Technology Center
+60010898;Universidad Mexicana
+60010899;Nevada Mental Health Institute
+60010900;Fonterra Co-operative Group
+60010901;Università Campus Bio-Medico di Roma, Facoltà di Medicina e Chirurgia
+60010902;Ohio State University Extension
+60010903;Central Silk Board India
+60010904;Rehabilitation Centre
+60010905;University of Saskatchewan, Western College of Veterinary Medicine
+60010906;University of Kentucky Research and Education Center
+60010907;ICAR - Central Soil Salinity Research Institute, Karnal
+60010908;Worcester Royal Infirmary
+60010909;Litron Laboratories
+60010910;DuPont
+60010911;Bethesda-Spital Basel
+60010912;Medical Center of Louisiana at New Orleans
+60010913;Diabetes-Klinik Bad Nauheim
+60010914;Utrecht School of Economics - USE
+60010915;Association of Universities for Research in Astronomy
+60010916;CSIC - Instituto de Carboquimica (ICB)
+60010917;Cardiothoracic Surgery Division
+60010918;Thapar University
+60010919;Arid Forest Research Institute India
+60010920;Water Control Board Zuiderzeeland
+60010922;Central Institute of Medicinal and Aromatic Plants India
+60010923;Kyungsung University
+60010924;Hiroshima Prefectural Food Technology Research Center
+60010925;National Cancer Center Hospital East
+60010927;Universidad Autónoma de Baja California, Campus Tijuana
+60010929;Instytut Maszyn Matematycznych
+60010930;Japan Concrete Institute
+60010931;Geological Survey of Israel
+60010932;University of Cape Town, Faculty of Health Sciences
+60010933;Ministry of Health, Welfare and Sport, Netherlands
+60010934;National Oceanography Centre Southampton
+60010935;Magnetic Peripherals Inc
+60010936;St Francis Hospital Wichita
+60010937;Lewis Gale Clinic
+60010938;Franklin Regional Hospital
+60010939;CSIC - Estacion Experimental de Aula Dei EEAD
+60010940;National Institute of Education
+60010941;American College of Physician Executives
+60010942;Hopital de la Croix-Rousse
+60010943;Research Institute of Plant Production Slovakia
+60010944;Klinik Hohe Mark Psychiatrie, Psychotherapie
+60010945;Eastern Health
+60010946;Palaeofaunal Surveys
+60010949;St. Josef - Hospital Troisdorf
+60010950;Texas Instruments, Inc. - Attleboro
+60010951;Hebrew Home and Hospital
+60010952;Center for the Promotion of Plastic Technology
+60010953;Donghua University
+60010954;Bijvoet Center for Biomolecular Research
+60010955;Changchun University of Science and Technology
+60010957;St. Joseph's Hospital, Parkersburg
+60010958;Department of Mathematics, Royal Institute of Technology
+60010959;Ev. Krankenhaus Elsey in Hohenlimburg gGmbH
+60010960;Jozef Pilsudski University of Physical Education
+60010961;NIGZ - Netherlands Institute for Health Promotion and Disease Prevention
+60010962;Physikalisch-Technische Bundesanstalt
+60010963;British Nuclear Fuels plc
+60010964;Goldsmiths, University of London
+60010965;University of Vienna Institute of Anatomy
+60010966;VCU School of Medicine
+60010967;Sher-e-Bangla Medical College Hospital
+60010968;Isaac Newton Group
+60010969;Arak University of Medical Sciences, Faculty of Medicine
+60010970;Universidade Tuiuti do Parana
+60010971;Wadsworth Center for Laboratories and Research
+60010972;Baptist Hospital Miami
+60010973;University of Edinburgh, College of Medicine and Veterinary Medicine
+60010974;Japan Coast Guard
+60010975;Centre for Oral Health Sciences Malmo
+60010976;Wyckoff Heights Medical Center
+60010977;Roche Pharma (Schweiz) AG
+60010978;NOVA Gas Transmission Ltd
+60010980;Regionshospitalet Skive
+60010981;Kinderzentrum Pelzerhaken
+60010982;klinikum Emden Hans-Susemihl-Krankenhaus gGmbH
+60010983;Agricultural, Food and Environmental Sciences Research Center of Osaka Prefecture Aquatic Life Conservation Center
+60010984;Stanford Cancer Institute
+60010985;Royal Preston Hospital
+60010986;Mesa Community College
+60010987;UniversitätsSpital Bern
+60010989;Central Institute of Psychiatry India
+60010990;CSIC - Mision Biologica de Galicia (MBG)
+60010991;The International Institute for Strategic Studies
+60010993;Institute of Computer Science of the Polish Academy of Sciences
+60010994;Orlando Regional Healthcare System
+60010995;Assir Central Hospital
+60010996;Southwark Primary Care Trust
+60010997;NOAA National Data Buoy Center
+60010998;Yokohama City University School of Medicine
+60010999;Upstate, Inc.
+60011000;National Accreditation Board for Testing and Calibration Laboratories India
+60011001;Kyoto University
+60011002;Hopital Jean Rebeyrol
+60011003;Moss Landing Marine Laboratories
+60011004;Nippon Shinyaku Co., Ltd.
+60011005;Montgomery Watson Harza
+60011006;International Max Planck Research School Physics of Light
+60011007;Hospital de São José
+60011008;Ximerex Incorporated
+60011009;Chittagong Medical College Hospital
+60011010;Portuguese National Institute for Public Administration
+60011012;McNeil Specialty Products Company
+60011013;Prairie St. John's
+60011014;Ensaia - Ecole Nationale Supérieure d‘Agronomie et des Industries Alimentaires
+60011015;Istituti Fisioterapici Ospitalieri, Rome
+60011017;Scarborough and North East Yorkshire Healthcare NHS Trust
+60011018;Entergy Nuclear
+60011019;Queensland University of Technology QUT
+60011020;Royal Irrigation Department Hospital
+60011021;Headache Care Center
+60011022;Compass Group
+60011023;University of Kalyani
+60011024;CHU Strasbourg
+60011025;Universidad Tecnologica de la Mixteca
+60011026;Kearney State College
+60011027;Shoshone Bannock Tribes
+60011028;Universidade de Ribeirao Preto, Faculdade de Medicina
+60011029;A. O. Kovalevsky Institute of Biology of the Southern Seas of Russian Academy of Science
+60011030;Daiichi Seiyaku Kabushiki-gaisha
+60011031;Obafemi Awolowo University
+60011032;University of Aberdeen School of Medicine
+60011033;Virginia Diodes, Inc.
+60011035;Agilent Laboratories
+60011036;MSU College of Veterinary Medicine
+60011037;Rathenau Institute - KNAW
+60011038;University Hospital of Larissa
+60011039;Instituto de Pesquisas Energeticas e Nucleares, Sao Paulo
+60011040;Institute of Mechanics Chinese Academy of Sciences
+60011042;An Roinn Talmhaiochta, lascaigh agus Bia
+60011043;USDA ARS U.S. Vegetable Laboratory
+60011044;Saint Boniface General Hospital Research Centre
+60011045;Citigroup
+60011046;Karolinska University Hospital Reproduction
+60011047;Kyushu University
+60011048;IBM Research
+60011049;Peamount Hospital
+60011050;Fluor Corporation
+60011052;West AnHui University
+60011054;South Florida Water Management District
+60011055;Fraunhofer Institute for Telecommunications, Heinrich-Hertz-Institut, HHI
+60011056;Universitats Institut fur Sportmedizin
+60011057;St. Francis Hospital - The Heart Center
+60011058;VA Eastern Colorado Health Care System
+60011059;Centro de Tecnologia de Recursos Minerales y Ceramica
+60011060;Univeristy of Nebraska Medical Center, College of Medicine Department of Cellular and Integrative Physiology
+60011061;Luther College, Decorah
+60011062;Fachklinik-schleswig.de
+60011063;University of Kansas Libraries
+60011064;Bethune-Cookman University
+60011066;University Ibn Tofail
+60011067;Eshowe Hospital
+60011068;Hartford Financial Services
+60011069;East China University of Science and Technology
+60011070;Istanbul Memorial Hospital
+60011071;Vrije Universiteit Amsterdam, Institute of Earth Sciences
+60011072;National Guard Health Affairs
+60011073;State University of New York at New Paltz
+60011074;Lingnan University, Hong Kong
+60011075;Yellowstone National Park
+60011077;Nagano Vegetable and Ornamental Crops Experiment Station
+60011078;Vanderbilt Institute for Public Policy Studies
+60011079;SSM Cardinal Glennon Children's Medical Center
+60011080;Institute for Humanities and Cultural Studies, Tehran
+60011081;Academia Sinica, Institute of Earth Sciences
+60011082;Paracelsus-Kurfurstenklinik Bremen
+60011083;Riyadh Central Hospital
+60011084;National Institute for Research Advancement
+60011086;Tasmanian Museum and Art Gallery
+60011087;Soil Conservation and Watershed Management Research Institute, Tehran
+60011089;Treatment Research Institute - Philadelphia
+60011090;Hopital de la Tour
+60011091;Galatasaray Üniversitesi
+60011092;The University of Chicago Medicine
+60011094;Escola de Enfermagem de Ribeirao Preto-USP
+60011095;National School of Public Health
+60011096;Slovak National Library
+60011097;Campbell County Fire Department
+60011100;Centro Nacional de Investigaciones Cardiovasculares Carlos III
+60011101;Cameron University
+60011102;Hubbard Brook Research Foundation
+60011103;Ravenshaw University
+60011104;Georgia Southwestern State University
+60011105;California Department of Water Resources
+60011106;Japanese Association for Mental Health
+60011107;Tohoku Institute of Technology
+60011108;Letterman Army Medical Center
+60011109;USDA Forest Service Gallatin National Forest Avalanche Center
+60011110;St. Peter's Hospital, Helena
+60011111;ESDU International plc
+60011112;Oy Leiras Finland Ab
+60011113;Mount Isa Mines Ltd
+60011114;Zoos Victoria
+60011115;Neuropsychiatric Research Institute, Tokyo
+60011116;Cal Poly San Luis Obispo
+60011117;Universidad de Occidente
+60011118;Hôpital Casselardit - Ancely
+60011119;Miami Heart Inst.
+60011120;Marien Hospital Letmathe
+60011121;FMA Research Incorporated
+60011122;Baptist Hospital, Pensacola
+60011123;Institute of Neurobiology Slovak Academy of Sciences
+60011124;Image Management Consultants
+60011125;Instituto Astrofisico de Canarias
+60011126;INTEGRAL Science Data Center
+60011127;Dietrich-Bonhoeffer-Klinikum
+60011128;Indian River Memorial Hospital
+60011129;Gollwitzer-Meier-Klinik
+60011130;Pharmaceutical Management Agency
+60011131;Mechanical Dynamics Inc
+60011132;Ohio University
+60011133;Shanghai Communications Polytechnic
+60011134;Wyeth Laboratory, Maidenhead
+60011135;Anjou Recherche
+60011137;U.S. Army Center for Health Promotion and Preventive Medicine
+60011138;State Archives of Limburg
+60011139;Rems-Murr-Kliniken Kreiskrankenhaus Backnang
+60011140;Meritcare Health System
+60011141;Gujarat Ayurved University
+60011142;Miles Inc.
+60011143;Belfast Trust
+60011144;Städtisches Krankenhaus Kiel
+60011145;FAO Regional Office for Asia and the Pacific
+60011146;Coulter Corporation
+60011147;KRUG Life Sciences, Inc.
+60011148;Das Paulinenkrankenhaus
+60011149;Trinity College Dublin
+60011150;CSIRO Division of Coal and Energy Technology
+60011151;St. Francis Hospital Mooresville
+60011152;Heidelberg Repatriation Hospital
+60011153;Thailand National Inland Fisheries Institute
+60011155;CSIC - Instituto de Quimíca Médica (IQM)
+60011156;AstraZeneca R and D Molndal
+60011157;Iwate Prefectural University
+60011158;Landcare Research,Sirtrack
+60011159;Skin and Cancer Associates
+60011160;Kreiskrankenhaus Grünstadt
+60011161;Basketball Club Cibona
+60011163;Instituto Universitario de la Fundacion - ISALUD
+60011164;C.I. Parhon Institute of Endocrinology
+60011165;Voorhees College
+60011166;Hospital Niño
+60011167;Universidad de Monterrey
+60011169;Water Authority in Hollands Noorderkwartier / Watersystems Board, department of Policy development and Planning
+60011170;Tampereen Yliopisto
+60011171;College of Saint Mary Omaha
+60011172;Bombay Hospital and Medical Research Centre
+60011173;University of Groningen, Kapteyn Astronomical Institute
+60011174;VITUKI
+60011175;Center for Membrane Toxicity Studies
+60011176;Joint Institute for Heavy Ion Research
+60011177;Leslie Williams Memorial Hospital
+60011178;Ospedali Riuniti Di Bergamo
+60011179;Die Gesundheitszentrum Bitterfeld/Wolfen gGmbH
+60011180;Odontologiska Institutionen i Jönköping
+60011181;Lafarge
+60011182;Hokkai School of Commerce
+60011183;Fukuoka Jo Gakuin University
+60011184;St. Elisabeth-Hospital Meerbusch-Lank
+60011185;Freshwater Biological Association
+60011186;North China University of Technology
+60011187;Istituto di Ingeneria Biomedica del CNR
+60011188;Eastern Washington University
+60011189;Faculty of Medicine, Siriraj Hospital, Mahidol University
+60011190;Carpenter Technology Corporation
+60011191;Nasjonalmuseet
+60011192;Kolling Institute of Medical Research
+60011194;LigoCyte Pharmaceuticals, Inc.
+60011195;Chubu Electronic Industry Technical Center
+60011196;Oita Prefectural Institute of Health and Environment
+60011197;University of Utah Research Park
+60011198;Fair Oaks Hospital
+60011199;U.S. Army Communications and Electronics Command
+60011200;GGZ Foundation for Mental Health Care Rivierduinen
+60011201;Grupo Mexico
+60011202;CSIC-UVA - Instituto de Biologia y Genetica Molecular (IBGM)
+60011203;University of Natal
+60011204;Hopital Pierre Swynghedauw
+60011205;NHS Borders
+60011206;Family Research Institute
+60011207;Steinbeis-Hochschule-Berlin
+60011209;Istituto Di Elettronica E Di Ingegneria Dell'informazione E Delle Telecomunicazioni, Turin
+60011210;Jacksonville University
+60011211;Vaxin Incorporated
+60011212;Max Planck Institute for Psychological Research
+60011213;Hôpital Aiguelongue
+60011216;Hesburgh Libraries
+60011218;CRS4 - Centro di Ricerca Sviluppo e Studi Superiori in Sardegna
+60011219;Mittal Steel
+60011220;Sirindhorn International Institute of Technology, Thammasat University
+60011221;Electricity Supply Board Ireland
+60011223;Institute of Theoretical Physics and Advanced Studies for Biophysical Research - Jupiter
+60011224;American Air Filter Company Incorporated
+60011225;Babies Hospital New York
+60011226;Technische Universität Darmstadt
+60011227;Fakultní nemocnice Královské Vinohrady
+60011228;Akita Prefectural Agriculture, Forestry and Fisheries Research - Center Institute of Fisheries
+60011230;Dr. Jilla Hospital
+60011231;Lahey Clinic
+60011232;Methodist Dallas Medical Center
+60011233;Minnesota Department of Agriculture
+60011234;Chia-Nan University of Pharmacy and Science Taiwan
+60011235;Guangdong University of Foreign Studies
+60011236;Bishop Clarkson Memorial Hospital
+60011237;MUSC College of Nursing
+60011238;Shriners Hospitals for Children - Los Angeles
+60011239;Haute Ecole Albert JACQUARD
+60011240;Australian Army Malaria Institute
+60011241;Jersey City State College
+60011242;Danisco AS
+60011243;London Chest Hospital
+60011244;Sapporo Gakuin University
+60011246;Kantonales Frauenspital Fontana
+60011247;Connecticut College
+60011248;Staatliche Hochschule für Gestaltung Karlsruhe
+60011249;Observatoire Cantonal
+60011252;Mote Marine Laboratory
+60011253;University of Rochester Institute of Optics
+60011255;St.-Antonius-Hospital Eschweiler
+60011256;Denison University
+60011257;Compagnie Generale des Eaux
+60011258;Centro de Investigaciones Farmaceuticos Grupo Ferrer
+60011259;Institut für Sucht-und Gesundheitsforschung Zürich
+60011262;Chubu Electric Power
+60011263;Hitotsubashi University
+60011264;Istituto Nazionale per la Fisica della Materia
+60011265;Centre for Forensic Medicine, Government of Singapore
+60011266;Pamukkale Üniversitesi Tip Fakültesi
+60011267;Department of Primary Industries Horsham Centre, Victoria
+60011268;Shahjalal University of Science and Technology
+60011269;Shea Ear Clinic
+60011270;AREVA
+60011271;Intermedics, Inc.
+60011272;St. Brendan's Hospital
+60011273;L-3 Communications
+60011274;Fachhochschule Nordwestschweiz FHNW
+60011275;Drug Enforcement Administration
+60011277;Springfield University Hospital
+60011278;Baylor University
+60011280;Onassis Cardiac Surgery Centre
+60011281;St.-Elisabeth-Krankenhaus Dortmund-Kurl
+60011282;Vestlandsforsking
+60011283;University of Pittsburgh Department of Pathology
+60011284;Universidad de los Andes, Chile
+60011285;Halton Company
+60011286;St. Louis College of Pharmacy
+60011287;Pharos University in Alexandria
+60011288;Uniao Educacional do Vale do Aco Faculdade de Medicina do Vale do Aco
+60011289;Centre Hospitalier Universitaire de Nice, Hôpital Pasteur
+60011290;Allgemeines Krankenhaus Viersen GmbH
+60011291;CSIR Division of Textile Technology
+60011292;Odborny Liecebny Ustav Tuberkulozy
+60011293;Tenet Healthcare Corporation
+60011294;Serveron Corporation
+60011295;Far East Geological Institute, Vladivostok
+60011296;Azienda Ospedaliera San Camillo Forlanini
+60011297;Saitama Cancer Center
+60011298;Klinik Hirslanden
+60011300;Instituto de Biotecnología de la UNAM
+60011303;Heraklion University Hospital
+60011304;Geomarine Research
+60011305;Wageningen NMR Centre
+60011306;Wakefield Hospital
+60011308;NOAA Air Resources Laboratory - Silver Spring
+60011309;SLK-Kliniken
+60011312;Midrand University
+60011313;National Academy of Sciences in Ukraine
+60011314;Niigata Agricultural Research Institute Livestock Research Center
+60011315;Arkansas Natural Heritage Commission
+60011316;Universidad Central de Venezuela Instituto de Biomedicina
+60011317;Institute of Mechanics Bulgarian Academy of Sciences
+60011318;Hysitron, Inc.
+60011319;Veterans Administration Hospital
+60011320;Louis Bolk Institute - LBI
+60011321;Marquette University School of Dentistry
+60011322;Hospital Nuestra Señora de Sonsoles
+60011324;Universidade Federal da Paraiba
+60011325;Neurex Corporation
+60011326;UCL Ear Institute
+60011328;Evangelisches Waldkrankenhaus Spandau
+60011330;Sana-Klinik Zollernalb GmbH
+60011331;Seoul National University of Education
+60011333;School of Environmental Sciences Ljubljana
+60011334;Japan Osteoporosis Foundation
+60011336;American Plastics Council
+60011337;Virginia Commonwealth University Medical Center
+60011338;MEE Rotterdam
+60011339;University of Texas Graduate School of Biomedical Sciences at Houston
+60011340;Institute of Systematic Botany
+60011341;Akademia Muzyczna im. Karola Lipinskiego we Wroclawiu
+60011342;Unity Health System
+60011343;BioControl Systems, Inc.
+60011344;Regional Research Laboratory Thiruvananthapuram
+60011345;Colegio de Postgraduados, Campus Montecillo
+60011346;Hydrographic and Oceanographic Department, Japan Coast Guard
+60011347;United States Geological Survey
+60011348;Shimane Prefectural Institute of Public Health and Environmental Science
+60011350;Faculty of Health Sciences, University of Southern Denmark
+60011351;Uster Technologies AG
+60011352;European Society for Medical Oncology
+60011353;Kumamoto National Hospital
+60011354;Regionshospitalet Skanderborg
+60011355;Regents of New Mexico State University
+60011356;IFAG Ecole Superieure de Commerce Rennes
+60011357;National Sun Yat-Sen University Taiwan
+60011358;CDM Optics, Inc.
+60011359;Escola Tecnica Superior d'Enginyers Industrials de Barcelona
+60011360;Delft Design Institute - DDI
+60011361;Institute of Microelectronics and Informatics, Russian Academy of Sciences
+60011362;RMIT University
+60011363;ONERA - Le centre Onera de Modane-Avrieux
+60011364;University of Pretoria, Department of Immunology
+60011365;Universidad Michoacana de San Nicolás de Hidalgo, Facultad de Medicina "Dr. Ignacio Chavez"
+60011366;Saint Francis Medical Center Grand Island
+60011367;Life Healthcare
+60011368;Hokkaido Prefectural Tenpoku Agricultural Experiment Station
+60011369;Bristol-Myers Squibb Institute for Medical Research
+60011370;Petroleum University of Technology
+60011371;Ecole Mohammadia d'Ingenieurs, Mohammed V University in Rabat
+60011372;Universität Bamberg
+60011373;Danmarks Tekniske Universitet
+60011374;Tohoku University Hospital
+60011375;Japan Advanced Institute of Science and Technology
+60011376;Systems Research Lab, Inc.
+60011378;Anglo American plc
+60011379;Lenzing AG
+60011380;King Khalid Hospital, Najran
+60011381;Centro Tecnológico para El Desarrollo de Las Telecomunicaciones de Castilla y León
+60011382;University of Nebraska Medical Center Department of Pharmacology and Experimental Neuroscience
+60011383;Analysis Group Economics - Cambridge
+60011384;BNH Hospital
+60011385;Universidade do Estado do Rio Grande do Norte
+60011386;Federal Railroad Administration
+60011387;Floating Hospital for Children
+60011388;Wyoming State Hospital
+60011389;Hyseq Inc.
+60011390;Air Force Office of Scientific Research
+60011392;Universidad Olmeca
+60011393;Michael Smith Laboratories
+60011394;Medizinische Universitat Wien
+60011395;Cordis Corporation - Miami
+60011396;Akin Gump Strauss Hauer & Feld LLP
+60011397;Garden State Veterinary Specialists
+60011398;M.V. Hospital for Diabetes
+60011399;Soil Science Division, Thailand Department of Agriculture
+60011401;Continuum Health Partners, Inc.
+60011402;Daqing Petroleum Institute
+60011403;Medigreif Bördekrankenhaus gGmbH
+60011404;Phillips Petroleum Company, Bartlesville
+60011405;Institute of Molecular Physics of the Polish Academy of Sciences
+60011407;American Chemistry Council
+60011409;Canadian Mennonite University
+60011410;Worcester Polytechnic Institute
+60011411;Pädagogische Hochschule Heidelberg
+60011412;The University of South Dakota Department of Nursing
+60011414;Siam General Hospital
+60011415;Samara National Research University
+60011416;University of Abuja
+60011417;Thailand Provincial Electricity Authority
+60011418;Kobe University
+60011419;Hawaii Pacific Health
+60011420;China Railway Group Limited
+60011421;K-State Libraries
+60011422;Universidade Federal de Mato Grosso do Sul, Faculdade de Ciencias Medicas
+60011423;University of Idaho Extension
+60011425;American Museum of Natural History
+60011426;Universidad Autonoma de Campeche, Facultad de Medicina
+60011427;Hacettepe Children's Hospital
+60011428;Essential Public Health Services
+60011429;Lucent Technologies
+60011430;Northeast Rehabilitation Hospital
+60011431;Hochschule fur Musik Berlin
+60011432;Fachhochschule Vechta / Diepholz / Oldenburg
+60011433;Hemispherx Biopharma, Inc.
+60011434;European Center for Parallelism of Barcelona
+60011435;USDA ARS Northern Plains Agricultural Research Laboratory
+60011436;Universidad de Cadiz, Facultad de Medicina
+60011437;East-West Science Centre
+60011438;Environmental Power Corporation
+60011439;Institut d'Astrophysique Spatiale
+60011440;Sierra Health Services, Inc.
+60011441;Sygehus Fyn
+60011442;Lamar University
+60011445;Denver Disease Control Service
+60011446;Fundacion de Investigacion de la Maquina Herramienta
+60011447;CEA Grenoble
+60011448;William Jewell College
+60011449;Sperry Rand Corporation
+60011450;Lab of Molecular Neurochemistry
+60011451;Istituto Trentino di Cultura-Centro per la Ricerca Scientifica e Tecnologica
+60011452;Vladikavkaz Institute of Economics, Management, and Law
+60011453;Miami-Dade Medical Examiner Department
+60011454;Stratecasts Inc.
+60011455;Southern Illinois University at Edwardsville
+60011456;Hospital Universitari Arnau de Vilanova de Lleida
+60011457;FotoNation Ireland Ltd.
+60011458;Martland Hospital
+60011460;Brown University
+60011461;Economic Policy Institute
+60011462;Williams Companies, Inc.
+60011463;University of New South Wales Faculty of Medicine
+60011464;Alstom
+60011465;DNAX Research Institute
+60011466;National Advisory Committee for Aeronautics
+60011467;Sinai Hospital Detroit
+60011468;Centre Hospitalier Etterbeek-Ixelles
+60011469;Rose Medical Center
+60011470;Texas College of Osteopathic Medicine
+60011471;Edisto Research & Education Center
+60011472;Royal Marsden Hospital, Sutton
+60011473;Tokyo Dental College
+60011474;Museu Paraense Emilio Goeldi
+60011475;Klinikum Chemnitz gGmbH
+60011476;Universitat Politècnica de València
+60011477;Nevada System of Higher Education
+60011478;Hospital General de Agudos Juan Fernandez
+60011479;Sylvester Comprehensive Cancer Center
+60011480;Bristol-Myers Squibb Pharmaceutical Research Institute
+60011481;University of Louisville Department of Pediatrics Neonatal Follow up Program
+60011482;New Hampshire College
+60011483;Saga Prefectural Regional Industry Support Center
+60011484;Rosenstiel School of Marine and Atmospheric Science
+60011485;Doğuş Üniversitesi Istanbul
+60011486;Centro Hospitalar de Lisboa Ocidental
+60011487;Department of Radiation Oncology
+60011488;Connecticut Tumor Registry
+60011489;MTT Agrifood Research Finland
+60011490;UAMS Regional Campuses
+60011491;Stanford Blood Center
+60011493;Evangelisches Diakoniekrankenhaus Freiburg
+60011494;Morinaga Milk Industry Co., Ltd.
+60011495;A-Star, Institute of Chemical and Engineering Sciences
+60011496;Kreiskliniken Dillingen Wertingen
+60011497;Sankt-Peterburgskij Gosudarstvennyj Inzenerno-Ekonomiceskij Universitet
+60011498;Innoko National Wildlife Refuge
+60011499;Hyogo Assistive Technology Research and Design Institute
+60011500;Changchun University of Technology
+60011501;Hospital Sierrallana
+60011502;McKendree College
+60011503;Kreiskliniken Reutlingen
+60011504;Centro Tecnológico Agroalimentario de Extremadura
+60011505;Moorgreen Hospital
+60011507;Tstskij Gosudarstvennyj Universitet
+60011508;Beihua University
+60011509;Greenville Hospital System Oncology Research Institute
+60011510;Eastern Macedonia and Thrace Institute of Technology
+60011512;Hacettepe University, Faculty of Medicine
+60011513;HWA TO Acupuncture Centre
+60011514;Natalya Nesterova Moscow Academy of Education
+60011515;Embrapa Milho e Sorgo
+60011518;Rowan University Graduate School of Biomedical Sciences
+60011519;Philadelphia College of Osteopathic Medicine
+60011520;King's College London
+60011521;Department of Internal Medicine, Mayo Clinic
+60011522;Salt River Project
+60011523;Kreiskrankenhaus Wolfach
+60011524;Sher-I-Kashmir Institute of Medical Sciences
+60011525;Thailand National Electronics and Computer Technology Center
+60011526;Wisconsin Department of Veterans Affairs
+60011527;Universidad de Antofagasta
+60011528;National Toxicology Program
+60011530;Engineering Advancement Association of Japan
+60011531;Rhone-Poulenc Rorer Inc
+60011532;Helios Klinikum Berlin-Buch
+60011533;Southwest Research Institute
+60011534;Nashville Ear Nose & Throat Clinic
+60011535;St Claire Regional Medical Center
+60011536;Japan Oil, Gas and Metals National Corporation
+60011537;St. Elisabeth Krankenhaus Mayen
+60011538;Good Samaritan Hospital Baltimore
+60011539;Miyazaki Agricultural Experiment Station
+60011540;Mayo School of Health Sciences
+60011542;Environmental Laboratory
+60011543;B.J. Medical College, Pune
+60011544;Eckerd College
+60011545;Instituto Superior Novas Profisses
+60011546;Buddhachinaraj Hospital
+60011547;AntiCancer Incorporated
+60011548;Istituto Nazionale Di Statistica, Rome
+60011549;Lanzhou Institute of Chemical Physics Chinese Academy of Sciences
+60011550;University of Northern British Columbia
+60011551;University of Turku, Faculty of Medicine
+60011552;Center for Shark Research
+60011553;University of Saskatchewan, College of Medicine
+60011554;RETEC
+60011555;The National Museum of Modern Art Tokyo
+60011556;National Medical Center Budapest
+60011557;Klinikum Neuperlach
+60011558;Pro Change Behavior Systems Incorporated
+60011559;George Weston Limited
+60011560;Evangelisches Krankenhaus Göttingen-Weende e.V.
+60011561;Royal Aircraft Establishment
+60011563;Roche Pharmaceuticals Division
+60011564;MUSC Storm Eye Institute
+60011565;Nanzan University
+60011566;Vanderbilt Center for Human Nutrition
+60011567;Montrose Memorial Hospital
+60011568;University of Tanta
+60011569;Chungbuk National University, College of Medicine
+60011570;Saga Prefectural Genkai Fisheries Research and Development Center
+60011571;University of Southern Maine Gorham
+60011572;Zentrum für Psychiatrie Emmendingen
+60011573;Institute for World Economics Hungarian Academy of Sciences
+60011574;Inova Regional Trauma Center
+60011575;Centrum Wiskunde & Informatica
+60011576;Università degli Studi di Messina
+60011577;Johns Hopkins Department of Orthopaedic Surgery
+60011578;St. Mary's Medical Center, Knoxville
+60011579;National Medical Clinic Tokyo
+60011580;Shizuoka Institute of Science and Technology
+60011581;St. Anna Virngrund Klinik
+60011582;Japan Public Health Association
+60011583;Oonoonba Veterinary Laboratory
+60011584;National Center for Injury Prevention and Control
+60011585;Fitchburg State University
+60011586;Istituto Di Biologia E Biotecnologia Agraria, Milan
+60011587;Oregon Health and Science University, Department of Pathology
+60011588;Oklahoma State University Medical Center
+60011589;Fachklinik Donaustauf
+60011591;Methodist Health System - North Texas
+60011592;Qilu University of Technology
+60011593;New England Center for Headache, P.C.
+60011594;USDA Agricultural Research Service, Reno
+60011595;SSK Okmeydani Training Hospital
+60011596;Kantonsspital Olten - Medizinische Klinik
+60011597;Twin Falls Veterinary Clinic & Hospital
+60011598;Privatklinik Bad Gleisweiler
+60011599;Basel University Hospital Department of Research
+60011600;Hyogo Prefectural Hokubu Agricultural Institute
+60011601;Food Research Institute Slovakia
+60011602;University Hospital Alexandrovska
+60011603;Hochschule für Philosophie
+60011604;Technical University of Berlin
+60011605;Vagelos College of Physicians and Surgeons
+60011606;Heidekreis-Klinikum GmbH
+60011608;Goldey-Beacom College
+60011609;Alchem Laboratories Corporation
+60011610;Tierärztliche Hochschule Hannover
+60011611;Department of Clinical Sciences, Danderyd Hospital
+60011613;Dermatology and Skin Cancer Center
+60011614;Swedish Space Corporation
+60011615;American Astronomical Society
+60011616;Andrássy Gyula Budapesti Német Nyelvu Egyetem
+60011617;Maine Gastroenterology Associates
+60011618;Korea National Sport University
+60011619;National Observatory of Athens
+60011620;Katholisches Klinikum Duisburg
+60011621;CAMC Health System
+60011622;Kawila Hospital
+60011623;XY Inc
+60011624;Northern Territory University
+60011625;Aerospace America
+60011626;Bio Tek Instruments Incorporated
+60011627;Caritas Christi Health Care
+60011628;Presbyterian Intercommunity Hospital
+60011629;Chien Hsin University of Science and Technology
+60011630;Zaporozhye State Medical University
+60011631;Banyu Pharmaceutical Co., Ltd.
+60011632;Agricultural Chemistry Division, Thailand Department of Agriculture
+60011633;VILSPA - XMM Newton Science Operations Centre
+60011634;St. Joseph's Medical Center - Houston
+60011635;University of Ottawa Heart Institute
+60011636;Stroudwater Associates
+60011637;Cape Tribulation Tropical Research Station
+60011638;University of Missouri-St. Louis, Department of Biology
+60011639;Istituto Di Storia Dell'europa Mediteranea
+60011640;Nederlandse Gezinsraad
+60011641;Michael E. DeBakey VA Medical Center
+60011642;Asklepios Klinik Langen
+60011643;AIDS Office - San Francisco
+60011644;Universidade Presbiteriana Mackenzie
+60011645;Banmai Chaiyapod Hospital
+60011646;eThekwini Transport Authority
+60011648;Faculté des Sciences, El Jadida
+60011650;Institut fur Hygiene und Sozialmedizin
+60011653;Central University of Technology, Free State
+60011655;Universidade Federal de Mato Grosso, Faculdade de Ciencias Medicas
+60011656;Akademija Russkogo Baleta im. A J. Vaganovoj
+60011657;Kentucky Equine Research Incorporated
+60011659;Skanska
+60011660;Changchun Teachers College
+60011661;Kosair Children's Hospital
+60011663;St. Marien Krankenhaus Lampertheim
+60011664;University of Wollongong
+60011665;South Infirmary-Victoria University Hospital
+60011666;University at Albany
+60011668;Japan Atomic Energy Research Institute
+60011669;Shri Guru Ram Das Institute of Medical Sciences and Research
+60011671;Institute of Psychology of the Polish Academy of Sciences
+60011672;Istituto di Scienze dell'Alimentazione
+60011673;Croatian Institute of Transfusion Medicine
+60011675;Hôpital Robert-Debré AP-HP
+60011676;Klinikums Main-Spessart
+60011677;Sanford School of Medicine
+60011678;Swiss Institute of Allergy and Asthma Research
+60011679;Kosin University
+60011680;Novioconsult
+60011681;Navajo Community College
+60011682;Hospital Clinico de la Universidad de Chile
+60011683;Institute for Molecular Medicine, Huntington Beach
+60011684;Bellevue University
+60011685;Maria Curie-Sklodowska University in Lublin
+60011686;Max Planck Institute of Neurobiology
+60011687;Carney Hospital
+60011688;Space Systems Loral
+60011690;7TM Pharma AS
+60011691;Risk Assessment Corporation
+60011692;IMC Fachhochschule Krems
+60011693;Hopital de Bois-Guillaume
+60011694;Akron City Hospital
+60011695;Pranungkloa Hospital
+60011696;Hoboken University Medical Center
+60011697;New Chemical Entities, Inc.
+60011698;AEA Technology
+60011699;Carter Mining Company
+60011700;Haldor Topsoe, Inc.
+60011701;Psychiatrische Tagesklinik Friedrichshafen
+60011702;La Sierra University
+60011703;Krankenhaus St. Elisabeth - Bad Hersfeld
+60011704;Hospital General del Sur
+60011705;Park City Hospital Bridgeport
+60011706;Prudential Financial
+60011707;Stockholms läns landsting
+60011708;Power Transmission Design
+60011709;Hutzel Hospital
+60011711;Instituto Argentino de Oceanografia
+60011712;Yuanpei University of Medical Technology
+60011713;Morningside College
+60011714;Instituto de Artes Visuais, Design e Marketing - IADE
+60011715;Tianjin Medical University
+60011716;Institute of Neurosurgery Ams of Ukraine
+60011717;King Fahd National Guard Hospital
+60011718;Fisheries Research Agency
+60011719;University of Miskolc
+60011720;Xi'an Sanzi University
+60011721;Northwestern Mutual
+60011723;Dutch Teledermatologic Consultation Centre
+60011724;Krankenhäuser der Kreisspitalstiftung Weißenhorn
+60011725;Sunrise Children's Hospital
+60011726;Sagami Chemical Research Center
+60011728;Saab AB
+60011729;Gefäß- und Hautzentrum Blaustein / Ulm (MVZ)
+60011730;Vaal Triangle Technikon
+60011731;Dr Ambedkar Institute of Productivity
+60011733;Calgary Health Region
+60011734;Forensic Science Centre, Adelaide
+60011735;Ballarat Health Services
+60011736;Syntex Research
+60011737;Dunsink Observatory
+60011738;National Institute of Technology, Kumamoto College
+60011739;Politechnika Lubelska
+60011740;Chiba Prefectural Agriculture Research Center
+60011741;Credit Suisse group
+60011742;Universidade Regional do Noroeste do Estado do Rio Grande do Sul
+60011743;Royal Botanic Gardens Sydney
+60011744;Sverdrup Technology, Inc.
+60011746;Universidad Nacional de Tucuman (UNT), Facultad de Medicina
+60011747;Fachhochschule Kärnten
+60011748;Pawtucket Day Child Development Center
+60011749;Castleton State College
+60011750;Auckland City Hospital
+60011751;Cleary Gottlieb
+60011754;Auburn University
+60011755;St. Mary's Health System
+60011756;Kimron Veterinary Institute Israel
+60011757;Municipality of Dordrecht
+60011758;Illinois Wesleyan University
+60011759;Yamaguchi Agricultural Experiment Institute
+60011760;Western State Hospital, Staunton
+60011761;BBN Technologies
+60011762;Gemological Institute of America
+60011763;Creighton University School of Pharmacy and Health Professions
+60011764;University of Maryland School of Law
+60011765;Indiana University Medical Center Indianapolis
+60011766;Chaim Sheba Medical Center Israel
+60011767;Johnson County Community College
+60011768;Hôpitaux Maringer Villemin Fournier
+60011769;Instytutu Lotnictwa
+60011770;University of Maine Center for Science and Mathematics Education Research
+60011771;Saskatchewan Health Authority
+60011772;The Marine Mammal Center
+60011774;Institute of Applied Physics of the Russian Academy of Sciences
+60011775;University of East Anglia, Faculty of Medicine and Health Sciences
+60011776;Ministry of Social Affairs Israel
+60011777;Clear Springs Foods Incorporated
+60011778;International Medical University, Clinical School - Batu Pahat
+60011779;NASA Marshall Space Flight Center
+60011780;University of Wisconsin Madison Food Research Institute
+60011781;University of Utah, Neuroscience Initiative
+60011783;Van Andel Institute
+60011784;CSIC - Centro de Ciencias Medioambientales (CCMA)
+60011785;LSU Eye Center
+60011786;Katowice School of Economics
+60011787;Gen-Probe Incorporated
+60011788;Phuket Marine Biological Center
+60011789;Acharya Shri Chander College of Medical Sciences
+60011790;Center to Improve Care of the Dying
+60011791;Water Quality Control Center of Water Works, Department of Osaka Prefectural Government
+60011792;Alyn Hospital Pediatric and Adolescent Rehabilitation Center
+60011793;Defence Metallurgical Research Lab India
+60011794;Zaidan Hojin Mitsuibunko Mitsui Research Institute for Social and Economic History
+60011795;St. Luke's Boise Regional Medical Center
+60011796;Anyang University
+60011798;Ibaraki Agricultural Center, Plant-Biotechnology Institute
+60011799;Kalmar County Hospital
+60011800;China Medical College Taichung
+60011801;Tagesklinik Lörrach
+60011802;Standard Life Assurance Limited
+60011803;Japan Electric Meters Inspection Corporation
+60011804;Delaware State University Wilmington Site
+60011805;Hospital Universitari de Bellvitge
+60011806;Methodist Hospital Omaha
+60011807;Boehringer Ingelheim Pharma GmbH & Co. KG
+60011808;USDA APHIS National Veterinary Services Laboratories
+60011809;Osaka University of Pharmaceutical Sciences
+60011810;Winter Haven Hospital
+60011811;Winfrith Technology Centre
+60011813;National Food Centre Ireland
+60011814;Consumer Science Research Institute of Hyogo Prefecture
+60011815;Pall Corporation
+60011818;Sappi Limited
+60011819;Wheeling Hospital
+60011820;Thailand National Institute of Health, Department of Medical Sciences, Thailand
+60011821;Institutes of Inorganic Chemistry, Basel
+60011822;National Research Institute of Tuberculosis and Lung Disease Tehran
+60011823;Mater Private Hospital-Redland
+60011824;Tri County Technical College
+60011825;Handelshochschule Leipzig
+60011826;Florida Medical Center
+60011827;Campbell Scientific, Inc.
+60011828;Triservice General Hospital Taiwan
+60011829;Municipality of Amsterdam
+60011830;Center for Strategic and International Studies
+60011831;Theologische Hochschule Friedensau
+60011832;Université de Sherbrooke
+60011833;Huizinga Institute - The Netherlands Graduate School for Cultural History
+60011834;ENSR Consulting and Engineering
+60011835;UPMC Mercy
+60011836;Hokkaido Hakodate Fisheries Experimental Station
+60011837;Milton Keynes General NHS Trust
+60011838;UPMC Sports Medicine
+60011839;The Royal Australian Chemical Institute Incorporated
+60011840;France Télécom Division Recherche et Développement
+60011842;Forschungsinstitut fur Leder Und Kunststoffbahnen Freiberg
+60011843;Institute for Automation and Control Processes, Far Eastern Branch, Russian Academy of Sciences
+60011845;Affymetrix Inc.
+60011846;Nagasaki University
+60011847;Fundacao Educacional Serra dos Orgaos
+60011848;Saint Mary's Hospital
+60011849;Shortridge High School
+60011850;Cigna
+60011852;Woosuk University, College of Oriental Medicine
+60011853;UAB Department of Neurobiology
+60011854;Nuka Research and Planning Group LLC
+60011855;Meridian Corporation
+60011856;Bethesda Children's Hospital
+60011857;Università degli Studi di Parma, Facoltà di Medicina e Chirurgia
+60011858;Haute Ecole Namuroise Catholique
+60011859;Fraunhofer Institute for Factory Operation and Automation IFF
+60011860;Eastman Dental Institute, Stockholm
+60011861;Isogo Central & Neurosurgical Hospital
+60011862;Hospital Don Benito-Villanueva
+60011863;Birmingham Children's Hospital NHS Foundation Trust
+60011864;National University of Food Technologies of Ukraine
+60011865;Southern Hills Medical Center
+60011866;Cornell Center for Vascular Biology
+60011867;Klinik Dr. Schweckendiek GmbH
+60011868;Niedersächsisches Landesamt für Bodenforschung, Hannover
+60011869;Andrology Institute of America
+60011871;Institute of Chemical Process of the Academy of Sciences of the Czech Republic
+60011872;Interfaith Medical Center
+60011873;Oakland University
+60011874;Swedish Medical Center, Seattle
+60011875;Micrologix Biotech Inc.
+60011878;National Hospital, Rikshospitalet
+60011879;Manhattan Eye, Ear and Throat Hospital
+60011881;Hpower.com
+60011882;Kreiskrankenhaus Tauberbischofsheim
+60011883;Pukyong National University
+60011884;University of Kansas School of Medicine - Wichita
+60011885;Robert Gordon University
+60011886;University of Virginia Medical Center
+60011887;Hokkaido Prefectural Kamikawa Agricultural Experiment Station
+60011888;North Shore Associates
+60011889;Rutgers Cancer Institute of New Jersey
+60011890;Idaho Fish and Game
+60011891;Universitat Trier
+60011893;Banting Institute University of Toronto
+60011894;Klinikum Fürstenfeldbruck
+60011895;Fisheries Research Centre Ireland
+60011896;North Western Health Board Sligo General Hospital
+60011897;ERA Technology Ltd
+60011898;Health Research and Educational Trust HRET
+60011899;Suan prung Psychiatric Hospital
+60011900;Evangelisches Krankenhaus Ludwigsfelde-Teltow
+60011901;Max Planck Institute for Gravitational Physics (Albert Einstein Institute)
+60011902;Hum. Gene Therapy Research Institute
+60011904;Crescent Bay Software
+60011905;ISRIC - World Soil Information
+60011908;Flextronics International
+60011909;Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology-Hellas
+60011910;Dantec Dynamics
+60011911;Institute for Quantum Information and Matter
+60011912;Centre for Microbiology Laboratory
+60011913;Centre St Stanislas
+60011914;Hochschule Pforzheim
+60011915;University of Oregon Portland
+60011916;Norwegian Institute of Public Health
+60011917;HSBA Hamburg School of Business Administration
+60011918;Spedali Civili Di Brescia
+60011919;Aukamm klinik
+60011920;Cellomics, Inc.
+60011921;Mustafa Kemal Üniversitesi
+60011922;Nara Prefectural Institute of Industrial Technology
+60011923;Universidad Iberoamericana
+60011924;Barth Electronics, Inc.
+60011925;Ministry of Fisheries and Livestock
+60011926;Alabama Power Company
+60011927;Amsterdam School of Real Estate
+60011928;Chuvash State University
+60011929;Fachhochschule Technikum Wien
+60011930;Mayo Eugenio Litta Children's Hospital
+60011931;Instituto Pirenaico de Ecología
+60011932;Gesundheits- und Pflegezentrum Rüsselsheim
+60011933;John Sealy Hospital and John Sealy Annex
+60011934;Indiana Heart Institute
+60011936;Robert Wood Johnson Foundation
+60011937;Bharat Heavy Electricals Ltd
+60011938;Division of Infectious Diseases, University of Lausanne, Faculty of Biology and Medicine
+60011939;Bhagalpur University
+60011940;University of Wisconsin Carbone Cancer Center
+60011941;Southern Cross University
+60011942;Health Futures, Inc.
+60011943;The Institute for China-Japan Culture Study
+60011944;Shibaura Institute of Technology
+60011945;Boehringer Ingelheim (Canada) Ltd.
+60011946;Sagami Women's University
+60011947;Thailand National Center for Genetic Engineering and Biotechnology
+60011948;Swiss Paraplegic Centre
+60011950;Neurologische Universitatsklinik, Basel
+60011951;Morsani College of Medicine
+60011953;Comision Chilena de Energia Nuclear
+60011955;Parsons Corporation - Denver
+60011956;Fachklinik Aukrug
+60011957;Defence Evaluation Research Agency
+60011959;USDA Forest Service Bridger-Teton National Forest
+60011960;Homestake Mining Company
+60011961;Neurologic Center of South Florida
+60011962;People's Friendship University of Russia, Faculty of Medicine
+60011963;Dead Sea Research Center Israel
+60011964;Mary Potter Hospice
+60011965;Bayer Institute for Health Care Communication
+60011966;CSIC - Instituto de Ceramica y Vidrio (ICV)
+60011968;CSIRO Division of Tropical Animal Production
+60011969;International Crane Foundation
+60011972;Air Force Research Laboratory Information Directorate
+60011973;Montana Fish and Wildlife Management Assistance Office
+60011974;Udmurt State University
+60011975;National Dong Hwa University
+60011976;University of Alaska Fairbanks
+60011977;Amselco Exploration Inc
+60011978;Pyongtaek University
+60011979;National Research Center for Coal and Energy
+60011980;Universidade do Grande Rio Professor Jose Souza Herdy, Faculdade de Medicina
+60011981;The Research Association of Industry and Science
+60011982;Crawley Hospital
+60011983;Daito Bunka University
+60011984;Aomori Prefectural Fisheries Research Center
+60011985;Hospital de Calatayud
+60011986;University of Washington School of Oceanography
+60011987;Caribbean Coral Reef Ecosystems
+60011988;Kracie Holdings,Ltd.
+60011989;Kanto Gakuin University
+60011990;National Water Research Institute
+60011991;Emma Pendleton Bradley Hospital
+60011992;Utah Division of Wildlife Resources
+60011993;Newcastle General Hospital
+60011994;Clinical Microbiology Institute
+60011995;Entidad Publica Empresarial Red.Es
+60011996;Koriyama Kaisei Gakuen University and College
+60011997;Cornell Lab of Ornithology
+60011998;Universidad Autónoma de Nayarit, Escuela de Medicina
+60011999;Dutch Federation for the Rubber and Plastics Industry
+60012000;Tetra Tech's Center for Water Resources
+60012001;Haute Ecole de Bruxelles
+60012003;Biomedicum Helsinki
+60012005;Multimedia University
+60012007;Migal Galilee Technology Center Israel
+60012008;Instituto de Engenharia de Sistemas e Computadores, Lisbon
+60012009;National Institutes for the Humanities National Museum of Japanese History
+60012010;St. Finbarr's Hospital
+60012011;City of Jersey City - Fire Department
+60012012;Centre Européen de Recherche et d'Enseignement des Géosciences de l'Environnement
+60012013;Regioplan Policy Research
+60012014;Fundación Galileo Galilei
+60012015;Karo Bio
+60012016;Fachhochschule Schmalkalden
+60012017;Bayside Health
+60012018;University of Pittsburgh Medical Center
+60012019;CERAM Sophia Antipolis
+60012020;Charles University, Faculty of Mathematics and Physics
+60012021;Philadelphia College of Textiles and Science
+60012022;Mansoura University
+60012024;Universitätsklinik und Poliklinik für Psychiatrie, Bern
+60012025;Centre d'Etudes de Limeil-Valenton
+60012026;US Naval Civil Engineering Lab
+60012027;Heilongjiang University of Technology
+60012028;Creighton University
+60012029;Universitatea Petru Maior din Targu-Mures
+60012030;Gifu University of Economics
+60012031;Troy University-Montgomery Campus
+60012032;Center on Budget and Policy Priorities
+60012033;IMT Mines Alès
+60012034;Goteborg University Department of Rheumatology and Inflammation Research
+60012035;Universidad de la Frontera
+60012036;Moritz-Klinik Bad Klosterlausnitz
+60012037;Katholischen Hospitalvereinigung Weser-Egge gGmbH, Bad Driburg
+60012038;SRA International Inc
+60012039;Boise Oral and Maxillofacial Surgery
+60012040;Bulgarian Academy of Sciences, Central Laboratory of General Ecology
+60012041;Institute of Meteorology and Water Management Maritime Branch Gdynia
+60012043;Plansee AG
+60012044;Hospital Perpetuo Socorro
+60012045;Capital Health Edmonton
+60012046;Universite Victor Segalen U.F.R. 1 - Faculte de Medecine Paul Broca
+60012047;Southeast Louisiana Hospital
+60012048;Asklepios Klinik Altona
+60012049;Wayo Women's University
+60012050;Norsk institutt for luftforskning
+60012051;Ecole Nationale Supérieure de Mécanique et des Microtechniques de Besancon
+60012052;Institute of Sedimentary & Petroleum Geology
+60012053;Florida Department of Transportation
+60012054;Rollins College
+60012055;Svendborg Hospital
+60012056;Sherbrooke Geriatric University Institute
+60012057;Prachinburi Rice Research Center
+60012058;Registre Vaudois des Tumeurs
+60012059;Special Astrophysical Observatory, Russian Academy of Sciences
+60012060;Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences
+60012061;Institute of Oceanology of the Polish Academy of Sciences
+60012062;Hôpital Simone Veil
+60012064;ICAR – Central Citrus Research Institute, Nagpur
+60012065;Japan Housing and Wood Technology Center
+60012066;Zentrum für Psychiatrie Münsterklinik Zwiefalten
+60012068;Hopital Sebastopol
+60012069;Defence Research Establishment Suffield
+60012070;University of Leeds
+60012071;Nanjing R and D Center for Astronomical Instruments Chinese Academy of Sciences
+60012072;Hospital Dipreca
+60012073;Manipal Hospital
+60012075;Feighner Research Institute
+60012076;USDA Forest Service - Gallatin National Forest
+60012077;Die Filderklinik
+60012078;Mansoura University, Faculty of Science
+60012079;Dutch Institute for Psychotrauma - IvP
+60012080;University of Shizuoka
+60012081;Loews
+60012082;Hochschule Fresenius
+60012083;Laboratorio de Estudios Ambientales UAS-CIBNOR
+60012084;Bangkok Grace International School
+60012085;Krankenhaus Mörsenbroich-Rath GmbH
+60012086;Federal University of Technology, Minna
+60012087;Isar Kliniken
+60012088;Envirotech Corporation
+60012090;Metropolitan State University of Denver
+60012092;Centre d'hydraulique Canadien
+60012093;IHS Inc.
+60012094;Cornell University College of Agriculture and Life Sciences
+60012095;Northwest Lipid Research Clinic
+60012096;Institute of Soil Science, Agrotechnology and Plant Protection "Nikola Pushkarov", Sofia
+60012097;Baker Petrolite
+60012099;Hopital des Enfants, Hôpitaux universitaires de Genève
+60012100;WIYN Observatory
+60012101;Jefferson Health System, Inc.
+60012102;St. Johns's University Staten Island Campus
+60012103;Mahatma Gandhi State Institute of Public Administration Punjab
+60012104;Lexington Veterans Administration Medical Center
+60012105;Centre de Recherche Astrophysique de Lyon
+60012107;Nihon Sekijyuji Byoin
+60012108;DSM Research
+60012109;Washington Group International
+60012110;Frere Hospital
+60012112;Asociación de Investigación Taller de Inyección de La Industria de Los Plasticos
+60012113;Open University
+60012114;Universidade Regional do Cariri
+60012115;Valence Technology, Inc.
+60012116;Fraunhofer Institute for Embedded Systems and Communication Technologies ESK
+60012117;Institutul Oncologic Prof. Dr. Alexandru Trestioreanu Bucuresti
+60012119;T.C. Beykent Üniversitesi
+60012120;Lipetsk State Technical University
+60012121;Nebraska Orthopaedic and Sports Medicine
+60012122;Kent and Canterbury Hospital
+60012124;Royal Ahold
+60012125;Klinik für Psychiatrie und Psychotherapie Merxhausen
+60012126;Hrvatske Vode
+60012127;University of Louisville Department of Surgery
+60012128;North West Armed Forces Hospital, Tabuk
+60012129;MIT Lab for Artificial Intelligence
+60012130;American Society of Civil Engineers
+60012131;Saga Ceramics Research Laboratory
+60012132;Watkins-Johnson Company
+60012133;Centre Paul Strauss Centre Régional de Lutte Contre le Cancer de Strasbourg
+60012134;Water Control Board of Schieland and the Krimpenerwaard
+60012135;Pius-Hospital Ochtrup
+60012136;Fachhochschule Kufstein Tirol
+60012137;Rijeka University School of Medicine
+60012138;Mendeleev University of Chemical Technology of Russia
+60012140;Gangelter Einrichtungen Maria Hilf
+60012141;Shanghai Second Medical University
+60012142;Fukui Prefectural Environmental Radiation Research and Monitoring Center
+60012143;Southern Iron Disorders Center
+60012145;Ohio State University Hospital
+60012146;State Forests of New South Wales
+60012147;Berufsgenossenschaftlichen Unfallklinik Tübingen
+60012148;GGZ, Foundation for Mental Health Care Drenthe
+60012149;UroCor Incorporated
+60012150;Philips Lumileds Lighting Company
+60012151;VTT Machines, Materials, Production Technology
+60012152;Hemels van der Hart Consultancy
+60012153;Gregor Mendel Institute of Molecular Plant Biology
+60012156;Deutsche Bank AG
+60012157;University of Kansas School of Nursing
+60012158;Hopital Albert Calmette
+60012159;Norman Bethune Medical Science Division
+60012160;America's Health Insurance Plans
+60012162;Politecnico di Torino
+60012163;Argonaut Technologies
+60012164;Université de Marne-La-Vallée
+60012165;American Pharmacists Association
+60012166;Deaconess Hospital, St Louis
+60012167;Sangyo Ikadaigaku Hospital
+60012168;Kansai Institute of Information Systems & Industrial Renovation
+60012169;Northside Health Service District
+60012170;Universidad de la Sierra
+60012171;BC Centre for Disease Control
+60012172;Scott and White
+60012173;Seven & I Holdings
+60012174;Federation Nationale des Centres de Lutte Contre le Cancer
+60012175;St. Ansgar-Krankenhaus Höxter
+60012178;Changwon National University
+60012179;Rašínova vysoká škola
+60012180;Anthem Insurance Companies, Inc.
+60012181;Ithaca College
+60012182;Arwyp Medical Centre
+60012183;Urban Conservation Treaty for Migratory Birds
+60012184;School of Medicine & Health Sciences Department of Pediatrics, Grand Forks
+60012187;Mid-America Cardiology Associates
+60012190;Institute for Rural Engineering, NARO
+60012191;Queen Elizabeth Hospital, University Hospital Birmingham NHS Foundation Trust
+60012192;Aberdeen Maternity Hospital
+60012193;Japan Antibiotics Research Association
+60012194;NASA IV and V Facility
+60012196;Maastricht European Institute for Transnational Legal Research - METRO
+60012197;University of Reading
+60012198;Sydney West Area Health Service NSW Health
+60012199;INTERx Research Corporation
+60012200;Light Research Institute Foundation
+60012201;Advanced Bionics Corporation
+60012203;Princess Margaret Hospital for Children Foundation
+60012204;ISG Montevideo
+60012205;Aalborg Handelsskole
+60012206;Academia de Arta Vizuale Ioan Andreescu din Cluj-Napoca
+60012207;Pharmacia and Upjohn, Inc.
+60012208;Center for Health Care Evaluation
+60012210;Cambridge Biotech Corporation
+60012211;Washington Institute of Dermatologic Laser Surgery
+60012212;LSU Biodynamics Institute
+60012213;NASA Stennis Space Center
+60012214;BRICS Basic Research in Computer Science
+60012215;Instituto Internacional de Estudios Avanzados (IDEA)
+60012216;Therics, Inc.
+60012218;The Society for Chemotherapy, The Institute of Chemotherapy
+60012219;American Heart Association
+60012220;Evangelischen Krankenhaus Oldenburg
+60012222;Applied Materials Incorporated
+60012223;Qingdao University of Technology
+60012224;Avon High School
+60012225;Rheinische Klinik für Orthopädie Viersen
+60012226;Centre Eugène Marquis Rennes
+60012227;Scuola Internazionale Superiore di Studi Avanzati
+60012228;Afferent Corporation
+60012230;AT&T Laboratories Middletown
+60012231;St Elizabeths Hospital
+60012232;Leonardo DRS
+60012233;South African Institute for Aquatic Biodiversity
+60012234;Washington Safety Management Solutions LLC
+60012236;Embrapa Pantanal
+60012237;A Working Hypothesis, Inc.
+60012238;National Public Safety Commission of Japan
+60012239;L'Institut Nord-Sud
+60012240;Nature Technology Corporation
+60012241;Memorial Blood Centers of Minnesota
+60012242;Danmarks Biblioteksskole
+60012244;Mechanical Technology, Inc.
+60012245;University of Alberta Department of Medical Genetics
+60012247;Ryutsu Keizai University
+60012248;Tomakomai Komazawa University
+60012250;University of Hawaii West Oahu
+60012252;Sumitomo Corporation
+60012253;Land Transport Safety Authority - New Zealand
+60012255;Xencor
+60012256;Kaohsiung Medical University
+60012257;ICAR - National Dairy Research Institute
+60012259;Università degli Studi di Torino
+60012260;Niedersächsischen Landeskrankenhaus Tiefenbrunn
+60012261;CSIRO Division of Food Processing
+60012262;Fairfax Station
+60012263;EGC Valenciennes
+60012264;Universidade Federal do Rio Grande do Sul, Faculdade de Medicina
+60012265;ENSCO, Inc.
+60012266;Repatriation General Hospital
+60012267;Xinjiang Normal University
+60012268;JAXA Aviation Program Group
+60012269;Clark Atlanta University
+60012270;McGill University, Rosalind and Morris Goodman Cancer Research Centre
+60012271;City and County of Denver
+60012272;Animal Clinic of Regina
+60012273;Image Sciences Institute
+60012274;The Japan Economic Research Institute
+60012275;St. Marianna University School of Medicine
+60012276;Mayo Clinic South Africa
+60012277;Moore Diversified Services
+60012278;INRIA Rhone-Alpes
+60012279;Helmholtz Centre for Infection Research (HZI)
+60012280;Salesian Pontifical University
+60012281;Central Arkansas Veterans Healthcare System John L. McClellan Memorial Veterans Hospital
+60012282;City Polytechnic of Hong Kong
+60012283;Hospice Sacro Cuore
+60012284;National High Magnetic Field Laboratory
+60012285;Iwaki Meisei University
+60012286;Monsanto Company
+60012287;Department of Neurosurgery
+60012288;Naka Fusion Institute
+60012289;Carson Newman College
+60012290;Klinik Blankenstein
+60012291;Incheon National University
+60012292;Main-Taunus-Kreises GmbH
+60012293;Hebei University
+60012294;Covance Clinical Research Units
+60012295;Fraunhofer-Institut fur Integrierte Publikations- und Informationssysteme IPSI
+60012296;Harokopio University
+60012297;Drug Research and Control Center of Egypt
+60012298;Persian Gulf University
+60012299;IURC Institut Universitaire de Recherche Clinique
+60012300;Applied Science and Engineering Laboratories
+60012301;Krankenhaus Waldfriede
+60012302;TriQuint Semiconductor, Inc.
+60012303;International Drug Strategy Institute
+60012304;Guru Gobind Singh Indraprastha University
+60012305;Center for Fisheries Research - CVO
+60012306;University of Milano - Bicocca
+60012307;Baptist Health, Arkansas
+60012308;Good Samaritan Hospital - Suffern
+60012309;Hospital Clinico FUSAT
+60012310;Guangzhou Institute of Energy Conversion of the Chinese Academy of Sciences
+60012311;Karolinska Institutet
+60012312;Royal Thai Naval Hospital
+60012313;The University of Chicago Center for Comprehensive Care and Research on Memory Disorders
+60012314;Lessius Hogeschool
+60012315;Pocatello Regional Medical Center
+60012316;Fukui Prefectural Food Processing Research Institute
+60012317;University of Oregon
+60012318;National Center for Environmental Health
+60012319;Metal Casting Technology Incorporated
+60012320;U.S. Secret Service
+60012321;Metcalf & Eddy
+60012322;Deutsch Franzosisches Institut in Ludwigsburg
+60012323;Nextran
+60012324;Istanbul Üniversitesi Tıp Fakültesi
+60012325;American Enterprise Institute
+60012326;Retina Associates - Boston
+60012327;The Institute for Fiscal Studies
+60012328;Metro Health Hospital
+60012329;Universidad de La Rioja
+60012330;Atlanta Diabetes Associates
+60012331;Ministry of General Affairs, Netherlands
+60012332;Northern California Cancer Program
+60012333;The Kennebunkport Fire Department
+60012334;CSIC-JA-UPO-USE - Centro Andaluz de Biologia Molecular y Medicina Regenerativa (CABIMER)
+60012335;Universitätsspital Basel -Dermatologie
+60012336;Evans Army Community Hospital
+60012337;Arkema Inc.
+60012338;Veterinary Neurological Center
+60012339;Gates Rubber Co
+60012340;GGZ Foundation for Mental Health Care Friesland
+60012342;Sankyo Kabushiki-gaisha
+60012344;Center for Learning and Innovation
+60012345;Christian-Albrechts-Universität zu Kiel
+60012346;Ecole de Gestion et de Commerce de Vesoul
+60012347;Policy Analysis, Inc.
+60012348;Vinzenz Von Paul Hospital, Rottweil
+60012349;Kemeneterian Sains, Teknologi dan Inovasi
+60012350;Krankenhaus Scharnebeck
+60012351;Govind Ballabh Pant University of Agriculture and Technology
+60012352;William Paterson College of New Jersey
+60012353;MDS Harris
+60012354;Instituto de Technologia em Imunobiologicos
+60012355;Observatoire Océanologique de Villefranche Sur Mer
+60012357;CHU de Lyon
+60012358;Klinikum und Seniorenzentrum Itzehoe
+60012359;National Institute for Laser, Plasma and Radiation Physics
+60012361;Universidade Estadual de Montes Claros, Faculdade de Medicina
+60012362;Landcare Research, Hamilton
+60012363;Mississippi Chemical Corporation
+60012364;Spectra Science Corporation
+60012366;Instituto Nacional de Tecnologia, Rio de Janeiro
+60012367;Universite Senghor
+60012368;Universidade Estadual de Mato Grosso do Sul
+60012369;Chinese Culture University Taiwan
+60012370;National Chiao Tung University Taiwan
+60012371;Laboratoires Sandoz, Rueil-Malmaison
+60012372;Tottori University Hospital
+60012373;Arkansas Heart Hospital
+60012374;Universidade Cidade de São Paulo
+60012376;Triodyne, Inc.
+60012377;Alaska Maritime National Wildlife Refuge
+60012379;Cambridge Stem Cell Initiative
+60012380;Mount John University Observatory
+60012381;Ashford and St. Peters Hospitals NHS Trust
+60012382;Crouse Hospital
+60012383;Gdanski Uniwersytet Medyczny
+60012384;Kwassui Women's College
+60012385;Danish Institute for International Studies
+60012386;Urban Institute
+60012387;Georgia State University
+60012388;Centre Hospitalier de Charleville-Mézières
+60012389;ACTA Dental Research BV
+60012390;Florida Division of Plant Industry
+60012391;Lions Eye Institute, Perth
+60012392;National Taipei University of Technology
+60012393;Fibertek, Inc.
+60012394;Morton Plant Mease Health Care
+60012395;Inova Mount Vernon Hospital
+60012396;Scripps Health
+60012398;Comanche County Memorial Hospital
+60012399;Hawker Beechcraft Corporation
+60012400;Karolinska Hospital
+60012402;Center for Defense Information
+60012403;Mercer University at Macon
+60012404;ILC Data Device Corporation
+60012405;Baltic College
+60012406;Yukon Kuskokwim Health Corporation
+60012407;Stratagene
+60012408;Universität zu Lübeck
+60012409;Heilig-Geist-Hospital Bensheim
+60012410;Centrifugal Pump Consultants
+60012411;LEO Pharma AS
+60012413;University of Crete Medical School
+60012414;University of Oklahoma College of Medicine
+60012416;Australian Geological Survey Organization
+60012417;Federal Energy Regulatory Commission
+60012418;Instituto de Ciencias Jurídicas de Puebla A.C.
+60012419;Borgess Research Institute
+60012421;SSK Ankara Eye Hospital
+60012422;National Multiple Sclerosis Society
+60012423;University Hospital Vancouver
+60012424;Universidade Estadual de Goias
+60012425;Scripps Green Hospital
+60012426;Hochschule Düsseldorf, University of Applied Sciences
+60012427;Hospital Privado Centro Medico de Cordoba
+60012428;Cleveland Metropolitan General Hospital
+60012430;Riyadh Dental Center
+60012431;Aichi Fisheries Research Institute
+60012432;Lewin VHI, Inc.
+60012433;Guilford College
+60012434;Columbia St. Mary's Hospital, Milwaukee
+60012435;Charleston Orthopaedic Associates
+60012437;KBC Group
+60012438;Agricultural Production Systems Research Unit
+60012439;Baba Farid University of Health Sciences
+60012440;Boston City Hospital
+60012441;Hercules Powder Company
+60012442;Fundacion Ciencia para la Vida
+60012443;Onderzoekschool Oncologie Amsterdam
+60012444;Kiev International Institute of Sociology
+60012445;University of Utah Health
+60012446;The ISA Group
+60012447;Hospital Arnau de Vilanova
+60012448;Bangkok University
+60012449;Manomet Center for Conservation Sciences
+60012450;Yamanashi Prefectural Fisheries Technology Center
+60012451;Baroda Medical College
+60012452;Centro Tecnológico del Mar - Fundacion CETMAR
+60012453;Little Bear Laboratories, Inc.
+60012454;Kumaraguru College of Technology
+60012455;Texas A and M University at Galveston
+60012456;Marathon Oil Corporation
+60012458;Universidad Lasallista Benavente
+60012460;Kansas Agricultural Experiment Station
+60012461;Aoyama Gakuin University
+60012463;Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires
+60012464;Universidad de Chile
+60012465;Mt Sinai Hospital
+60012466;ITT Industries
+60012467;Hospital de Niños Robeto del Rio
+60012468;University of Windsor
+60012469;Saint Xavier University
+60012470;Eisai Inc.
+60012471;United States Department of Defense
+60012472;Salus-gesundheitszentrum
+60012473;Universidad Tecnologica de Nezahualcoyotl
+60012474;Kliniken Ludwigsburg Bietigheim gGmbH
+60012475;IWK Children's Hospital
+60012476;Center for American Progress
+60012477;Turkish Military Academy
+60012479;Urologische Klinik, Planegg
+60012480;University of Chicago Hospitals
+60012481;WHU - Otto Beisheim School of Management
+60012482;Central Aerohydrodynamic Institute (TsAGI)
+60012483;Peterborough and Stamford Hospitals NHS Foundation Trust
+60012484;OSG Norwich Pharmaceuticals Inc.
+60012485;Institute of History Hungarian Academy of Sciences
+60012486;Hospital Universitari Vall d'Hebron
+60012487;Laramie Peak Clinic
+60012488;Northern Area Armed Forces Hospital, Hafr Al Batin
+60012489;Institutul Clinic Fundeni
+60012491;Ottawa-Carleton Chemistry Institute
+60012492;University Hospital Jacksonville
+60012493;Gujarat Agricultural University India
+60012494;ECORYS Netherlands
+60012495;Gippsland Water
+60012496;Willam Carey University
+60012497;Mansholt Graduate School of Social Sciences
+60012498;Institut Montpéllerian de Biologie
+60012499;Fiskeriforskning
+60012500;Argonex, Inc.
+60012501;The Forest Herbarium, Thailand Ministry of Natural Resources and Environment
+60012503;Idaho State University, Nuclear Engineering Program
+60012504;Terra Tek Inc
+60012505;Clemson University Genomics Institute
+60012506;The Medical Information System Development Center, Tokyo
+60012507;St. Vincent's HealthCare Jacksonville
+60012508;Leeds Teaching Hospitals NHS Trust
+60012509;Dunedin School of Pharmacy
+60012511;Vasa Central Sjukhus
+60012513;IDC
+60012515;Moskovskij Universitet Turo
+60012516;University of Texas School of Public Health
+60012517;Celltech Ltd.
+60012518;Kingsborough Community College
+60012519;Institute of Physics of the Polish Academy of Sciences
+60012521;Thammasat University
+60012522;Bay of Plenty District Health Board
+60012523;Portland Cement Association
+60012524;John T. Vucurevich Cancer Care Institute
+60012525;Regional Environmental Center for Central and Eastern Europe
+60012526;Renown Health
+60012527;Nara University of Education
+60012529;Chicago College of Osteopathic Medicine
+60012530;Kreisklinik Wolfratshausen
+60012531;Saitama Industrial Technology Center
+60012532;ICAR - Central Potato Research Institute, Shimla
+60012533;Takamatsu University
+60012534;The WB National University of Juridical Sciences
+60012535;Harvard NeuroDiscovery Center
+60012536;Innovation Centre Organic Agriculture - IBL
+60012537;Hôpital Nord AP-HM
+60012538;H.L. Snyder Medical Foundation
+60012540;Manning Applied Technology
+60012541;Center for Health Care Law - DC
+60012542;Vancouver Hospital and Health Sciences Center, Vancouver
+60012543;Missouri Western State College
+60012545;Whatman - Clifton
+60012546;Marselisborg Hospital
+60012547;St. Louis University Liver Center
+60012548;National Chemical Laboratory India
+60012549;LWL-Klinik Gütersloh
+60012550;Public Health Research Institute
+60012551;Amsterdam Home Nursing Service
+60012553;Medical College of Wisconsin
+60012554;Alaska Section Epidemiology
+60012555;Saskatoon Cancer Center
+60012556;Philipps-Universität Marburg
+60012557;Kliniken des Landkreises Neumarkt i.d.OPf
+60012558;Charing Cross Hospital
+60012559;Chemical Abstracts Service
+60012560;Northern Kentucky University
+60012561;Gothenburg Migraine Clinic
+60012562;Thunderbird School of Global Management
+60012563;Naval Ambulatory Care Center
+60012564;MITRE Corporation
+60012565;Hagedorn Research Institute
+60012566;Center for Applied Linguistics
+60012567;Kagoshima Immaculate Heart University
+60012568;Klinikum Mittleres Erzgebirge gGmbH
+60012569;Nashville General Hospital at Meharry
+60012570;Universite du Havre Normandie
+60012571;Laurea-ammattikorkeakoulu
+60012572;Istituto Di Scienze E Tecnologie Della Cognizione, Rome
+60012573;Community Blood Center - Kansas City
+60012574;Charles University, First Faculty of Medicine Institute of Physiology
+60012577;National Center of Radiation Research and Technology, Cairo
+60012578;Concordia College
+60012580;Instituto de Química Física de los Materiales, Medio Ambiente y Energía
+60012581;Zhejiang Gongshang University
+60012582;Royal Cornwall Hospitals NHS Trust
+60012583;The Nippon Agricultural Research Institute
+60012584;Modern Materials Handling
+60012585;Missouri Institute of Mental Health
+60012586;George Mason University-Fairfax Campus
+60012587;Centre Jean Perrin
+60012588;Centro Nacional de Epidemiologia
+60012590;Central Valley Medical Center
+60012591;ABB Corporate Research, Vasteras
+60012592;Charles University, Faculty of Medicine in Hradec Kralove
+60012593;Martinska Fakultna Nemocnica
+60012594;Tianjin University of Traditional Chinese Medicine
+60012595;Unsere Webseiten werden momentan überarbeitet
+60012596;Tsukuba Foundation for Chemical and Bio-Technology
+60012597;Elisabeth-Krankenhaus Kassel
+60012598;Crimea State Medical University
+60012599;Institute for Policy Research - Leiden
+60012600;Ajinomoto Co Inc
+60012601;Harish Chandra Research Institute
+60012602;Centre Hospitalier Molière-Longchamp, Brussels
+60012603;Ankara Üniversitesi
+60012605;World Precision Instruments, Inc.
+60012607;Ngee Ann Polytechnic
+60012608;United States Steel
+60012609;Applied Biosystems, Framingham
+60012610;IRSID Institut de Recherches de la Siderurgie Francaise
+60012611;Ontario Hospital Association
+60012612;Wolters Kluwer
+60012613;Irland Group Winthrop
+60012614;University of Zurich
+60012615;Kean University
+60012616;The Cardiovascular Institute, Minato-ku
+60012617;West Liberty State College
+60012619;Bhavnagar University
+60012620;European University of Lefke
+60012621;Montclair State University
+60012622;University of Bedfordshire
+60012623;Zagazig University, Faculty of Medicine
+60012624;WVU Potomac State College
+60012625;International Max Planck Research School for Cell, Developmental, and Systems Biology
+60012626;Jeddah College of Technology
+60012627;Xishuangbanna Tropical Botanical Garden Chinese Academy of Sciences
+60012628;DSM Copolymer Incorporated
+60012629;Centro Atomico Bariloche
+60012630;Università degli Studi Roma Tre
+60012631;Novartis Institutes for Biomedical Research, Vienna
+60012632;Kyoto City Institute of Health and Environmental Sciences
+60012633;Scientific Fishery Systems Incorporated
+60012634;Hospital de Mostoles
+60012635;Dandenong Hospital
+60012636;IVL Svenska Miljoinstitutet
+60012637;Mathematical Sciences Research Institute
+60012638;University of Liege Faculty of Medicine
+60012639;Tecnológico Nacional de México en Celaya
+60012640;St. Luke's Hospital Bradford
+60012641;Duquesne University
+60012642;Universidade do Vale do Paraiba
+60012643;Salzachklinik Fridolfing
+60012644;U.S. Army Medical Command
+60012645;General Hospital of Mytilene Vostanio
+60012646;Underwood Memorial Hospital
+60012647;Klinik fur Herzgefasschirurgie
+60012648;Culver Academies
+60012649;St.Elisabeth-Krankenhaus Leipzig
+60012650;Allegheny College
+60012651;Baystate Medical Center
+60012652;Queensland Fertility Group
+60012653;University of Business and International Studies Geneva
+60012654;Laboratorios Clinicos de Puebla
+60012655;University of Tennessee College of Medicine Memphis
+60012656;Nanometrics Incorporated
+60012657;Akademia Sztuk Pieknych w Poznaniu
+60012658;Berhampur University
+60012659;University of Zanjan
+60012660;American Board of Internal Medicine
+60012661;Royal Alexandra Hospital
+60012662;UCL Institute of Child Health
+60012663;Glaxo-Wellcome Ltd
+60012664;University Hospital for Lung Diseases Jordanovac
+60012667;Yantai Normal University
+60012670;Paton Electric Welding Institute Nasu
+60012671;Council of Europe
+60012673;Hannan University
+60012674;Orthopedie Spital, Vienna
+60012675;Linfield College
+60012676;Universidad Autónoma de Sinaloa
+60012677;Laboratorio de Reproduccion y Lactancia, Mendoza
+60012678;ICAR - National Bureau of Plant Genetic Resources, New Delhi
+60012679;Institute for Work and Health Toronto
+60012680;Wichita State University Libraries
+60012681;Istituto Di Radioastronomia, Bologna
+60012682;Western New Mexico University
+60012683;Universidad del Bio Bio, Concepcion
+60012684;Kunsan National University
+60012685;Krankenhaus Sachsenhausen
+60012686;University of Toronto Faculty of Medicine Department of Ophthalmology and Vision Sciences
+60012687;Kochi Prefectural Agricultural Research Center, Tea Experiment Station
+60012688;South Carolina Sea Grant Consortium
+60012689;Julius-Maximilians-Universität Würzburg
+60012690;Planning Systems Inc.
+60012691;Strategic Visions Incorporated
+60012692;Instituto Tecnológico de Aragón
+60012693;West Virginia University School of Medicine Morgantown Department of Medicine - Section of Cardiology
+60012694;Rijkswaterstaat
+60012695;Kemin Industries, Inc.
+60012696;ONERA Centre de Toulouse
+60012699;Cardiff and Vale NHS Trust
+60012700;Universidad Autónoma Metropolitana, Carrera de Medicina
+60012701;Repligen Corporation
+60012704;Kyungpook National University
+60012705;3 Dimensional Pharmaceuticals, Inc.
+60012706;SKION Corporation
+60012707;Institute of Nuclear Physics, Athens
+60012708;Stanford University
+60012709;School of Biological Sciences
+60012710;Amsterdam Institute for Business and Economic Research
+60012711;Gemeinschaftskrankenhauses Havelhöhe
+60012712;Panametrics, Inc.
+60012714;Universidad de Arte y Ciencias Sociales
+60012715;University of North West
+60012718;Mahidol University
+60012719;Städtisches Klinikum München GmbH
+60012720;Forum Health
+60012721;Bailey Controls Co.
+60012722;Linfield College Portland
+60012723;El Colegio de Michoacán A.C.
+60012726;Capital Hospice
+60012727;Hospital Sultanah Aminah
+60012728;Ilmtalklinik Pfaffenhofen GmbH
+60012729;Instituto Nacional de Pesquisas Espaciais
+60012730;University Hospital Innsbruck
+60012731;Centro Científico Tecnológico, Mendoza
+60012732;Weill Cornell Internal Medicine Associates
+60012733;Cymer, Inc.
+60012734;Albion College
+60012735;St. Petri-Hospital Warburg gGmbH
+60012736;Kosin University, College of Medicine
+60012737;Postgraduate Dental Education Center
+60012738;Wishard Memorial Hospital
+60012739;Isco Incorporated
+60012740;Institute of Ceramic Technology of Ibaraki Prefecture
+60012741;King Fahad Hospital Madinah
+60012742;Kyoto Prefectural Tango Agricultural Research Institute
+60012743;Nagasaki Fruit Tree Experiment Station
+60012746;Australian Government Department of the Environment and Water Resources
+60012747;Kementerian Kesihatan Malaysia
+60012748;California Department of Mental Health
+60012749;Oldenburger Forschungs- Und Entwicklungsinstitut fur Informatik-Werkzeuge Und -Systeme
+60012750;Hunter Health
+60012751;Hamamatsu University
+60012752;Toyon Research Corporation
+60012753;Università degli Studi di Messina, Facoltà di Medicina e Chirurgia
+60012754;Cancer Research UK
+60012755;All-Russian Institute of Electrical Engineering
+60012756;IRCCS Istituto Dermopatico dell'Immacolata
+60012757;JAXA Tsukuba Space Center
+60012758;Arizona Heart Hospital
+60012759;Health Sciences Centre Calgary
+60012760;Beijing Education and Research Network Chinese Academy of Sciences
+60012761;Tyco Laboratories, Inc.
+60012762;Laurentian University
+60012763;Leibniz-Institut f?r Kristallz?chtung
+60012764;Wesley Medical Center
+60012765;Ibrahim Medical College
+60012767;Department of Surgery
+60012768;Philosophisch-Theologische Hochschule der Salesianer Don Boscos Benediktbeuern
+60012770;Graduate School of Business Administration Zurich
+60012771;Howard University
+60012772;Universite d'Angers
+60012773;Enugu State University of Science and Technology
+60012774;Clinica Renal, Barcelona
+60012776;Universidade Federal Rural da Amazonia
+60012777;University of Agricultural Sciences Godollo
+60012779;Milwaukee Medical Clinic
+60012780;College of Fisheries Karnataka
+60012781;Centres de Computació i Comunicacions de Catalunya
+60012782;Industrial Technology Center of Saga
+60012783;Klinika za Infektivne Bolesti
+60012784;Trakia University
+60012785;Beijing Sport University
+60012786;Walter Reed Army Institute of Research
+60012787;Royal Australasian College of Surgeons
+60012788;Katharinen-Hospital Willich
+60012789;The Royal Bournemouth and Christchurch Hospitals NHS Foundation Trust
+60012790;Centro de Investigaciones Opticas - La Plata
+60012791;Department of Psychiatry Montreal
+60012793;Idera Pharmaceuticals, Inc.
+60012794;Berufsgenossenschaftliche Unfallklinik Duisburg
+60012795;SWOV Institute for Road Safety Research
+60012796;Hospital General de Niños Pedro de Elizalde
+60012797;Deutsche Sporthochschule Köln
+60012798;Polska Akademia Nauk Oddzial w Krakowie
+60012799;Eastern Illinois University
+60012800;Centro de Física da Matéria Condensada
+60012801;Ciba-Geigy Ltd.
+60012803;Autonomous Solutions, Inc.
+60012804;Max Planck Institute for Nuclear Physics
+60012805;Institut de Chimie de la Matière Condensée de Bordeaux
+60012806;Royal Sussex County Hospital
+60012807;St. Mary Medical Center, Long Beach
+60012808;Epicentre
+60012810;Glaxo Laboratories
+60012812;University of Occupational and Environmental Health School of Medicine
+60012813;Deseret Electronics Research Corporation
+60012814;Jacobs Institute of Women's Health
+60012815;Receptor Technologies, Inc.
+60012816;Orthoklinik Lüneburg
+60012817;Association for the History of Dutch Music
+60012818;Fukui Industrial Support Center
+60012819;Province of Noord-Brabant - Ecology Department
+60012820;Institute of Physics Chinese Academy of Sciences
+60012821;EBS Universität für Wirtschaft und Recht
+60012822;Centro Español de Metrologia
+60012823;Orillia Soldiers' Memorial Hospital
+60012825;Karolinska Universitetssjukhuset Infektionskliniken
+60012826;Plasma Therm Inc.
+60012827;Augsburg University
+60012828;Universidade do Estado do Rio de Janeiro, Faculdade de Ciencias Medicas
+60012829;Fukuoka University, College of Economics
+60012831;University of Rochester School of Medicine and Dentistry
+60012832;American Tobacco Company
+60012833;Yamagata Prefectural Forest Research &Instruction Center
+60012834;Oita Kenritsu Byoin
+60012835;Iran University of Science and Technology
+60012836;VIC Environment Protection Authority
+60012837;Emory Healthcare
+60012838;Albuquerque Veterans Administration Medical Center
+60012840;Ralston Center
+60012841;University of the Witwatersrand School of Public Health
+60012842;Frankenalb-Klinik Engelthal
+60012843;Vinzentius-Krankenhauses Landau
+60012844;Medical College Hospital Thiruvananthapuram
+60012845;Queen Victoria Women's Centre
+60012846;Sentara Leigh Hospital
+60012847;California Institute of Biological Research
+60012848;Sahand University of Technology
+60012850;Saga Prefectural Forestry Experiment Station
+60012851;State University of New York at Plattsburgh
+60012852;Centre for Materials for Electronics Technology India
+60012853;Netherlands Institute for City Innovation Studies - NICIS
+60012854;Mount Carmel Mercy Hospital
+60012855;Netherlands Flemish Institute in Cairo
+60012856;NOAA Coastal Services Center
+60012857;Hospital Universitario Evangelico de Curitiba
+60012858;U.S. Army Research Laboratory - Hampton
+60012859;Bogolyubov Institute for Theoretical Physics Nasu
+60012860;Huntington Hospital
+60012861;ECAM-EPMI
+60012862;Europa-Universität Flensburg
+60012863;St. Antonius Krankenhaus Kön
+60012865;Wonkwang University (WKU), College of Oriental Medicine
+60012866;Consulting Services & Research Incorporated
+60012867;Cairns Base Hospital
+60012868;Department of Medicine
+60012869;Laboratory, Sewage Works Bureau, Kyoto City
+60012870;International Max Planck Research School on Moduli Spaces
+60012871;Fundacao Faculdade Federal de Ciencias Medicas Porto Alegre
+60012872;Sterkfontein Hospital
+60012873;Technological University Dublin
+60012874;Zanjan University of Medical Sciences
+60012875;National Women's Education Center
+60012876;Goodyear Tire & Rubber
+60012877;Jerusalem Institute for Israel Studies
+60012878;East Lancashire Hospitals NHS Trust
+60012879;Jiangxi Normal University
+60012880;The Jones Institute for Reproductive Medicine
+60012881;Universidade Metodista de Piracicaba
+60012882;Sana Kliniken Bad Wildbad
+60012883;Amsterdam Institute for German Studies
+60012884;Unitas Interventional Unit
+60012885;Hospital Dr. Moliner
+60012886;Electronic Packaging & Production
+60012887;Tera Computer Company
+60012888;ISARA Lyon
+60012889;The Japan Foundation of Public Communication on Science and Technology
+60012890;Sankt Marienkrankenhaus
+60012891;The Hokuriku Industrial Advancement Center
+60012892;Fraunhofer Representative Office Japan
+60012893;Weston State Hosp
+60012894;Laboratory for Neutron Scattering, Villigen
+60012895;Universidad Panamericana
+60012897;Samitivej Srinakarin Children's Hospital
+60012898;Institut für Friedensforschung und Sicherheitspolitik an der Universität Hamburg
+60012900;MRC Institute Of Hearing Research
+60012901;Jesus College
+60012902;Western Michigan University Grand Rapids
+60012904;National Orthopaedic Hospital, Enugu
+60012905;Independent Administrative Institution National Museum of Art The National Museum of Western Art, Tokyo
+60012907;Haute Ecole de la Province de Liège Léon-Eli Troclet
+60012908;Royal KPN NV
+60012909;Seton Medical Center Austin
+60012910;Victor Babes National Institute
+60012911;National Institute of Public Health Prague
+60012912;Tameside General Hospital
+60012913;Klinikum Cuxhaven
+60012914;Edinburgh Medical School, Medical Research Council Human Genetics Unit
+60012915;Iranian Institute for Health Sciences Research
+60012917;Warren Clinic
+60012918;Sangamo Therapeutics, Inc.
+60012919;Fraunhofer Institute for Non-Destructive Testing IZFP
+60012920;American Psychological Association
+60012921;Khon Kaen Regional Hospital
+60012922;Ministerie van Defensie
+60012923;Universidad de Navarra, Facultad de Medicina
+60012925;Aspirus Wausau Hospital
+60012926;St. Francis Hospital Wilmington
+60012927;Withington Community Hospital
+60012928;Freeport-McMoRan Copper and Gold Inc.
+60012929;Hochwald Krankenhaus
+60012930;Hospital General Universitario de Valencia
+60012931;BDM Petroleum Technologies
+60012932;Monash University Faculty of Medicine
+60012933;Florida Spine Institute, Clearwater
+60012934;Assembly Engineering
+60012935;Human Science Laboratory Johannesburg
+60012936;Cliniques Universitaires Saint-Luc
+60012937;Universiteit Antwerpen
+60012938;Newton College Brno
+60012939;International Minerals and Chemical Corporation
+60012940;Fraunhofer Institute for Process Engineering and Packaging IVV
+60012941;Queen Charlotte's Matern. Hosp.
+60012942;Mistri Wing
+60012943;Inframat Corporation
+60012944;Planetary Science Institute
+60012945;Ricoh Co., Ltd.

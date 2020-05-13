@@ -8,10 +8,8 @@ sys.path.insert(0, base_dir)
 
 import requests
 from bs4 import BeautifulSoup as bs
-import pandas as pd
-import re
 
-from src.Scopus_Crawler.scopus_config import cookie, headers, data_url, proxies
+from src.Scopus_Crawler.scopus_config import headers, data_url, proxies
 
 
 def catch_info(author_id):
@@ -33,6 +31,7 @@ def catch_info(author_id):
 
 
 if __name__ == '__main__':
+    # 单元测试用
     author_id = '56425884500'
     doc_num, cite_count = catch_info(author_id)
     print(doc_num, cite_count)

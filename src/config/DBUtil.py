@@ -95,8 +95,10 @@ class DBUtil:
         df.to_sql(table_name, self.engine, index=False, if_exists='append', dtype=datatype)
 
     def close(self):
-        self.cursor.close()
+        if self.cursor:
+            self.cursor.close()
         self.conn.close()
+        self.engine.dispose()
 
 
 if __name__ == '__main__':

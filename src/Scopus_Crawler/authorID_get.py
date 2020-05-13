@@ -15,17 +15,7 @@ import re
 from src.Scopus_Crawler.scopus_config import driver_path, search_url
 
 
-# 浏览器选项
-options = ChromeOptions()
-# 添加代理地址
-options.add_argument('--proxy-server=202.120.43.93:8059')
-options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                     'Chrome/81.0.4044.138 Safari/537.36')
-
-
-def get_id(name, institution):
-    # 启动浏览器
-    driver = webdriver.Chrome(driver_path, options=options)
+def get_id(driver, name, institution):
     # 将姓名拆分为list
     name_list = re.split(r'\s+', name)
     first_name = name_list[0].lower()
@@ -55,13 +45,22 @@ def get_id(name, institution):
         if element.text.strip().lower() == ', '.join(name_list).lower():
             author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
             authorID_list.extend(author_id)
-    driver.close()
 
     return authorID_list
 
 
 if __name__ == '__main__':
+    # 单元测试用
+    # 浏览器选项
+    options = ChromeOptions()
+    # 添加代理地址
+    options.add_argument('--proxy-server=202.120.43.93:8059')
+    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                         'Chrome/81.0.4044.138 Safari/537.36')
+
+    driver = webdriver.Chrome(driver_path, options=options)
+
     author_name = 'Cai Liang'
     author_ins = 'fudan university'
-    authorID_list = get_id(author_name, author_ins)
+    authorID_list = get_id(driver, author_name, author_ins)
     print(authorID_list)

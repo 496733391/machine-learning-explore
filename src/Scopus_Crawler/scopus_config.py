@@ -30,8 +30,8 @@ proxies = {
 }
 
 # cookies
-with open('cookies.json', 'r') as js:
-    cookie = json.load(js)
+# with open('cookies.json', 'r') as js:
+#     cookie = json.load(js)
 
 # headers
 headers = {
