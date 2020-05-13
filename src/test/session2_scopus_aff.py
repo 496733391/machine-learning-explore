@@ -4,6 +4,8 @@
 import requests
 from bs4 import BeautifulSoup as bs
 
+from src.config.logConfig import logger_aff2 as logger
+
 base_url = 'https://www.scopus.com/affil/profile.uri?afid=%s&origin=AffiliationProfile'
 
 proxies = {
@@ -15,27 +17,28 @@ headers = {
                           'e/81.0.4044.138 Safari/537.36'
 }
 
-temp_i = 60007308
-while temp_i < 60010006:
+temp_i = 60052634
+while temp_i < 60070006:
     result_list = []
     try:
-        for i in range(temp_i, 60010006):
+        for i in range(temp_i, 60070006):
             url = base_url % i
-            print(i)
+            logger.info('%s' % i)
             text = requests.get(url, proxies=proxies, headers=headers, timeout=300)
             if 'Error message' in text.text:
-                print('***' + str(i) + '***')
+                logger.info('***%s***' % i)
 
             else:
                 soup = bs(text.text, 'lxml')
-                print(soup.find(class_='h4 wordBreakWord marginLeft1').text)
                 result_list.append(str(i) + ';' + soup.find(class_='h4 wordBreakWord marginLeft1').text + '\n')
+                logger.info(str(i) + ';' + soup.find(class_='h4 wordBreakWord marginLeft1').text)
 
         # 若循环正常结束，结束while循环
-        temp_i = 60010006
+        temp_i = 60070006
 
-    except Exception:
-        print('出现报错中断，从断点处再开始: %s' % i)
+    except Exception as err:
+        logger.info('ERROR: %s' % err)
+        logger.info('出现报错中断，从断点处再开始: %s' % i)
         temp_i = i
 
     with open('result2.txt', 'a', encoding='utf-8') as f:

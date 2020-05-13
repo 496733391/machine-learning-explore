@@ -20,7 +20,6 @@ def get_cookies(driver):
     cookies_dict = {}
     for element in cookies:
         cookies_dict[element['name']] = element['value']
-    driver.close()
 
     cookies_json = json.dumps(cookies_dict, indent=4)
     with open('cookies.json', 'w') as js:
@@ -40,3 +39,4 @@ if __name__ == '__main__':
 
     driver = webdriver.Chrome(driver_path, options=options)
     cookies = get_cookies(driver)
+    driver.close()

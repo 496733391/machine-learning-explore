@@ -14,7 +14,6 @@ from src.Scopus_Crawler.scopus_config import headers, data_url, proxies
 
 def catch_info(author_id):
     url = data_url % author_id
-    print(url)
     detail = requests.get(url,
                           proxies=proxies,
                           headers=headers,
