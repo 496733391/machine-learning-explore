@@ -13,9 +13,11 @@ import time
 import re
 
 from src.Scopus_Crawler.scopus_config import driver_path, search_url
+from src.config.logConfig import logger_scopus as logger
 
 
 def get_id(driver, name, institution):
+    logger.info('当前搜索：姓名：%s，机构：%s' % (name, institution))
     # 将姓名拆分为list
     name_list = re.split(r'\s+', name)
     first_name = name_list[0].lower()

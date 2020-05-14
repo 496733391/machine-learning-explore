@@ -3172,3 +3172,409 @@
 60035852;Instituto de Quimica de UNESP
 60035853;Pakistan Institute of Nuclear Science and Technology
 60035865;Institute of Computer Science Crete
+60035919;Diagnostisk radiologi, Malmö
+60035923;CanmetMATERIALS
+60035931;BC Research Inc.
+60035974;First Affiliated Hospital Chengdu
+60035995;Universidad Nacional Experimental del Táchira
+60036032;Instituto Superior de Economia e Gestão, Universidade de Lisboa
+60036113;Luxell Technologies Inc.
+60036277;Vilnius University Hospital
+60036281;Texas Instruments (India) Ltd
+60036289;University of Carthage, Institut National de Recherche Scientifique et Technique Tunis
+60036312;Uddevalla Hospital
+60036352;Embrapa Clima Temperado
+60036401;ICAR - National Research Centre on Equines,  Hisar
+60036405;Federal Urdu University of Arts
+60036452;Hochschule für Technik FHNW
+60036479;Al Al-Bayt University
+60036483;CHU Sahloul
+60036487;National Institute of Gerontology and Geriatrics
+60036535;Clinica de Oftalmologie
+60036611;Instituto de Biociencias da UNESP
+60036661;Kaunas University Hospital
+60036701;Henan Medical University
+60036724;Shri Shivaji Science College Amravati
+60036725;Ospedale S. Chiara
+60036740;Universidade do Porto, Centro de Astrofísica
+60036812;Wella AG
+60036835;LIRD au Brésil
+60036862;Etablissement Français du Sang Alsace
+60036931;Conservation de la Faune
+60036965;National Institute of Oceanography Pakistan
+60036995;Hôpital de l'Antiquaille CHU de Lyon
+60037015;Hellenic Naval Academy
+60037021;CNRS UPR 9023
+60037075;Pakistan Medical Research Council
+60037199;University of Buenos Aires Instituto de Cálculo
+60037201;Holy Cross Hospital, Calgary
+60037241;Islamia University
+60037251;Institute of Public Health Timisoara
+60037259;Embrapa Pecuaria Sudeste
+60037517;Universidade do Porto, Faculdade de Desporto
+60037558;University of Nairobi College of Health Sciences
+60037588;SSKM Hospital
+60037589;Museu Nacional de História Natural e da Ciência, Universidade de Lisboa
+60037595;ICAR - Central Institute for Research on Cotton Technology,  Mumbai
+60037596;National Museums of Kenya
+60037625;Universidad Nacional Experimental Politécnica Antonio José de Sucre
+60037670;Técnico Institute for Mechanical Engineering
+60037683;University Hospital Zurich, Institut fur Diagnostische Radiologie
+60037716;Potato Research Institute
+60037777;National Institute of Child Health Pakistan
+60037882;East China University of Chemical Technology
+60037900;Ministry of Electricity and Water Kuwait
+60037903;Universidad Nacional Experimental de Los Llanos Occidentales Ezequiel Zamora
+60037933;Ospedale La Carità
+60037950;Government College University Lahore
+60037956;National University of Science and Technology Bulawayo
+60038102;Fondazione Ugo Bordoni
+60038119;Instituto de Medicina Tropical Pedro Kouri
+60038175;LACECA Research Cent
+60038265;Vilnius University Institute of Immunology Lithuanian
+60038289;Azienda USL di Bologna
+60038307;JSS Science and Technology University
+60038317;Embrapa Arroz e Feijao
+60038338;Nutrition and Metabolic Diseases 'N. Paulescu'
+60038340;Ministère de l‘Energie et des Ressources naturelles du Québec
+60038364;Francisk Skorina Gomel State University
+60038369;Centro de Estudios Medicos y Bioquimicos
+60038433;Dalhousie University Faculty of Medicine Department of Biochemistry and Molecular Biology
+60038436;International Laser Center Belarus
+60038439;Ayub Teaching Hospital
+60038472;University of Veterinary and Animal Sciences Lahore
+60038483;Fermentas UAB
+60038553;Environmental Technologies Center
+60038597;Scientific Practical Materials Research Centre of NAS of Belarus
+60038608;Faculty of Agricultural Technology
+60038611;Université de Tunis El Manar, Hôpital Aziza Othmana
+60038629;Servicio Geologico Minero Argentino
+60038655;Karolinska University Hospital Department of Audiology
+60038659;University of Sargodha
+60038666;University of Carthage, Institut National des Sciences Appliquées et de Technologie
+60038672;Galeno Research Unit
+60038716;Universität Bern, Institut für Tierpathologie
+60038812;University of Kuwait
+60038814;Pakistan Institute of Engineering and Applied Sciences
+60038828;Chmelarsky Institut
+60038835;Hôpital de la Providence
+60038839;Institute of Geodynamics
+60038846;Instituto Hidrográfico
+60038962;Institut de Mathématiques de Marseille
+60038971;Státní Ústav Radiacní ochrany
+60038988;Hospital Luis Ortega
+60039026;Agii Anargiri Cancer Hospital
+60039057;Manitoba Health
+60039063;Centro Internacional de Entrenamiento e Investigaciones Medicas
+60039088;Kantonsspital Aarau, Department of Surgery
+60039100;University of Buenos Aires Laboratorio de Analisis de Trazas
+60039232;Instituto Médico La Floresta
+60039255;Hospital de Emergencias Dr. Clemente Alvarez
+60039289;Moi University
+60039343;India Habitat Centre
+60039352;Laboratório Nacional de Investigação Veterinária
+60039379;Dr. Balabhai Nanavati Hospital
+60039405;Family AIDS Caring Trust Mutare
+60039503;Aristotle University of Thessaloniki Department of Physics
+60039507;Veobecná Fakultní Nemocnice V Praze
+60039580;Institute of Animal Physiology and Genetics of the Academy of Sciences of the Czech Republic
+60039604;Central South University of Technology China
+60039609;Ecole Nationale d'Ingénieurs de Tunis, Laboratoire de Modélisation Mathématique et Numérique dans les Sciences de l'Ingénieur
+60039637;Capital University of Science & Technology
+60039674;Dr. A. Q. Khan Research Laboratories
+60039702;Universidad Central de Venezuela, Facultad de Ciencias
+60039727;University of Ancona
+60039753;Batra Hospital India
+60039767;Institut des Régions Arides
+60039831;Universidade do Sao Paulo Instituto de Ciencias Biomedicas
+60039843;Dr. Robert Mathys Foundation
+60039915;Chania General Hospital St. George
+60039934;Pakistan Atomic Energy Commission
+60039960;Facultatea de Textile-Pielarie
+60039974;Bio Sidus
+60040006;Hospital Universitario San Ignacio
+60040010;Hospital Pro-Cardiaco
+60040012;Groupe Hospitalier du Havre
+60040016;Instituto Nacional de Salud
+60040040;Universidade Portucalense Infante D.Henrique
+60040046;Silesian Museum
+60040070;Aristotle University of Thessaloniki Department of Surgery
+60040116;Centro de Investigacion y Extension Forestal Andino
+60040122;Hospital Rísquez de Caracas
+60040126;National and Kapodistrian University of Athens Department of Economic Sciences
+60040140;Aleksandras Stulginskis University
+60040155;Hatch Energy
+60040209;Universidad de Caldas
+60040221;Service de Dermatologie Tunis
+60040232;University of British Columbia Faculty of Forestry
+60040278;Kuwait Institute for Scientific Research
+60040326;Université de Monastir,  Faculté de Pharmacie de Monastir
+60040328;Hôpital de la Chaux-de-Fonds
+60040352;Centro de Pesquisa e Desenvolvimento em Telecomunicacoes
+60040363;Al-Amiri Hospital
+60040389;International Council of Nurses
+60040480;Banco Central de Venezuela
+60040497;Nishtar Hospital
+60040505;Centre Hospitalier de la Region d'Annécy
+60040510;Liaquat National Hospital
+60040600;Institute of Botany Lithuanian
+60040624;INSEE Institut National de la Statistique et des Études Économiques
+60040666;Abbasi Shaheed Hospital
+60040683;National Institute of Sciences India
+60040796;Centro de Investigaciones del Mar y la Atmósfera
+60040839;University of Petra
+60040861;Shreemati Nathibai Damodar Thackersey Women's University
+60040887;Université de Tunis El Manar, Institut National de Neurologie
+60040926;Czech Metrology Institute
+60040957;Institut Pasteur de Tunis
+60040968;CPqD Telecom and IT Solutions
+60040969;Universidad Católica Andrés Bello
+60041097;PCSIR Laboratories
+60041178;Mehran University of Engineering & Technology
+60041209;Grodno State Medical University
+60041243;Faculdade de Letras da Universidade de Lisboa
+60041424;Hellenic Anticancer Institute
+60041426;Central Cotton Research Institute Pakistan
+60041446;China Textile University
+60041483;Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andréis
+60041509;Klaipeda University
+60041554;Pakistan Institute of Development Economics
+60041558;Biodiversity Foundation for Africa
+60041628;Vilnius University Faculty of Medicine
+60041703;Fundacao Centro Tecnologico de Minas Gerais
+60041705;Embrapa Gado de Corte
+60041715;Defence Officers Housing Authority, Karachi
+60041724;Khyber Medical College
+60041878;The Technological Institute of Textile and Sciences India
+60041907;Oil and Natural Gas Corporation Limited
+60041927;Sangster Research Laboratories
+60041929;Integrative Pharmacology Molndal
+60041952;Institute of Oncology Cluj
+60041992;Instituto Enseñanza General San Martin
+60041995;Inflazyme Pharmaceuticals Ltd.
+60042042;Medical and Dental Health Center Halmstad
+60042076;Instituto de Hematologia e Inmunologia
+60042202;Ministry of Health and Family Welfare
+60042211;Centro Universitario da FEI
+60042257;Industrial Systems Institute
+60042282;Kaunas University of Technology
+60042311;Lahore University of Management Sciences
+60042323;Lithuanian Institute of Agriculture
+60042333;University of Western Ontario Department of Psychiatry
+60042351;European Commission Joint Research Centre, Ispra
+60042374;Instituto de Infectologia Emilio Ribas
+60042396;Alfa HealthCare
+60042493;Institute of Physics, University of São Paulo
+60042517;Institute of Geology and Mineral Exploration
+60042526;Université de Tunis El Manar, Hôpital Charles Nicolle
+60042547;University of Sfax Faculte de Medecine
+60042571;Azienda Ospedaliera Nazionale Santi Antonio e Biagio e Cesare Arrigo
+60042572;Instituto do Coração
+60042595;Institute of Business Administration Karachi
+60042628;Hospital Luis Lagomaggiore
+60042637;Forest Research Institute, NAGREF
+60042753;Zarqa University
+60042762;Universidad Tecnológica de la Habana José Antonio Echeverría
+60042763;Baby Friendly Hospital
+60042765;Centro Federal De Educacão Tecnológica Celso Suckow Da Fonseca
+60042772;Instituto de Computacao de UNICAMP
+60042800;University of Engineering and Technology Taxila
+60042826;Institute of Lithuanian Scientific Society
+60042844;Northeast University of Technology
+60042881;Nuclear Institute for Agriculture and Biology Pakistan
+60042957;Occupational Medicine Research Center
+60043008;Allama Iqbal Medical College
+60043026;Centro de Ciencias Exatas e da Natureza de Pernambuco
+60043056;Cyanamid European Research Institute
+60043089;Faculdade de Motricidade Humana, Universidade de Lisboa
+60043106;Quaid-e-Azam Medical College
+60043110;Ospedale Civile di Piacenza
+60043198;Hubei Medical University
+60043201;Vilnius University Laser Research Center
+60043213;University Eye Clinic Zurich
+60043218;Ziauddin Medical University
+60043250;Defence Research Establishment Atlantic
+60043305;ICAR- Indian Grassland and Fodder Research Institute, Jhansi
+60043314;Nanfang Hospital
+60043343;Institute of Biochemistry of Biologically Active Compounds of the National Academy of Sciences of Belarus
+60043391;Instituto de Astronomia de USP
+60043413;Institute of Child Health Kolkata
+60043484;Public Authority for Applied Education and Training Kuwait
+60043486;Vilniaus Universiteto Matematikos ir Informatikos Institutas
+60043502;Hospital Santiago Apostol, Brazil
+60043504;University of Azad Jammu and Kashmir
+60043593;Diabetic Association of Pakistan
+60043616;Ministry of Health and Child Welfare Zimbabwe
+60043655;Applied Science Private University
+60043678;Center for Genetic Engineering and Biotechnology Havana
+60043688;Universidad Nacional Experimental Simon Rodriuez
+60043755;Instituto de Fisica de Sao Carlos
+60043788;Mayo Hospital Lahore
+60043836;Heliopolis Hospital
+60043875;Society for Applied Microwave Electronics Engineering & Research
+60043900;Allied Hospital Pakistan
+60043910;China Iron and Steel Research Institute Group
+60043973;Belarusian State University of Informatics and Radioelectronics
+60044041;Avalon Photonics Ltd.
+60044048;King Edward Medical University Lahore
+60044065;Yarmouk University
+60044069;Universität Basel, Zoologisches Institut
+60044088;Hashemite University
+60044095;Hôpital de Gériatrie
+60044099;Banff International Research Station
+60044202;Instituto Nacional de Investigaciones Agricolas, Venezuela
+60044279;Parirenyatwa Hospital
+60044404;Mpilo Central Hospital
+60044433;Office National des Mines Tunis
+60044461;Academia Tehnica Militara
+60044479;Stelco Inc
+60044489;Africa Inland Church Kijabe Hospital
+60044492;Vilnius University Institute of Biochemistry
+60044573;Universidad de Pamplona
+60044603;Observatório Nacional Departamento de Astrofisica
+60044618;Instituto de Biociencias da UFRGS
+60044627;Hopital Farhat Hached Sousse
+60044663;Embrapa Solos
+60044741;China Seismological Bureau Beijing
+60044753;Athens Euroclinic
+60044766;Museu de Ciencias Naturais, Porto Alegre
+60044768;Hospital Privado Ojos
+60044940;Lithuanian Academy of Sciences
+60044961;Ministry of Public Works Kuwait
+60044971;Center for Plastic Materials Research
+60044984;Institute of Engineering Cybernetics, Belarus
+60044994;Instituto Politcnico de Bragana, Centro de Investigação de Montanha
+60045003;Gomal University
+60045026;North Bay Psychiatric Hospital
+60045046;ORSTOM, Brasilia
+60045053;Nuclear Regulatory Authority
+60045061;Centro Internacional de Agricultura Tropical
+60045071;Gamma Remote Sensing
+60045104;Grasslands Research Station Harare
+60045182;IV. interni klinika 1. LF UK a VFN
+60045220;Aventis Pharma
+60045242;Semiconductor Physics Institute Vilnus
+60045281;Midlands State University Zimbabwe
+60045282;B.M. Birla Science Centre
+60045323;Institutul Naţional de Cercetare-Dezvoltare Marinâ
+60045329;National Institute of Cardiovascular Diseases Pakistan
+60045342;Bareilly College
+60045361;Centre Hospitalier de Nevers
+60045366;University Hospital Zurich, Institut fur Klinische Chemie
+60045394;Rajendra Agricultural University
+60045410;ENERI Instituto Medico
+60045463;Al-Sabah Hospital
+60045499;Karolinska University Hospital Department of Otorhinolaryngology
+60045549;Institute of Cellular Biology and Pathology Nicolae Simionescu
+60045578;National Academy of Sciences of Belarus
+60045588;Laboratoire des Sciences du Climat et de l'Environnement
+60045669;Fundacao Zoobotanica do Rio Grande do Sul
+60045778;University of Tunis El Manar
+60045803;Brockville Psychiatric Hospital
+60045816;NUST Institute of Information Technology
+60045844;École Nationale Supérieure d'Ingénieurs de Tunis
+60045846;Maternity District Hospital Elena Venizelou
+60045886;National Institute for Earth Physics
+60045932;Bindura University of Science Education
+60045933;Plant Protection Research Institute Harare
+60045954;Instituto Venezolano de Investigaciones Cientificas, Centro de Fisica
+60045994;Institute of Botany of the Academy of Sciences of the Czech Republic
+60046006;Sahlgrenska University Hospital, Wallenberg Laboratory
+60046028;Zimbabwe National Water Authority
+60046045;Escola Superior Agrária Bragança
+60046057;Central Pollution Control Board India
+60046149;Allama Iqbal Open University
+60046195;Institute of Applied Physics, NAS of Belarus
+60046259;Indian Army
+60046283;Laboratorio Nacional de Computacao Cientifica, Petropolis
+60046322;International Commission on Radiological Protection
+60046323;Vel's College of Pharmacy India
+60046421;ESBATech AG
+60046504;China Meteorological Administration
+60046629;Kuwait Oil Company
+60046653;Sultex Limited
+60046660;Belarusian State University
+60046666;Tecnimede Group
+60046689;National Institute of Health Research, Harare
+60046690;Universidad Pontificia Bolivariana
+60046703;Universidad de La Habana
+60046714;Etablissement Français du Sang
+60046715;Ministry of National Economy
+60046763;Institute of Ecology of Vilnius University
+60046765;Ministere De La Sante Publique, Tunis
+60046782;J.J.M. Medical College
+60046817;Ente Ospedaliero Cantonale
+60046822;Ospedale Civile, Pordenone
+60046831;Trojan Technologies Inc.
+60046832;Centro de Estudios Migratorios Latinoamericanos
+60046874;University Hospital Zurich, Klinik für Kardiologie
+60046878;Ordenamento e Gestão de Recursos Naturais
+60046893;CANTEST Ltd.
+60046930;Fundacion de la Hemofilia
+60046963;Museo Carmen Funes
+60047006;Institute of Power Studies and Design
+60047021;Universidad Marítima del Caribe
+60047237;Laboratoire Aventis
+60047277;School of Life Sciences Indore
+60047330;Biblioteca Central Campus Universitario Darcy Ribeiro
+60047524;Oftalmologi, Lund
+60047546;Aristotle University of Thessaloniki School of Agriculture
+60047628;GlycoDesign Inc.
+60047679;Jawaharlal Nehru University School of Life Sciences Delhi
+60047716;Université de Tunis El Manar, Hôpital Mongi Slim
+60047764;Ministerio de Salud Pública
+60047779;Mutare Provincial Hospital
+60047875;Tropical Botanic Garden and Research Institute India
+60047938;Hospital Brigadeiro
+60047968;Centro de Atención Nutricional Infantil Antímano
+60048000;Centre for Renewable Energy Sources
+60048014;Cosmital SA
+60048089;Institute of Chemistry Lithuanian
+60048201;Muljibhai Patel Urological Hospital
+60048204;Hospital de Base
+60048229;King Abdullah University Hospital Irbid
+60048279;Instituto de Nefrologia, Ciudad de La Habana, cu
+60048445;LERMAT Laboratoire d'Étude et de Recherche sur les Matériaux
+60048448;Olympic Athletic Center of Athens
+60048494;Omya (Schweiz) AG
+60048520;SGS-Thomson Microelectronics
+60048593;GE Global Research India
+60048625;Democritus University of Thrace Department of Civil Engineering
+60048669;Ecole Nationale des Travaux Publics de l'Etat
+60048700;Centro de Investigaciones en Recursos Geológicos
+60048703;Cangene Corporation
+60048717;University of Nairobi
+60048748;Kenya Agricultural Research Institute
+60048819;Université de Tunis El Manar, Hôpital la Rabta
+60048829;UNIFENAS Universidade Jose do Rosario Vellano
+60048838;Theagenion Cancer Hospital
+60048845;Agra University
+60048869;Africa University
+60048889;Lithuanian Institute of Horticulture
+60048914;Instituto de Cibernética, Matemática y Física
+60048964;Ayza Skin and Research Center
+60049077;Synova SA
+60049220;CHU Hedi-Chaker
+60049221;Fatima Jinnah Women University
+60049275;Fushun Petroleum Institute
+60049279;Centro Neurológico de Tratamiento y Rehabilitación
+60049287;Islamic Hospital
+60049290;Institute of Computer Science of the Academy of Sciences of the Czech Republic
+60049297;Universidad Rafael Urdaneta
+60049342;Institute for Clinical Effectiveness and Health Policy, Ciudad Autonoma de Buenos Aires
+60049364;Hamilton Regional Laboratory Medicine
+60049414;Clinic of Pulmonary Disease
+60049433;Universidad del Zulia, Facultad de Medicina
+60049551;Kenyatta National Hospital
+60049565;DMPK and Bioanalytical Chemistry
+60049611;Brest State Technical University
+60049617;Faculdade de Medicina de Sao Jose do Rio Preto
+60049668;Jerash Private University
+60049693;Department of Dermatology and Venereology Gothenburg
+60049769;Universidad Nacional Experimental Sur del Lago
+60049797;Pakistan Council of Scientific and Industrial Research
+60049800;National Agricultural Research Center
+60049819;China Geological Survey
+60049826;Morphochem AG, Basel
+60049894;Hôpital de Cery
+60049947;Université de Tunis
