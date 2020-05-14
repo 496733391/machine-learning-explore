@@ -16,8 +16,8 @@ from src.Scopus_Crawler.scopus_config import driver_path, search_url
 from src.config.logConfig import logger_scopus as logger
 
 
-def get_id(driver, name, institution):
-    logger.info('当前搜索：姓名：%s，机构：%s' % (name, institution))
+def get_id(driver, person_id, name, institution):
+    logger.info('当前搜索：软科id：%s, 姓名：%s，机构：%s' % (person_id, name, institution))
     # 将姓名拆分为list
     name_list = re.split(r'\s+', name)
     first_name = name_list[0].lower()
@@ -30,23 +30,31 @@ def get_id(driver, name, institution):
     # 打开网页
     driver.get(url)
 
-    try:
-        driver.find_element_by_id('_pendo-close-guide_').click()
-    except Exception:
-        pass
-
-    # 每页显示200条结果
-    driver.find_element_by_xpath('//span[@class="ui-selectmenu-text" and text()="20"]').click()
-    driver.find_element_by_id('ui-id-16').click()
-    time.sleep(1)
-
-    soup = bs(driver.page_source, 'lxml')
-    name_matched = soup.find_all('a', class_='docTitle')
     authorID_list = []
-    for element in name_matched:
-        if element.text.strip().lower() == ', '.join(name_list).lower():
-            author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
-            authorID_list.extend(author_id)
+    # 每页显示200条结果
+    try:
+        driver.find_element_by_xpath('//span[@class="ui-selectmenu-text" and text()="20"]').click()
+        driver.find_element_by_id('ui-id-16').click()
+        time.sleep(1)
+
+        soup = bs(driver.page_source, 'lxml')
+        name_matched = soup.find_all('a', class_='docTitle')
+
+        for element in name_matched:
+            scopus_text_list = element.text.replace('–', '').strip().split(' ')
+            scopu_text = scopus_text_list[0] + ' ' + ''.join(scopus_text_list[1:])
+            if scopu_text.lower() == ', '.join(name_list).lower():
+                author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
+                authorID_list.extend(author_id)
+
+    except Exception as err:
+        logger.info('ERROR:%s' % err)
+        logger.info('当前作者无搜索结果：软科id：%s, 姓名：%s，机构：%s' % (person_id, name, institution))
+        raise Exception('private error')
+
+    if not authorID_list:
+        logger.info('当前作者无搜索结果：软科id：%s, 姓名：%s，机构：%s' % (person_id, name, institution))
+        raise Exception('private error')
 
     return authorID_list
 

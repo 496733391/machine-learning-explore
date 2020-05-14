@@ -10,9 +10,8 @@ sys.path.insert(0, base_dir)
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver import ChromeOptions
-import datetime
 
-from src.Scopus_Crawler.scopus_config import driver_path
+from src.Scopus_Crawler.scopus_config import driver_path, cookies_list
 from src.Scopus_Crawler.get_cookies import get_cookies
 from src.Scopus_Crawler.authorID_get import get_id
 from src.Scopus_Crawler.person_match import match
@@ -39,7 +38,7 @@ def main_prog(input_data):
     '''
 
     :param input_data: [{'person_id':1234564, 'name':'liu bo', 'ins':['fudan university', 'xx university', 'xxx university'],
-                        'ins_id':[111, 222, 333]}, {...}]
+                        'ins_id':[111, 222, 333], 'name_zh':'刘博'}, {...}]
     :return:
     '''
     count = 0
@@ -49,16 +48,20 @@ def main_prog(input_data):
         # 启动浏览器并获取cookies
         driver = start_driver()
         cookies = get_cookies(driver)
+        for i in cookies_list:
+            driver.add_cookie({'name': i[0], 'value': i[1]})
         try:
             # 开始对每位学者再scopus上进行匹配和信息获取
             for i in range(count, len(input_data)):
                 person_id = input_data[i]['person_id']
                 author_name = input_data[i]['name']
+                author_name_zh = input_data[i]['name_zh']
                 author_ins = input_data[i]['ins']
                 author_ins_id = input_data[i]['ins_id']
+                logger.info('当前进度：软科id：%s, 姓名：%s,%s' % (person_id, author_name, author_name_zh))
                 # 机构英文名称全部转为小写
                 author_ins = [i.lower() for i in author_ins]
-                authorID_list = get_id(driver, author_name, author_ins[0])
+                authorID_list = get_id(driver, person_id, author_name, author_ins[0])
                 # 以机构英文名称匹配
                 # aff_df, basic_info = match(cookies, person_id, author_name, author_ins, authorID_list)
                 # 以机构对应的scopus_id匹配
@@ -74,8 +77,12 @@ def main_prog(input_data):
         # 出现错误时，从错误处中断，再从该处开始
         except Exception as err:
             logger.info('ERROR:%s' % err)
-            logger.info('当前进度：%s / %s' % (i, len(input_data)))
+            logger.info('当前进度：%s / %s' % (i+1, len(input_data)))
             count = i
+            # 若出现的错误是无搜索结果导致的，则跳过该学者
+            if err.args[0] == 'private error':
+                count = i + 1
+
             driver.close()
 
         # 将已完成的部分进行数据写入
@@ -94,6 +101,6 @@ if __name__ == '__main__':
 
     input_data = data_process(input_df)
 
-    input_data = input_data[12:20]
+    # input_data = input_data[13:20]
 
     main_prog(input_data)
