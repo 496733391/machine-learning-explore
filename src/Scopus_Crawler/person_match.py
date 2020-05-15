@@ -52,7 +52,8 @@ def match(cookies, person_id, author_name, author_ins, authorID_list):
     # 找到一个匹配的结果，直接获取数据
     if len(matched_list) == 1:
         # 获取文献数量跟引用计数
-        doc_num, cite_count = catch_info(matched_list[0])
+        basic_info = catch_info(matched_list[0], cookies)
+        basic_info['person_id'] = person_id
 
         ins_result = temp_dict[matched_list[0]]
         # 机构信息转为dataFrame格式
@@ -71,22 +72,20 @@ def match(cookies, person_id, author_name, author_ins, authorID_list):
         aff_df['scopus_id'] = matched_list[0]
         aff_df['person_id'] = person_id
 
-        return aff_df, [person_id, author_name, matched_list[0], doc_num, cite_count]
+        return aff_df, basic_info
 
     # 找到多个匹配的结果，日志输出匹配的scopus_id清单
     elif len(matched_list) > 1:
         logger.info('找到多个匹配的结果：软科id：%s, 姓名：%s', person_id, author_name)
         logger.info('匹配的结果清单：软科id：{}, 姓名：{}, scopus_id清单：{}'.format(person_id, author_name, matched_list))
-        return pd.DataFrame(data=None, columns=None), []
+        return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None)
 
     # 未找到匹配的结果，日志输出相近的结果（机构匹配只相差一个）清单
     else:
         logger.info('未找到对应学者记录：软科id：%s, 姓名：%s', person_id, author_name)
         logger.info('结果相近的清单：软科id：{}, 姓名：{}, scopus_id清单：{}'.format(person_id, author_name, not_matched_one))
-        return pd.DataFrame(data=None, columns=None), []
+        return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None)
 
 
 if __name__ == '__main__':
-    # with open('cookies.json', 'r') as js:
-    #     cookies = json.load(js)
     pass

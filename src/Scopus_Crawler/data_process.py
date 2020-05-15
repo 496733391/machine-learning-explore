@@ -30,7 +30,7 @@ def data_process(input_df):
 
         name_zh = sub_df.iloc[0]['name']
         row_dict['name_zh'] = name_zh
-        name_py = transfer.get_pinyin(name_zh, '-')
+        name_py = transfer.get_pinyin(name_zh, '-').replace('v', 'ü')
         name_list = name_py.split('-')
         # 如果是复姓
         if name_zh[:2] in compound_surname:

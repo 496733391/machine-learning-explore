@@ -16,8 +16,8 @@ from src.Scopus_Crawler.scopus_config import driver_path, search_url
 from src.config.logConfig import logger_scopus as logger
 
 
-def get_id(driver, person_id, name, institution):
-    logger.info('当前搜索：软科id：%s, 姓名：%s，机构：%s' % (person_id, name, institution))
+def get_id(driver, person_id, name, author_name_zh, institution):
+    logger.info('当前搜索：软科id：%s, 姓名：%s, %s, 机构：%s' % (person_id, author_name_zh, name, institution))
     # 将姓名拆分为list
     name_list = re.split(r'\s+', name)
     first_name = name_list[0].lower()
@@ -41,7 +41,7 @@ def get_id(driver, person_id, name, institution):
         name_matched = soup.find_all('a', class_='docTitle')
 
         for element in name_matched:
-            scopus_text_list = element.text.replace('–', '').strip().split(' ')
+            scopus_text_list = element.text.replace('–', '').replace('\'', '').strip().split(' ')
             scopu_text = scopus_text_list[0] + ' ' + ''.join(scopus_text_list[1:])
             if scopu_text.lower() == ', '.join(name_list).lower():
                 author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
@@ -49,11 +49,11 @@ def get_id(driver, person_id, name, institution):
 
     except Exception as err:
         logger.info('ERROR:%s' % err)
-        logger.info('当前作者无搜索结果：软科id：%s, 姓名：%s，机构：%s' % (person_id, name, institution))
+        logger.info('当前作者无搜索结果：软科id：%s, 姓名：%s, %s, 机构：%s' % (person_id, author_name_zh, name, institution))
         raise Exception('private error')
 
     if not authorID_list:
-        logger.info('当前作者无搜索结果：软科id：%s, 姓名：%s，机构：%s' % (person_id, name, institution))
+        logger.info('当前作者无搜索结果：软科id：%s, 姓名：%s, %s, 机构：%s' % (person_id, author_name_zh, name, institution))
         raise Exception('private error')
 
     return authorID_list
