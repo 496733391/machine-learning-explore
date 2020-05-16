@@ -4,10 +4,8 @@
 日志根据level分别存入相应的文件
 '''
 
-import os
-import logging
 import logging.config
-
+from logging.handlers import RotatingFileHandler
 
 logging.config.dictConfig({
     'version': 1,
@@ -27,112 +25,88 @@ logging.config.dictConfig({
             'class': 'logging.StreamHandler',
             'formatter': 'verbose'
         },
-        'file_debug': {
+        'file_scopus': {
             'level': 'DEBUG',
             'class': "logging.handlers.RotatingFileHandler",
+            'encoding': 'utf-8',
             'maxBytes': 1024 * 1024 * 10,
             'backupCount': 50,
             'delay': True,
-            'filename': os.path.join(LOG_PATH_ROOT, 'debug.log'),
+            'filename': 'C:/Users/Administrator/Desktop/machine-learning-explore/log_pack/scopus.log',
             'formatter': 'verbose'
         },
-        'file_rs': {
+        'file_aff1': {
             'level': 'DEBUG',
             'class': "logging.handlers.RotatingFileHandler",
+            'encoding': 'utf-8',
             'maxBytes': 1024 * 1024 * 10,
             'backupCount': 50,
             'delay': True,
-            'filename': LOG_PATH_RS,
+            'filename': 'C:/Users/Administrator/Desktop/machine-learning-explore/log_pack/aff1.log',
             'formatter': 'verbose'
         },
-        'file_wp': {
+        'file_aff2': {
             'level': 'DEBUG',
             'class': "logging.handlers.RotatingFileHandler",
+            'encoding': 'utf-8',
             'maxBytes': 1024 * 1024 * 10,
             'backupCount': 50,
             'delay': True,
-            'filename': LOG_PATH_WP,
+            'filename': 'C:/Users/Administrator/Desktop/machine-learning-explore/log_pack/aff2.log',
             'formatter': 'verbose'
         },
-        'file_dl': {
+        'file_aff3': {
             'level': 'DEBUG',
             'class': "logging.handlers.RotatingFileHandler",
+            'encoding': 'utf-8',
             'maxBytes': 1024 * 1024 * 10,
             'backupCount': 50,
             'delay': True,
-            'filename': LOG_PATH_DL,
+            'filename': 'C:/Users/Administrator/Desktop/machine-learning-explore/log_pack/aff3.log',
             'formatter': 'verbose'
         },
-        'file_replace': {
+        'file_aff4': {
             'level': 'DEBUG',
             'class': "logging.handlers.RotatingFileHandler",
+            'encoding': 'utf-8',
             'maxBytes': 1024 * 1024 * 10,
             'backupCount': 50,
             'delay': True,
-            'filename': LOG_PATH_REPLACEMENT,
-            'formatter': 'verbose'
-        },
-        'file_adv': {
-            'level': 'DEBUG',
-            'class': "logging.handlers.RotatingFileHandler",
-            'maxBytes': 1024 * 1024 * 10,
-            'backupCount': 50,
-            'delay': True,
-            'filename': LOG_PATH_ADV,
-            'formatter': 'verbose'
-        },
-        'file_cancel': {
-            'level': 'DEBUG',
-            'class': "logging.handlers.RotatingFileHandler",
-            'maxBytes': 1024 * 1024 * 10,
-            'backupCount': 50,
-            'delay': True,
-            'filename': LOG_PATH_CANCEL,
+            'filename': 'C:/Users/Administrator/Desktop/machine-learning-explore/log_pack/aff4.log',
             'formatter': 'verbose'
         },
     },
     'loggers': {
-        '': {
-            'handlers': ['file_debug', 'console'],
-            'level': 'DEBUG',
+        'logger_scopus': {
+                    'handlers': ['file_scopus', 'console'],
+                    'level': 'DEBUG',
+                    'propagate': False
         },
-
-        'logger_rs': {
-            'handlers': ['file_rs', 'console'],
-            'level': 'DEBUG',
-            'propagate': False
-        },
-        'logger_wp': {
-            'handlers': ['file_wp', 'console'],
+        'logger_aff1': {
+            'handlers': ['file_aff1', 'console'],
             'level': 'DEBUG',
             'propagate': False
         },
-        'logger_dl': {
-                    'handlers': ['file_dl', 'console'],
-                    'level': 'DEBUG',
-                    'propagate': False
+        'logger_aff2': {
+            'handlers': ['file_aff2', 'console'],
+            'level': 'DEBUG',
+            'propagate': False
         },
-        'logger_replace': {
-                    'handlers': ['file_replace', 'console'],
-                    'level': 'DEBUG',
-                    'propagate': False
+        'logger_aff3': {
+            'handlers': ['file_aff3', 'console'],
+            'level': 'DEBUG',
+            'propagate': False
         },
-        'logger_adv': {
-                    'handlers': ['file_adv', 'console'],
-                    'level': 'DEBUG',
-                    'propagate': False
-        },
-        'logger_cancel': {
-                    'handlers': ['file_cancel', 'console'],
-                    'level': 'DEBUG',
-                    'propagate': False
+        'logger_aff4': {
+            'handlers': ['file_aff4', 'console'],
+            'level': 'DEBUG',
+            'propagate': False
         },
     }
 })
-logger = logging.getLogger(__name__)
-logger_rs = logging.getLogger("logger_rs")
-logger_wp = logging.getLogger("logger_wp")
-logger_dl = logging.getLogger("logger_dl")
-logger_replace = logging.getLogger("logger_replace")
-logger_adv = logging.getLogger("logger_adv")
-logger_cancel = logging.getLogger("logger_cancel")
+
+logger_scopus = logging.getLogger("logger_scopus")
+logger_aff1 = logging.getLogger("logger_aff1")
+logger_aff2 = logging.getLogger("logger_aff2")
+logger_aff3 = logging.getLogger("logger_aff3")
+logger_aff4 = logging.getLogger("logger_aff4")

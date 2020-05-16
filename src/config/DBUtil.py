@@ -91,12 +91,15 @@ class DBUtil:
         :param df: 要写入的数据，Dataframe
         :return:
         '''
-        datatype = {c: types.VARCHAR(df[c].str.len().max()) for c in df.columns[df.dtypes == 'object'].tolist()}
-        df.to_sql(table_name, self.engine, index=False, if_exists='append', dtype=datatype)
+        if len(df) > 0:
+            datatype = {c: types.VARCHAR(df[c].str.len().max()) for c in df.columns[df.dtypes == 'object'].tolist()}
+            df.to_sql(table_name, self.engine, index=False, if_exists='append', dtype=datatype)
 
     def close(self):
-        self.cursor.close()
+        if self.cursor:
+            self.cursor.close()
         self.conn.close()
+        self.engine.dispose()
 
 
 if __name__ == '__main__':
