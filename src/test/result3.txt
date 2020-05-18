@@ -4907,3 +4907,1619 @@
 60115461;12th Man Technologies, Inc.
 60115463;Dr.K.V.Subba Reddy Institute Of Pharmacy
 60115464;Euro Quality Lambs Ltd
+60115465;Gourishankar Institute of Pharmaceutical Education & Research
+60115466;pureLiFi Ltd
+60115467;Gupta College of Technological Sciences
+60115468;Aspinall & Associates, Beaconsfield
+60115469;Viswanadha Institute of Pharmaceutical Sciences
+60115470;Ross Technologies Ltd.
+60115471;Tatyasaheb Kore College of Pharmacy
+60115472;Hi-Tech College of Pharmacy, Chandrapur
+60115473;Smriti College of Pharmaceutical Education
+60115474;H. R. Patel Institute of Pharmaceutical Education and Research
+60115476;Diamond Microwave Devices Limited
+60115477;Deccan School of Pharmacy
+60115478;IFET College of Engineering
+60115479;K.B. Institute of Pharmaceutical Education and Research
+60115481;Sir C.R.Reddy College of Pharmaceutical Sciences
+60115484;Warwick Business School
+60115485;Bristol Robotics Laboratory
+60115487;PsychoGenics Inc.
+60115488;Dr. B. C. Roy College of Pharmacy and Allied Health Sciences
+60115489;SignHealth, United kingdom
+60115490;Maharaja Institute of Technology Mysore
+60115491;Al Shifa College of Pharmacy
+60115492;S. A. Engineering College
+60115493;Nova College of Pharmacy
+60115494;Domestic Violence Training Ltd
+60115495;Willis Towers Watson
+60115500;Risk Management Solutions, Inc.
+60115501;Risk Management Solutions, United Kingdom
+60115503;Synlab Limited
+60115504;IDEXX GmbH
+60115505;Vet Med Labor GmbH
+60115506;Taylor Monroe
+60115507;Cosmote S.A.
+60115508;OTE S.A.
+60115509;ECH Engineering Ltd
+60115510;Horritt Consulting
+60115511;Silsoe Livestock Systems Ltd
+60115512;Guralp Systems Limited
+60115513;SyMO-Chem B.V.
+60115514;Bauhaus Luftfahrt e. V.
+60115515;SynerScope B.V.
+60115516;Syntaxin Ltd
+60115517;Stonegate Farmers Ltd
+60115518;Noble Foods Limited
+60115519;Sigint Solutions Ltd
+60115520;NOVA College of Engineering & Technology
+60115521;Centro de Salud Medina de Pomar
+60115522;Meditech Media Ltd.
+60115523;Centro de Salud de Miranda Oeste
+60115524;Synfuels China Technology Co.Ltd.
+60115525;Centro de Salud García Lorca
+60115526;Narayana Engineering College, Nellore
+60115527;Centro de Salud Huerta del Rey
+60115528;Datta Meghe Institute of Engineering, Technology & Research
+60115529;Syngaschem BV
+60115530;Seth Govind Raghunath Sable College of Pharmacy
+60115531;Enduris B.V.
+60115532;Smt.Sharachchandrika Suresh Patil college of pharmacy
+60115533;Holy Mary Institute of Technology & Science
+60115534;SMART Photonics B.V.
+60115535;Centro de Salud los Cubos
+60115536;Vaagdevi College of Engineering
+60115537;Vemu Institute of Technology
+60115538;Sanjivani College of Pharmaceutical Education & Research
+60115539;Andhra Loyola Institute of Engineering and Technology
+60115540;Sayers and Partners LLP
+60115541;St. Peter's College of Engineering and Technology
+60115542;Centro de Salud Las Huelgas
+60115543;Sanketika Vidya Parishad Engineering College
+60115544;Gokula Krishna College of Engineering
+60115545;SYSGO AG
+60115546;SecurityMatters B.V.
+60115547;Forescout Technologies, Inc.
+60115548;Sir Vishveshwaraiah Institute of Science & Technology
+60115549;Prof Ram Meghe Institute of Technology & Research
+60115550;Delhi Institute of Pharmaceutical Sciences & Research
+60115551;Vignan's Institute of Engineering for Women
+60115552;Andhra University College of Pharmaceutical Sciences
+60115554;Tempress Systems BV
+60115555;Amtech Systems, Inc
+60115556;Siliguri Institute of Technology
+60115557;Vivekanandha College of Engineering for Women
+60115558;Budge Budge Institute Of Technology
+60115559;Protemics GmbH
+60115560;Janssen Vaccines & Prevention B.V.
+60115561;St. Johns College of Engineering & Technology, Yemmiganur
+60115562;Gerencia de Atención Primaria de Ávila
+60115563;Audisankara Institute of Technology
+60115565;Vignan's Nirula Institute of Technology and Science for Women
+60115566;Shri Shankaracharya Institute of Professional Management and Technology
+60115567;Shri Vishnu Engineering College For Women
+60115569;Geetanjali Institute of Technical Studies
+60115570;Sasurie College Of Engineering
+60115571;The University of Hong Kong, State Key Laboratory of Synthetic Chemistry
+60115572;Calcutta Institute of Engineering and Management
+60115573;Mannheimer Zentrum für Europäische Sozialforschung
+60115574;Cambridge Institute of Technology
+60115575;Cambridge Institute of Technology, Ranchi
+60115576;L-3 TRL Technology
+60115577;GATES Institute of Technology
+60115578;Indian Institute of Management Jammu
+60115579;Indian Institute of Management Amritsar
+60115580;Indian Institute of Management Sambalpur
+60115581;Indian Institute of Management Nagpur
+60115582;LAYERTEC GmbH
+60115583;P.S.R. Engineering College
+60115584;SolSep B.V.
+60115585;Gandhiji Institute of Science and Technology
+60115586;Centro de salud Aranda Norte
+60115587;Centro de Salud de Gredos
+60115588;IIMT College of Engineering, Greater Noida
+60115589;Irdeto B.V.
+60115590;VTEC Lasers & Sensors
+60115591;Annamacharya Institute of Technology & Sciences, Tirupati
+60115592;Dhanalakshmi Srinivasan College of Engineering, Coimbatore
+60115593;Bavarian Polymer Institute
+60115594;Bayreuth Institute of Macromolecular Research
+60115595;University of Bayreuth, Bayerisches Geoinstitut
+60115596;Sinhgad Institute of Pharmacy, Narhe
+60115597;IMS Engineering College
+60115598;Centro de Salud de Belorado
+60115599;Centro de Salud de Muñico
+60115600;nanoPHAB B.V.
+60115601;Thales Alenia Space Deutschland GmbH
+60115602;Sri Sivani College of Engineering
+60115603;LOHMANN TIERZUCHT GmbH
+60115605;Trident Academy of Technology
+60115606;Centro de Salud Gamonal Antigua
+60115607;SENTECH Instruments GmbH
+60115608;M.I.E.T Engineering College, Tiruchirappalli
+60115609;Xeltis B.V.
+60115610;Vishnu Institute of Technology, Bhimavaram
+60115611;Shreeyash College of Engineering & Technology, Aurangabad
+60115612;Stanley College of Engineering & Technology for Women
+60115613;Audisankara College of Engineering & Technology
+60115614;Centro de Salud de Briviesca
+60115615;Dr. N.G.P. Institute of Technology
+60115616;R. C. Patel Institute of Pharmaceutical Education and Research
+60115618;Centro de Salud Cristóbal Acosta
+60115619;SupraPolix BV
+60115620;Glycotope GmbH
+60115621;Gudlavalleru Engineering College
+60115622;Museo de Dinosaurios de Salas de los Infantes
+60115623;Centro de salud de Ávila Sur Oeste
+60115624;Santhiram Engineering College
+60115625;Centro De Salud De Condado De Treviño
+60115626;Genua GmbH
+60115627;Outer Limits Geophysics LLP
+60115628;Punch Powertrain N.V.
+60115629;Dahiwadi College
+60115630;Centro de Salud de Piedrahita
+60115631;Marian College Kuttikkanam
+60115632;SCOPE College of Engineering
+60115633;Sri Krishnadevaraya Engineering College, Gooty
+60115634;Centro de salud de Ávila sur-este
+60115635;Chadalawada Ramanamma Engineering College
+60115636;SNMV College of Arts and Science
+60115637;Jai Narain College of Technology
+60115638;Ganga Institute of Technology & Management
+60115639;Swami Vivekananda Institute of Science & Technology
+60115640;Christ College of Engineering and Technology
+60115641;G H Raisoni Institute of Engineering and Management
+60115642;Government Degree College Akhnoor
+60115643;Late Sau. K. B. Jain College of Engineering
+60115644;MSMP Mechanics, Surfaces and Materials Processing
+60115645;Saint Francis De Sales College, Nagpur
+60115646;Mellanox Technologies, Inc.
+60115647;Astana Medical University
+60115648;Government College for Women, Gandhi Nagar
+60115649;Omniradar B.V.
+60115650;Novel Consulting
+60115651;Menlo Systems GmbH
+60115652;Centro de Salud Gamonal-Las Torres
+60115653;CQSE GmbH
+60115654;Garhbeta College
+60115655;ClinSol GmbH & Co. KG
+60115656;Port of Rotterdam Authority
+60115657;Gaia AG
+60115658;Malla Reddy College of Engineering & Technology
+60115659;Centro Salud La Palomera
+60115660;Litostroj Power d.o.o.
+60115661;Cimos d.d.
+60115662;Elektrobit Automotive GmbH
+60115663;Centro de Salud de Burgos Rural Sur
+60115664;Valluvar College of Science & Management
+60115665;JPT Innovative Peptide Solutions
+60115666;Computer Simulation Technology GmbH
+60115667;Scienomics SARL
+60115668;Maharaja's College, Mysore
+60115669;Shree Damodar College of Commerce & Economics
+60115670;Malla Reddy Engineering College for Women
+60115671;Gitarattan international Business School
+60115672;VSR & NVR College
+60115673;Govind Ballabh Pant Social Science Institute
+60115674;Srimad Andavan Arts and Science College
+60115675;Centro de Salud de Bembibre
+60115676;Urumu Dhanalakshmi College
+60115677;St. Claret College
+60115678;BholaNath College, Dhubri
+60115679;Government Degree College Anantnag
+60115680;CellMat Technologies S.L.
+60115681;Centro de Salud Ponferrada IV
+60115682;Fossil Ion Technology S.L.
+60115683;Mugberia Gangadhar Mahavidyalaya
+60115684;Mount Carmel College
+60115685;Instituto para el Uso Seguro de los Medicamentos (ISMP-España)
+60115686;Centro de Salud de La Magdalena
+60115687;Fundación Hospital General de la Santísima Trinidad
+60115688;SCHWIND eye-tech-solutions GmbH
+60115689;Centro de Salud Crucero (León IV)
+60115690;Govt. College for Women, Nawakadal
+60115691;ASPAYM Castilla y León
+60115692;Scott Christian College
+60115693;Centro De Sanidad Forestal De Calabazanos
+60115694;Ultrafast Innovations GmbH
+60115695;Akkineni Nageswara Rao College
+60115696;Centro de Salud Ribera del Órbigo
+60115697;Centro Salud San Andrés Del Rabanedo
+60115698;White Sea Biological Station "Kartesh", Zoological Institute, Russian Academy of Sciences
+60115699;St. Francis College For Women, Hyderabad
+60115700;MED-EL GmbH
+60115701;Centro Salud Mansilla de las Mulas
+60115702;S.V.A. Government College
+60115703;Centro de salud de Medina del Campo Urbano
+60115704;Kristu Jayanti College
+60115705;Raja Bahadur Venkat Rama Reddy Womens College
+60115706;Asociación Autismo Burgos
+60115707;D.N.R College
+60115708;Centro de Especialidades Jose Aguado
+60115709;Centro de Salud Ponferrada III
+60115711;Centro de Salud de Aguilar de Campoo
+60115712;Institut Supérieur des Sciences et Technologies de l'Environnement de Borj Cédria
+60115713;Centro de Salud ERAS DE RENUEVA (LEÓN I)
+60115716;Institut Supérieur de Sciences Appliquées et de Technologie de Mateur
+60115717;Centro de Salud Pico Tuerto (Ponferrada II)
+60115718;Singapore-ETH Centre
+60115719;Centro de Salud La Condesa
+60115720;University of Carthage, Institut Supérieur des Etudes Préparatoires en Biologie et Géologie La Soukra
+60115721;Centro de Salud Trobajo del Camino – Valverde de la Virgen
+60115722;ETH Zurich, Geological Institute
+60115723;ETH Zurich, Laboratorium fur Anorganische Chemie
+60115724;Centro de Salud de Villablino
+60115725;MES Keveeyam College
+60115726;Guru Gobind Singh College for Women
+60115727;Guru Nanak National College, Doraha
+60115728;Institute of Innovation in Technology & Management
+60115729;Nirmala College, Muvattupuzha
+60115730;Waterloo Institute for Nanotechnology
+60115731;University of Waterloo, School of Optometry and Vision Science
+60115732;Shri Sadguru Gangageer Maharaj Science, Gautam Arts and Sanjivani Commerce College
+60115733;HUBER+SUHNER AG
+60115734;Sente Software Ltd.
+60115735;Gayatri Vidya Parishad College for Degree and P.G. Courses
+60115736;Ecosulis Ltd.
+60115737;Magnox Ltd
+60115738;Osmose Utilities Services, Inc.
+60115740;Dobrudzha Agricultural Institute, General Toshevo
+60115741;Maritsa Vegetable Crops Research Institute, Plovdiv
+60115743;Institute of Fisheries and Aquaculture, Plovdiv
+60115744;Institute of Tobacco and Tobacco Products
+60115745;G.S. Science, Arts and Commerce College
+60115746;University of Carthage, Ecole Nationale d'Ingenieurs de Carthage
+60115748;Coram, United Kingdom
+60115749;Vivekanand Education Society’s College of Arts, Science & Commerce
+60115750;Kishinchand Chellaram College
+60115751;Balaji Institute of Engineering and Management Studies
+60115752;Asansol Engineering College
+60115753;The Coal Authority
+60115754;Centro de Salud de Guijuelo
+60115755;Hospital Virgen del Mirón
+60115756;Dnyanprassarak Mandal’s College And Research Center
+60115757;Centro de Salud Casto Prieto (San José)
+60115758;MS Therapeutics Limited
+60115759;Centro Salud Garrido Sur
+60115760;Univesity of Carthage, Institut Supérieur des Technologies de l'Information et de la Communication
+60115761;Centro de salud Miguel Armijo
+60115762;Centro Salud Robleda
+60115763;Don Bosco College, Panaji
+60115764;Centro de Salud Elena Ginel Díez (Tejares)
+60115765;Centro de Salud de Miranda del Castañar
+60115766;Centro Salud Sancti Spiritus-Canalejas (F. Villalobos)
+60115767;Centro de Salud Universidad Centro (F. Villalobos)
+60115768;Centro de Salud de Carrión de los Condes
+60115769;Centro de Salud de Vitigudino
+60115770;Sri Subbaraya & Narayana College
+60115771;Centro de Salud Santa Marta de Tormes
+60115772;U4EA Technologies Ltd
+60115773;Centro Salud Peñaranda de Bracamonte
+60115774;Centro de Salud Eras del Bosque
+60115775;SRR & CVR Govt. Degree College
+60115776;Avian Technologies Ltd
+60115777;Centro de Salud de Tamames
+60115778;Feroze Gandhi Institute of Engineering & Technology
+60115779;SSBT's College of Engineering and Technology
+60115780;Topcat Metrology Ltd
+60115781;IES College of Technology
+60115782;Centro de Salud Pisuerga
+60115783;Centro de Salud de Matilla de los Caños
+60115784;Centro De Salud De Villarramiel
+60115785;Centro De Salud Pintor Oliva
+60115786;Centro de salud Fuentes de Oñoro
+60115787;Centro de Salud de Ledesma
+60115788;Centro de Salud de Alba de Tormes
+60115789;Centro de Salud de Carbonero el Mayor
+60115790;Centro de Salud La Puebla
+60115791;Centro de Salud Medina de Rioseco
+60115792;Centro de Salud de Tordesillas
+60115793;Centro de Salud Rondilla II
+60115794;Centro de Salud de Valladolid Rural I
+60115795;Centro de salud de Íscar
+60115796;Centro de Salud Capuchinos
+60115797;Degree College of Physical Education, Amravati
+60115798;Centro de Salud de Cuellar
+60115799;Centro de Salud de Cantalejo
+60115800;Centro de Salud Parque Alameda-Covaresa
+60115802;Centro de Salud Delicias II
+60115803;Telecom SudParis
+60115804;University of Carthage, Ecole Nationale des Sciences et Technologies Avancées de Borj Cédria
+60115805;Centro de salud de Garrido Norte
+60115806;Biogas Fuel Cell S.A.
+60115807;College of Engineering & Technology, Akola
+60115808;Centro de Salud Aldeadávila de la Ribera
+60115810;Institut National du Travail et des Etudes Sociales
+60115811;Centro de Salud San Isidro - Pajarillos (La Tórtola)
+60115813;Centro de Salud de Saldaña
+60115814;Centro de Salud Delicias I
+60115815;Centro de Salud de Arcos de Jalón
+60115818;Centro de Salud Soria Norte
+60115819;Centro Salud Periurbana Norte
+60115820;Centro de Salud Segovia II
+60115821;Centro de Salud Segovia III
+60115822;Centro de Salud de Nava de la Asunción
+60115823;Centro de Salud de Ólvega
+60115825;Centro de Salud de El Espinar
+60115826;Centro de Salud de San Esteban de Gormaz
+60115827;Centro de Salud de San Leonardo de Yagüe
+60115828;University of Carthage, Ecole Nationale d'Ingénieurs de Bizerte
+60115829;Pervasive Media Studio
+60115830;Purines Almazan, S.L
+60115831;Centro de Salud El Burgo de Osma
+60115832;Centro de Salud Barrio España
+60115833;Affectis Pharmaceuticals AG
+60115834;Karmaveer Bhaurao Patil Mahavidyalaya
+60115835;Centro Salud Magdalena, Valladolid
+60115836;Centro de Salud Circunvalación
+60115837;Centro de Salud de Villacastin
+60115838;University of Carthage, Institut Supérieur des Langues de Tunis
+60115840;University of Carthage, Institut Supérieur de Gestion de Bizerte
+60115841;Centro de Salud de Riaza
+60115842;Radhabai Kale Mahila Mahavidyalaya
+60115843;Agena Bioscience, Inc.
+60115848;Linnea SA
+60115849;Agendia NV
+60115850;Vitalograph Ltd
+60115852;BioNTech SE
+60115853;Aerogen Ltd
+60115854;SurgaColl Technologies Ltd
+60115855;Trento Institute for Fundamental Physics and Applications
+60115856;Laboratorio Acceleratori e Superconduttività Applicata
+60115857;ProtATOnce Ltd
+60115858;Institut Supérieur des Technologies de l’Environnement de l’Urbanisme et du Bâtiment
+60115859;University of Carthage, Institut Supérieur de la Pêche et de l‘Aquaculture de Bizerte
+60115860;Agendia, Inc.
+60115861;Central Conservatory of Music
+60115862;Uttaranchal University
+60115865;University of Carthage, Ecole Supérieure d'Agriculture de Mograne
+60115866;Avectas Ltd.
+60115868;University of Carthage, Ecole Nationale d'Architecture et d'Urbanisme de Tunis
+60115871;IDForest-Biotecnología Forestal Aplicada S.L.
+60115872;Sangam University
+60115873;Dodla Kousalyamma Govt. Autonomous College for Women
+60115874;Erode Sengunthar Engineering College
+60115875;Government College of Engineering, Dharmapuri
+60115878;Yonsei University College of Dentistry
+60115880;Global Institute of Pharmaceutical Education and Research
+60115882;Subharti Dental College
+60115883;Swami Vivekanand Subharti University
+60115884;Netaji Subhash Chandra Bose Subharti Medical College
+60115885;Centro de Estudos de Movimento e Actividade Humana
+60115886;Laboratório de Reabilitação Psicossocial, Porto
+60115887;Unidade de Investigação Aplicada em Gestão, Vila do Conde
+60115888;VR College, Nellore
+60115889;Adina Institute of Pharmaceutical Sciences
+60115893;Bhaskara Institute of Pharmacy, Komatipalli
+60115894;Tilburg School of Economics and Management
+60115897;Centre de Génomique Fonctionnelle de Bordeaux
+60115898;Dibrugarh University, Centre for Management Studies
+60115899;IILM Institute for Higher Education, New Delhi
+60115900;M.S. Ramaiah Institute of Management
+60115901;Tilburg Law School
+60115902;Tilburg School of Humanities and Digital Sciences
+60115903;Laboratoire GEOMAS
+60115904;Measi Institute of Management
+60115905;Institute for Financial Management and Research, Chittoor
+60115906;First Technical University
+60115907;Peter Brett Associates LLP
+60115908;Medi-Caps University
+60115909;Veterinary College and Research Institute, Tirunelveli
+60115911;Advance Nanomeds LLC
+60115912;Tilburg School of Catholic Theology
+60115913;Institute of Russian Literature (the Pushkin House), Russian Academy of Sciences
+60115914;D.A.V College for Girls
+60115915;M.V.P. Samaj’s College of Pharmacy
+60115916;Acropolis Institute of Pharmaceutical Education & Research
+60115918;PSN Engineering College
+60115920;RVS Group of Institutions
+60115921;Crescent College of Pharmaceutical Sciences
+60115922;PSG College of Pharmacy
+60115923;Nirma University, Institute of Pharmacy
+60115924;Anurag Pharmacy College
+60115926;CGG, United Kingdom
+60115927;Tilburg School of Social and Behavioral Sciences
+60115928;Western University, Ivey Business School
+60115930;Bordeaux Research in Translational Oncology
+60115931;KMCH College of Pharmacy
+60115932;Plateforme Aquitaine de Caractérisation des Matériaux
+60115933;V.O.Sukhomlynskyi Mykolaiv National University
+60115934;Artilux Inc
+60115935;Brogent Technologies, Inc.
+60115936;Eminent Electronic Technology, Co, Ltd.
+60115937;Chroma ATE Inc.
+60115938;3D Global Biotech Inc.
+60115939;SSM College of Pharmacy, Jambai
+60115940;AsiaPac (Dongguan) Bio-Technology Co., Ltd.
+60115941;Tilburg Institute for Law, Technology, and Society
+60115942;Charder Electronic Co, Ltd.
+60115943;Bened Biomedical Co., Ltd.
+60115944;Maxeda Technology Inc.
+60115945;Joginpally B.R Pharmacy College
+60115947;Advanced Optoelectronic Technology Inc.
+60115948;Sino Geotechnology, Inc.
+60115950;Priyadarshini College of Engineering, Nagpur
+60115951;ACT Genomics Co., LTD.
+60115952;Crystalvue Medical Corporation
+60115953;Parul Institute of Pharmacy
+60115954;PharmaEngine, Inc.
+60115956;Institut Paul Bocuse
+60115957;Wire Technology Co., Ltd.
+60115958;Advpharma Inc
+60115959;Jagadguru Tontadarya College
+60115960;SynTest Technologies, Inc.
+60115961;OpenATE Inc.
+60115962;Ground Master Construction Co., Ltd.
+60115963;LiveStrong Optoelectronics Co.,Ltd.
+60115964;Avery Design Systems
+60115965;iStat Biomedical Co., Ltd.
+60115967;Becker & Hickl GmbH
+60115968;CHO Pharma Inc.
+60115969;Coretronic Corporation
+60115970;Genesis Photonics Inc.
+60115971;Tilburg Law and Economics Center
+60115972;CentER for Research in Economics and Business
+60115973;SunWay Biotech Co., Ltd.
+60115974;Sino-American Silicon Products Inc.
+60115975;Firstep Bioresearch, Inc.
+60115976;International Victimology Institute Tilburg
+60115977;Shanghai Sunway Biotech Co., Ltd.
+60115979;Tilburg Center for Cognition and Communication
+60115980;Tilburg Sustainability Center
+60115981;Syneos Health, Inc.
+60115984;Humane Slaughter Association
+60115985;Cleverwave Technology Inc.
+60115986;HC Photonics Corp.
+60115988;Energenesis Biomedical Co., Ltd.
+60115989;STD Pharmaceutical Products Ltd
+60115990;Kang Jian Biotechnology Co., Ltd.
+60115991;Starsci Biotech Co., Ltd.
+60115992;Utechzone Co., Ltd.
+60115993;Kingdom University
+60115994;Etron Technology, Inc.
+60115995;Helitune Ltd.
+60115996;Wintek Corporation
+60115997;MicroDiscovery GmbH
+60115998;KO DA Pharmaceutical Co., Ltd.
+60116000;Innolux Corporation
+60116002;Anurag Group of Institutions
+60116004;EstiNet Technologies Inc.
+60116005;Daxin Materials Corporation
+60116006;Dausinger and Giesen GmbH
+60116007;Moxa Inc.
+60116008;Grape King Bio
+60116009;Apex Mining Co., Inc.
+60116011;Jiangsu Hecheng Display Technology Co.,Ltd.
+60116012;Phoenix Silicon International Corporation
+60116014;eMemory Technology Inc.
+60116015;Global Institute of Technology
+60116016;ISentek Ltd.
+60116017;PTEK Technology Co., Ltd
+60116018;Rajarambapu College of Pharmacy
+60116019;Umbo Computer Vision Inc.
+60116020;Malineni Lakshmaiah College of Pharmacy
+60116021;MStar Semiconductor, Inc.
+60116022;Marine Works Japan Ltd.
+60116023;Fortune Electric Co., Ltd.
+60116024;Human Protein Process Sciences (HPPS)
+60116026;Veterinary College and Research Institute, Orathanadu
+60116027;Tilburg Institute for Behavioral Economics Research
+60116028;Wha Yu Industrial Co., Ltd.
+60116029;Kingyoup Enterprises Co., Ltd.
+60116030;KWS BioTest Ltd.
+60116031;SNS College of Engineering
+60116032;Welgene Biotech Co., Ltd.
+60116033;Trend Micro Incorporated
+60116034;Imperial War Museums
+60116035;CoreTech System Co., Ltd. (Moldex3D)
+60116036;Tricorntech Corporation
+60116037;LIDAR Technology Co., Ltd.
+60116039;Alexianer GmbH
+60116040;Abion Inc.
+60116042;Shree Dhanvantary Pharmacy College
+60116043;Teegala Krishna Reddy College of Pharmacy
+60116045;Centro de Química Estrutural, Faculdade de Ciências, Universidade de Lisboa
+60116046;Optoquest Co., Ltd.
+60116047;Ontotext AD
+60116048;Cultures et Diffusion des Savoirs
+60116049;Pioneer Micro Technology Corporation
+60116050;Walsin Technology Corporation
+60116052;Hoyu Co., Ltd.
+60116053;Raymond A. Mason School of Business
+60116054;Dadasaheb Balpande College of Pharmacy
+60116055;Unimicron Technology Corporation
+60116056;Gencurix, Inc.
+60116057;Healthy Motivation
+60116058;Koshin Kogaku Co., Ltd.
+60116059;TXC Corporation
+60116060;XMOS Ltd.
+60116061;Couchbase, Inc
+60116062;Charmzone, Co., Ltd.
+60116063;Perspectum Diagnostics Ltd
+60116065;DUKSAN Hi-Metal Co., Ltd.
+60116067;Vaageswari College of Pharmacy
+60116069;AVEO Oncology
+60116070;The Naveen Jindal School of Management
+60116071;Audencia
+60116072;DNA Link, Inc.
+60116073;Valiev Institute of Physics and Technology of Russian Academy of Sciences, Yaroslavl Branch
+60116074;V.I. Abaev North-Ossetian Institute for Humanitarian and Social Studies of Vladikavkaz Science Centre of Russian Academy of Science
+60116075;Plateforme Technologique d'Innovation Biomédicale
+60116076;Cosmax Co., Ltd.
+60116077;Aromtech Ltd
+60116078;St.Ann's Degree College for Women
+60116079;Center for Forest Ecology and Productivity of the Russian Academy of Sciences
+60116081;LipoScience, Inc.
+60116082;ENJET Co., Ltd.
+60116083;Royal Saskatchewan Museum
+60116084;Senckenberg Biodiversität und Klima Forschungszentrum
+60116085;Senckenberg Centre for Human Evolution and Palaeoenvironment
+60116086;Senckenberg Gesellschaft für Naturforschung
+60116088;Anticoagulation UK
+60116090;Image Analysis Group
+60116091;Bordeaux Population Health
+60116092;MedGenesis Therapeutix Inc.
+60116093;Envigo
+60116094;Erbil Polytechnic University
+60116095;Photochemistry Center of the Russian Academy of Sciences
+60116096;HERINGS, Seoul
+60116097;KNR Systems, Inc.
+60116098;Imagerie Moléculaire et Thérapies Innovantes en Oncologie
+60116099;Korea District Heating Corp. (KDHC)
+60116100;Huons Co., Ltd.
+60116101;Centre d'Études et de Recherches Comparatives sur les Constitutions, les Libertés et l'État
+60116102;Tong Yang Moolsan (TYM)
+60116103;Ambrx Inc.
+60116104;Infovion Inc.
+60116105;National Foundation for Educational Research
+60116106;Axolabs GmbH
+60116107;Adam Smith Business School
+60116108;Charles River UK Ltd.
+60116109;Ambry Genetics Corporation
+60116110;MEDIPOST Co., Ltd.
+60116111;Joseph M. Katz Graduate School of Business
+60116112;GL PharmTech Corp.
+60116113;Korea Conformity Laboratories
+60116119;WuXi AppTec, Inc.
+60116120;WindAcoustics UG
+60116121;Virality GmbH
+60116122;SNP Genetics, Inc.
+60116123;AlzChem Group AG
+60116124;Federal Research Center for Fundamental and Translational Medicine SB RAMS
+60116125;AdCo Engineering GW GmbH
+60116126;VISTA Remote Sensing in Geosciences GmbH
+60116127;advanceCOR GmbH
+60116128;Arnold & Richter Cine Technik (ARRI)
+60116129;XAIA Investment GmbH
+60116130;SurgicEye GmbH
+60116131;AMSilk GmbH
+60116132;Acandis GmbH
+60116134;Olin Business School
+60116135;Systasy Bioscience GmbH
+60116137;APOCARE Pharma GmbH
+60116138;Surface Concept GmbH
+60116140;Astyx GmbH
+60116141;AMiSTec GmbH & Co. KG
+60116142;Tchibo GmbH
+60116143;SECO SEOJIN AUTOMOTIVE Co., Ltd.
+60116146;Centre d’Investigation Clinique Plurithématique de Bordeaux
+60116147;WITTENSTEIN SE
+60116148;attocube systems AG
+60116149;Istituto Poligrafico e Zecca dello Stato S.p.A
+60116151;Laboratoire Epistémologie et Didactiques des Disciplines
+60116152;Saunders College of Business
+60116156;Laboratoire Passages
+60116157;Al-Maarif University College
+60116161;Plasmatreat GmbH
+60116162;Percuros B.V.
+60116163;RAPID Biomedical GmbH
+60116165;Phenex Pharmaceuticals AG
+60116166;perisens GmbH
+60116167;ArcherDX, Inc.
+60116168;SomaLogic, Inc.
+60116169;SpaceTech GmbH
+60116170;Maccon GmbH
+60116171;Suntrace GmbH
+60116172;qutools GmbH
+60116174;Oncoscience AG
+60116175;MetaHeps GmbH
+60116176;Research Institute of Clinical and Experimental Lymphology
+60116177;Eastcott Referrals
+60116178;SGL Carbon SE
+60116179;Premium AEROTEC GmbH
+60116180;Středoevropský Technologický Institut, Masarykova univerzita
+60116181;Středoevropský technologický institut
+60116182;Středoevropský technologický institut - Ústav fyziky materiálů
+60116183;Ribocon GmbH
+60116184;Sennheiser electronic GmbH & Co. KG
+60116185;Polymaterials AG
+60116186;Ilmen State Reserve UB RAS
+60116187;Socionext Inc.
+60116189;Sirion Biotech GmbH
+60116190;ImevaX GmbH
+60116191;Parasite Consulting GmbH
+60116192;PreSens Precision Sensing GmbH
+60116193;OPTOCRAFT GmbH
+60116194;OptoMedical Technologies GmbH
+60116197;Remote Sensing Solutions GmbH
+60116198;ChromoTek GmbH
+60116199;SeqOmics Biotechnológia Kft
+60116200;Pharmathen SA
+60116201;MaibornWolff GmbH
+60116202;nowcast GmbH
+60116203;Genos Ltd
+60116204;Optores GmbH
+60116205;Omegametrix GmbH
+60116206;medac GmbH
+60116207;Federal Research Centre of Nutrition, Biotechnology and Food Safety
+60116208;MOLOGEN AG
+60116209;EuroChem Agro GmbH
+60116210;Future-Shape GmbH
+60116211;NavVis GmbH
+60116212;GAUSS INSTRUMENTS International GmbH
+60116213;Korea Brain Research Institute
+60116214;nextnano GmbH
+60116215;Lyncean Technologies, Inc.
+60116217;Brolis SemiConductors UAB
+60116218;KARL STORZ SE & Co. KG
+60116219;PHASICS S.A
+60116220;Cellasys GmbH
+60116221;Srinivasarao College of Pharmacy
+60116223;excitech GmbH
+60116224;Dynamic Biosensors GmbH
+60116225;Aston Business School
+60116226;MaxCyte, Inc.
+60116227;Medicoat AG
+60116228;Microfluidic ChipShop GmbH
+60116229;City University of Hong Kong, College of Business
+60116230;IfTA Systems GmbH
+60116231;Royal Irish Academy
+60116232;MRC Systems GmbH
+60116234;Tepper School of Business
+60116235;Nomor Research GmbH
+60116236;FRAMOS GmbH
+60116237;RAPSODEE - IMT Mines Albi
+60116240;IMT Mines Albi, Centre Génie Industriel
+60116241;Neurotune AG
+60116242;mediri GmbH
+60116243;Institut de Recherches Montesquieu
+60116244;Infosim GmbH & Co. KG
+60116245;Hansabred GmbH & Co. KG
+60116246;MVTec Software GmbH
+60116247;Penn State Smeal College of Business
+60116248;numares AG
+60116249;Mercachem B.V.
+60116250;Ingenieurbüro Schießl Gehlen Sodeikat GmbH
+60116251;Krannert School of Management
+60116252;Pharmahungary Group
+60116253;ChenYang Technologies GmbH & Co. KG
+60116255;C. T. Bauer College of Business
+60116256;Rady School of Management
+60116257;RapidMiner GmbH
+60116259;PharmaLex GmbH
+60116260;Neurim Pharmaceuticals LTD
+60116261;TauRX Therapeutics Ltd.
+60116262;Sheffield University Management School
+60116263;SternEnzym GmbH & Co. KG
+60116264;Micro-Epsilon Messtechnik GmbH & Co. KG
+60116265;Heemskerk Innovative Technology BV
+60116266;IQS School of Management
+60116267;Monash Business School
+60116268;Mercateo AG
+60116269;Goizueta Business School
+60116270;Institute of Certified Specialists
+60116271;Koringa College of Pharmacy
+60116272;North Downs Specialist Referrals
+60116273;Helbling Holding AG
+60116274;NanoTemper Technologies GmbH
+60116275;Endolab Mechanical Engineering GmbH
+60116277;Pharmaimage Biomarker Solutions GmbH
+60116278;University of Zakho
+60116279;LSE Space GmbH
+60116280;UK Renal Registry
+60116281;The Renal Association
+60116282;DYNAmore GmbH
+60116283;MT Aerospace AG
+60116284;Immatics Biotechnologies GmbH
+60116285;moovel Group GmbH
+60116286;Nanion Technologies GmbH
+60116287;Mediso Medical Imaging Systems Ltd.
+60116288;Medis medical imaging systems bv
+60116289;IMGM Laboratories GmbH
+60116290;PARI GmbH
+60116291;Pari Medical Holding GmbH
+60116293;Double Star Tire, Inc.
+60116294;Västra Götaland Regional Council
+60116295;Gothenburg Botanical Garden
+60116296;Heliatek GmbH
+60116297;Unareti S.p.A.
+60116298;Morgan-Goodall Palaeo
+60116299;EICT GmbH
+60116300;Canada-United States Law Institute
+60116301;g.tec medical engineering GmbH (Guger Technologies)
+60116302;Vaxxilon Deutschland GmbH
+60116303;Idorsia Pharmaceuticals Ltd
+60116305;Hochschule für Gesundheit
+60116306;ProBioGen AG
+60116307;MRI.TOOLS GmbH
+60116308;TriLumina Corp
+60116310;jung diagnostics GmbH
+60116311;ESCRYPT GmbH
+60116312;ETAS GmbH
+60116313;Carl H. Lindner College of Business
+60116314;Aristo Pharma GmbH
+60116315;Zytoprotec GmbH
+60116316;Jones Graduate School of Business
+60116317;JCMwave GmbH
+60116318;SOPAT GmbH
+60116319;Neurolixis Inc.
+60116320;iOMEDICO AG
+60116321;Lipidomix GmbH
+60116322;Jinfiniti Biosciences LLC
+60116323;SMART BLADE GmbH
+60116324;Kogod School of Business
+60116325;Immundiagnostik AG
+60116326;2M Engineering ltd
+60116327;ESTIMATE Kunststoffteile GmbH
+60116328;plista GmbH
+60116329;Xaxis, LLC
+60116330;analyze & realize GmbH
+60116331;Surflay Nanotec GmbH
+60116332;Rennes School of Business
+60116333;Loughborough University, School of Business and Economics
+60116334;Curt-Engelhorn-Zentrum Archäometrie gGmbH
+60116335;InnoRa GmbH
+60116336;Geneva Biotech SARL
+60116337;Philochem AG
+60116338;Helvetica Exploration Services GmbH
+60116339;ravo Diagnostika GmbH
+60116340;art photonics GmbH
+60116341;Lally School of Management
+60116342;Hyland Software, Inc.
+60116343;Theva Dünnschichttechnik GmbH
+60116344;Leeds University Business School
+60116345;TETEC AG
+60116346;SPECS Surface Nano Analysis GmbH
+60116348;Phoenix Photonics Ltd
+60116349;Erbe Elektromedizin GmbH
+60116350;VI Systems GmbH (VIS)
+60116351;Ampyx Power B.V
+60116352;BANDELIN electronic GmbH & Co. KG
+60116353;Hain Lifescience GmbH
+60116354;A. B. Freeman School of Business
+60116355;inomed Medizintechnik GmbH
+60116356;Voxalytic GmbH
+60116357;Microsynth AG
+60116358;INCAE Business School, Nicaragua
+60116360;FIFTY2 Technology GmbH
+60116361;Ethos Veterinary Health
+60116362;Cranfield School of Management
+60116363;GloMic GmbH
+60116364;Foster School of Business
+60116365;Averbis GmbH
+60116366;ExploSYS GmbH
+60116367;SYNIMMUNE GmbH
+60116368;Invibio Ltd.
+60116369;Biametrics GmbH
+60116371;Biaffin GmbH & Co. KG
+60116372;VMscope GmbH
+60116374;Signatope GmbH
+60116375;HyGear B.V.
+60116377;SkySails Group GmbH
+60116379;W. P. Carey School of Business
+60116380;Bloomlife, Inc.
+60116381;NanoPass Technologies Ltd
+60116382;BioTissue Technologies GmbH
+60116383;TransTissue Technologies GmbH
+60116385;SICK AG
+60116386;Hebei University of Chinese Medicine
+60116387;GAMPT mbh
+60116388;Nicarnica Aviation AS
+60116389;Logopharm GmbH
+60116391;Sanaria Inc.
+60116392;Darden School of Business
+60116393;Cortec Corporation
+60116394;Amrita Sai Institute of Science & Technology
+60116395;AquaPri A/S
+60116396;nanofluor GmbH
+60116398;BioArctic AB
+60116399;Panjab University, Institute of Forensic Science & Criminology
+60116400;Reaction Biology Corp.
+60116401;ProQinase GmbH
+60116402;University of Global Health Equity
+60116403;neuroloop GmbH
+60116404;Cleft Lip and Palate Association
+60116405;W2E Wind to Energy GmbH
+60116406;RPS Group Plc
+60116407;D'Amore-McKim School of Business
+60116408;Nextworks Srl
+60116409;Ovesco Endoscopy AG
+60116410;Noldus Information Technology bv
+60116411;Verified Systems International GmbH
+60116413;SOSTANA GmbH
+60116414;Radioactive Waste Management Limited
+60116416;McDonough School of Business
+60116417;KAIROS GmbH
+60116418;BTC Embedded Systems AG
+60116419;CorTec GmbH
+60116420;innogy SE
+60116421;BELECTRIC Solar & Battery GmbH
+60116422;Xsens Technologies B.V.
+60116423;mCube, Inc
+60116424;Museo Paleontológico de Elche (MUPE)
+60116425;cytena GmbH
+60116426;solidian GmbH
+60116427;Vanguard Photonics GmbH
+60116428;Vifor Pharma Management Ltd.
+60116429;Van der Meer Consulting B.V.
+60116430;Silexica GmbH
+60116432;Izmerov Research Institute of Occupational Health of the Russian Academy of Medical Sciences
+60116434;Federal Scientific Agroengineering Center VIM
+60116435;Magritek Ltd
+60116436;Saladax Biomedical, Inc.
+60116440;Epimos GmbH
+60116441;WTM Engineers GmbH
+60116442;SurgiTAIX AG
+60116443;Watchfrog SA
+60116444;Cyano Biotech GmbH
+60116445;TUBE Pharmaceuticals GmbH
+60116446;University of Liverpool Management School
+60116447;Melexis Technologies NV
+60116448;Melexis NV
+60116449;SP Jain School of Global Management, Australia
+60116450;LISPEN Laboratoire d'Ingénierie des Systèmes Physiques et Numériques
+60116452;Volpara Health Technologies Limited
+60116454;CSIC - Instituto de Biologia Integrativa de Sistemas (I2SysBio)
+60116455;Weta Digital Ltd.
+60116456;Haslam College of Business
+60116457;Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences
+60116458;WALA Heilmittel GmbH
+60116459;MyLife Technologies B.V.
+60116460;targenomix GmbH
+60116461;Zyagnum AG
+60116463;EMC microcollections GmbH
+60116464;Acorda Therapeutics, Inc.
+60116465;Bioleaders Corporation
+60116466;Andreas Hettich GmbH & Co.KG
+60116467;Chimera Biotec GmbH
+60116468;Volume Graphics GmbH
+60116469;Solenis LLC
+60116471;McCombs School of Business
+60116472;The Prahova Museum of History and Archaeology
+60116474;VivaCell Biotechnology GmbH
+60116475;Müller-BBM GmbH
+60116476;Advanced Electromagnetics BV
+60116477;XiGo Nanotools, Inc.
+60116478;Alberta School of Business
+60116479;Fundación Universitaria Empresarial de la Cámara de Comercio de Bogotá – Uniempresarial
+60116480;OneSubsea LLC
+60116481;Cameron International Corporation
+60116482;Carbon Fluids Ltd
+60116483;Dr. Ing. h.c. F. Porsche AG (Porsche AG)
+60116484;Imperial College Business School
+60116486;Forum Products Limited
+60116487;Ionera Technologies GmbH
+60116488;Institut Polytechnique de Paris
+60116489;Owen Graduate School of Management
+60116490;University of Exeter Business School
+60116492;GTT Communications, Inc.
+60116494;UCI Paul Merage School of Business
+60116496;MerLion Pharmaceuticals GmbH
+60116497;SDA-engineering Ingenieurgesellschaft mbH
+60116498;amcure GmbH
+60116499;Twyman Research Management Ltd
+60116500;B&B-AGEMA GmbH
+60116501;Hysytech S.r.l.
+60116502;Technologie-Initiative SmartFactory KL e. V.
+60116503;Zodiac Inflight Innovations
+60116504;TriaGnoSys GmbH
+60116505;Calciscon AG
+60116506;Aokin AG
+60116507;China National Building Material Company Limited
+60116508;AVANCIS GmbH
+60116509;Trillium GmbH
+60116510;Vector Informatik GmbH
+60116511;trinamiX GmbH
+60116512;Triskelion B.V.
+60116513;cynora GmbH
+60116514;Cornwall Hospice Care Limited
+60116515;National Sun Yat-sen University, College of Management
+60116516;Fisher College of Business
+60116518;BYU Marriott School of Business
+60116519;ClinAssess GmbH
+60116520;Alimera Sciences, Inc.
+60116521;Teklia SAS
+60116522;CHILI GmbH
+60116523;AMC Engineering College
+60116524;Questrom School of Business
+60116526;Adrenomed AG
+60116527;Global Academy of Technology
+60116528;Adolf Kühner AG
+60116529;COMPO EXPERT GmbH
+60116530;Grupa Azoty S.A.
+60116531;Aix-Marseille Graduate School of Management
+60116532;Abiomed Europe GmbH
+60116533;Sage Therapeutics, Inc.
+60116534;Innovative Sensor Technology AG
+60116535;Jobst Technologies GmbH
+60116536;Alcedis GmbH
+60116537;Wake Forest School of Business
+60116539;Saint Petersburg State University, Graduate School of Management
+60116540;Advent Technologies SA
+60116541;Amiagus, Lithuania
+60116542;Aduro Biotech, Inc.
+60116544;A2A S.p.A.
+60116545;University of Munster School of Business and Economics
+60116546;AixControl GmbH
+60116547;Price College of Business
+60116548;Kazakh Research Institute of Potato and Vegetable Growing
+60116549;Kazakh Scientific Research Institute of Water Economy
+60116550;Kazakh Scientific Research Veterinary Institute
+60116551;Kazakh Scientific Research Institute of Mechanization and Electrification of Agriculture
+60116552;U.U.Uspanov Kazakh Research Institute of Soil Science and Agrochemistry
+60116553;Fisheries Research and Production Center
+60116554;Kazakh Scientific Research Institute for Plant Protection and Quarantine
+60116555;Kazakh Research Institute of Agriculture and Plant Growing
+60116556;Kazakh Research Institute of Horticulture and Viticulture
+60116557;Helsana AG
+60116558;CNR-Istituto Officina dei Materiali
+60116559;PES’s Rajaram and Tarabai Bandekar College of Pharmacy
+60116560;Addis Ababa Science and Technology University
+60116561;Schaeffler Technologies AG & Co. KG
+60116562;University of Bath, School of Management
+60116563;Cellex GmbH
+60116564;Universitas 17 Agustus 1945 Banyuwangi
+60116565;treeze Ltd.
+60116566;Sciomics GmbH
+60116567;TICEBA GmbH
+60116568;ReinVAD GmbH
+60116569;enmodes GmbH
+60116570;Sai Vidya Institute of Technology
+60116571;BRAIN AG
+60116572;PACE Institute of Technology & Sciences
+60116575;Eurofins GSC LUX
+60116576;tick-radar GmbH
+60116577;Trianel GmbH
+60116578;DIARECT AG
+60116579;Diamond Materials GmbH
+60116580;The Stephen J. R. Smith School of Business
+60116582;TDK-Micronas GmbH
+60116583;PEPperPRINT GmbH
+60116584;Covestro AG
+60116586;Proteopath GmbH
+60116587;Enviroware srl
+60116588;Rheacell GmbH & Co. KG
+60116589;TAVARLIN GmbH
+60116591;Debbie and Jerry Ivy College of Business
+60116592;PSS Polymer Standards Service GmbH
+60116593;TechnoTeam Bildverarbeitung GmbH
+60116594;FERCHAU Engineering GmbH
+60116595;RIFCON GmbH
+60116596;INGENERIC GmbH
+60116597;Pharmpur GmbH
+60116598;PANAXEA b.v.
+60116600;Hightec MC AG
+60116601;GeoThermal Engineering GmbH
+60116602;Haplogen GmbH
+60116603;SCHAEFER KALK GmbH & Co. KG
+60116604;RPG-Radiometer Physics GmbH
+60116605;Siddartha Educational Academy Group of Institutions
+60116606;Trinity Business School
+60116607;Cancog Technologies Inc
+60116608;Fuqua School of Business
+60116609;Duke University, Graduate School of Business
+60116610;TOMTEC Imaging Systems GmbH
+60116611;Sunfire GmbH
+60116612;Weatherhead School of Management
+60116613;geomer GmbH
+60116614;RheinEnergie AG
+60116615;Epigenomics AG
+60116616;EP Solutions SA
+60116617;Micram Microelectronic GmbH
+60116618;Chouksey Engineering College
+60116619;Rishi Dayaram and Seth Hassaram National College and Seth Wassiamull Assomull Science College
+60116620;IFM Therapeutics, LLC
+60116621;EW Nutrition GmbH
+60116622;Buderus Edelstahl GmbH
+60116625;TransnetBW GmbH
+60116626;Palas GmbH
+60116628;Registre REIN
+60116629;Kazakh Research Institute of Processing and Food Industry
+60116630;Kazakh Scientific Research Institute of Forestry and Agroforestry
+60116631;Geophysica Beratungsgesellschaft mbH
+60116632;InnovationLab GmbH
+60116633;ISATEC GmbH
+60116634;Microstructure and Pores GmbH
+60116635;Cornell SC Johnson College of Business
+60116636;KISTERS AG
+60116637;GoSilico GmbH
+60116638;Hydroisotop GmbH
+60116639;Kazakh Research Institute of AIC Economy and Rural Development
+60116640;SÜSS MicroTec SE
+60116641;SUSS MicroOptics SA
+60116642;Kempen Krause Ingenieure GmbH
+60116643;Meotec GmbH & Co. KG
+60116644;ARIANET Srl
+60116645;University of Mannheim, Business School
+60116646;Mannheim Business School gGmbH
+60116647;Nottingham University Business School
+60116648;HALFEN GmbH
+60116649;Gattefossé SAS
+60116650;GW School of Business
+60116651;Hydrotox Labor für Ӧkotoxikologie und Gewässerschutz GmbH (Hydrotox GmbH)
+60116652;College of Poultry Production and Management, Hosur
+60116653;Modern Institute of Pharmaceutical Sciences
+60116654;RIF Institute for Research and Transfer eV
+60116655;Little Flower College Guruvayoor
+60116656;Plansee Powertech AG
+60116657;Epiontis GmbH
+60116658;GTT Technologies
+60116660;Fraport AG
+60116662;Scheller College of Business
+60116664;SAS Microvitae Technologies
+60116665;CEMS - The Global Alliance In Management Education
+60116667;JDA Software Group, Inc.
+60116668;Elizabeth Glaser Pediatric AIDS Foundation
+60116671;Laboratoire des Sciences des Procédés et des Matériaux
+60116672;College of Pharmacy, Akluj
+60116673;Theranexus, France
+60116674;BAUER Maschinen GmbH
+60116676;Annoroad Gene Technology Co. Ltd.
+60116677;PERUPETRO S.A.
+60116678;Storengy S.A.
+60116679;Secure-IC SAS
+60116680;LLTech SAS
+60116682;Nexdot SAS
+60116683;NOXXON Pharma AG
+60116684;Lytix Biopharma AS
+60116685;NanoMedSyn, France
+60116686;SuperSonic Imagine
+60116687;brox IT-Solutions GmbH
+60116688;eccenca GmbH
+60116689;MobileODT Ltd.
+60116690;Giesecke and Devrient GmbH (G+D)
+60116691;Arya College of Engineering & IT
+60116692;Amylgen SAS
+60116693;TimeTech GmbH
+60116694;ARIA Technologies SA
+60116695;Institut Barcelona d’Estudis Internacionals
+60116696;TRANSVALOR S.A.
+60116697;AKKA Technologies SE
+60116698;ENAV S.p.A.
+60116699;Fibercryst SAS
+60116700;DOSIsoft SA
+60116701;Sullamussalam Science College Areacode
+60116702;Estellus SAS
+60116703;FGH GmbH
+60116704;LA-SER Europe Ltd.
+60116705;ITK Engineering GmbH
+60116706;CSP Services GmbH
+60116707;Geovariances France
+60116708;Vestel Electronics (Vestel Ticaret A.Ş.)
+60116709;Zorlu Holding A.S.
+60116710;Blu Wireless Technology Ltd
+60116711;Anti-Doping Lab Qatar
+60116712;BerGenBio ASA
+60116713;Ingenieurbüro Grassl GmbH
+60116714;Versalis S.p.A.
+60116716;CryptoExperts SAS
+60116717;ELVESYS
+60116718;Bosch Engineering GmbH
+60116719;Electro-Optics Technology, Inc.
+60116720;FEE GmbH
+60116721;Discovery Semiconductors, Inc.
+60116722;TENSYL SARL
+60116723;Cailabs SAS
+60116724;Bengal College of Pharmaceutical Science & Research
+60116725;University of Tafresh
+60116727;Creativ-Ceutical SARL
+60116728;Queensland Forensic Mental Health Service
+60116729;Comet AG
+60116730;Centro de Investigação e Desenvolvimento em Matemática e Aplicações
+60116732;Aperam S.A.
+60116733;Systech Water Resources, Inc.
+60116734;K.M.College of Pharmacy
+60116737;TNG Technology Consulting GmbH
+60116738;Voisin Consulting Life Sciences
+60116739;PTV Group
+60116740;Skyscanner Ltd
+60116741;YOGITECH SpA
+60116742;Esterel Technologies S.A.S
+60116744;University Institute of Engineering & Technology, Chandigarh
+60116745;Lakshmi Narain College of Pharmacy, Bhopal
+60116746;Space Dynamics Services s.r.l. (SpaceDyS)
+60116747;Manoir Industries SAS
+60116748;Tanzania Fisheries Research Institute (TAFIRI)
+60116749;Lancaster University Management School
+60116750;Booking.com B.V
+60116751;Luxembourg Institute of Socio-Economic Research (LISER)
+60116752;Laboratoire de Biologie Vétérinaire
+60116753;I2CAT Foundation
+60116758;Periyar College of Pharmaceutical Sciences
+60116760;Integrated Gulf Biosystems
+60116763;E4SMA s.r.l.
+60116765;ERAMET group
+60116766;Tashkent Institute of Finance
+60116768;National Kaohsiung University of Science and Technology
+60116770;University of Seychelles
+60116771;Japanese Data Center for Hematopoietic Cell Transplantation
+60116772;Ghana Institute of Management and Public Administration (GIMPA)
+60116773;Valley View University
+60116774;Gombe State University
+60116775;Nanoscribe GmbH
+60116776;Machakos University
+60116777;Mzuzu University
+60116778;Bugema University
+60116779;Rajiv Gandhi University of Knowledge Technologies, Andhra Pradesh
+60116782;University of Agricultural and Horticultural Sciences
+60116783;Universitas PGRI Ronggolawe Tuban
+60116785;PrimeTel PLC
+60116786;Yemen Geological Survey and Mineral Resources Board
+60116788;Bertin Technologies SAS
+60116789;Constructions industrielles de la Méditerranée S.A.
+60116791;Meerut Institute of Technology
+60116793;University of Education, Winneba
+60116794;Mercator Océan
+60116796;Thunderbird School of Global Management
+60116797;University of Professional Studies, Accra
+60116800;University of Mines and Technology
+60116801;University of Health and Allied Sciences, Ghana
+60116802;Royal College of Anaesthetists
+60116803;Saint Augustine University of Tanzania
+60116804;St. John‘s University of Tanzania
+60116805;Uganda Martyrs University
+60116806;Zimbabwe Open University
+60116807;University of Bamenda
+60116808;University of Lusaka
+60116809;S-cubed Ltd
+60116810;Uganda Christian University
+60116811;Sri Sai Jyothi College of Pharmacy
+60116812;CMR Engineering College
+60116815;Microgate Srl
+60116816;Western Campus, Ishaka, Bushenyi
+60116817;Stirling Dynamics Limited
+60116819;Sandip Institute of Technology & Research Center
+60116820;Maverix Biomics, Inc.
+60116821;Gurunanak College of Pharmacy
+60116826;EpiGaN nv
+60116827;Islamic University in Uganda
+60116828;New Zealand Defence Force
+60116830;The State University of Zanzibar
+60116831;Leibniz Research Institute for Environmental Medicine
+60116832;Leibniz-Gemeinschaft
+60116833;Bodle Technologies Limited
+60116834;Atopix Therapeutics Limited
+60116835;Bionano Genomics, Inc.
+60116836;University of Technology, Mauritius
+60116837;Change for our Children
+60116838;Intune Networks Limited
+60116839;Leibniz Institute for Interactive Materials
+60116840;Somerset County Council
+60116844;e-Therapeutics plc
+60116845;MToxins
+60116846;Giraffe Research and Conservation Trust
+60116848;DCU Business School
+60116849;Poole College of Management
+60116850;Bausch Health Companies Inc.
+60116851;Salix Pharmaceuticals, Inc.
+60116852;Wiltshire Council
+60116853;Applied petroleum technology AS
+60116854;Tocris Bioscience
+60116855;Hydro Aluminium Rolled Products GmbH
+60116856;Crysalin Ltd
+60116857;CountingLab Ltd
+60116858;Oxford Therapeutics Consulting
+60116859;InhibOx Ltd
+60116860;University of Kansas School of Business
+60116861;Chelsea Football Club
+60116862;University of Cape Town, Graduate School of Business
+60116863;UC Davis Graduate School of Management
+60116864;School of Management Fudan University
+60116865;SMU Cox School of Business
+60116866;SERMA Technologies
+60116867;SERMA Group
+60116868;Desautels School of Management
+60116869;Cypex Limited
+60116870;Tobit Curteis Associates LLP
+60116871;Bharati Vidyapeeth New Law College
+60116872;Godavari College of Engineering
+60116873;Sitabai Thite College of Pharmacy
+60116874;Muslim Council of Great Britain
+60116875;Parul institute of Pharmacy & Research
+60116876;NSS College For Womens
+60116878;Rosie Kay Dance Company Limited
+60116879;Well-Typed LLP
+60116880;Arkema group
+60116883;World Animal Protection UK
+60116884;Global Canopy Programme
+60116885;Asylum Research
+60116886;SOLIDpower S.p.A.
+60116888;CooperGenomics NJ
+60116889;Oxford Health NHS Foundation Trust
+60116890;Oxford Cognitive Therapy Centre
+60116891;Pitt Rivers Museum
+60116892;Oxitec Limited
+60116893;Hill Dickinson LLP
+60116896;Synaptic Systems GmbH
+60116898;Oxford Advanced Surfaces Ltd.
+60116899;Improbable Worlds Limited
+60116900;Oxford Biodynamics Plc
+60116901;Compact Composite Impact Engineering Ltd
+60116902;SilicoLife Lda
+60116903;World Obesity Federation
+60116904;Oxford Lasers Ltd.
+60116905;Ashmolean Museum
+60116906;Real Madrid CF
+60116907;Oxford Optronix Ltd.
+60116908;Bharati Vidyapeeth College of Engineering, Kolhapur
+60116913;International Network for Cancer Treatment and Research (INCTR)
+60116914;College of Engineering, Pandharpur
+60116915;St. Pius X College, Kasaragod
+60116916;Smt.Kishoritai Bhoyar College of Pharmacy
+60116917;Dr. MGR-Janaki College of Arts and Science for Women
+60116918;Sri Vasavi Institute Of Pharmaceutical Sciences, Tadepalligudem
+60116919;St. Ann's College of Pharmacy, Vizianagaram
+60116920;Jaya Institute of Technology, Thiruvallur
+60116922;Verily Life Sciences LLC
+60116923;Barcelona Graduate School of Mathematics (BGSMath)
+60116924;Centre de Recerca Matemàtica
+60116925;FAI Farms Ltd
+60116927;The Fat Duck
+60116928;Verdande Technology AS
+60116929;FIZ Karlsruhe - Leibniz Institute for Information Infrastructure
+60116930;TXT e-solutions S.p.A.
+60116931;genedrive plc
+60116932;Malcisbo AG
+60116934;Optellum Ltd
+60116935;Softberry, Inc.
+60116936;Pelican Cancer Foundation
+60116938;Caribbean Medical University
+60116939;Damodaram Sanjivayya National Law University
+60116940;Malla Reddy Institute of Technology and Science
+60116943;Lingaya's Vidyapeeth
+60116944;Child Family Health International
+60116945;Ketonex Ltd
+60116946;Seventh Generation, Inc.
+60116947;State University of Infrastructure and Technologies
+60116948;Sidai Africa Ltd.
+60116950;Aptuit (Oxford) Ltd
+60116951;Copenhagen Zoo
+60116953;Leibniz Institute for Applied Geophysics
+60116954;Oxford Medical Diagnostics Limited
+60116955;Better Value Healthcare Ltd
+60116956;Petroclays Ltd
+60116958;Symbiosis School of Biological Sciences
+60116959;D. Y. Patil College of Engineering and Technology
+60116960;Costello Medical Consulting Limited
+60116961;isolab GmbH
+60116963;Sylva Foundation
+60116964;STIE Pertiba
+60116965;University of Gour Banga
+60116966;Epoka University
+60116967;Bojjam Narasimhulu Pharmacy College for Women
+60116969;Shaheed Sukhdev College of Business Studies
+60116971;FLACSO Ecuador
+60116972;Modern College of Pharmacy
+60116973;The Young Foundation
+60116974;LIFE & BRAIN GmbH
+60116982;Government College, Rajahmundry
+60116985;College of Policing Limited
+60116988;Iceland GeoSurvey
+60116992;Oxford Fertility
+60116993;Oxfam International Secretariat
+60116994;Oxfam Great Britain
+60116995;PHG Foundation
+60116997;Marri Laxman Reddy Institute of Pharmacy
+60116998;I.T.O Co., Ltd. Provitamin
+60116999;DNEG, United kingdom
+60117000;Besins Healthcare
+60117001;Sri Venkateswara Veterinary University
+60117002;Craigmillar Medical Group
+60117003;ColdQuanta, Inc.
+60117005;OxSonics Ltd
+60117007;Kitchen Theory Ltd
+60117009;Konkan Gyanpeeth Rahul Dharkar College of Pharmacy & Research Institute
+60117011;Dr.Y.S.R. Horticultural University
+60117012;FranklinCovey Co.
+60117015;Amey plc
+60117016;St Luke’s Radiology Oxford Ltd
+60117018;Energy Saving Trust
+60117020;U.K. Financial Conduct Authority
+60117021;Membrane Consultancy Associates Limited
+60117022;Littleton Chambers
+60117023;LabOniris, Nantes
+60117024;Enbridge Inc.
+60117025;Atlantic Cancer Research Institute
+60117026;Centro de Salud Gamazo
+60117027;Centro de Salud La Guareña
+60117028;Centro de Salud Portillo
+60117029;Centro de salud de Olmedo
+60117030;Centro de Salud Peñafiel
+60117032;Centro de Salud Parada del Molino
+60117033;Spectrum Geo Ltd
+60117034;Spectrum ASA
+60117035;Rescue Global
+60117036;SiCrystal GmbH
+60117037;Centro De Salud Los Comuneros
+60117038;Centro de Salud de Salas de los Infantes
+60117039;Elemental Scientific, Inc.
+60117040;Leibniz Institute for Regional Geography
+60117041;Centre for Microdata Methods and Practice
+60117042;Adoptionplus Limited
+60117043;Barnardo's, United Kingdom
+60117044;Uttar Banga Krishi Vishwavidyalaya
+60117045;Magna Group
+60117046;Centro de Salud de Tudela de Duero
+60117047;Centro de Salud Canterac
+60117048;Centro de Salud Santa Elena
+60117049;Canada‘s Michael Smith Genome Sciences Centre
+60117050;Centro de Salud de Sanabria
+60117051;Centro de Salud de Tabara
+60117052;Oxbotica Ltd
+60117053;Mandeville Medicines
+60117054;Centro de Salud Benavente Sur
+60117056;Leibniz Institute for Research on Society and Space e.V.
+60117057;Technische Universität Dresden Institut für Festkörpermechanik
+60117060;Royal Society of Tropical Medicine and Hygiene
+60117061;Leibniz Institute for Prevention Research and Epidemiology
+60117062;Centro de Salud San Pablo
+60117063;OxMet Technologies Ltd
+60117064;D-Cubed Ltd.
+60117065;Oxford Strategic Consulting Ltd
+60117067;Instituto Universitario de Investigación Gestión Forestal Sostenible (iuFOR)
+60117068;The Economist Newspaper Limited
+60117069;M.A.M College of Pharmacy, Narasaraopet
+60117071;E.ON UK plc.
+60117072;Union Gas Limited
+60117073;Enbridge Gas Inc.
+60117075;Egypt-Japan University of Science and Technology
+60117076;GVM Care & Research S.p.A.
+60117077;Gerencia Regional de Salud de Castilla y León
+60117079;K.L.E. Society's College of Pharmacy, Nipani
+60117080;Instytut Włókien Naturalnych i Roślin Zielarskich
+60117081;Istituto per lo Studio, la Prevenzione e la Rete Oncologica
+60117082;C. U. Shah University
+60117083;Vidyabharati College of Pharmacy
+60117087;CISPA - Helmholtz Center for Information Security
+60117088;National Grid USA
+60117090;Kazakhstan Highway Research Institute
+60117091;Rajiv Gandhi University of Knowledge Technologies, Nuzvid
+60117092;Meenakshi Academy of Higher Education and Research
+60117095;Symbiosis Institute of Technology
+60117097;Bonam Venkata Chalamayya Institute of Technology and Science
+60117098;TBM Core
+60117099;Ailsa Hospital
+60117100;B A & K R College of Pharmacy
+60117101;Catholic Agency for Overseas Development (CAFOD)
+60117102;Proteome Factory AG
+60117103;Remote Sensing Solutions Inc.
+60117104;WesternGeco, Ltd.
+60117105;Odessa State University of Internal Affairs
+60117106;Ministry of Internal Affairs of Ukraine
+60117108;Parul University
+60117110;Child Bereavement UK
+60117111;Aryabhatta Knowledge University
+60117112;Progressive Education Society
+60117113;Gondwana University
+60117114;Wieland-Werke AG
+60117115;Cenovus Energy Inc.
+60117116;Bjerknes Centre for Climate Research
+60117117;Kadi Sarva Vishwavidyalaya
+60117118;Alpha Group of Institutions
+60117120;Cameron Hospital
+60117121;Canadian National Railway Company
+60117122;Stratheden Hospital
+60117124;TC Energy Corporation
+60117125;Shri Shivaji College of Arts, Commerce & Science, Akola
+60117126;First Quantum Minerals Ltd.
+60117130;Cluster University Srinagar
+60117131;Innovent Biologics, Inc.
+60117132;Innovent Technology Ltd.
+60117133;Lynebank Hospital
+60117134;M-I SWACO
+60117136;Frontera Energy Corporation
+60117139;Musée canadien de l'histoire
+60117141;Vrije Universiteit Amsterdam Institute for Environmental Studies
+60117142;Amsterdam Public Health
+60117143;Osmania University College for Women
+60117145;Management Development Institute, Murshidabad
+60117146;Meghe Group of Institutions
+60117148;Tamil Nadu Dr. J. Jayalalithaa Fisheries University
+60117149;St Mary‘s University College Belfast
+60117150;Narodowe Centrum Badań Jądrowych, Łódź
+60117151;Regional Centre for Biotechnology
+60117155;Caribou Digital Limited
+60117159;Torquay Museum
+60117160;Emirates College for Advanced Education
+60117162;Seven Informatics Limited
+60117164;Skadden (Skadden, Arps, Slate, Meagher & Flom LLP)
+60117166;Cera Care Limited
+60117167;Royal Society of Medicine, London
+60117168;Semmle Ltd
+60117169;RelationalAI, Inc.
+60117171;Herbert Smith Freehills LLP
+60117172;Hydro-GIS Ltd
+60117174;Standard Life Aberdeen plc
+60117176;Midwifery and Reproductive Health Research Center
+60117177;Phoenix Group Holdings Plc
+60117180;Malatya Turgut Ozal University
+60117181;Sekolah Tinggi Teknik - PLN
+60117182;Sankalchand Patel University
+60117184;Jiwaji University School of Studies in Pharmaceutical Sciences
+60117185;Nanfang College of Sun Yet-sen University
+60117186;Kherson State Agrarian University
+60117188;University of Wisconsin-Whitewater at Rock County
+60117189;University of Wisconsin-Stevens Point at Marshfield
+60117190;University of Wisconsin Law School
+60117191;University of Wisconsin-Green Bay, Marinette Campus
+60117192;University of Wisconsin-Eau Claire - Barron County
+60117193;University of Wisconsin-Fond du Lac
+60117194;University of Wisconsin-Green Bay, Sheboygan Campus
+60117195;University of Wisconsin-Fox Valley
+60117196;University of Wisconsin-Green Bay, Manitowoc Campus
+60117197;University of Wisconsin-Milwaukee at Washington County
+60117198;University of Wisconsin-Milwaukee at Waukesha
+60117199;University of Wisconsin-Baraboo/Sauk County
+60117200;University of Wisconsin-Stevens Point at Wausau
+60117203;Shri Shivaji Mahavidyalaya, Barshi
+60117204;RabindraNath Tagore University
+60117206;University of Wisconsin-Richland
+60117207;Shree S. K. Patel College of Pharmaceutical Education & Research
+60117208;New Victoria Hospital, Glasgow
+60117210;Kabardino-Balkarian State Agricultural University named after V.M. Kokov
+60117212;Queen Elizabeth University Hospital, Glasgow
+60117214;EISTI
+60117215;Imperial College Academic Health Science Centre
+60117216;Institute for Risk Assessment Sciences, Utrecht University
+60117217;Departement Infectieziekten en Immunologie, Universiteit Utrecht
+60117218;Departement Pathobiologie, Universiteit Utrecht
+60117219;Departement Dier in Wetenschap en maatschappij, Universiteit Utrecht
+60117220;Faculteit Diergeneeskunde, Universiteit Utrecht
+60117221;Departement Geneeskunde van Gezelschapsdieren, Universiteit Utrecht
+60117222;Departement Biochemie en Celbiologie, Universiteit Utrecht
+60117223;Departement Gezondheidszorg Paard, Universiteit Utrecht
+60117224;Gemeenschappelijk Dierenlaboratorium, Universiteit Utrecht
+60117225;Departement Gezondheidszorg Landbouwhuisdieren, Universiteit Utrecht
+60117226;Lingayas Institute of Management and Technology, Vijayawada
+60117227;Department of Physical Chemistry of Fossil Fuels of the Institute of Physical-Organic Chemistry and Coal Chemistry named after L. M. Lytvynenko of National Academy of Sciences of Ukraine
+60117228;Laboratoire de Physiologie Pharmacologie et Santé Environnementale, Université Sidi Mohamed Ben Abdellah
+60117229;Laboratoire de Biotechnologie, Université Sidi Mohamed Ben Abdellah
+60117230;Laboratoire Algèbre, Géométrie et Arithmétique, Université Sidi Mohamed Ben Abdellah
+60117231;Laboratoire de Neuroendocrinologie et Environnement Nutritionnel et Climatique, Université Sidi Mohamed Ben Abdellah
+60117232;Laboratoire d'Ingénierie, d'Electrochimie, de Modélisation et d'Environnement, Université Sidi Mohamed Ben Abdellah
+60117233;Analyse Mathématique et Applications, Université Sidi Mohamed Ben Abdellah
+60117234;Institut für Spanende Fertigung
+60117235;Laboratoire Informatique et Modélisation, Université Sidi Mohamed Ben Abdellah
+60117236;Laboratoire de Biotechnologie et Préservation des Ressources Naturelles, Université Sidi Mohamed Ben Abdellah
+60117237;Laboratoire Informatique, Imagerie & Analyse Numérique, Université Sidi Mohamed Ben Abdellah
+60117238;Centre for Business and Economics Research (CeBER)
+60117239;Laboratoire d'Ingénierie des Matériaux Organométalliques et Moléculaires, Université Sidi Mohamed Ben Abdellah
+60117240;Laboratoire de Chimie Organique, Université Sidi Mohamed Ben Abdellah
+60117242;N S Raju Institute of Technology
+60117243;Laboratoire de Géosystème - Environnement et Développement Durable, Université Sidi Mohamed Ben Abdellah
+60117244;Laboratoire de Génie des Matériaux et Environnement, Université Sidi Mohamed Ben Abdellah
+60117245;Laboratoire de Géodynamique et Ressources Naturelles, Université Sidi Mohamed Ben Abdellah
+60117246;Laboratoire Interdisciplinaire de Recherche en Didactique des Sciences et Techniques, Université Sidi Mohamed Ben Abdellah
+60117247;Laboratoire de Physique Théorique et Appliquée, Université Sidi Mohamed Ben Abdellah
+60117248;Laboratoire d'Intégration des Systèmes et des Technologies Avancées, Université Sidi Mohamed Ben Abdellah
+60117249;Laboratoire d'Agro-alimentaire et Sécurité Sanitaire des Aliments, Université Sidi Mohamed Ben Abdellah
+60117250;Laboratoire Statistique et Optimisation, Université Sidi Mohamed Ben Abdellah
+60117251;Laboratoire d'Ingénierie des Matériaux, de Modélisation et d'Environnement, Université Sidi Mohamed Ben Abdellah
+60117252;Laboratoire Informatique, Modélisation et Systèmes, Université Sidi Mohamed Ben Abdellah
+60117253;Laboratoire de Didactique, Innovation Pédagogique et Curruculaire, Université Sidi Mohamed Ben Abdellah
+60117254;University College of Engineering, Panruti
+60117255;ATB - Institut für angewandte Systemtechnik Bremen GmbH
+60117256;Instituto Nacional de Oftalmología “Dr. Francisco Contreras Campos”
+60117259;Faculté des Lettres et des Sciences Humaines Dhar El Mahraz, Université Sidi Mohamed Ben Abdellah
+60117260;Faculté des Sciences Juridiques, Economiques et Sociales, Université Sidi Mohamed Ben Abdellah
+60117261;Faculté Polydisciplinaire de Taza, Université Sidi Mohamed Ben Abdellah
+60117262;Ecole Nationale des Sciences Appliquées, Université Sidi Mohamed Ben Abdellah
+60117263;Faculté des Lettres et des Sciences Humaines Saïs-Fés, Université Sidi Mohamed Ben Abdellah
+60117265;Nirma University, Institute of Management
+60117266;Symbiosis Institute of Health Sciences
+60117267;Symbiosis College of Nursing
+60117269;Ecoles Nationales de Commerce et de Gestion, Université Sidi Mohamed Ben Abdellah
+60117270;Ecole Normale Supérieure de Fès, Université Sidi Mohamed Ben Abdellah
+60117273;Madras Medical College, College of Pharmacy
+60117274;ITM University Gwalior
+60117275;ITM University, School of Engineering and Technology
+60117276;Ecole Superieure de Technologie, Université Sidi Mohamed Ben Abdellah
+60117278;Centre de Recherche en Cancérologie et Immunologie Nantes-Angers
+60117279;Regenerative Medicine and Skeleton Research
+60117280;Istanbul University-Cerrahpasa
+60117281;International Center for Zetta-Exawatt Science and Technology
+60117283;Universitas Muhammadiyah Gorontalo
+60117285;SRM Institute of Science and Technology, Ramapuram Campus
+60117286;SRM Institute of Science and Technology, NCR Campus
+60117289;Tata Institute of Fundamental Research, Hyderabad
+60117290;Ottobock SE & Co. KGaA
+60117291;Jagan Institute of Management Studies, Rohini
+60117292;College of Pharmacy, Pandharpur
+60117294;Istituto Nazionale Documentazione Innovazione Ricerca Educativa INDIRE
+60117300;Al-Qalam University College
+60117301;National Ozone Monitoring Research and Education Center of the Belarusian State University
+60117304;School of Pharmacy & Emerging Sciences
+60117305;Baddi University of Emerging Sciences & Technologies
+60117308;Chouksey Engineering College, School of Pharmacy
+60117309;Busan National University of Education
+60117310;Adarsha Science Jairamdas Bhagchand Art & Birla Commerce Mahavidyalaya
+60117311;K.H. Government Degree College
+60117312;STBC College
+60117313;Institute of Technology & Management, Gwalior
+60117314;ITM Group of Institute, Gwalior
+60117315;S.R.V.B.S.J.B. Maharanee College
+60117316;NIET Pharmacy Institute
+60117317;Symbiosis School of Sports Sciences
+60117318;Symbiosis Centre for Management Studies, Pune
+60117319;Symbiosis Centre for Management Studies, Noida
+60117320;Complejo Hospitalario Universitario de Vigo
+60117321;Pandit Bhagwat Dayal Sharma University of Health Sciences
+60117322;Shri Shankaracharya Group of Institutions
+60117324;MET Faculty of Pharmacy
+60117325;Dibrugarh University, Department of Pharmaceutical Sciences
+60117326;Sri Sarada Niketan College of Science for women
+60117327;Amrapali Group of Institutes
+60117328;PRR & VS Government College
+60117329;Electronic Science Department, Kurukshetra University
+60117330;Amity School of Engineering And Technology, Delhi
+60117331;Stracathro Hospital
+60117332;Murray Royal Hospital, Perth
+60117334;Strathmartine Hospital
+60117335;NHS Orkney
+60117336;NHS Shetland
+60117337;CIC nanoGUNE
+60117338;Centro de Salud de Béjar (María Auxiliadora)
+60117340;The Peter Doherty Institute for Infection and Immunity
+60117341;Fundacion Ciudad de la Energia (CIUDEN)
+60117343;CIC microGune
+60117344;Spires Ecology Ltd
+60117346;ICIC - Instituto Canario de Investigación del Cáncer
+60117347;Indra
+60117348;Schlumberger Brazil Research and Geoengineering Center
+60117349;Schlumberger China, SA
+60117350;Instituto Volcanológico de Canarias (INVOLCAN)
+60117351;Instituto de Ciencia y Tecnología de los Alimentos
+60117352;Schlumberger Stavanger Research Center
+60117354;Ultromics Limited
+60117357;Universidad a distancia de Madrid
+60117358;Fundación María Josefa Recio
+60117359;MD Ecology Limited
+60117361;The Mammal Society
+60117362;Schlumberger Software Technology Innovation Center
+60117363;TPNBT - Technical Proteins Nanobiotechnology
+60117364;SharkNinja, United Kingdom
+60117365;Guangzhou Institute of Biomedicine and Health
+60117367;Qingdao Institute of Bioenergy and Bioprocess Technology
+60117368;F-star Biotechnology Ltd.
+60117371;Infectious Diseases Research Collaboration
+60117372;Don-Nan, USA
+60117373;Mind Foundry Ltd
+60117375;Centro de Excelencia para el Estudio y Tratamiento de la Obesidad y la Diabetes
+60117377;Xinjiang Institute of Ecology and Geography Chinese Academy of Sciences
+60117380;Center for Earth Observation and Digital Earth
+60117381;BCMaterials - Basque Center for Materials, Applications and Nanostructures
+60117382;Techna Institute
+60117383;National Time Service Center
+60117387;Ningbo Institute of Industrial Technology, Chinese Academy of Sciences
+60117389;Academy of Opto-Electronics
+60117390;National Science Library, Chinese Academy of Sciences
+60117393;Arak University of Technology
+60117395;Helmholtz Institute Jena
+60117396;Suzhou Institute of Nano-tech and Nano-Bionics, Chinese Academy of Sciences
+60117397;Shanghai Advanced Research Institute, Chinese Academy of Sciences
+60117398;Alfarabi Colleges
+60117399;Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Sciences
+60117400;2iE - Institut International d'Ingénierie de l'Eau et de l'Environnement
+60117403;Nordsjællands Hospital
+60117405;CINAV – Portuguese Navy Research Center
+60117406;Yantai Institute of Coastal Zone Research, Chinese Academy of Sciences
+60117407;CAS Center for Excellence & Innovation in Tibetan Plateau Earth System Sciences
+60117409;TEKEVER
+60117410;ADL BioPharma
+60117414;Kio University
+60117418;Innovation-Technology Center for Project Breakthrough (ITTsP Proryv)
+60117419;Centro en Red de Medicina Regenerativa y Terapia Celular de Castilla y León (Fundación IECSCYL)
+60117420;Plataforma Oceánica de Canarias
+60117421;Staatliches Museum für Naturkunde Stuttgart
+60117422;NHS Western Isles
+60117423;Sochi Research Center of RAS

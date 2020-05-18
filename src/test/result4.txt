@@ -3099,3 +3099,90 @@
 60125316;Hebei Provincial Key Laboratory of Power Transmission Equipment Security Defense
 60125317;Hebei Engineering & Technology Research Center of Simulation & Optimized Control for Power Generation
 60125318;Key Laboratory of State Monitoring and Control of Power Plant Equipment, Ministry of Education
+60125534;Institute of Buddhism and Religious Studies
+60125535;Key Research Base of the Ministry of Education - Applied Statistics Research Center
+60125536;Key Laboratory of Data Engineering and Knowledge Engineering Ministry of Education
+60125646;Technology and Equipment of Diagnosis and Treatment for Cereral Vascular Disease Engineering Research Center Ministry of Education
+60125647;Digitalized Equipment of Diagnosis and Treatment, Engineering Research Center, Ministry of Education
+60125648;Guangdong Provincial Key Laboratory of New Drug Screening
+60125649;Ministry of Education Key Laboratory of Serious Disease Transcriptome and Functional Proteomics
+60125950;Key Laboratory of Ministry of Education for Efficient Mining and Safety of Metal Mines
+60125951;Near-Net Roll Forming Engineering Research Center of Ministry of Education
+60125952;Advanced Strip Production Equipment and Control Engineering Research Center of the Ministry of Education
+60125953;Key Laboratory of Knowledge Automation for Industrial Processes, Ministry of Education
+60125954;MOE Engineering Center
+60126075;China Housing and Real Estate Research Institute
+60126076;Collaborative Innovation Center of Membrane Separation and Water Treatment of Zhejiang Province
+60126077;Yangtze River Delta Green Pharmaceutical Collaborative Innovation Center
+60126078;Zhejiang Institute of Modern Logistics Equipment and Technology
+60126079;Engineering Research Center of Biotransformation and Biological Purification Ministry of Education
+60126080;Yiwu Science and Technology Research Institute
+60126081;E. & J. Gallo Winery
+60126107;Institut des Sciences du Sport Santé de Paris (I3SP)
+60126108;UH College of Medicine
+60126109;Laboratoire GEODE
+60126110;Foisie Business School
+60126111;Diabetes Research Center
+60126112;Liver and Pancreatobiliary Diseases Research Center
+60126113;Hematology, Oncology and Stem Cell Transplantation Research Center
+60126114;Digestive Diseases Research Center
+60126115;Paris-Saclay Food and Bioproduct Engineering
+60126116;Equipes Traitement de l'Information et Systèmes
+60126117;Forest Products Society
+60126118;David B. O'Maley College of Business
+60126119;Babcock University
+60126120;Berliner Institut für Gesundheitsforschung
+60126227;Key Laboratory of Coalbed Methane Resources and Accumulation Process of Ministry of Education
+60126228;Key Laboratory of Deep Coal Resources Mining, Ministry of Education
+60126229;Key Laboratory of Ministry of Education for Coal Processing and Efficient Clean Utilization
+60126230;Key Laboratory of Coal Mine Gas and Fire Prevention, Ministry of Education
+60126231;State Key Laboratory for GeoMechanics and Deep Underground Engineering
+60126232;Jiangsu Collaborative Innovation Center for Building Energy Saving and Construction Technology
+60126233;State Key Laboratory of Coal Resources and Safe Mining
+60126234;Key Laboratory of Coal-Based CO2 Capture and Geological Storage in Jiangsu Province
+60126235;Jiangsu Province Energy and Economic Management Research Base Internet of Things (Perception Mine) Research Center
+60126236;National Engineering Research Center of Coal Preparation and Purification
+60126237;National Internet Joint Engineering Laboratory for Mine Internet Application Technology
+60126392;Key Laboratory of the Three Gorges Reservoir Region's Eco-Environment, Ministry of Education
+60126393;Key Laboratory of New Technology for Construction of Cities in Mountain Area, MOE
+60126394;Key Laboratory of Biorheological Science and Technology, MOE
+60126395;Key Laboratory of Low-Grade Energy Utilization Technology & System, MOE
+60126396;Key Laboratory of Dependable Service Computing in Cyber-Physical-Society, MOE
+60126397;Introduction to Industrial CT Non-Destructive Testing Engineering Research Center, MOE
+60126398;Joint International Research Laboratory of Green Buildings and Built Environments, MOE
+60126399;Joint International Research Laboratory for Light Alloys, MOE
+60126400;The State Key Laboratory of Power Transmission Equipment & System Security and New Technology
+60126401;Key Laboratory of Information Physics and Social Trustworthy Service Computing, Ministry of Education
+60126402;Key Laboratory of Optoelectronic Technology & System, Ministry of Education
+60126403;State Key Laboratory of Mechanical Transmissions, Chongqing University
+60126404;The State Key Laboratory of Coal Mine Disaster Dynamics and Control
+60126405;Key Laboratory of the Ministry of Education of Mountainous City and Town Construction and New Technology
+60126406;Joint School of CQU-Cincinnati
+60126527;Comprehensive Chemical Engineering Teaching Center
+60126528;Liaoning Provincial Key Laboratory of Energy Materials and Chemical Engineering
+60126529;Liaoning Provincial Key Laboratory of Polymer Science and Engineering
+60126530;Liaoning Boron and Magnesium Resources Chemical and New Materials Engineering Technology Research Center
+60126531;Key Laboratory of Liaoning Provincial Colleges and Universities of Petrochemical Technology and Equipment
+60126532;National Key Laboratory of Fine Chemical Engineering
+60126533;State Key Laboratory of Coastal and Offshore Engineering
+60126534;State Key Laboratory of Structural Analysis for Industrial Equipment
+60126535;City Institute
+60126536;Zhang Dayu School of Chemistry
+60126537;DUT-BSU Joint Institute Dalian University of Technology
+60126538;Leicester International College
+60126697;National R&D Center of Agricultural Product Processing Equipments
+60126698;Jiangsu Research Center of Bio-Processing and Separation of Agricultural Products
+60126699;Jiangsu Key Laboratory of Physical Processing of Agricultural Products
+60126700;Laser Shock Processing Technology Institute
+60127176;Jilin Provincial Key Laboratory of Toxicology
+60127177;Key Laboratory of Coherent Light and Atomic Molecular Spectroscopy, Ministry of Education
+60127178;Key Laboratory of New Battery Physics and Technology, Ministry of Education
+60127179;Jilin University National Chemistry Experiment Teaching Center
+60127180;Jilin University International Chemistry and Life Science Experimental Teaching Center
+60127181;Jilin University Chemistry Teaching and Research Center
+60127182;State Key Laboratory of Inorganic Synthesis and Preparative Chemistry
+60127183;State Key Laboratory of Supramolecular Structures and Materials
+60127184;National Local Joint Engineering Laboratory for High Performance Polymer Synthesis Technology
+60127185;Na Micro Construction Chemistry International Cooperation Joint Laboratory
+60127186;Changchun Chemical Research Province and the Ministry of Construction of the Collaborative Innovation Center
+60127187;Organic Polymer Photoelectric Materials Engineering Research Center
