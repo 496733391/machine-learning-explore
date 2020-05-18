@@ -4,6 +4,11 @@
 import requests
 from bs4 import BeautifulSoup as bs
 
+import os
+import sys
+base_dir = os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + "/../../")
+sys.path.insert(0, base_dir)
+
 from src.config.logConfig import logger_aff2 as logger
 
 base_url = 'https://www.scopus.com/affil/profile.uri?afid=%s&origin=AffiliationProfile'
@@ -17,11 +22,11 @@ headers = {
                           'e/81.0.4044.138 Safari/537.36'
 }
 
-temp_i = 60080006
-while temp_i < 60090006:
+temp_i = 60130006
+while temp_i < 60140006:
     result_list = []
     try:
-        for i in range(temp_i, 60090006):
+        for i in range(temp_i, 60140006):
             url = base_url % i
             logger.info('%s' % i)
             text = requests.get(url, proxies=proxies, headers=headers, timeout=300)
@@ -34,7 +39,7 @@ while temp_i < 60090006:
                 logger.info(str(i) + ';' + soup.find(class_='h4 wordBreakWord marginLeft1').text)
 
         # 若循环正常结束，结束while循环
-        temp_i = 60090006
+        temp_i = 60140006
 
     except Exception as err:
         logger.info('ERROR: %s' % err)
