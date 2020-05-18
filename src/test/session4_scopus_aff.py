@@ -17,11 +17,11 @@ headers = {
                           'e/81.0.4044.138 Safari/537.36'
 }
 
-temp_i = 60035588
-while temp_i < 60050006:
+temp_i = 60120006
+while temp_i < 60130006:
     result_list = []
     try:
-        for i in range(temp_i, 60050006):
+        for i in range(temp_i, 60130006):
             url = base_url % i
             logger.info('%s' % i)
             text = requests.get(url, proxies=proxies, headers=headers, timeout=300)
@@ -34,7 +34,7 @@ while temp_i < 60050006:
                 logger.info(str(i) + ';' + soup.find(class_='h4 wordBreakWord marginLeft1').text)
 
         # 若循环正常结束，结束while循环
-        temp_i = 60050006
+        temp_i = 60130006
 
     except Exception as err:
         logger.info('ERROR: %s' % err)
