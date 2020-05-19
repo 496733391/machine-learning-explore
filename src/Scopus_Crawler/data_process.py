@@ -8,7 +8,7 @@ base_dir = os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + "/../")
 sys.path.insert(0, base_dir)
 
 import pandas as pd
-from xpinyin import Pinyin
+import pypinyin
 
 from src.Scopus_Crawler.scopus_config import compound_surname, polyphony_surname
 
@@ -20,7 +20,6 @@ def data_process(input_df):
     :return: [{'person_id':1234564, 'name':'liu bo', 'ins':['fudan university', 'xx university', 'xxx university'],
                 'ins_id':[111, 222, 333], 'name_zh':'刘博'}, {...}]
     '''
-    transfer = Pinyin()
     input_data = []
     for value, sub_df in input_df.groupby('person_id'):
         row_dict = {}
@@ -30,7 +29,7 @@ def data_process(input_df):
 
         name_zh = sub_df.iloc[0]['name']
         row_dict['name_zh'] = name_zh
-        name_py = transfer.get_pinyin(name_zh, '-').replace('v', 'ü')
+        name_py = pypinyin.slug(name_zh, separator='-').replace('v', 'ü')
         name_list = name_py.split('-')
         # 如果是复姓
         if name_zh[:2] in compound_surname:

@@ -1,65 +1,17 @@
-60130055;Non-Traditional Mineral Resource Open Study Laboratory of Ministry of Land and Resources
-60130056;Underground Information Detection Technology and Instrument Laboratory of Education Ministry
-60130057;Key Laboratory of Lithospheric Tectonics Deep-Level Process and Exploration of Education Ministry
-60130182;Key Laboratory of Adolescent Health Assessment and Exercise Intervention, Ministry of Education
-60130183;Key Laboratory of Brain Functional Genomics, Ministry of Education
-60130184;Key Laboratory of Geographic Information Science, Ministry of Education
-60130185;Key Laboratory of Polarized Materials and Devices, Ministry of Education
-60130186;Key Laboratory of Speech and Hearing Sciences, Ministry of Education
-60130187;Center for Modern Chinese City Studies
-60130188;Center for Russian Studies
-60130189;Center for Strategic Studies of Ministry of Education: Institute China Innovation
-60130190;Center for the Study and Application of Chinese Characters
-60130191;Engineering Research Center for Nanophotonics & Advanced Instrument, Ministry of Education
-60130192;Institute of Curriculum and Instruction
-60130193;Institute of Modern Chinese Thought and Culture
-60130194;Institute of Schooling Reform and Development
-60130195;Software/Hardware Co-design Engineering Research Center, Ministry of Education
-60130196;International Joint Laboratory of Embedded Trustworthy Software, MoE
-60130682;National Key Laboratory of Crop Genetic Improvement
-60130683;National Key Laboratory of Agro-Microbiology
-60130684;National and Local United Engineering Laboratory of Animal Disease Prevention and Control
-60130685;Laboratory of Quality & Safety Risk Assessment for Livestock and Poultry Products
-60130686;Key Laboratory of Horticultural Plant Biology
-60130687;Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction
-60130688;Key Laboratory of Environment Correlative Dietology
-60130689;Key Laboratory of Agricultural Genomics
-60130690;Key Laboratory of Agro-Microbial Resource and Development
-60130691;Key Laboratory of Rapeseed Genetic Improvement
-60130692;Key Laboratory of Central China Horticultural Crop Biology and Germplasm Enhancement
-60130693;Key Laboratory of Swine Genetics and Breeding
-60130694;Key Laboratory of Freshwater Animal Breeding
-60130695;Key Laboratory of Development of Veterinary Diagnostic Products
-60130696;Key Laboratory of Arable Land Conservation
-60130697;Key Laboratory of Crop Ecophysiology and Farming System in the Middle Reaches of the Yangtze River
-60130698;Key Laboratory of the Detection of Veterinary Drug Residues
-60130699;Hubei Preventive Veterinary Medicine Key Laboratory
-60130700;Hubei Crop Disease Monitoring & Safety Control Key Laboratory
-60130701;Hubei Insect Resource Utilization and Sustainable Pest Management Key Laboratory
-60130702;Hubei Agricultural Bioinformatics Key Laboratory
-60130703;Hubei Provincial Engineering Laboratory for Animal Disease Prevention and Control
-60130704;Hubei Provincial Engineering Laboratory for New-type Fertilizer
-60130705;Center of Quality Test and Surpervision for Breeding Swine Wuhan
-60130706;The Supervision, Inspection & Testing Center of Microbial Products Quality
-60130707;Breeding Swine Quality Supervision, Inspecting and Testing Center
-60130832;Key Laboratory of Animal Bacteriology of the Ministry of Agriculture
-60130936;State Key Laboratory of Reproductive Medicine
-60130937;Key Laboratory of Modern Toxicology, Ministry of Education
-60130938;Key Laboratory of Antibody Technique, Ministry of Health
-60130939;Key Laboratory of Living Donor Liver Transplantation, Ministry of Public Health
-60131217;Key Laboratory of Virtual Geographic Environment, Ministry of Education
-60131218;Center of Cooperative Innovation for Regional Development of Government by Law
-60131219;Research Center of Education Ministry Reform on Basic Education Curriculum
-60131220;National and Local Joint Engineering Research Center of Biomedical Functional Materials
-60131356;Testing Center of Dangerous Chemicals of Ministry of Railways
-60131558;Key Laboratory of Modern Acoustics Ministry of Education
-60131559;Key Laboratory of Mesoscopic Chemistry of Ministry of Education
-60131560;Key Laboratory of Analytical Chemistry In Life Sciences of Ministry of Education
-60131561;Moe Key Laboratory of High-Performance Polymer Materials and Technology
-60131562;The MOE Key Lab of Coast and Island Development
-60131563;The MOE Key Lab of Mesoscopic Chemistry
-60131564;The MOE Key Lab of Mesoscale Severe Weather
-60131565;The MOE Key Lab of Analytical Chemistry for Life Science
-60131566;The MOE Key Lab of Modern Acoustics
-60131567;The MOE Key Lab of Modern Astronomy and Astrophysics
-60131568;The MOE Key Lab of Model Animals and Diseases Research
+60140030;Graduate School of Medicine & Nursing
+60140438;Center for Behavioral Neuroscience
+60140439;Southeastern Center for Air Pollution and Epidemiology
+60140440;Regenerative Engineering and Medicine Center
+60140441;Predictive Health Institute
+60140442;Nanomedicine Center for Nucleoprotein Machines
+60140443;Malaria Host-Pathogen Interaction Center
+60140444;Health and Exposome Research Center Understanding Lifetime Exposures
+60140445;Health Systems Institute
+60140446;Georgia Immuno Engineering Consortium
+60140447;Emory+Children's Pediatric Research Center
+60140448;Center for Pediatric Nanomedicine
+60140449;Georgia Clinical & Translational Science Alliance
+60140450;Georgia Center for Diabetes Translation Research
+60141075;MIT-IBM Watson AI Lab
+60145405;Joint Center for Housing Studies of Harvard University
+60145420;ANU-IU Pan Asia Institute

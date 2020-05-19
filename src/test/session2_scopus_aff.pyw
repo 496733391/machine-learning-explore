@@ -29,11 +29,11 @@ headers = {
                           'e/81.0.4044.138 Safari/537.36'
 }
 
-temp_i = 60131604
-while temp_i < 60140006:
+temp_i = 60140006
+while temp_i < 60160006:
     result_list = []
     try:
-        for i in range(temp_i, 60140006):
+        for i in range(temp_i, 60160006):
             url = base_url % i
             logger.info('%s' % i)
             text = requests.get(url, proxies=proxies, headers=headers, timeout=300)
@@ -46,7 +46,7 @@ while temp_i < 60140006:
                 logger.info(str(i) + ';' + soup.find(class_='h4 wordBreakWord marginLeft1').text)
 
         # 若循环正常结束，结束while循环，发送邮件通知
-        temp_i = 60140006
+        temp_i = 60160006
 
         msg = MIMEText('session2已结束运行', 'plain', 'utf-8')
         msg['From'] = formataddr(("private_message", from_addr))
