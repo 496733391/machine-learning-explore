@@ -21,7 +21,7 @@ driver_path = 'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe
 
 # 启动浏览器
 driver = webdriver.Chrome(driver_path, options=options)
-driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
+driver.get('https://www.scopus.com/results/authorNamesList.uri?sort=count-f&src=al&st1=an&st2=lizhe&orcidId=&affilName=beijing+forestry+university&sid=bcd74feed117cffa8a2e8afaef599991&sot=anl&sdt=anl&sl=64&s=AUTHLASTNAME%28liu%29+AND+AUTHFIRST%28wei%29+AND+AFFIL%28wuhan+university%29&resultsPerPage=200&offset=1&jtp=false&currentPage=1&exactAuthorSearch=true')
 driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
 cookies = driver.get_cookies()
 cookies_dict = {}

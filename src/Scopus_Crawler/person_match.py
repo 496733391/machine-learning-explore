@@ -53,6 +53,9 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
         # 获取文献数量跟引用计数
         basic_info = catch_info(matched_list[0], cookies)
         basic_info['person_id'] = person_id
+        basic_info['name'] = author_name
+        basic_info['name_zh'] = author_name_zh
+        basic_info['current_ins_id'] = author_ins[0]
 
         ins_result = temp_dict[matched_list[0]]
         # 机构信息转为dataFrame格式
@@ -70,6 +73,9 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
         aff_df.rename(columns=rename_dict, inplace=True)
         aff_df['scopus_id'] = matched_list[0]
         aff_df['person_id'] = person_id
+        aff_df['name'] = author_name
+        aff_df['name_zh'] = author_name_zh
+        aff_df['current_ins_id'] = author_ins[0]
 
         return aff_df, basic_info
 
