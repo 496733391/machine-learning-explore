@@ -81683,3 +81683,774 @@
 60139100;Transplant Research Center (SUMS)
 60139101;St. Paul‘s Hospital Millennium Medical College
 60139102;Scottish Drugs Forum
+60140030;Graduate School of Medicine & Nursing
+60140438;Center for Behavioral Neuroscience
+60140439;Southeastern Center for Air Pollution and Epidemiology
+60140440;Regenerative Engineering and Medicine Center
+60140441;Predictive Health Institute
+60140442;Nanomedicine Center for Nucleoprotein Machines
+60140443;Malaria Host-Pathogen Interaction Center
+60140444;Health and Exposome Research Center Understanding Lifetime Exposures
+60140445;Health Systems Institute
+60140446;Georgia Immuno Engineering Consortium
+60140447;Emory+Children's Pediatric Research Center
+60140448;Center for Pediatric Nanomedicine
+60140449;Georgia Clinical & Translational Science Alliance
+60140450;Georgia Center for Diabetes Translation Research
+60141075;MIT-IBM Watson AI Lab
+60145405;Joint Center for Housing Studies of Harvard University
+60145420;ANU-IU Pan Asia Institute
+60147830;Penn State College of Agricultural Sciences
+60148067;Eberly College of Science
+60148188;Pennsylvania College of Technology
+60151531;National Socio-Environmental Synthesis Center (SESYNC)
+60151882;Tokyo Jikei University School of Medicine Third Hospital
+60152746;University of Yamanashi Hospital
+60154097;Aston Medical School
+60156923;Institut de Mécanique des Fluides et des Solides
+60157947;JSC "United Engine Corporation"
+60157948;JSC UEC-Aviadvigatel
+60157949;Centre d'Écologie et des Sciences de la Conservation
+60157950;Centre d'Études Médiévales Anglaises
+60157951;Laboratoire Espaces, Nature et Culture
+60157952;Institut de Recherche en Musicologie
+60157953;Cultures et Sociétés d’Europe Orientale, Balkanique et Médiane
+60157954;Laboratoire Dynamique du Langage In Situ
+60157955;Rosemary Lodge Veterinary Hospital
+60157956;Centre d'Immunologie et des Maladies Infectieuses
+60157957;Ali Asghar Children‘s Hospital
+60157958;Laboratoire d'Océanographie Microbienne
+60157959;Biologie Intégrative des Organismes Marins
+60157960;Biologie Computationnelle et Quantitative
+60157961;Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie
+60157962;Laboratoire de Biologie du Développement
+60157963;Laboratoire de Biodiversité et Biotechnologies Microbiennes
+60157964;Institut Parisien de Chimie Moléculaire
+60157965;Sygehus Lillebælt
+60157966;Institut de Recherche Mathématique Avancée
+60157967;Biologie Evolutive et Ecologie des Algues
+60157968;Centre de Recherches Interdisciplinaires sur les Mondes Ibériques Contemporains
+60157969;Institut des Neurosciences Cellulaires et Intégratives
+60157970;Linguistique et Lexicographie Latines et Romanes
+60157971;Institut de biologie Paris-Seine
+60157972;Métaphysique, Histoires, Transformations, Actualités
+60157973;Représentations et Identités, Espaces Germaniques, Nordiques et Néerlandophone
+60157974;Universidad de O’Higgins
+60157975;Adaptation biologique et vieillissement
+60157976;American School of Paris
+60157977;Institut de la Vision
+60157978;Laboratoire d'Electronique et Electromagnétisme
+60157979;Centre de Recherche Saint-Antoine
+60157980;Centre de Recherche en Myologie
+60157981;Institut du Fer à Moulin
+60157982;The University of Agriculture, Peshawar
+60157983;Laboratoire de Physique Nucléaire et de Hautes Energies
+60157984;State Agrarian and Engineering University in Podilia
+60157985;Centre d'Histoire du XIXe Siècle
+60157986;The International University of Logistics and Transport
+60157987;Image and Pervasive Access Laboratory
+60157988;Centre André Chastel
+60157989;Laboratoire d’Archéologie Moléculaire et Structurale
+60157990;Édition, Interprétation, Traduction des Textes Anciens
+60157991;Laboratoire d'Ecogéochimie des Environnements Benthiques
+60157992;Rome et Ses Renaissances : Art, Archéologie, Littérature, Philosophie
+60157993;Unité de Modélisation Mathématique et Informatique des Systèmes Complexes
+60157994;Équipe Littérature et Culture Italienne
+60157995;Institut du Calcul et de la Simulation
+60157996;Chimie des Processus Biologiques
+60157997;Laboratoire de Biologie Moléculaire et Cellulaire des Eucaryotes
+60157998;Neurophysiologie Respiratoire Expérimentale et Clinique
+60157999;Physicochimie des Electrolytes et Nanosystèmes Interfaciaux
+60158000;Maladies Génétiques d’Expression Pédiatrique
+60158001;Laboratoire de Chimie Théorique
+60158002;Maladies Rénales Fréquentes et Rares
+60158003;Centre de Recherches sur l’Extrême Orient de Paris – Sorbonne
+60158004;Groupe de Recherches Interdisciplinaires sur les Processus d'Information et de Communication
+60158005;Histoire et Dynamique des Espaces Anglophones
+60158006;Centre de Linguistique en Sorbonne
+60158007;Physiologie Membranaire et Moleculaire du Chloroplaste
+60158008;Civilisations et littératures d'Espagne et d'Amérique du Moyen-Âge aux Lumières
+60158009;Réhabilitation Chirurgicale Mini-Invasive Robotisée de l’Audition
+60158010;Voix Anglophone : Littérature et Esthétique
+60158011;Mount Saint Mary College
+60158012;Lindsey Wilson College
+60158013;University of Northwestern Ohio
+60158014;Baptist College of Health Sciences
+60158015;Lubbock Christian University
+60158016;Otis College of Art and Design
+60158017;Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé
+60158018;Centre de Recherche en Littérature Comparée
+60158019;Unité de Recherche sur les Maladies Cardiovasculaires, le Métabolisme et la Nutrition
+60158021;ES Fibervisions Suzhou Co., Ltd
+60158028;Ashesi University
+60158029;Laboratoire MONARIS
+60158030;Concordia University Irvine
+60158031;William Peace University
+60158032;Anna Maria College
+60158033;Trinity Christian College
+60158034;Evolution Paris Seine
+60158035;Sciences, Normes, Décision
+60158036;Immunology - Immunopathology - Immunotherapy
+60158037;Laboratoire de Réactivité de Surface
+60158038;Sorbonne - Identités, Relations Internationales et Civilisations de l’Europe
+60158039;Sciences et Technologies de la Musique et du Son
+60158040;Spring Arbor University
+60158041;Japanese-French Laboratory for Informatics
+60158042;Oakland City University
+60158043;PSB Paris School of Business
+60158044;California College San Diego
+60158045;Sens Texte Informatique Histoire
+60158046;Laboratoire de Neurosciences Cognitives et Adaptatives de Strasbourg
+60158047;Columbia Basin College
+60158048;Houghton College
+60158049;Ave Maria University
+60158050;Lake Erie College
+60158051;Enzymologie de l’ARN
+60158052;State Oil Company of the Azerbaijan Republic
+60158053;Ahl Al Bayt University
+60158054;Corban University
+60158055;Trinity International University
+60158056;Tennessee Wesleyan University
+60158057;Miles College
+60158058;MidAmerica Nazarene University
+60158059;Queens University of Charlotte
+60158060;Gunma Prefectural College of Health Sciences
+60158061;Laboratoire de Chimie de la Matière Condensée de Paris
+60158062;ArtCenter College of Design
+60158063;Mount Vernon Nazarene University
+60158064;LaGrange College
+60158065;CECOS University of IT & Emerging Sciences
+60158066;Al-Farahidi University
+60158067;Concordia University-Portland
+60158068;Concordia University Ann Arbor
+60158069;University of Al-Ameed
+60158070;Laboratoire des Sciences de l'Image, de l'Informatique et de la Télédétection
+60158071;Basrah University College of Science and Technology
+60158072;Dou Yee Technologies Pte Ltd
+60158073;Horus Partners Wealth Management Group SA
+60158074;Arktis Radiation Detectors Ltd
+60158075;Bedrock Geosciences
+60158076;Études et Édition de Textes Médiévaux
+60158077;Verastem Oncology
+60158079;Edward Waters College
+60158080;Florida SouthWestern State College
+60158081;ApresLabs Ltd
+60158082;Fresno Pacific University
+60158083;Maria College
+60158084;Endura S.p.A.
+60158085;British Homeopathic Association
+60158086;Alfred State College of Technology State University of New York
+60158087;William Penn University
+60158088;Cairn University
+60158089;University of Sioux Falls
+60158090;Marine Conservation Research International
+60158091;Lamellar Biomedical Ltd
+60158092;Compugen Ltd.
+60158093;International Fund for Animal Welfare
+60158094;Epi-interactive Ltd.
+60158095;David Marlin Consulting Ltd
+60158096;Centre de Recherches sur la Cognition et l’Apprentissage
+60158097;Council for Nutritional and Environmental Medicine
+60158098;Reynolds International Ltd
+60158099;Aker BioMarine AS
+60158100;International Hellenic University
+60158101;Cambridge Carbonates Ltd
+60158102;Nutrition, Croissance et Cancer
+60158103;Leishmaniasis Research Center, Kerman University of Medical Sciences
+60158104;Africa Mental Health Research & Training Foundation
+60158105;AMC Consultants Pty Ltd
+60158106;Laboratoire de Mathématiques de Besançon (LmB)
+60158107;The William Quarrier Scottish Epilepsy Centre
+60158108;Quarriers, United Kingdom
+60158109;Wildlife Science and Conservation Center of Mongolia
+60158110;Benue State University
+60158111;Graceland University
+60158112;State University of New York College of Agriculture and Technology at Cobleskil
+60158113;Kanagawa University of Human Services
+60159329;Crees Foundation
+60159330;Biocomposites Ltd.
+60159331;Matériaux, Microélectronique, Acoustique, Nanotechnologies (GREMAN)
+60159332;Centre d'Etude des Pathologies Respiratoires (CEPR)
+60159333;Centre d'Etudes Supérieures de la Renaissance
+60159334;Nanomerics Ltd
+60159335;RAFT Solutions Ltd
+60159336;Lipides, Nutrition, Cancer - LNC
+60159337;CIBER Research Ltd.
+60159338;Blue Ventures Conservation
+60159339;IRSEEM - Institut de Recherche en Systèmes  Electroniques Embarqués
+60159340;Cayman Islands Government
+60159341;Institut de Recherche sur la Biologie de l'Insecte
+60159342;Cités Territoires Environnement et Sociétés
+60159343;SUDEP Action
+60159344;Centre de Recherche sur le Droit des Marchés et des Investissements Internationaux (CREDIMI)
+60159345;Athena Diagnostics Inc.
+60159346;SANE Australia
+60159347;Dartington Service Design Lab
+60159348;Laboratoire Ligérien de Linguistique (LLL)
+60159349;Complexity Science Hub Vienna
+60159350;ORC Manufacturing Co., Ltd.
+60159351;The Huntercombe Group
+60159352;Laboratoire d‘Etude de l‘Apprentissage et du Développement (LEAD)
+60159353;Oceans Initiative
+60159354;Danish Society for Patient Safety
+60159355;Danish Patient Safety Authority
+60159356;Ascension Island Government
+60159357;Innovations in Dementia CIC
+60159358;Laboratoire Chrono-Environnement
+60159359;HTA Consulting
+60159360;Mojo Maritime Ltd
+60159361;National Marine Aquarium
+60159362;ARCHELON, Greece
+60159363;Dutch Institute for Fundamental Energy Research
+60159365;Methodist University
+60159366;TAFE Queensland
+60159367;Sunshine Coast Hospital and Health Service
+60159368;USC Business School
+60159369;Sunshine Coast Health Institute
+60159370;Imagerie et Cerveau (iBrain)
+60159371;French Foundation for Biodiversity Research
+60159372;Cerebrus Associates Limited
+60159373;Pidpa, Belgium
+60159374;MIRARCO Mining Innovation
+60159375;Global Vision International
+60159376;Flanders Hydraulics Research
+60159377;Rwanda Agriculture and Animal Resources Development Board
+60159378;Wild Planet Trust
+60159379;Paignton Zoo
+60159380;Netherlands eScience Center
+60159381;Diamond Hard Surfaces Ltd
+60159382;Lahore Garrison University
+60159383;Movember Foundation
+60159384;Newham Centre for Mental Health
+60159385;Earthwatch Institute
+60159386;Azzaytuna University
+60159387;Bahamas National Trust
+60159388;Southern Counties Veterinary Specialists
+60159389;South American Institute for Resilience and Sustainability Studies
+60159390;Finnmark Hospital Trust
+60159391;European Marine Board IVZW
+60159392;Deutsches Archäologisches Institut
+60159393;G1 Therapeutics, Inc.
+60159394;Kalkulo AS
+60159395;Bluware Corp.
+60159396;Canterbury Archaeological Trust
+60159397;Indigo Ag, Inc.
+60159398;Natural History Museum of Utah
+60159399;Ascent Bio-Nano Technologies, Inc.
+60159400;Razi Drug Research Center
+60159401;Cambridge Environmental Research Consultants
+60159402;Wolfspeed, USA
+60159403;Jahrom University
+60159404;Equilibrium Research
+60159405;Bill Harvey Associates Limited
+60159406;Asklepios BioPharmaceutical
+60159407;CEINGE-Biotecnologie Avanzate S.c.a r.l.
+60159408;All Out Africa
+60159409;Zitelli & Brodland PC
+60159410;Elson S. Floyd College of Medicine
+60159411;Carson College of Business
+60159412;Washington State University Everett
+60159415;Team Danmark
+60159416;Adventure Scientists
+60159417;Marine Megafauna Foundation
+60159418;Cato Research LLC
+60159419;Synthace Ltd.
+60159420;MEMSCAP S.A.
+60159421;Zoo and Aquarium Association
+60159422;Taronga Conservation Society  Australia
+60159423;Neptune and Company, Inc.
+60159424;Bushfire and Natural Hazards CRC Ltd
+60159425;CPG Corporation Pte Ltd
+60159426;Temasek International Pte. Ltd.
+60159427;Forestry and Land Scotland
+60159428;HIDROMOD, LDA
+60159429;Selfrag AG
+60159430;Chemtrix BV
+60159431;Tension Technology International, LLC.
+60159432;Autistica, London
+60159433;Fabis Consulting Ltd.
+60159434;Khaled bin Sultan Living Oceans Foundation
+60159435;Watching Over Mothers & Babies Foundation
+60159436;Oral and Dental Diseases Research Center
+60159437;Health Promotion Research Center
+60159438;Health Management and Economics Research Center
+60159439;American Society of Plant Biologists
+60159440;Swiss Federal Institute of Sport Magglingen SFISM
+60159441;Infectious Diseases and Tropical Medicine Research Center
+60159442;Universidad del Pacífico
+60159443;Termez State University
+60159444;Social Care Institute for Excellence
+60159445;Preem AB
+60159446;MM S.p.A.
+60159447;Mercator Research Institute on Global Commons and Climate Change
+60159448;Preventive Medicine and Public Health Research Center
+60159449;Sirona care & health
+60159450;Swedish School of Sport and Health Sciences
+60159451;Animal Health Care Flanders
+60159452;Hydro International UK Ltd
+60159453;East Asian Observatory
+60159454;East Asian Core Observatories Association
+60159455;Community Nursing Research Center
+60159456;Studi Cognitivi S.p.A
+60159457;Resistant Tuberculosis Institute
+60159458;Pre-Construct Archaeology Ltd.
+60159459;Mingan Island Cetacean Study
+60159460;Pregnancy Health Research Center
+60159461;Cellular and Molecular Research Center
+60159462;Troxler Electronic Laboratories, Inc.
+60159463;Autoimmune Diseases Research Center
+60159464;Children and Adolescents Health Research Center
+60159465;Pendoley Environmental Pty. Ltd.
+60159466;Oral and Dental Disease Research Center
+60159467;Cardiovascular Research Center
+60159468;Missouri Baptist University
+60159469;Greensboro College
+60159470;Columbia College Chicago
+60159471;Fontbonne University
+60159472;North Central University
+60159473;Dominican College
+60159474;Mars Hill University
+60159475;Springfield College School of Professional and Continuing Studies
+60159476;Getinge AB
+60159477;Applikon Biotechnology B.V.
+60159478;Isaac Newton Institute for Mathematical Sciences
+60159479;Lane College
+60159480;College of Central Florida
+60159481;Martin Methodist College
+60159482;Holy Family University
+60159483;Livingstone College
+60159484;SUNY Morrisville
+60159485;Southwest Baptist University
+60159486;East Texas Baptist University
+60159487;University of Mobile
+60159488;Dallas Baptist University
+60159489;Quincy University
+60159490;North Greenville University
+60159491;Washington & Jefferson College
+60159492;Concordia College-New York
+60159493;Reinhardt University
+60159494;California Institute of the Arts
+60159495;Rogers State University
+60159496;Lourdes University
+60159497;Jarvis Christian College
+60159498;Nichols College
+60159499;Remington College-Dallas Campus
+60159500;Northern New Mexico College
+60159501;TerraFauna Wildlife Consulting
+60159502;Waynesburg University
+60159503;Fashion Institute of Technology
+60159504;Elmira College
+60159505;Wiley College
+60159506;Metropolitan College of New York
+60159507;Wilmington College
+60159508;AdventHealth University
+60159509;Urbana University
+60159510;DeSales University
+60159511;University of Swabi
+60159512;Mount Aloysius College
+60159513;LIU Riverhead
+60159514;Pacific Union College
+60159515;Pharmaceutical Sciences Research Center
+60159516;Georgian Court University
+60159517;Cornerstone University
+60159518;Hannibal LaGrange University
+60159519;Alvernia University
+60159520;Northwest Florida State College
+60159521;Notre Dame College
+60159522;Central Methodist University
+60159523;Bacone College
+60159524;Carlow University
+60159525;Flagler College
+60159526;Foreign Trade University
+60159527;Thomas College
+60159528;Schreiner University
+60159529;Medaille College
+60159530;Southern Virginia University
+60159531;Oklahoma Christian University
+60159532;Caldwell University
+60159533;Kowsar Hospital
+60159534;Chipola College
+60159535;Grupo Jaragua
+60159536;Besat Hospital
+60159537;Society for Protection of Turtles
+60159538;Non-communicable Diseases Research Center
+60159539;St. Thomas Aquinas College
+60159540;Florida Memorial University
+60159541;New England Institute of Technology
+60159542;Point Park University
+60159543;Becker College
+60159544;Keuka College
+60159545;Vaughn College
+60159546;St. Joseph’s College
+60159547;Saint Francis University
+60159548;Johnson & Wales University
+60159549;University of Mount Olive
+60159550;Texas Lutheran University
+60159551;Seton Hill University
+60159552;South Georgia State College
+60159553;Ohio Dominican University
+60159554;Polk State College
+60159555;Nyack College
+60159556;University of Rio Grande
+60159557;Eastern University
+60159558;Franklin College
+60159559;Wisconsin Lutheran College
+60159560;Columbus College of Art & Design
+60159561;Lancaster Bible College
+60159562;Wright State University, Lake Campus
+60159563;Martin Luther College
+60159564;Khatam hospital
+60159565;Saint-Petersburg State University Hospital
+60159566;Beth Medrash Govoha
+60159567;Keystone College
+60159568;Colorado Mountain College
+60159569;Washington Adventist University
+60159570;Marymount Manhattan College
+60159571;Medicinal and Natural Products Chemistry Researh Center
+60159572;Imam-Reza Hospital
+60159573;Shiraz Neuroscience Research Center
+60159574;Huston-Tillotson University
+60159575;Belmont Abbey College
+60159576;Applied Physiology Research Center
+60159577;Emmanuel College
+60159578;Numenta, Inc.
+60159579;Marian University
+60159580;iKnowlation Research Labs Pvt. Ltd.
+60159581;Olivet College
+60159582;Culver-Stockton College
+60159583;St. Francis College
+60159584;Centenary University
+60159585;American International College
+60159586;American Musical and Dramatic Academy
+60159587;Baharan Hospital
+60159588;Grace College & Seminary
+60159589;Tohid Hospital
+60159590;Alelo, Inc.
+60159591;Graduate School of Business Administration
+60159592;ValiAsr Hospital
+60159593;EconomiX, France
+60159594;Hematology Research Center
+60159595;Saint John's University
+60159596;United Talmudical Seminary
+60159597;Brazosport College
+60159598;Uta Mesivta of Kiryas Joel
+60159599;Ali Ebne Abitaleb Hospital
+60159600;Alzahra Eye Hospital
+60159601;Faculty of Dentistry
+60159602;St. Peter's Institute of Higher Education and Research
+60159603;Aliasghar Hospital
+60159604;Faculty of Nursing and Midwifery
+60159605;University of North Georgia
+60159606;Katsushika Medical Center
+60159607;Kashiwa Hospital
+60159608;Genetics of Non-Communicable Disease Research Center
+60159609;Boali Hospital
+60159610;Research Center for Psychiatry and Behavioral Sciences
+60159611;Faculty of Public Health
+60159612;Aclima Inc.
+60159613;Aluminerie Alouette Inc.
+60159614;Convergent Science, Inc.
+60159615;Clinical Immunology Research Center
+60159616;Clwit, Inc.
+60159617;Sohu, Inc
+60159618;Sogou, Inc.
+60159619;Biotherapeutics Inc.
+60159620;School of Dentistry
+60159621;Compunetix, Inc.
+60159622;Colorectal Research Center
+60159623;Infoblox Inc.
+60159624;Synairgen plc
+60159625;Johnson & Wales University-Charlotte
+60159626;Trident Systems Inc.
+60159627;PAWLIN Technologies LLC.
+60159628;Vuno, Inc.
+60159629;Boro Solutions Ltd
+60159630;Iwate University of Health and Medical Sciences
+60159631;AI Medical Service Inc.
+60159632;Zoox Inc.
+60159633;AITIA International Informatics, Inc.
+60159634;Anomaly Solutions Pvt. Ltd.
+60159635;ITTI Sp. z o.o.
+60159636;Daum Soft Co., Ltd
+60159637;Tomocube, Inc.
+60159638;Captor Therapeutics Inc
+60159639;College of the Ozarks
+60159640;ASAPP, Inc.
+60159641;Faculty of Paramedicine Sciences
+60159642;American Process International LLC
+60159643;GranBio Investimentos S.A.
+60159644;Miovision Technologies, Inc.
+60159645;Accuray Incorporated
+60159646;Life Prediction Technologies, Inc
+60159647;Sleep Consultants, Inc.
+60159648;Active Optics NightN Ltd.
+60159649;Hospitalsenhed Midt
+60159650;ADISS Lab Ltd.
+60159651;CodeGen International Pvt Ltd.
+60159652;AI Speech Ltd
+60159653;CereProc Ltd
+60159654;BioCatch Ltd.
+60159655;Universitas Muhammadiyah Sorong
+60159656;Apelon, Inc.
+60159657;AltaLink Management Ltd.
+60159658;Activision Blizzard, Incorporated
+60159659;National Center “Junior Academy of Sciences of Ukraine”
+60159660;Persistent Systems Limited
+60159661;WSO2 Inc.
+60159662;Ortelio Ltd
+60159663;Izmail State University of Humanities
+60159664;Poltekkes Kemenkes Yogyakarta
+60159665;ByteDance Ltd.
+60159666;Cookpad Inc.
+60159667;StradVision Inc.
+60159668;Dascena, Inc.
+60159669;NovuMind Inc.
+60159670;Yelp Inc.
+60159671;Linguamatics Ltd
+60159672;Boren Veterinary Medical Hospital
+60159673;Spears School of Business at Oklahoma State University
+60159674;Salvirt Ltd.
+60159675;Manifold Data Mining Inc.
+60159676;4Paradigm Inc.
+60159677;Alphamoon Sp. z o.o.
+60159678;AlfaNum d.o.o.
+60159679;Alpineon d.o.o.
+60159680;AIUT Sp. z o.o. (Ltd.)
+60159681;Kitasato University Medical Center
+60159682;Shenzhen Corerain Technologies Co., Ltd.
+60159683;Molecular Dermatology Research Center
+60159684;Cloudminds Inc.
+60159685;NextEra Energy, Inc.
+60159686;NextEra Energy Resources, LLC
+60159687;MAVERICK Technologies, LLC.
+60159688;University Hospital Coventry
+60159689;State Grid Liaoning Electric Power Supply Co., Ltd.
+60159690;Transense Technologies PLC
+60159691;Welocalize, Inc.
+60159692;Tumbling Dice Ltd.
+60159693;TAJ Technologies, Inc.
+60159694;Derby Business School
+60159695;Vala Sciences, Inc.
+60159696;Zebra Medical Vision, Inc.
+60159697;Tula Technology, Inc
+60159698;The Bournemouth & Poole College
+60159699;The Business School at BU
+60159700;YTEK Pty Ltd
+60159701;Tagtraum Industries Incorporated
+60159702;Amobee, Inc.
+60159703;Andritz Inc.
+60159704;ValidSoft Ltd
+60159705;xFlow Research Inc.
+60159706;Health Policy Research Center
+60159707;algorithmica technologies GmbH
+60159708;Swiss International Air Lines AG
+60159709;Tessella Ltd
+60159710;SPARX Group Co., Ltd.
+60159711;ULSee Inc.
+60159712;Strand Life Sciences Pvt. Ltd.
+60159713;Wakamatsu Hospital of the University of Occupational and Environmental Health
+60159714;Hospital of the University of Occupational and Environmental Health
+60159715;Xiaomi, Inc.
+60159716;UCAL Fuel Systems Ltd.
+60159717;Unbabel Inc.
+60159718;Turing Machines BV
+60159719;Tellhow Sci-Tech Co., Ltd.
+60159720;TFI Digital Media Limited
+60159721;Tempus Dictum, Inc.
+60159722;Tadano Ltd.
+60159723;ThinkCyte, Inc.
+60159724;University of Bedfordshire Business School
+60159725;Vlatacom Research and Development Institute
+60159726;Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet
+60159727;Uncharted Software Inc.
+60159728;AItrics Co., Ltd.
+60159729;Telops, Inc.
+60159730;Ubitech Ltd.
+60159731;Royal Docks School of Business and Law
+60159732;Edge Hill University Medical School
+60159733;Edge Hill University Business School
+60159734;Turkish Airlines
+60159735;Hospitalsenheden Vest
+60159736;Hazrate Rasoole Akram Hospital
+60159737;University of Fukui Hospital
+60159738;University of Pittsburgh at Johnstown
+60159739;University of Pittsburgh at Bradford
+60159740;University of Pittsburgh at Greensburg
+60159741;Chegg, Inc.
+60159742;Farmingdale State College
+60159743;SUNY Polytechnic Institute
+60159744;Sveučilište u Zagrebu, Ekonomski Fakultet
+60159745;Texas A&M University-San Antonio
+60159747;Northwest University
+60159748;School of Business, Leadership and Economics
+60159749;Staffordshire Business School
+60159750;Cheetah Mobile
+60159751;Berkshire Healthcare NHS Foundation Trust
+60159752;Shahid Akbarabadi Hospital
+60159753;Multi Channel Systems MCS GmbH
+60159754;Clinical Neurology Research Center
+60159755;FiroozAbadi Hospital
+60159756;Christie Digital Systems Inc.
+60159757;Shahid Motahari Burns Hospital
+60159758;Combinostics Oy
+60159759;ClinSpec Dx
+60159760;MGH Institute of Health Professions
+60159761;Firoozgar General Hospital
+60159762;Middle Georgia State University
+60159763;Cogvis Software und Consulting GmbH
+60159764;Crown Consulting, Inc.
+60159765;CACI International Inc
+60159766;Shiga University of Medical Science Hospital
+60159767;Graduate School of Medicine
+60159768;Melodient Limited
+60159769;Yokohama National University Department of Business Administration
+60159770;Oikon Ltd. – Institute of Applied Ecology
+60159771;Cubica Technology Ltd.
+60159772;Optibrium Ltd.
+60159773;Computer Modelling Group Ltd
+60159775;Medchemica Limited
+60159776;Cyient Ltd.
+60159777;RMS Instruments Ltd.
+60159778;p-matrix Ltd
+60159779;Nursing Care Research Center
+60159780;Power Grid Company Of Bangladesh Ltd.
+60159781;Robotics Plus Ltd.
+60159782;LIU-University Center Campus
+60159783;Sandor Lifesciences Pvt. Ltd.
+60159784;Marymount California University
+60159785;St. Augustine College
+60159786;Showa University Karasuyama Hospital
+60159787;Verisk Analytics, Inc.
+60159788;Power Grid Corporation of India Ltd.
+60159789;The AfriCat Foundation
+60159790;HBU-UCLan School of Media, Communication and Creative Industries
+60159791;School of Medicine
+60159792;Lancashire School of Business and Enterprise
+60159793;Quadra Medical Services Pvt. Ltd.
+60159794;Sankalp Semiconductor Pvt. Ltd.
+60159795;HCL Technologies Ltd.
+60159796;Power Research and Development Consultants Pvt. Ltd.
+60159797;SigTuple Technologies Pvt. Ltd.
+60159798;Vecima Networks Inc.
+60159799;Vehere Interactive Pvt Ltd
+60159800;Sonangol EP
+60159801;ARC Centre of Excellence for Translational Photosynthesis
+60159802;Agena Ltd
+60159803;The China-Australia Centre for Personalised Immunology
+60159804;Valuenex Japan, Inc.
+60159805;Forensic Healthcare Services Ltd.
+60159806;LMC Healthcare
+60159807;Navalprogetti S.r.l.
+60159808;Universidade José Eduardo dos Santos
+60159809;Hendriks Pharmaceutical Consulting
+60159810;Cancer Research Malaysia
+60159811;NSI-MI Technologies
+60159812;China Metallurgical Group Corporation
+60159813;QuEST Global Services Pvt. Ltd.
+60159814;QuEST Global Services Pte. Ltd.
+60159815;Genomics England Limited
+60159816;Keio Business School
+60159817;Beckers Industrial Coatings Ltd.
+60159818;NARI Technology Co., Ltd.
+60159819;Quantitative Pty. Ltd.
+60159820;Centre for Biodiversity Analysis
+60159821;ARC Centre of Excellence in Plant Energy Biology
+60159822;Bristows LLP
+60159823;Ichor Therapeutics, Inc.
+60159824;Sveučilište u Zagrebu, Akademija Dramske Umjetnosti
+60159825;Sveučilište u Zagrebu, Akademija Likovnih Umjetnosti
+60159826;Universidade Katyavala Bwila
+60159827;Metamaterial Inc.
+60159828;Medical Wireless Sensing Ltd
+60159829;Sveučilište u Zagrebu, Učiteljski Fakultet
+60159830;Organisation for the Prohibition of Chemical Weapons
+60159831;Lightpoint Medical, Ltd.
+60159832;Centre for Climate Change Economics and Policy
+60159833;Systemic Risk Centre
+60159834;Centre For Macroeconomics
+60159835;Welltec A/S
+60159836;Goldwind Science Technology Co., Ltd.
+60159837;South Wales Business School
+60159838;PSE Healthy Energy
+60159839;Nanjing Iveco Automobile Co., Ltd.
+60159840;IVECO S.p.A.
+60159841;Kindai University Nara Hospital
+60159842;Physiology Research Center
+60159843;LMK Thermosafe Limited
+60159844;Orthox Ltd.
+60159845;Sveučilište u Zagrebu, Arhitektonski fakultet
+60159846;The Royal London Dental Hospital
+60159847;QWED Sp. z o.o.
+60159848;University of Liberal Arts Bangladesh
+60159849;Showa University Yokohama Northern Hospital
+60159850;Showa University Hospital East Hospital
+60159851;Showa University Fujigaoka Rehabilitation Hospital
+60159852;Showa University Koto Toyosu Hospital
+60159853;Cyprotex Limited
+60159854;Symmetron Ltd.
+60159855;Sveučilište u Zagrebu Fakultet Elektrotehnike i Računarstva
+60159856;Sveučilište u Zagrebu, Fakultet Prometnih Znanosti
+60159857;Sveučilište u Zagrebu, Pravni Fakultet
+60159858;WISDRI Engineering & Research Incorporation Ltd.
+60159859;VHsquared Ltd
+60159860;Sveučilište u Zagrebu, Fakultet Filozofije i Religijskih Znanosti
+60159861;RxCELERATE LTD
+60159862;Biorealis, Ltd.
+60159863;VoxelCloud Inc.
+60159864;SystematIC Delft
+60159865;Complete Sports Care
+60159866;Vital Images, Inc.
+60159867;East Anglian Air Ambulance
+60159868;Rome International Center for Materials Science
+60159869;UTI Grup
+60159870;Solargis s.r.o.
+60159871;Chuandong Magnetic Electronics Co., Ltd.
+60159872;NetComposites Ltd.
+60159873;Pure Sports Medicine
+60159874;Trio Medicines Ltd
+60159875;Hammersmith Medicines Research Ltd
+60159876;Great Western Air Ambulance Charity
+60159877;Congenica Ltd.
+60159878;ReiThera Srl
+60159879;Kent, Surrey & Sussex Air Ambulance Trust
+60159880;Essex & Herts Air Ambulance Trust
+60159881;SIAE Microelettronica S.p.A.
+60159882;Health and Social Care Board
+60159883;Kidney Research UK
+60159884;Vincit Oy
+60159885;Graduate School of Business Administration
+60159886;Chemical Biology Ventures Limited
+60159887;Chuo Graduate School of Strategic Management
+60159888;4SC AG
+60159889;ANU Research School of Biology
+60159890;Ehime University Hospital
+60159891;Vicarious AI
+60159892;Graduate School of Business Administration
+60159893;Swiss Finance Institute
+60159894;Leicester Precision Medicine Institute
+60159895;Truong Dai Hoc Thu Dau Mot
+60159896;Manipal School of Information Sciences
+60159897;Iran Psychiatric Hospital
+60159898;Sekolah Tinggi Teknologi Muhammadiyah Cileungsi
+60159899;Laboratory of Nature-Inspired Technologies and Environmental Safety  Kola Science Centre  Russian Academy of Sciences
+60159900;Université de Matrouh
+60159901;Manipal College of Nursing
+60159902;Erste Group Bank AG
+60159903;CIVIDEC Instrumentation GmbH
+60159904;Orthodontics Research Center
+60159905;DigitalGenius, Inc.
+60159906;Geos Institute
+60159907;Earthmoves Ltd.
+60159908;Monteloeder S.L.
+60159909;Gillette UK
+60159910;The University College of Estate Management
+60159911;Berkshire Memory and Cognition Research Centre
+60159912;Fraunhofer Chile Research Foundation
+60159913;Faculty of Medicine
+60159914;Frederick Research Center
+60159915;Medical Imaging Research Center
+60159916;Geneva Centre for Security Policy
+60159917;ANU College of Business & Economics
+60159918;European Spallation Source ERIC
+60159919;Northern Ireland Ambulance Service
+60159920;University of the Ryukyus Hospital

@@ -36,7 +36,7 @@ while temp_i < 60160006:
         for i in range(temp_i, 60160006):
             url = base_url % i
             logger.info('%s' % i)
-            text = requests.get(url, proxies=proxies, headers=headers, timeout=300)
+            text = requests.get(url, proxies=proxies, headers=headers, timeout=1)
             if 'Error message' in text.text:
                 logger.info('***%s***' % i)
 
