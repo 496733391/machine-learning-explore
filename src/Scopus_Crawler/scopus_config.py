@@ -28,9 +28,7 @@ search_url = 'https://www.scopus.com/results/authorNamesList.uri?sort=count-f&sr
              '&st1={}' \
              '&st2={}' \
              '&orcidId=&affilName={}' \
-             '&sid=bcd74feed117cffa8a2e8afaef599991&sot=anl&sdt=anl&sl=64&s=AUTHLASTNAME%28liu%29+AND+AUTHFIRST' \
-             '%28wei%29+AND+AFFIL%28wuhan+university%29&resultsPerPage=200&offset=1&jtp=false' \
-             '&currentPage=1&exactAuthorSearch=true'
+             '&sot=anl&sdt=anl&sl=64&resultsPerPage=200&offset=1&jtp=false&currentPage=1&exactAuthorSearch=true'
 
 # 代理地址
 proxies = {
@@ -69,3 +67,6 @@ compound_surname = ['欧阳', '太史', '端木', '上官', '司马', '东方', 
 polyphony_surname = {'曾': 'Zeng', '单': 'Shan', '呙': 'Guo', '吕': 'Lü', '柏': 'Bai', '查': 'Zha',
                      '仇': 'Qiu', '都': 'Du', '郝': 'Hao', '解': 'Xie', '乐': 'Le', '缪': 'Miao',
                      '覃': 'Qin', '翟': 'Zhai'}
+
+doc_num_limit = 14
+aff_num_limit = 20

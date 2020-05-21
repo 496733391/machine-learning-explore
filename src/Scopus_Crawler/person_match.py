@@ -9,7 +9,7 @@ sys.path.insert(0, base_dir)
 import requests
 import pandas as pd
 
-from src.Scopus_Crawler.scopus_config import headers, ins_url, proxies
+from src.Scopus_Crawler.scopus_config import headers, ins_url, proxies, aff_num_limit
 from src.Scopus_Crawler.get_data import catch_info
 from src.config.logConfig import logger_scopus as logger
 
@@ -33,19 +33,20 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
 
         passed_exp = requests.get(url, proxies=proxies, headers=headers, timeout=300, cookies=cookies)
         result_list = eval(passed_exp.text)
-        temp_dict[author_id] = result_list
-        # 以机构对应的scopus_id匹配
-        institute_list = [int(i['affiliationId']) for i in result_list]
+        if len(result_list) <= 20:
+            temp_dict[author_id] = result_list
+            # 以机构对应的scopus_id匹配
+            institute_list = [int(i['affiliationId']) for i in result_list]
 
-        # 匹配的机构中只差一个的
-        if len(set(author_ins).difference(set(institute_list))) == 1:
-            logger.info('匹配的机构中只差一个的：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
-            not_matched_one.append(author_id)
+            # 匹配的机构中只差一个的
+            if len(set(author_ins).difference(set(institute_list))) == 1:
+                logger.info('匹配的机构中只差一个的：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+                not_matched_one.append(author_id)
 
-        # 机构完全匹配的
-        if len(set(author_ins).difference(set(institute_list))) == 0:
-            logger.info('匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
-            matched_list.append(author_id)
+            # 机构完全匹配的
+            if len(set(author_ins).difference(set(institute_list))) == 0:
+                logger.info('匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+                matched_list.append(author_id)
 
     # 找到一个匹配的结果，直接获取数据
     if len(matched_list) == 1:
@@ -77,19 +78,27 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
         aff_df['name_zh'] = author_name_zh
         aff_df['current_ins_id'] = author_ins[0]
 
-        return aff_df, basic_info
+        return aff_df, basic_info, pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None)
 
     # 找到多个匹配的结果，日志输出匹配的scopus_id清单
     elif len(matched_list) > 1:
-        logger.info('找到多个匹配的结果：软科id：%s, 姓名：%s,%s' % (person_id, author_name_zh, author_name))
-        logger.info('匹配的结果清单：软科id：%s, 姓名：%s,%s,  scopus_id清单：%s' % (person_id, author_name_zh, author_name, matched_list))
-        return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None)
+        logger.info('找到多个匹配的结果：软科id：%s, 姓名：%s,%s,  scopus_id清单：%s'
+                    % (person_id, author_name_zh, author_name, matched_list))
+
+        mult_re = pd.DataFrame(pd.Series(matched_list), columns=['matched_id'])
+        mult_re['person_id'] = person_id
+        mult_re['name'] = author_name
+        mult_re['name_zh'] = author_name_zh
+        mult_re['current_ins_id'] = author_ins[0]
+        return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None), mult_re, pd.DataFrame(data=None, columns=None)
 
     # 未找到匹配的结果，日志输出相近的结果（机构匹配只相差一个）清单
     else:
-        logger.info('未找到对应学者记录：软科id：%s, 姓名：%s,%s' % (person_id, author_name_zh, author_name))
-        logger.info('结果相近的清单：软科id：%s, 姓名：%s,%s,  scopus_id清单：%s' % (person_id, author_name_zh, author_name, not_matched_one))
-        return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None)
+        logger.info('未找到对应学者记录,结果相近的清单：软科id：%s, 姓名：%s,%s,  scopus_id清单：%s'
+                    % (person_id, author_name_zh, author_name, not_matched_one))
+        not_match = pd.DataFrame([{'person_id': person_id, 'name': author_name,
+                                   'name_zh': author_name_zh, 'current_ins_id': author_ins[0]}])
+        return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None), not_match
 
 
 if __name__ == '__main__':

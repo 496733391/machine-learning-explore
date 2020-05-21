@@ -10,8 +10,10 @@ sys.path.insert(0, base_dir)
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver import ChromeOptions
+import datetime
+import random
 
-from src.Scopus_Crawler.scopus_config import driver_path
+from src.Scopus_Crawler.scopus_config import driver_path, search_url
 from src.Scopus_Crawler.get_cookies import get_cookies
 from src.Scopus_Crawler.authorID_get import get_id
 from src.Scopus_Crawler.person_match import match
@@ -41,10 +43,14 @@ def main_prog(input_data):
                         'ins_id':[111, 222, 333], 'name_zh':'刘博'}, {...}]
     :return:
     '''
+    data_no = datetime.datetime.now().strftime('%Y%m%d%H%M%S') + str(random.randint(10, 99))
+    logger.info('数据版本号: %s' % data_no)
     count = 0
     while count < len(input_data):
         all_aff_df = pd.DataFrame(data=None, columns=None)
         basic_info_df = pd.DataFrame(data=None, columns=None)
+        mult_result_df = pd.DataFrame(data=None, columns=None)
+        not_matched_df = pd.DataFrame(data=None, columns=None)
         # 启动浏览器并获取cookies
         driver = start_driver()
         cookies = get_cookies(driver)
@@ -62,11 +68,13 @@ def main_prog(input_data):
                 author_ins = [i.lower() for i in author_ins]
                 authorID_list = get_id(person_id, author_name, author_name_zh, author_ins[0])
                 # 以机构对应的scopus_id匹配
-                aff_df, basic_info = match(cookies, person_id, author_name, author_name_zh, author_ins_id, authorID_list)
+                aff_df, basic_info, mult_re, not_match = match(cookies, person_id, author_name, author_name_zh,
+                                                               author_ins_id, authorID_list)
 
-                if len(basic_info):
-                    all_aff_df = all_aff_df.append(aff_df, ignore_index=True)
-                    basic_info_df = basic_info_df.append(basic_info, ignore_index=True)
+                all_aff_df = all_aff_df.append(aff_df, ignore_index=True)
+                basic_info_df = basic_info_df.append(basic_info, ignore_index=True)
+                mult_result_df = mult_result_df.append(mult_re, ignore_index=True)
+                not_matched_df = not_matched_df.append(not_match, ignore_index=True)
 
             # 结束循环
             count = len(input_data)
@@ -77,8 +85,13 @@ def main_prog(input_data):
             logger.info('当前进度：%s / %s' % (i+1, len(input_data)))
             count = i
 
+        # 添加data_no字段
+        for df in [all_aff_df, basic_info_df, mult_result_df, not_matched_df]:
+            if len(df) > 0:
+                df['data_no'] = data_no
         # 将已完成的部分进行数据写入
-        write2sql([['author_info_new', basic_info_df], ['author_exp', all_aff_df]])
+        write2sql([['author_info_new', basic_info_df], ['author_exp', all_aff_df],
+                   ['mult_matched_author', mult_result_df], ['not_matched_author', not_matched_df]])
 
 
 if __name__ == '__main__':

@@ -11,7 +11,7 @@ import requests
 base_dir = os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + "/../")
 sys.path.insert(0, base_dir)
 
-from src.Scopus_Crawler.scopus_config import headers, search_url, proxies
+from src.Scopus_Crawler.scopus_config import headers, search_url, proxies, doc_num_limit
 from src.config.logConfig import logger_scopus as logger
 
 
@@ -39,14 +39,14 @@ def get_id(person_id, name, author_name_zh, institution):
         scopus_text_list = element.text.replace('–', '').replace('\'', '').strip().split(' ')
         scopu_text = scopus_text_list[0] + ' ' + ''.join(scopus_text_list[1:])
         if scopu_text.lower() == ', '.join(name_list).lower():
-            if int(doc_num[i].text.strip()) > 10:
+            if int(doc_num[i].text.strip()) > doc_num_limit:
                 author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
                 authorID_list.extend(author_id)
     # 如果上一步骤无匹配的结果，则链接中的人名与其它写法都进行匹配
     if not authorID_list:
         search_list = soup.find_all('tr', class_='searchArea')
         for i, search_result in enumerate(search_list):
-            if int(doc_num[i].text.strip()) > 10:
+            if int(doc_num[i].text.strip()) > doc_num_limit:
                 title_name = search_result.find('a', class_='docTitle')
                 if title_name:
                     text_list = [title_name.text]
