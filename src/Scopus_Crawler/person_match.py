@@ -9,7 +9,7 @@ sys.path.insert(0, base_dir)
 import requests
 import pandas as pd
 
-from src.Scopus_Crawler.scopus_config import headers, ins_url, proxies, aff_num_limit
+from src.Scopus_Crawler.scopus_config import headers, ins_url, proxies, aff_limit_high, aff_limit_low
 from src.Scopus_Crawler.get_data import catch_info
 from src.config.logConfig import logger_scopus as logger
 
@@ -33,7 +33,7 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
 
         passed_exp = requests.get(url, proxies=proxies, headers=headers, timeout=300, cookies=cookies)
         result_list = eval(passed_exp.text)
-        if len(result_list) <= 20:
+        if (len(result_list) <= aff_limit_high) and (len(result_list) >= aff_limit_low):
             temp_dict[author_id] = result_list
             # 以机构对应的scopus_id匹配
             institute_list = [int(i['affiliationId']) for i in result_list]

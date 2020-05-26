@@ -34,33 +34,33 @@ def get_id(person_id, name, author_name_zh, institution):
 
     doc_num = soup.find_all(title='View documents for this author')
     # 只匹配链接中的人名
-    name_matched = soup.find_all('a', class_='docTitle')
-    for i, element in enumerate(name_matched):
-        scopus_text_list = element.text.replace('–', '').replace('\'', '').strip().split(' ')
-        scopu_text = scopus_text_list[0] + ' ' + ''.join(scopus_text_list[1:])
-        if scopu_text.lower() == ', '.join(name_list).lower():
-            if int(doc_num[i].text.strip()) > doc_num_limit:
-                author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
-                authorID_list.extend(author_id)
+    # name_matched = soup.find_all('a', class_='docTitle')
+    # for i, element in enumerate(name_matched):
+    #     scopus_text_list = element.text.replace('–', '').replace('\'', '').strip().split(' ')
+    #     scopu_text = scopus_text_list[0] + ' ' + ''.join(scopus_text_list[1:])
+    #     if scopu_text.lower() == ', '.join(name_list).lower():
+    #         if int(doc_num[i].text.strip()) > doc_num_limit:
+    #             author_id = re.findall(r'authorId=([0-9]+)', element.attrs['href'])
+    #             authorID_list.extend(author_id)
     # 如果上一步骤无匹配的结果，则链接中的人名与其它写法都进行匹配
-    if not authorID_list:
-        search_list = soup.find_all('tr', class_='searchArea')
-        for i, search_result in enumerate(search_list):
-            if int(doc_num[i].text.strip()) > doc_num_limit:
-                title_name = search_result.find('a', class_='docTitle')
-                if title_name:
-                    text_list = [title_name.text]
-                    other_name = search_result.find_all('div', class_='txtSmaller')
-                    for element in other_name:
-                        text_list.append(element.text)
+    # if not authorID_list:
+    search_list = soup.find_all('tr', class_='searchArea')
+    for i, search_result in enumerate(search_list):
+        if int(doc_num[i].text.strip()) > doc_num_limit:
+            title_name = search_result.find('a', class_='docTitle')
+            if title_name:
+                text_list = [title_name.text]
+                other_name = search_result.find_all('div', class_='txtSmaller')
+                for element in other_name:
+                    text_list.append(element.text)
 
-                    for text in text_list:
-                        one_text_lis = text.replace('–', '').replace('\'', '').strip().split(' ')
-                        one_text = one_text_lis[0] + ' ' + ''.join(one_text_lis[1:])
-                        if one_text.lower() == ', '.join(name_list).lower():
-                            author_id = re.findall(r'authorId=([0-9]+)', title_name.attrs['href'])
-                            authorID_list.extend(author_id)
-                            break
+                for text in text_list:
+                    one_text_lis = text.replace('–', '').replace('\'', '').strip().split(' ')
+                    one_text = one_text_lis[0] + ' ' + ''.join(one_text_lis[1:])
+                    if one_text.lower() == ', '.join(name_list).lower():
+                        author_id = re.findall(r'authorId=([0-9]+)', title_name.attrs['href'])
+                        authorID_list.extend(author_id)
+                        break
 
     return authorID_list
 
