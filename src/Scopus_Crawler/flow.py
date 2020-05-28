@@ -98,7 +98,7 @@ if __name__ == '__main__':
     logger.info('********START********')
     logger.info('*********************')
     # 测试用，从本地excel中读数据
-    input_df = pd.read_excel('C:/Users/Administrator/Desktop/test_data/test_data.xlsx')
+    input_df = pd.read_excel('C:/Users/Administrator/Desktop/test_data/test_data2.xlsx')
     input_df.rename(columns={'学者代码': 'person_id',
                              '姓名': 'name',
                              '头衔当选单位': 'rankaff_name',

@@ -33,6 +33,7 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
 
         passed_exp = requests.get(url, proxies=proxies, headers=headers, timeout=300, cookies=cookies)
         result_list = eval(passed_exp.text)
+        # todo 无ID的机构不计入机构数限制
         if (len(result_list) <= aff_limit_high) and (len(result_list) >= aff_limit_low):
             temp_dict[author_id] = result_list
             # 以机构对应的scopus_id匹配

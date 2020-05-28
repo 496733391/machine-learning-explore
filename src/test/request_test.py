@@ -16,7 +16,7 @@ headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 with open('C:/Users/Administrator/Desktop/machine-learning-explore/src/Scopus_Crawler/cookies.json', 'r') as f:
     cookies = json.load(f)
 
-author_list = pd.read_excel('C:/Users/Administrator/Desktop/学者主要信息0526.xlsx', sheet_name='Sheet1')
+author_list = pd.read_excel('C:/Users/Administrator/Desktop/学者主要信息0528.xlsx', sheet_name='Sheet1')
 
 lis = list(author_list['scopus学者代码'])
 
@@ -34,5 +34,5 @@ for i in lis:
     result_list.append([i, ';'.join(temp_lis)])
 
 result_df = pd.DataFrame(data=result_list, columns=['scopus学者代码', '学科领域'])
-result_df.to_excel('C:/Users/Administrator/Desktop/学科领域信息0526.xlsx', index=False, encoding='utf-8')
+result_df.to_excel('C:/Users/Administrator/Desktop/学科领域信息0528.xlsx', index=False, encoding='utf-8')
 
