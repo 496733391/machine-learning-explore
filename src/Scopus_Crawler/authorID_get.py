@@ -55,7 +55,7 @@ def get_id(person_id, name, author_name_zh, institution):
                     text_list.append(element.text)
 
                 for text in text_list:
-                    one_text_lis = text.replace('–', '').replace('\'', '').strip().split(' ')
+                    one_text_lis = text.replace('–', '').replace('\'', '').replace('.', '').strip().split(' ')
                     one_text = one_text_lis[0] + ' ' + ''.join(one_text_lis[1:])
                     if one_text.lower() == ', '.join(name_list).lower():
                         author_id = re.findall(r'authorId=([0-9]+)', title_name.attrs['href'])

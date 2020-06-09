@@ -66,7 +66,17 @@ def main_prog(input_data):
                 logger.info('当前进度：软科id：%s, 姓名：%s,%s' % (person_id, author_name_zh, author_name))
                 # 机构英文名称全部转为小写
                 author_ins = [i.lower() for i in author_ins]
-                authorID_list = get_id(person_id, author_name, author_name_zh, author_ins[0])
+
+
+                # todo 0608临时修改
+                # authorID_list = get_id(person_id, author_name, author_name_zh, author_ins[0])
+                authorID_list = []
+                for _ins in author_ins:
+                    authorID_list.extend(get_id(person_id, author_name, author_name_zh, _ins))
+
+                authorID_list = list(set(authorID_list))
+
+
                 # 以机构对应的scopus_id匹配
                 aff_df, basic_info, mult_re, not_match = match(cookies, person_id, author_name, author_name_zh,
                                                                author_ins_id, authorID_list)
@@ -104,12 +114,23 @@ if __name__ == '__main__':
                              '头衔当选单位': 'rankaff_name',
                              '软科代码': 'rankaff_id'}, inplace=True)
     
-    # lis = []
-    # input_df = input_df[input_df['person_id'].isin(lis)].reset_index(drop=True)
+
+
+    # from src.config.DBUtil import DBUtil
+    # from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+    #
+    # dbutil = DBUtil(host, port, database, username, password)
+    # sql = "select DISTINCT person_id from not_matched_author where data_no='2020052716115197'"
+    # df = dbutil.get_allresult(sql, 'df')
+    # dbutil.close()
+    # input_df['person_id'] = input_df['person_id'].astype('str')
+    # input_df = input_df[input_df['person_id'].isin(list(df['person_id']))].reset_index(drop=True)
+
+    input_df = input_df.loc[input_df['person_id'] == 'ZZZZ0209646']
+
+
 
     input_data = data_process(input_df)
-
-    # input_data = input_data[82:83]
 
     main_prog(input_data)
     logger.info('*********END*********')

@@ -15,8 +15,6 @@ TODOS = {
     'todo3': {'task': 'profit!'},
 }
 
-# TODOS = {x: x*2 for x in range(100000)}
-
 
 def abort_if_todo_doesnt_exist(todo_id):
     if todo_id not in TODOS:

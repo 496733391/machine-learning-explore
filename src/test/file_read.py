@@ -87,5 +87,53 @@ def deal4():
     author_list.to_excel('C:/Users/Administrator/Desktop/test_data/test_data2.xlsx', sheet_name='Sheet1', index=False)
 
 
+def deal5():
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "select DISTINCT person_id from mult_matched_author where data_no='2020052716115197'"
+    df = dbutil.get_allresult(sql, 'df')
+    dbutil.close()
+
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/test_data/test_data2.xlsx')
+
+    df2['学者代码'] = df2['学者代码'].astype('str')
+    result = pd.merge(df, df2, how='left', left_on='person_id', right_on='学者代码')
+    result.drop_duplicates(subset=['person_id'], inplace=True, ignore_index=True)
+
+    result.to_excel('C:/Users/Administrator/Desktop/0605.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal6():
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "select person_id, name from not_matched_author where data_no='2020060819255418'"
+    df = dbutil.get_allresult(sql, 'df')
+    dbutil.close()
+
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/test_data/test_data2.xlsx')
+
+    df2['学者代码'] = df2['学者代码'].astype('str')
+    result = pd.merge(df, df2, how='left', left_on='person_id', right_on='学者代码')
+    result.sort_values(by=['学者代码'], inplace=True, ignore_index=True)
+
+    search_url = 'https://www.scopus.com/results/authorNamesList.uri?sort=count-f&src=al' \
+                 '&st1={}' \
+                 '&st2={}' \
+                 '&orcidId=&affilName={}' \
+                 '&sot=anl&sdt=anl&sl=64&resultsPerPage=200&offset=1&jtp=false&currentPage=1&exactAuthorSearch=true'
+
+    for i in range(len(result)):
+        first_name = result.loc[i, 'name'].split(' ')[0].lower()
+        last_name = result.loc[i, 'name'].split(' ')[1].lower()
+        ins_name = '+'.join(result.loc[i, 'ins_en'].split(' ')).lower()
+        result.loc[i, '搜索链接'] = search_url.format(first_name, last_name, ins_name)
+
+    result.to_excel('C:/Users/Administrator/Desktop/0609not.xlsx', sheet_name='Sheet1', index=False)
+
+
 if __name__ == '__main__':
-    deal2()
+    deal6()
