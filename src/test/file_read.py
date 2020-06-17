@@ -7,16 +7,16 @@ from sqlalchemy import create_engine
 
 
 def deal1():
-    author_list1 = pd.read_excel('C:/Users/Administrator/Desktop/0528.xlsx', sheet_name='Sheet2')
-    # select_no = []
-    # for i in range(0, len(author_list1)):
-    #     if len(author_list1.loc[i, 'name_zh']) > 2:
-    #         select_no.append(i)
-    #
-    # author_list1 = author_list1.loc[select_no, :]
-    # author_list1 = author_list1.loc[:500]
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "select DISTINCT person_id, name, scopus_id from author_info_new where data_no='2020060819255418'"
+    author_list1 = dbutil.get_allresult(sql, 'df')
+    dbutil.close()
 
     author_list2 = pd.read_excel('C:/Users/Administrator/Desktop/test_data/test_data2.xlsx', sheet_name='Sheet1')
+    author_list2['学者代码'] = author_list2['学者代码'].astype('str')
 
     author_list = pd.merge(author_list1, author_list2, how='left', left_on='person_id', right_on='学者代码')
     author_list.drop_duplicates(subset=['person_id'], inplace=True, keep='first')
@@ -136,4 +136,4 @@ def deal6():
 
 
 if __name__ == '__main__':
-    deal6()
+    deal1()

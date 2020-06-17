@@ -38,21 +38,21 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
             # 以机构对应的scopus_id匹配
             institute_list = [int(i['affiliationId']) for i in result_list]
 
-            # # 匹配的机构中只差一个的
-            # if len(set(author_ins).difference(set(institute_list))) == 1:
-            #     logger.info('匹配的机构中只差一个的：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
-            #     not_matched_one.append(author_id)
-            #
-            # # 机构完全匹配的
-            # if len(set(author_ins).difference(set(institute_list))) == 0:
-            #     logger.info('匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
-            #     matched_list.append(author_id)
+            # 匹配的机构中只差一个的
+            if len(set(author_ins).difference(set(institute_list))) == 1:
+                logger.info('匹配的机构中只差一个的：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+                not_matched_one.append(author_id)
 
-            # 机构交集大于等于1的
-            if len(set(author_ins).intersection(set(institute_list))) >= 1:
-                logger.info(
-                    '匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+            # 机构完全匹配的
+            if len(set(author_ins).difference(set(institute_list))) == 0:
+                logger.info('匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
                 matched_list.append(author_id)
+
+            # # 机构交集大于等于1的
+            # if len(set(author_ins).intersection(set(institute_list))) >= 1:
+            #     logger.info(
+            #         '匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+            #     matched_list.append(author_id)
 
     # 找到一个匹配的结果，直接获取数据
     if len(matched_list) == 1:
