@@ -7,9 +7,9 @@
 .settings
 *.DS_Store
 *.xml
-.project
 /.idea
 .vscode
 LOG_PATH_REPLACEMENT
 src/mathartsys/Log
 /src/.idea
+/log_pack
