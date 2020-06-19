@@ -135,5 +135,65 @@ def deal6():
     result.to_excel('C:/Users/Administrator/Desktop/0609not.xlsx', sheet_name='Sheet1', index=False)
 
 
+def deal7():
+    df = pd.read_excel('C:/Users/Administrator/Desktop/期刊名称人名列表.xlsx')
+    df['ins'] = df['JCR期刊列表'].apply(lambda x: x.replace('&', '%26'))
+    df['name'] = '0'
+    for i in range(len(df)):
+        lis = df.loc[i, '姓名'].split(' ')
+        print(lis)
+        lis.insert(0, lis[-1])
+        lis.pop()
+        df.loc[i, 'name'] = ' '.join(lis)
+
+    df['person_id'] = df.index
+    df.to_excel('C:/Users/Administrator/Desktop/0618webofscience.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal8():
+    df = pd.read_excel('C:/Users/Administrator/Desktop/0618webofscience.xlsx')
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "select person_id+0 as person_id from not_find"
+    not_find = dbutil.get_allresult(sql, 'df')
+    dbutil.close()
+    result = pd.merge(not_find, df, how='left', on='person_id')
+    result.to_excel('C:/Users/Administrator/Desktop/未搜索到结果清单.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal9():
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "select person_id+0 as person_id, find_num, ins from find_result"
+    find_result = dbutil.get_allresult(sql, 'df')
+    find_result['s_num'] = '0'
+    for i in range(len(find_result)):
+        temp_list = find_result.loc[i, 'ins'][:-1].split(' (')
+        find_result.loc[i, 'ins'] = temp_list[0]
+        find_result.loc[i, 's_num'] = temp_list[1]
+
+    df = pd.read_excel('C:/Users/Administrator/Desktop/0618webofscience.xlsx')
+    result = pd.merge(find_result, df, on='person_id', how='left')
+    result.set_index(['person_id', 'JCR期刊列表', '姓名', 'find_num', 'ins_x'], inplace=True)
+    result.to_excel('C:/Users/Administrator/Desktop/有搜索结果的数据.xlsx', sheet_name='Sheet1')
+
+
+def deal10():
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "select person_id+0 as person_id from (select DISTINCT person_id from find_result UNION select person_id from not_find) a ORDER BY person_id"
+    df = dbutil.get_allresult(sql, 'df')
+
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/0618webofscience.xlsx')
+    df3 = df2.loc[~df2['person_id'].isin(list(df['person_id']))]
+    df3.to_excel('C:/Users/Administrator/Desktop/data_left.xlsx', sheet_name='Sheet1', index=False)
+
+
 if __name__ == '__main__':
-    deal1()
+    deal9()

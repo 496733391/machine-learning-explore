@@ -13,9 +13,12 @@ from selenium.webdriver import ChromeOptions
 from src.Scopus_Crawler.scopus_config import driver_path
 
 
-def get_cookies(driver):
-    driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
-    driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
+def get_cookies(driver, url=None):
+    if url:
+        driver.get(url)
+    else:
+        driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
+        driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
     cookies = driver.get_cookies()
     cookies_dict = {}
     for element in cookies:
