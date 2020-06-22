@@ -156,7 +156,7 @@ def deal8():
     from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 
     dbutil = DBUtil(host, port, database, username, password)
-    sql = "select person_id+0 as person_id from not_find"
+    sql = "select distinct (person_id+0) as person_id from not_find where person_id not in (select person_id from find_result)"
     not_find = dbutil.get_allresult(sql, 'df')
     dbutil.close()
     result = pd.merge(not_find, df, how='left', on='person_id')
@@ -187,7 +187,8 @@ def deal10():
     from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 
     dbutil = DBUtil(host, port, database, username, password)
-    sql = "select person_id+0 as person_id from (select DISTINCT person_id from find_result UNION select person_id from not_find) a ORDER BY person_id"
+    sql = "select person_id+0 as person_id from (select DISTINCT person_id from find_result UNION select " \
+          "person_id from not_find) a ORDER BY person_id"
     df = dbutil.get_allresult(sql, 'df')
 
     df2 = pd.read_excel('C:/Users/Administrator/Desktop/0618webofscience.xlsx')
@@ -195,5 +196,38 @@ def deal10():
     df3.to_excel('C:/Users/Administrator/Desktop/data_left.xlsx', sheet_name='Sheet1', index=False)
 
 
+def deal11():
+    df1 = pd.read_excel('C:/Users/Administrator/Desktop/test_data/ranking_scopus.xlsx', sheet_name='Sheet1')
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/test_data/机构清单.xlsx')
+    df3 = pd.read_excel('C:/Users/Administrator/Desktop/test_data/机构名称对照.xlsx')
+
+    df2 = pd.merge(df2, df1.loc[:, ['软科代码', '学校名称', 'aff_id', 'ins_en']], how='left', left_on='机构代码', right_on='软科代码')
+    for i in range(len(df3)):
+        df3.loc[i, '头衔当选单位'] = df3.loc[i, '头衔当选单位'].strip()
+
+    for i in range(len(df2)):
+        df2.loc[i, '机构名称'] = df2.loc[i, '机构名称'].strip()
+        if str(type(df2.loc[i, '学校名称'])) != "<class 'float'>":
+            df2.loc[i, '学校名称'] = df2.loc[i, '学校名称'].strip()
+
+    df2 = pd.merge(df2, df3, left_on='学校名称', right_on='头衔当选单位', how='left')
+    df2 = pd.merge(df2, df3, left_on='机构名称', right_on='头衔当选单位', how='left')
+    df2['aff_id_x'].fillna(df2['aff_id_y'], inplace=True)
+    df2['ins_en_x'].fillna(df2['ins_en_y'], inplace=True)
+    df2['aff_id_x'].fillna(df2['aff_id'], inplace=True)
+    df2['ins_en_x'].fillna(df2['ins_en'], inplace=True)
+    df2['学校名称'].fillna(df2['机构名称'], inplace=True)
+    df2 = df2.loc[:, ['机构代码', '机构名称', '学校名称', 'aff_id_x', 'ins_en_x']]
+    df2.rename(columns={'aff_id_x': 'scopus机构ID', 'ins_en_x': '英文名称'}, inplace=True)
+
+    df2.to_excel('C:/Users/Administrator/Desktop/机构数据.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal12():
+    df = pd.read_excel('C:/Users/Administrator/Desktop/机构数据.xlsx', sheet_name='Sheet3')
+    df['百度搜索链接'] = 'https://www.baidu.com/s?wd=' + df['学校名称']
+    df.to_excel('C:/Users/Administrator/Desktop/机构数据2.xlsx', sheet_name='Sheet1', index=False)
+
+
 if __name__ == '__main__':
-    deal9()
+    deal8()

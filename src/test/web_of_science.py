@@ -73,8 +73,8 @@ data_ini = 'fieldCount=2&' \
        'rs_sort_by=PY.D%3BLD.D%3BSO.A%3BVL.D%3BPG.A%3BAU.A'
 
 # 数据源
-source_data = pd.read_excel('C:/Users/Administrator/Desktop/data_left.xlsx')
-# source_data = source_data.loc[:, ['JCR期刊列表', 'name', 'ins', '姓名', 'person_id']]
+source_data = pd.read_excel('C:/Users/Administrator/Desktop/未搜索到结果清单-补充.xlsx')
+source_data = source_data.loc[source_data['name_t'].notnull(), ['JCR期刊列表', 'name', 'ins', 'name_t', 'person_id']]
 source_list = source_data.values.tolist()
 
 count = 0
