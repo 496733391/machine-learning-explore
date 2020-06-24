@@ -97,4 +97,4 @@ if __name__ == '__main__':
                              '头衔当选单位': 'rankaff_name',
                              '软科代码': 'rankaff_id'}, inplace=True)
 
-    input_data = data_process(input_df)
+    input_data = data_process2(input_df)

@@ -40,12 +40,12 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
 
             # 匹配的机构中只差一个的
             if len(set(author_ins).difference(set(institute_list))) == 1:
-                logger.info('匹配的机构中只差一个的：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+                logger.info('匹配的机构中只差一个的：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name[0], author_id))
                 not_matched_one.append(author_id)
 
             # 机构完全匹配的
             if len(set(author_ins).difference(set(institute_list))) == 0:
-                logger.info('匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, author_id))
+                logger.info('匹配的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name[0], author_id))
                 matched_list.append(author_id)
 
             # # 机构交集大于等于1的
@@ -56,11 +56,11 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
 
     # 找到一个匹配的结果，直接获取数据
     if len(matched_list) == 1:
-        logger.info('匹配成功的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name, matched_list[0]))
+        logger.info('匹配成功的记录：软科id：%s, 姓名：%s,%s scopus_id：%s' % (person_id, author_name_zh, author_name[0], matched_list[0]))
         # 获取文献数量跟引用计数
         basic_info = catch_info(matched_list[0], cookies)
         basic_info['person_id'] = person_id
-        basic_info['name'] = author_name
+        basic_info['name'] = author_name[0]
         basic_info['name_zh'] = author_name_zh
         basic_info['current_ins_id'] = author_ins[0]
 
@@ -80,7 +80,7 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
         aff_df.rename(columns=rename_dict, inplace=True)
         aff_df['scopus_id'] = matched_list[0]
         aff_df['person_id'] = person_id
-        aff_df['name'] = author_name
+        aff_df['name'] = author_name[0]
         aff_df['name_zh'] = author_name_zh
         aff_df['current_ins_id'] = author_ins[0]
 
@@ -89,11 +89,11 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
     # 找到多个匹配的结果，日志输出匹配的scopus_id清单
     elif len(matched_list) > 1:
         logger.info('找到多个匹配的结果：软科id：%s, 姓名：%s,%s,  scopus_id清单：%s'
-                    % (person_id, author_name_zh, author_name, matched_list))
+                    % (person_id, author_name_zh, author_name[0], matched_list))
 
         mult_re = pd.DataFrame(pd.Series(matched_list), columns=['matched_id'])
         mult_re['person_id'] = person_id
-        mult_re['name'] = author_name
+        mult_re['name'] = author_name[0]
         mult_re['name_zh'] = author_name_zh
         mult_re['current_ins_id'] = author_ins[0]
         return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None), mult_re, pd.DataFrame(data=None, columns=None)
@@ -101,8 +101,8 @@ def match(cookies, person_id, author_name, author_name_zh, author_ins, authorID_
     # 未找到匹配的结果，日志输出相近的结果（机构匹配只相差一个）清单
     else:
         logger.info('未找到对应学者记录,结果相近的清单：软科id：%s, 姓名：%s,%s,  scopus_id清单：%s'
-                    % (person_id, author_name_zh, author_name, not_matched_one))
-        not_match = pd.DataFrame([{'person_id': person_id, 'name': author_name,
+                    % (person_id, author_name_zh, author_name[0], not_matched_one))
+        not_match = pd.DataFrame([{'person_id': person_id, 'name': author_name[0],
                                    'name_zh': author_name_zh, 'current_ins_id': author_ins[0]}])
         return pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None), pd.DataFrame(data=None, columns=None), not_match
 

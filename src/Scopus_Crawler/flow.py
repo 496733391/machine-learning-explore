@@ -19,7 +19,7 @@ from src.Scopus_Crawler.authorID_get import get_id
 from src.Scopus_Crawler.person_match import match
 from src.Scopus_Crawler.data_write import write2sql
 from src.config.logConfig import logger_scopus as logger
-from src.Scopus_Crawler.data_process import data_process
+from src.Scopus_Crawler.data_process import data_process, data_process2
 
 # 浏览器选项
 options = ChromeOptions()
@@ -63,18 +63,20 @@ def main_prog(input_data):
                 author_name_zh = input_data[i]['name_zh']
                 author_ins = input_data[i]['ins']
                 author_ins_id = input_data[i]['ins_id']
-                logger.info('当前进度：软科id：%s, 姓名：%s,%s' % (person_id, author_name_zh, author_name))
+                logger.info('当前进度：软科id：%s, 姓名：%s,%s' % (person_id, author_name_zh, author_name[0]))
                 # 机构英文名称全部转为小写
                 author_ins = [i.lower() for i in author_ins]
 
-                # todo 0608临时修改
-                authorID_list = get_id(person_id, author_name, author_name_zh, author_ins[0])
-
-                # authorID_list = []
-                # for _ins in author_ins:
-                #     authorID_list.extend(get_id(person_id, author_name, author_name_zh, _ins))
-
-                # authorID_list = list(set(authorID_list))
+                # todo 0624临时修改
+                # authorID_list = get_id(person_id, author_name, author_name_zh, author_ins[0])
+                authorID_list = []
+                for _name in author_name:
+                    for _ins in author_ins:
+                        authorID_list.extend(get_id(person_id, _name, author_name_zh, _ins))
+                        if authorID_list:
+                            break
+                    if authorID_list:
+                        break
 
                 # 以机构对应的scopus_id匹配
                 aff_df, basic_info, mult_re, not_match = match(cookies, person_id, author_name, author_name_zh,
@@ -123,13 +125,13 @@ if __name__ == '__main__':
     # input_df['person_id'] = input_df['person_id'].astype('str')
     # input_df = input_df[input_df['person_id'].isin(list(df['person_id']))].reset_index(drop=True)
 
-    other_df = pd.read_excel('C:/Users/Administrator/Desktop/0610.xlsx')
-    input_df['person_id'] = input_df['person_id'].astype('str')
-    input_df = input_df.loc[input_df['person_id'].isin(list(other_df['person_id']))]
-    input_df = input_df.append(other_df, ignore_index=True)
-    input_df.dropna(subset=['aff_id'], inplace=True)
+    # other_df = pd.read_excel('C:/Users/Administrator/Desktop/0610.xlsx')
+    # input_df['person_id'] = input_df['person_id'].astype('str')
+    # input_df = input_df.loc[input_df['person_id'].isin(list(other_df['person_id']))]
+    # input_df = input_df.append(other_df, ignore_index=True)
+    # input_df.dropna(subset=['aff_id'], inplace=True)
 
-    input_data = data_process(input_df)
+    input_data = data_process2(input_df)
 
     main_prog(input_data)
     logger.info('*********END*********')
