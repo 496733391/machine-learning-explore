@@ -49,8 +49,8 @@ compound_surname = ['欧阳', '太史', '端木', '上官', '司马', '东方', 
 # 多音字姓氏
 polyphony_surname = {'曾': 'Zeng', '单': 'Shan', '呙': 'Guo', '吕': 'Lü', '柏': 'Bai', '查': 'Zha',
                      '仇': 'Qiu', '都': 'Du', '郝': 'Hao', '解': 'Xie', '乐': 'Le', '缪': 'Miao',
-                     '覃': 'Qin', '翟': 'Zhai'}
+                     '覃': 'Qin', '翟': 'Zhai', '薄': 'Bo', '卜': 'Bu'}
 
 doc_num_limit = 10
-aff_limit_high = 25
+aff_limit_high = 40
 aff_limit_low = 2

@@ -229,5 +229,58 @@ def deal12():
     df.to_excel('C:/Users/Administrator/Desktop/机构数据2.xlsx', sheet_name='Sheet1', index=False)
 
 
+def deal13():
+    df = pd.read_excel('C:/Users/Administrator/Desktop/人才名单_20200628.xlsx')
+    df1 = df.loc[:, ['人才编号', '姓名', '当选单位名称']]
+    df2 = df.loc[:, ['人才编号', '姓名', '现职单位名称']]
+    df3 = df.loc[:, ['人才编号', '姓名', '当选前单位信息']]
+    df1.dropna(inplace=True)
+    df2.dropna(inplace=True)
+    df3.dropna(inplace=True)
+    df2.rename(columns={'现职单位名称': '当选单位名称'}, inplace=True)
+    df3.rename(columns={'当选前单位信息': '当选单位名称'}, inplace=True)
+    result = pd.concat([df1, df2, df3], ignore_index=True)
+    result.drop_duplicates(subset=['人才编号', '当选单位名称'], inplace=True)
+
+    ins_data = pd.read_excel('C:/Users/Administrator/Desktop/机构数据.xlsx')
+    result = pd.merge(result, ins_data, how='left', left_on='当选单位名称', right_on='机构名称')
+    final_result1 = []
+    final_result2 = []
+    for value, sub_df in result.groupby('人才编号'):
+        temp_df = sub_df.dropna()
+        if len(temp_df) > 0:
+            final_result1.append(temp_df)
+        else:
+            final_result2.append(sub_df)
+
+    result1 = pd.concat(final_result1)
+    result2 = pd.concat(final_result2)
+    result1.drop_duplicates(subset=['人才编号', 'scopus机构ID'], inplace=True)
+    result1.to_excel('C:/Users/Administrator/Desktop/1-data20200628.xlsx', sheet_name='Sheet1', index=False)
+    result2.to_excel('C:/Users/Administrator/Desktop/2-data20200628.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal14():
+    df1 = pd.read_excel('C:/Users/Administrator/Desktop/人才名单_20200628.xlsx')
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/not_matched0702.xlsx')
+    result = pd.merge(df2, df1, how='left', left_on='person_id', right_on='人才编号')
+    result.to_excel('C:/Users/Administrator/Desktop/data20200702.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal15():
+    df1 = pd.read_excel('C:/Users/Administrator/Desktop/data20200702.xlsx')
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/文科类.xlsx')
+    result = df1.loc[~df1['person_id'].isin(list(df2['person_id']))]
+    result_list = result.values.tolist()
+    three = [one_p for one_p in result_list if len(one_p[1].strip()) >= 3]
+    two = [one_p for one_p in result_list if len(one_p[1].strip()) < 3]
+
+    three_df = pd.DataFrame(data=three, columns=result.columns)
+    two_df = pd.DataFrame(data=two, columns=result.columns)
+
+    three_df.to_excel('C:/Users/Administrator/Desktop/1-data20200702.xlsx', sheet_name='Sheet1', index=False)
+    two_df.to_excel('C:/Users/Administrator/Desktop/2-data20200702.xlsx', sheet_name='Sheet1', index=False)
+
+
 if __name__ == '__main__':
-    deal8()
+    deal15()

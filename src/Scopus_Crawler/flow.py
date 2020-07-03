@@ -105,33 +105,37 @@ def main_prog(input_data):
                    ['mult_matched_author', mult_result_df], ['not_matched_author', not_matched_df]])
 
 
+def temp(input_data):
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = "SELECT person_id FROM author_info_new UNION SELECT person_id FROM mult_matched_author UNION SELECT " \
+          "person_id FROM not_matched_author"
+    df = dbutil.get_allresult(sql, 'df')
+    dbutil.close()
+    input_list = [str(i['person_id']) for i in input_data]
+    diff = set(input_list).difference(set(df['person_id']))
+    out_data = [i for i in input_data if str(i['person_id']) in diff]
+    return out_data
+
+
 if __name__ == '__main__':
     logger.info('********START********')
     logger.info('*********************')
     # 测试用，从本地excel中读数据
-    input_df = pd.read_excel('C:/Users/Administrator/Desktop/test_data/test_data2.xlsx')
-    input_df.rename(columns={'学者代码': 'person_id',
+    input_df = pd.read_excel('C:/Users/Administrator/Desktop/1-data20200702.xlsx')
+    input_df.rename(columns={'人才编号': 'person_id',
                              '姓名': 'name',
-                             '头衔当选单位': 'rankaff_name',
-                             '软科代码': 'rankaff_id'}, inplace=True)
-
-    # from src.config.DBUtil import DBUtil
-    # from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
-    # dbutil = DBUtil(host, port, database, username, password)
-    # sql = "select DISTINCT person_id from not_matched_author where data_no='2020052716115197'"
-    # df = dbutil.get_allresult(sql, 'df')
-    # dbutil.close()
-    # input_df['person_id'] = input_df['person_id'].astype('str')
-    # input_df = input_df[input_df['person_id'].isin(list(df['person_id']))].reset_index(drop=True)
-
-    # other_df = pd.read_excel('C:/Users/Administrator/Desktop/0610.xlsx')
-    # input_df['person_id'] = input_df['person_id'].astype('str')
-    # input_df = input_df.loc[input_df['person_id'].isin(list(other_df['person_id']))]
-    # input_df = input_df.append(other_df, ignore_index=True)
-    # input_df.dropna(subset=['aff_id'], inplace=True)
+                             '英文名称': 'ins_en',
+                             'scopus机构ID': 'aff_id'}, inplace=True)
+    # 第二轮检索
+    # first_not_matched = pd.read_excel('C:/Users/Administrator/Desktop/not_matched0701.xlsx')
+    # input_df = pd.merge(input_df, first_not_matched, on='person_id')
 
     input_data = data_process2(input_df)
+
+    # input_data = temp(input_data)
 
     main_prog(input_data)
     logger.info('*********END*********')

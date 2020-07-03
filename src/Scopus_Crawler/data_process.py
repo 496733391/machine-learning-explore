@@ -58,11 +58,15 @@ def data_process2(input_df):
     for value, sub_df in input_df.groupby('person_id'):
         row_dict = {}
         row_dict['person_id'] = value
-        row_dict['ins'] = list(sub_df['ins_en'])
-        row_dict['ins_id'] = list(sub_df['aff_id'])
+        if 'ins' in sub_df.columns:
+            row_dict['ins'] = list(sub_df['ins_en'])
+            row_dict['ins_id'] = list(sub_df['aff_id'])
+        else:
+            row_dict['ins'] = ['']
+            row_dict['ins_id'] = ['']
 
         name_zh = sub_df.iloc[0]['name']
-        row_dict['name_zh'] = name_zh
+        row_dict['name_zh'] = name_zh.strip()
         # 如果是复姓
         if name_zh[:2] in compound_surname:
             k = 2
