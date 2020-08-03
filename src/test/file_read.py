@@ -282,5 +282,82 @@ def deal15():
     two_df.to_excel('C:/Users/Administrator/Desktop/2-data20200702.xlsx', sheet_name='Sheet1', index=False)
 
 
+def deal16():
+    df1 = pd.read_excel('C:/Users/Administrator/Desktop/有结果的学者-抓取学科用.xlsx')
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/人才名单_20200628.xlsx')
+    df3 = pd.read_excel('C:/Users/Administrator/Desktop/学科匹配-姜晓丹-20200726.xlsx')
+    df4 = pd.read_excel('C:/Users/Administrator/Desktop/待查数据0729.xlsx')
+    df1 = df1.loc[~df1['person_id'].isin(list(df3['人才编号']))]
+    df1 = df1.loc[~df1['person_id'].isin(list(df4['人才编号']))]
+    df2.sort_values(by=['人才编号', '参考学科名称'], inplace=True, ignore_index=True)
+    df2.drop_duplicates(subset=['人才编号'], inplace=True, ignore_index=True)
+    result = pd.merge(df1, df2, how='left', left_on='person_id', right_on='人才编号')
+
+    result.to_excel('C:/Users/Administrator/Desktop/0729抓取学科用.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal17():
+    # journal_data = pd.read_excel('C:/Users/Administrator/Desktop/jcr_data/JCR完整期刊关键词列表 - 用于core journal筛选.xlsx')
+    # subject_data = pd.read_excel('C:/Users/Administrator/Desktop/jcr_data/JCR期刊软科学科映射.xlsx')
+    # journal_data.fillna('aaaa', inplace=True)
+    # subject_data.fillna('aaaa', inplace=True)
+    #
+    # journal_data.drop('Key word 6', axis=1, inplace=True)
+    #
+    # for column in journal_data.columns:
+    #     journal_data[column] = journal_data[column].str.strip()
+    #
+    # for column in subject_data.columns:
+    #     subject_data[column] = subject_data[column].str.strip()
+    #
+    # journal_data.replace({'aaaa': None}, inplace=True)
+    # subject_data.replace({'aaaa': None}, inplace=True)
+    #
+    # subject_dict = {}
+    # for i in range(subject_data.shape[0]):
+    #     subject_dict[subject_data.loc[i, 'WOS学科英文名'].upper()] = subject_data.loc[i, '2018软科学科英文名']
+    #
+    # journal_data.replace(subject_dict, inplace=True)
+    # for i in range(len(journal_data)):
+    #     temp_list = journal_data.loc[i, ['Research area 1', 'Research area 2', 'Research area 3',
+    #                                      'Research area 4', 'Research area 5', 'Research area 6']].values.tolist()
+    #     if journal_data.loc[i, 'Research area 2'] in temp_list[:1]:
+    #         journal_data.loc[i, 'Research area 2'] = None
+    #     if journal_data.loc[i, 'Research area 3'] in temp_list[:2]:
+    #         journal_data.loc[i, 'Research area 3'] = None
+    #     if journal_data.loc[i, 'Research area 4'] in temp_list[:3]:
+    #         journal_data.loc[i, 'Research area 4'] = None
+    #     if journal_data.loc[i, 'Research area 5'] in temp_list[:4]:
+    #         journal_data.loc[i, 'Research area 5'] = None
+    #     if journal_data.loc[i, 'Research area 6'] in temp_list[:5]:
+    #         journal_data.loc[i, 'Research area 6'] = None
+    #
+    # journal_data.to_excel('C:/Users/Administrator/Desktop/jcr_data/journal_data.xlsx', sheet_name='Sheet1', index=False)
+    # subject_data.to_excel('C:/Users/Administrator/Desktop/jcr_data/subject_data.xlsx', sheet_name='Sheet1', index=False)
+    journal_data = pd.read_excel('C:/Users/Administrator/Desktop/jcr_data/journal_data.xlsx')
+    title_data = pd.read_excel('C:/Users/Administrator/Desktop/jcr_data/Abb_article&reference.xlsx')
+    journal_data = pd.merge(journal_data, title_data, how='left', left_on='Full Journal Title', right_on='Full title')
+    journal_data.to_excel('C:/Users/Administrator/Desktop/jcr_data/journal_data.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal18():
+    update = pd.read_excel('C:/Users/Administrator/Desktop/更新时间.xlsx')
+    school = pd.read_excel('C:/Users/Administrator/Desktop/0716school.xlsx')
+    result = pd.merge(school, update, on='id')
+    result.to_excel('C:/Users/Administrator/Desktop/07161.xlsx', sheet_name='Sheet1', index=False)
+
+
+def deal19():
+    df1 = pd.read_excel('C:/Users/Administrator/Desktop/待查数据.xlsx')
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/人才名单_20200628.xlsx')
+    df1['person_id'] = df1['person_id'].astype('str')
+    df3 = df1.loc[:, ['scopus_id', 'person_id']]
+    df3.drop_duplicates(subset=['scopus_id', 'person_id'], inplace=True, ignore_index=True)
+    df2['人才编号'] = df2['人才编号'].astype('str')
+    df2 = pd.merge(df3, df2, how='left', left_on='person_id', right_on='人才编号')
+    df2.sort_values(by=['scopus_id', 'person_id'], inplace=True, ignore_index=True)
+    df2.to_excel('C:/Users/Administrator/Desktop/待查数据0729.xlsx', sheet_name='Sheet1', index=False)
+
+
 if __name__ == '__main__':
-    deal15()
+    deal16()

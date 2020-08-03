@@ -10,12 +10,9 @@ sys.path.insert(0, base_dir)
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver import ChromeOptions
-import datetime
-import random
 import requests
-import re
 
-from src.Scopus_Crawler.scopus_config import driver_path, ins_url, headers, proxies, data_url
+from src.Scopus_Crawler.scopus_config import driver_path, ins_url, headers, proxies
 from src.Scopus_Crawler.get_cookies import get_cookies
 
 
@@ -30,7 +27,6 @@ options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Apple
 def start_driver():
     # 启动浏览器
     driver = webdriver.Chrome(driver_path, options=options)
-
     return driver
 
 
@@ -82,22 +78,19 @@ def main_prog(input_data):
 
 
 if __name__ == '__main__':
-    input_df = pd.read_excel('C:/Users/Administrator/Desktop/0701test.xlsx')
+    input_df = pd.read_excel('C:/Users/Administrator/Desktop/0703test.xlsx')
+
     source_data = pd.read_excel('C:/Users/Administrator/Desktop/人才名单_20200628.xlsx')
-    source_data = source_data.loc[source_data['参考学科名称'].notnull(), ['人才编号', '参考学科名称']]
+    source_data.sort_values(by=['人才编号', '参考学科名称'], inplace=True, ignore_index=True)
     source_data.drop_duplicates(subset=['人才编号'], inplace=True, ignore_index=True)
 
     result_df = main_prog(input_df)
     result_df = result_df.loc[:, ['person_id', 'scopus_person_id', 'affiliationName']]
 
-    data_all = pd.read_excel('C:/Users/Administrator/Desktop/1-data20200628.xlsx')
-    data_all.drop_duplicates(subset=['人才编号'], inplace=True, ignore_index=True)
+    result_df = pd.merge(result_df, source_data, how='left', left_on='person_id', right_on='人才编号')
 
-    data_all['百度搜索链接'] = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=' + data_all['当选单位名称'] + data_all['姓名']
-    data_all['谷歌搜索链接'] = 'https://www.google.com/search?&q=' + data_all['当选单位名称'] + data_all['姓名']
-
-    result_df = pd.merge(result_df, data_all, how='left', left_on='person_id', right_on='人才编号')
-    result_df = pd.merge(result_df, source_data, how='left', on='人才编号')
+    result_df['百度搜索链接'] = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=' + result_df['当选单位名称'] + result_df['姓名']
+    result_df['谷歌搜索链接'] = 'https://www.google.com/search?&q=' + result_df['当选单位名称'] + result_df['姓名']
 
     result_df.set_index(['person_id', '当选单位名称', '姓名', '百度搜索链接', '谷歌搜索链接', '参考学科名称', 'scopus_person_id', 'affiliationName'], inplace=True)
-    result_df.to_excel('C:/Users/Administrator/Desktop/0701mult.xlsx', encoding='utf8')
+    result_df.to_excel('C:/Users/Administrator/Desktop/0703mult.xlsx', encoding='utf8')
