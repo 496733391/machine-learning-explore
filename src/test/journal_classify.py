@@ -140,42 +140,75 @@ def core_journal_selected():
         js.write(subject_core_journal_json)
 
 
-cited_data, citing_data = cite_data_deal()
-with open('subject_core_journal.json', 'r') as js:
+def rf_cal():
+    cited_data, citing_data = cite_data_deal()
+    with open('subject_core_journal.json', 'r') as js:
+        subject_core_journal_dict = json.load(js)
+
+    result_list = []
+    physics_dict = {'Physics': subject_core_journal_dict['Physics']}
+    for key, value in physics_dict.items():
+        print(key)
+        # 被学科核心期刊引用过的期刊
+        cited_journal_list = list(cited_data[cited_data['cited_journal'].isin(value)]['journal'])
+        # 引用过学科核心期刊的期刊
+        citing_journal_list = list(citing_data[citing_data['citing_journal'].isin(value)]['journal'])
+        related_journal_set = set(value + cited_journal_list + citing_journal_list)
+        print(len(related_journal_set))
+        for journal in related_journal_set:
+            rf_cited = sum(cited_data[(cited_data['journal'] == journal) &
+                                      (cited_data['cited_journal'] != journal) &
+                                      (cited_data['cited_journal'].isin(value))]['cited_num']) / \
+                       sum(cited_data[(cited_data['journal'] == journal) &
+                                      (cited_data['cited_journal'] != journal)]['cited_num']) \
+                       if sum(cited_data[(cited_data['journal'] == journal) &
+                                         (cited_data['cited_journal'] != journal)]['cited_num']) else 0
+
+            rf_citing = sum(citing_data[(citing_data['journal'] == journal) &
+                                        (citing_data['citing_journal'] != journal) &
+                                        (citing_data['citing_journal'].isin(value))]['citing_num']) / \
+                        sum(citing_data[(citing_data['journal'] == journal) &
+                                        (citing_data['citing_journal'] != journal)]['citing_num']) \
+                        if sum(citing_data[(citing_data['journal'] == journal) &
+                                           (citing_data['citing_journal'] != journal)]['citing_num']) else 0
+
+            result_list.append([journal, key, rf_cited, rf_citing])
+
+    result_df = pd.DataFrame(data=result_list, columns=['journal_name', 'subject', 'rf_cited', 'rf_citing'])
+    result_df.to_excel('C:/Users/Administrator/Desktop/jcr_data/rf_cite_data.xlsx', index=False)
+
+
+# with open('subject_core_journal.json', 'r') as js:
+#     subject_core_journal_dict = json.load(js)
+#
+# rf_data = pd.read_excel('C:/Users/Administrator/Desktop/jcr_data/rf_cite_data.xlsx')
+# rf_data['rf_value'] = rf_data['rf_cited']
+# rf_data['is_core'] = 0
+# rf_data['is_physics'] = 0
+# rf_data.loc[rf_data['journal_name'].isin(subject_core_journal_dict['Physics']), 'is_core'] = 1
+# rf_data.loc[(rf_data['journal_name'].isin(subject_core_journal_dict['Physics'])) &
+#             (rf_data['rf_citing'] > rf_data['rf_cited']), 'rf_value'] = rf_data['rf_citing']
+#
+# rf_data.loc[~rf_data['journal_name'].isin(subject_core_journal_dict['Physics']), 'rf_value'] \
+#             = (rf_data['rf_citing'] + rf_data['rf_cited']) / 2
+#
+# rf_data.loc[rf_data['rf_value'] > 0.347, 'is_physics'] = 1
+#
+# rf_data.to_excel('C:/Users/Administrator/Desktop/jcr_data/rf_data.xlsx', index=False)
+
+
+with open('subject_kw.json', 'r') as js:
     subject_core_journal_dict = json.load(js)
 
-result_list = []
-physics_dict = {'Physics': subject_core_journal_dict['Physics']}
-for key, value in physics_dict.items():
-    print(key)
-    # 被学科核心期刊引用过的期刊
-    cited_journal_list = list(cited_data[cited_data['cited_journal'].isin(value)]['journal'])
-    # 引用过学科核心期刊的期刊
-    citing_journal_list = list(citing_data[citing_data['citing_journal'].isin(value)]['journal'])
-    related_journal_set = set(value + cited_journal_list + citing_journal_list)
-    print(len(related_journal_set))
-    for journal in related_journal_set:
-        rf_cited = sum(cited_data[(cited_data['journal'] == journal) &
-                                  (cited_data['cited_journal'] != journal) &
-                                  (cited_data['cited_journal'].isin(value))]['cited_num']) / \
-                   sum(cited_data[(cited_data['journal'] == journal) &
-                                  (cited_data['cited_journal'] != journal)]['cited_num']) \
-                   if sum(cited_data[(cited_data['journal'] == journal) &
-                                     (cited_data['cited_journal'] != journal)]['cited_num']) else 0
+subjcet_list = []
+key_word_list = []
+for key, value in subject_core_journal_dict.items():
+    if value:
+        subjcet_list.extend([key] * len(value[0]))
+        key_word_list.extend(value[0])
 
-        rf_citing = sum(citing_data[(citing_data['journal'] == journal) &
-                                    (citing_data['citing_journal'] != journal) &
-                                    (citing_data['citing_journal'].isin(value))]['citing_num']) / \
-                    sum(citing_data[(citing_data['journal'] == journal) &
-                                    (citing_data['citing_journal'] != journal)]['citing_num']) \
-                    if sum(citing_data[(citing_data['journal'] == journal) &
-                                       (citing_data['citing_journal'] != journal)]['citing_num']) else 0
-
-        result_list.append([journal, key, rf_cited, rf_citing])
-
-result_df = pd.DataFrame(data=result_list, columns=['journal_name', 'subject', 'rf_cited', 'rf_citing'])
-result_df.to_excel('C:/Users/Administrator/Desktop/jcr_data/rf_cite_data.xlsx', index=False)
-
+df = pd.DataFrame(data={'学科': subjcet_list, '关键词': key_word_list})
+df.to_excel('C:/Users/Administrator/Desktop/学科关键词.xlsx', index=False)
 
 # if __name__ == '__main__':
 #     core_journal_selected()
