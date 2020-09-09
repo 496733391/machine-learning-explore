@@ -2,98 +2,225 @@
 # -*- coding: utf-8 -*-
 
 import pandas as pd
-import numpy as np
-from itertools import product
+import copy
 import json
 
-
-def reduce_mem_usage(df):
-    numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-    start_mem = df.memory_usage().sum() / 1024**2
-    for col in df.columns:
-        col_type = df[col].dtypes
-        if col_type in numerics:
-            c_min = df[col].min()
-            c_max = df[col].max()
-            if str(col_type)[:3] == 'int':
-                if c_min > np.iinfo(np.int8).min and c_max < np.iinfo(np.int8).max:
-                    df[col] = df[col].astype(np.int8)
-                elif c_min > np.iinfo(np.int16).min and c_max < np.iinfo(np.int16).max:
-                    df[col] = df[col].astype(np.int16)
-                elif c_min > np.iinfo(np.int32).min and c_max < np.iinfo(np.int32).max:
-                    df[col] = df[col].astype(np.int32)
-                elif c_min > np.iinfo(np.int64).min and c_max < np.iinfo(np.int64).max:
-                    df[col] = df[col].astype(np.int64)
-            else:
-                if c_min > np.finfo(np.float16).min and c_max < np.finfo(np.float16).max:
-                    df[col] = df[col].astype(np.float16)
-                elif c_min > np.finfo(np.float32).min and c_max < np.finfo(np.float32).max:
-                    df[col] = df[col].astype(np.float32)
-                else:
-                    df[col] = df[col].astype(np.float64)
-    end_mem = df.memory_usage().sum() / 1024**2
-    print('Mem. usage decreased to {:5.2f} Mb ({:.1f}% reduction)'.format(end_mem, 100 * (start_mem - end_mem) / start_mem))
-    return df
+from src.config.DBUtil import DBUtil
+from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 
 
-def cite_data_deal():
-    cited_data = pd.read_csv('C:/Users/Administrator/Desktop/jcr_data/Cited Journal Data.txt', header=None,
-                             names=['source', 'data_type', 'journal', 'id', 'impact_factor', 'cited_journal', 'cited_num'])
+def data_prepare():
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = 'select scopus_journal_id, sum(cite_num+0) as cite_num_all from scopus_cite_data group by scopus_journal_id'
+    df1 = dbutil.get_allresult(sql, 'df')
 
-    citing_data = pd.read_csv('C:/Users/Administrator/Desktop/jcr_data/Citing Journal Data.txt', header=None,
-                              names=['source', 'data_type', 'journal', 'id', 'impact_factor', 'citing_journal', 'citing_num'], encoding='latin-1')
+    sql = 'SELECT scopus_journal_id,cite_num+0 as cite_num_self from scopus_cite_data ' \
+          'where scopus_journal_id=cite_journal_id'
+    df2 = dbutil.get_allresult(sql, 'df')
 
-    cited_data = cited_data.loc[~cited_data['id'].isin([1, 2]), ['journal', 'impact_factor', 'cited_journal', 'cited_num']]
-    citing_data = citing_data.loc[~citing_data['id'].isin([1, 2]), ['journal', 'impact_factor', 'citing_journal', 'citing_num']]
+    df1 = pd.merge(df1, df2, how='outer', on='scopus_journal_id')
+    df1.fillna(0, inplace=True)
+    df1['cite_num_noself'] = df1['cite_num_all'] - df1['cite_num_self']
+    df1.to_excel('C:/Users/Administrator/Desktop/去除自引被引数据.xlsx', index=False)
 
-    cited_data = reduce_mem_usage(cited_data)
-    citing_data = reduce_mem_usage(citing_data)
+    sql = 'select cite_journal_id as scopus_journal_id, sum(cite_num+0) as cite_num_all ' \
+          'from scopus_cite_data group by cite_journal_id'
+    df3 = dbutil.get_allresult(sql, 'df')
+    df3 = pd.merge(df3, df2, how='outer', on='scopus_journal_id')
+    df3.fillna(0, inplace=True)
+    df3['cite_num_noself'] = df3['cite_num_all'] - df3['cite_num_self']
+    df3.to_excel('C:/Users/Administrator/Desktop/去除自引引用数据.xlsx', index=False)
 
-    return cited_data, citing_data
+
+def process():
+    # core_journal_data = pd.read_excel('C:/Users/Administrator/Desktop/各学科核心期刊-待筛选.xlsx', sheet_name='Sheet3')
+    # core_journal_data.fillna(method='ffill', inplace=True)
+    # core_journal_data['期刊ID'] = core_journal_data['期刊ID'].astype('str')
+    # core_journal_data2 = pd.read_excel('C:/Users/Administrator/Desktop/Core_journal_list_wen.xlsx')
+    # core_journal_data2['Source ID'] = core_journal_data2['Source ID'].astype('str')
+    # core_journal_dict = {}
+    # for subject, sub_df in core_journal_data.groupby('学科名称'):
+    #     core_journal_dict[subject] = list(sub_df['期刊ID'])
+    #
+    # for subject, sub_df in core_journal_data2.groupby('一级学科名称'):
+    #     core_journal_dict[subject] = list(sub_df['Source ID'])
+    #
+    # with open('core_journal.json', 'w', encoding='utf-8') as js:
+    #     js.write(json.dumps(core_journal_dict, indent=4, ensure_ascii=False))
+    #
+    # citing_data = pd.read_excel('C:/Users/Administrator/Desktop/去除自引引用数据.xlsx')
+    # cited_data = pd.read_excel('C:/Users/Administrator/Desktop/去除自引被引数据.xlsx')
+    # citing_data['scopus_journal_id'] = citing_data['scopus_journal_id'].astype('str')
+    # cited_data['scopus_journal_id'] = cited_data['scopus_journal_id'].astype('str')
+    # citing_data.set_index('scopus_journal_id', inplace=True)
+    # cited_data.set_index('scopus_journal_id', inplace=True)
+    # citing_data_dict = citing_data.to_dict()['cite_num_noself']
+    # cited_data_dict = cited_data.to_dict()['cite_num_noself']
+    #
+    # with open('citing_data.json', 'w') as js:
+    #     js.write(json.dumps(citing_data_dict, indent=4))
+    #
+    # with open('cited_data.json', 'w') as js:
+    #     js.write(json.dumps(cited_data_dict, indent=4))
+
+    core_journal_data = pd.read_excel('C:/Users/Administrator/Desktop/core_journal-new.xlsx')
+    core_journal_data['scopus_journal_id'] = core_journal_data['scopus_journal_id'].astype('str')
+    core_journal_data = core_journal_data.loc[core_journal_data['Core journal'].notnull()]
+    core_journal_dict = {}
+    for subject, sub_df in core_journal_data.groupby('Core journal'):
+        if subject not in ['公安学', '马克思主义理论', '军事思想及军事历史', '中国史', '中医学', '中国语言文学',
+                           '公安技术', '中药学', '军事装备学', '中西医结合', '战略学', '兵器科学与技术']:
+            core_journal_dict[subject] = list(sub_df['scopus_journal_id'])
+
+    with open('core_journal.json', 'w', encoding='utf-8') as js:
+        js.write(json.dumps(core_journal_dict, indent=4, ensure_ascii=False))
 
 
-def rf_cal(core_journal):
-    cited_data, citing_data = cite_data_deal()
+def rf_cal():
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = 'select scopus_journal_id, cite_num+0 as cite_num, cite_journal_id from scopus_cite_data ' \
+          'where scopus_journal_id!=cite_journal_id'
+    all_cite_data = dbutil.get_allresult(sql, 'df')
 
-    # 被学科核心期刊引用过的期刊
-    cited_journal_list = list(cited_data[cited_data['cited_journal'].isin(core_journal)]['journal'])
-    # 引用过学科核心期刊的期刊
-    citing_journal_list = list(citing_data[citing_data['citing_journal'].isin(core_journal)]['journal'])
-    related_journal_set = set(core_journal + cited_journal_list + citing_journal_list)
-    print(len(related_journal_set))
+    # with open('core_journal.json', 'r', encoding='utf-8') as cj:
+    #     core_journal = json.load(cj)
 
-    result_list = []
-    for journal in related_journal_set:
-        print(journal)
-        rf_cited = sum(cited_data[(cited_data['journal'] == journal) &
-                                  (cited_data['cited_journal'] != journal) &
-                                  (cited_data['cited_journal'].isin(core_journal))]['cited_num']) / \
-                   sum(cited_data[(cited_data['journal'] == journal) &
-                                  (cited_data['cited_journal'] != journal)]['cited_num']) \
-                   if sum(cited_data[(cited_data['journal'] == journal) &
-                                     (cited_data['cited_journal'] != journal)]['cited_num']) else 0
+    core_journal = {}
+    already_data = pd.read_excel('C:/Users/Administrator/Desktop/分学科结果.xlsx')
+    already_data['scopus_journal_id'] = already_data['scopus_journal_id'].astype('str')
+    for subject, sub_df in already_data.groupby('subject'):
+        core_journal[subject] = list(sub_df['scopus_journal_id'])
 
-        rf_citing = sum(citing_data[(citing_data['journal'] == journal) &
-                                    (citing_data['citing_journal'] != journal) &
-                                    (citing_data['citing_journal'].isin(core_journal))]['citing_num']) / \
-                    sum(citing_data[(citing_data['journal'] == journal) &
-                                    (citing_data['citing_journal'] != journal)]['citing_num']) \
-                    if sum(citing_data[(citing_data['journal'] == journal) &
-                                       (citing_data['citing_journal'] != journal)]['citing_num']) else 0
-        result_list.append([journal, rf_cited, rf_citing])
+    rf_cited_list = []
+    rf_citing_list = []
+    for subject, sub_journal in core_journal.items():
+        print(subject)
+        sub_cited_df_temp = all_cite_data.loc[all_cite_data['cite_journal_id'].isin(sub_journal)]
+        sub_cited_df = sub_cited_df_temp.groupby('scopus_journal_id', as_index=False)['cite_num'].sum()
+        sub_citing_df_temp = all_cite_data.loc[all_cite_data['scopus_journal_id'].isin(sub_journal)]
+        sub_citing_df = sub_citing_df_temp.groupby('cite_journal_id', as_index=False)['cite_num'].sum()
 
-    return result_list
+        sub_cited_df['subject'] = subject
+        rf_cited_list.append(sub_cited_df)
+
+        sub_citing_df['subject'] = subject
+        rf_citing_list.append(sub_citing_df)
+
+    rf_cited_df = pd.concat(rf_cited_list)
+    rf_citing_df = pd.concat(rf_citing_list)
+
+    # dbutil.df_insert('rf_cited_data', rf_cited_df)
+    # dbutil.df_insert('rf_citing_data', rf_citing_df)
+
+    select_journal = pd.read_excel('C:/Users/Administrator/Desktop/未被分学科期刊.xlsx')
+    select_journal['Scopus Source ID'] = select_journal['Scopus Source ID'].astype('str')
+    rf_cited_df = rf_cited_df.loc[rf_cited_df['scopus_journal_id'].isin(list(select_journal['Scopus Source ID']))]
+    rf_citing_df = rf_citing_df.loc[rf_citing_df['cite_journal_id'].isin(list(select_journal['Scopus Source ID']))]
+
+    dbutil.df_insert('rf_cited_data_last', rf_cited_df)
+    dbutil.df_insert('rf_citing_data_last', rf_citing_df)
+
+    dbutil.close()
+
+
+def last_process():
+    dbutil = DBUtil(host, port, database, username, password)
+
+    # sql = 'select scopus_journal_id, cite_num as rf_cited_num, subject from rf_cited_data'
+    # rf_cited_data = dbutil.get_allresult(sql, 'df')
+    #
+    # sql = 'select cite_journal_id as scopus_journal_id, cite_num as rf_citing_num, subject from rf_citing_data'
+    # rf_citing_data = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select scopus_journal_id, cite_num as rf_cited_num, subject from rf_cited_data_last'
+    rf_cited_data = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select cite_journal_id as scopus_journal_id, cite_num as rf_citing_num, subject from rf_citing_data_last'
+    rf_citing_data = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select * from cited_data'
+    sum_cited_data = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select * from citing_data'
+    sum_citing_data = dbutil.get_allresult(sql, 'df')
+
+    rf_cited_data = pd.merge(rf_cited_data, sum_cited_data, how='left', on='scopus_journal_id')
+    rf_cited_data['rf_cited_value'] = rf_cited_data['rf_cited_num'] / rf_cited_data['cited_num']
+    rf_cited_sum = rf_cited_data.groupby('scopus_journal_id', as_index=False)['rf_cited_value'].sum()
+    rf_cited_sum.rename(columns={'rf_cited_value': 'rf_cited_sum'}, inplace=True)
+    rf_cited_data = pd.merge(rf_cited_data, rf_cited_sum, on='scopus_journal_id')
+    rf_cited_data['rf_cited_percent'] = rf_cited_data['rf_cited_value'] / rf_cited_data['rf_cited_sum']
+
+    rf_citing_data = pd.merge(rf_citing_data, sum_citing_data, how='left', on='scopus_journal_id')
+    rf_citing_data['rf_citing_value'] = rf_citing_data['rf_citing_num'] / rf_citing_data['citing_num']
+    rf_citing_sum = rf_citing_data.groupby('scopus_journal_id', as_index=False)['rf_citing_value'].sum()
+    rf_citing_sum.rename(columns={'rf_citing_value': 'rf_citing_sum'}, inplace=True)
+    rf_citing_data = pd.merge(rf_citing_data, rf_citing_sum, on='scopus_journal_id')
+    rf_citing_data['rf_citing_percent'] = rf_citing_data['rf_citing_value'] / rf_citing_data['rf_citing_sum']
+
+    rf_data = pd.merge(rf_cited_data, rf_citing_data, how='outer', on=['scopus_journal_id', 'subject'])
+
+    rf_data.drop(columns=['cited_num', 'citing_num'], inplace=True)
+    rf_data = pd.merge(rf_data, sum_cited_data, how='left', on='scopus_journal_id')
+    rf_data = pd.merge(rf_data, sum_citing_data, how='left', on='scopus_journal_id')
+    rf_data.fillna(0, inplace=True)
+    rf_data['scopus_journal_id'] = rf_data['scopus_journal_id'].astype('int64')
+
+    journal_name_data = pd.read_excel('C:/Users/Administrator/Desktop/Journal Citation Score 2019带一级学科信息20200726.xlsx')
+    journal_name_data.drop_duplicates(subset=['Scopus Source ID'], inplace=True, ignore_index=True)
+
+    with open('core_journal.json', 'r', encoding='utf-8') as cj:
+        core_journal = json.load(cj)
+
+    journal_name_data_temp = journal_name_data.loc[:, ['Scopus Source ID', 'Scholarly Output']]
+    journal_name_data_temp['Scopus Source ID'] = journal_name_data_temp['Scopus Source ID'].astype('str')
+    core_journal_article_num = {}
+    for subject, value in core_journal.items():
+        core_journal_article_num[subject] = sum(journal_name_data_temp[journal_name_data_temp['Scopus Source ID'].isin(value)]['Scholarly Output'])
+
+    rf_data['cited_citing_sum'] = rf_data['citing_num'] + rf_data['cited_num']
+    rf_data['cited_citing_percent_sum'] = rf_data['rf_cited_percent'] + rf_data['rf_citing_percent']
+    # 获取中文名称
+    journal_name_zh = pd.read_excel('C:/Users/Administrator/Desktop/期刊翻译结果.xlsx')
+    rf_data = pd.merge(rf_data, journal_name_zh, how='left', on='scopus_journal_id')
+
+    # rf_data.to_excel('C:/Users/Administrator/Desktop/rf_data.xlsx', index=False)
+
+    rf_data.to_excel('C:/Users/Administrator/Desktop/rf_data_last.xlsx', index=False)
+
+    rf_data_result = rf_data
+
+    core_journal_num_dict = {}
+    for subject, value in core_journal.items():
+        core_journal_num_dict[subject] = len(value)
+
+    rf_data_result['core_journal数量'] = rf_data_result['subject']
+    rf_data_result['core_journal数量'].replace(core_journal_num_dict, inplace=True)
+    rf_data_result['core_journal数量'] = rf_data_result['core_journal数量'].astype('int64')
+
+    rf_data_result['core_journal发文数量'] = rf_data_result['subject']
+    rf_data_result['core_journal发文数量'].replace(core_journal_article_num, inplace=True)
+    rf_data_result['core_journal发文数量'] = rf_data_result['core_journal发文数量'].astype('int64')
+
+    rf_data_result1 = copy.deepcopy(rf_data_result)
+    rf_data_result2 = copy.deepcopy(rf_data_result)
+
+    # 分学科结果，原始结果
+    # 合并core_journal学科
+    select_core_journal = pd.read_excel('C:/Users/Administrator/Desktop/core_journal-new.xlsx')
+    select_core_journal = select_core_journal.loc[select_core_journal['Core journal'].notnull(),
+                                                  ['scopus_journal_id', 'Core journal']]
+    rf_data_result2 = pd.merge(rf_data_result2, select_core_journal, how='left', on='scopus_journal_id')
+
+    rf_data_result2 = rf_data_result2.loc[(rf_data_result2['cited_citing_percent_sum'] >= 0.4) |
+                                          (rf_data_result2['subject'] == rf_data_result2['Core journal'])]
+
+    # rf_data_result2.to_excel('C:/Users/Administrator/Desktop/分学科结果.xlsx', index=False)
+
+    rf_data_result2.to_excel('C:/Users/Administrator/Desktop/分学科结果last.xlsx', index=False)
 
 
 if __name__ == '__main__':
-    key_word = 'landscape design'
-    core_journal = ['LANDSCAPE ECOL', 'LANDSCAPE URBAN PLAN', 'LANDSCAPE ARCHITECTURE FRONTIERS',
-                    'URBAN FOR URBAN GREE', 'LANDSC ECOL ENG', 'J ENVIRON ENG LANDSC']
-
-    result_list = rf_cal(core_journal)
-
-    result_df = pd.DataFrame(data=result_list, columns=['期刊名称简写', 'rf_cited', 'rf_citing'])
-    result_df.to_excel('rf_cite_data.xlsx', index=False)
-
-
-
+    # process()
+    rf_cal()
+    last_process()

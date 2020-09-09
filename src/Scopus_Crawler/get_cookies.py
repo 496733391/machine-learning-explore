@@ -16,6 +16,7 @@ from src.Scopus_Crawler.scopus_config import driver_path
 def get_cookies(driver, url=None):
     if url:
         driver.get(url)
+        driver.get(url)
     else:
         driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')
         driver.get('https://www.scopus.com/author/affilHistory.uri?auId=56425884500')

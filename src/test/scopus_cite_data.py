@@ -44,19 +44,23 @@ def get_cite_data(input_data):
             for i in range(count, len(input_data)):
                 print('当前进度：%s / %s' % (i + 1, len(input_data)))
                 cite_journal_list = []
+                cite_journal_id_list = []
                 get_page_url = base_url % (input_data[i][0], str(1))
                 page_info = requests.get(get_page_url, proxies=proxies, headers=headers,
                                          timeout=300, cookies=cookies).json()
                 cite_journal_list += [k['srctitle'] for k in page_info['docs']]
+                cite_journal_id_list += [k['srcid'] for k in page_info['docs']]
                 for j in range(2, int(page_info['Pages']) + 1):
                     url = base_url % (input_data[i][0], str(j))
                     cite_info = requests.get(url, proxies=proxies, headers=headers, timeout=300, cookies=cookies)
                     cite_info_dict = cite_info.json()
                     cite_journal_list += [k['srctitle'] for k in cite_info_dict['docs']]
+                    cite_journal_id_list += [k['srcid'] for k in cite_info_dict['docs']]
 
-                cite_df_temp = pd.DataFrame(data=cite_journal_list, columns=['cite_journal'])
+                cite_df_temp = pd.DataFrame(data={'cite_journal': cite_journal_list,
+                                                  'cite_journal_id': cite_journal_id_list})
                 cite_df_temp['cite_num'] = 1
-                cite_journal_data = cite_df_temp.groupby(by=['cite_journal'], as_index=False).sum()
+                cite_journal_data = cite_df_temp.groupby(by=['cite_journal', 'cite_journal_id'], as_index=False).sum()
                 cite_journal_data['scopus_journal_id'] = input_data[i][0]
                 result_df_list.append(cite_journal_data)
 
@@ -69,15 +73,16 @@ def get_cite_data(input_data):
 
         if result_df_list:
             all_data = pd.concat(result_df_list)
-            write2sql([['scopus_cite_data', all_data]])
+            write2sql([['scopus_cite_data0810', all_data]])
 
 
 if __name__ == '__main__':
     dbutil = DBUtil(host, port, database, username, password)
     sql = 'select scopus_journal_id from scopus_journal_id where scopus_journal_id not ' \
-          'in (select distinct scopus_journal_id from scopus_cite_data) and cite_num!="0"'
+          'in (select distinct scopus_journal_id from scopus_cite_data0810) and cite_num!="0"'
     journal_id_df = dbutil.get_allresult(sql, 'df')
     dbutil.close()
 
     input_data = journal_id_df.values.tolist()
+    # input_data = input_data[:5]
     get_cite_data(input_data)

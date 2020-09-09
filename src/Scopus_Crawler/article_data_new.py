@@ -118,8 +118,8 @@ def get_detail_data(input_data):
 if __name__ == '__main__':
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select distinct person_id, scopus_id from author_info_new where person_id " \
-          "not in (select person_id from article_cite_data) and person_id not in ('4179', '75', '6135', '5696', " \
-          "'T2018002059')"
+          "not in (select person_id from article_cite_data where flag!=0) and person_id not in ('4179', '75', '6135', '5696', " \
+          "'T2018002059') and flag!=0"
     df = dbutil.get_allresult(sql, 'df')
     dbutil.close()
 

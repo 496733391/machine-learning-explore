@@ -61,7 +61,6 @@ result_list = []
 
 while count < len(school_id_list):
     try:
-        # 开始对每位学者再scopus上使用DOI搜索论文
         for i in range(count, len(school_id_list)):
             time.sleep(0.5)
             print('当前进度：%s / %s' % (i + 1, len(school_id_list)))

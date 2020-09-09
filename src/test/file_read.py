@@ -359,5 +359,183 @@ def deal19():
     df2.to_excel('C:/Users/Administrator/Desktop/待查数据0729.xlsx', sheet_name='Sheet1', index=False)
 
 
+def deal20():
+    import math
+    df = pd.read_excel('C:/Users/Administrator/Desktop/wos_journal_data.xlsx')
+    df['flag'] = 'other'
+    result_df_list = []
+    for value, sub_df in df.groupby(['category_id', 'edition']):
+        select_rank = math.ceil(max(sub_df['rank']) / 4)
+        sub_df.loc[sub_df['rank'] <= select_rank, 'flag'] = 'Q1'
+        result_df_list.append(sub_df)
+
+    df2 = pd.concat(result_df_list)
+    df2.to_excel('C:/Users/Administrator/Desktop/q1_wos_journal_data.xlsx', index=False)
+
+
+def deal21():
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = 'select * from wos_doc_data'
+    df = dbutil.get_allresult(sql, 'df')
+    df['doc_num'] = df['doc_num'].astype('int')
+
+    df2 = pd.read_excel('C:/Users/Administrator/Desktop/cssc-category-mapping.xlsx', sheet_name='Sheet1')
+    df2['id'] = df2['id'].astype('str')
+    for i in range(len(df2)):
+        if len(df2.loc[i, 'id']) < 4:
+            df2.loc[i, 'id'] = '0' + df2.loc[i, 'id']
+
+    df = pd.merge(df, df2, on='category_id')
+    result = df.groupby(by=['orgName', 'year', 'id', 'Description'], as_index=False)['doc_num'].sum()
+    dbutil.df_insert('doc_data', result)
+
+
+def deal22():
+    all_data = pd.read_excel('C:/Users/Administrator/Desktop/Journal Citation Score 2019带一级学科信息20200726.xlsx')
+    select_data = pd.read_excel('C:/Users/Administrator/Desktop/分学科结果.xlsx')
+
+    select_data2 = pd.read_excel('C:/Users/Administrator/Desktop/分学科结果last.xlsx')
+    select_data = select_data.append(select_data2, ignore_index=True)
+
+    all_data = all_data.loc[~all_data['Scopus Source ID'].isin(list(select_data['scopus_journal_id']))]
+
+    all_data.to_excel('C:/Users/Administrator/Desktop/未被分学科期刊.xlsx', index=False)
+
+
+def deal23():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/分学科结果.xlsx')
+    data2 = pd.read_excel('C:/Users/Administrator/Desktop/待查结果.xlsx')
+
+    data2 = data2.loc[data2['flag'] == 1]
+    data = data.loc[~data['scopus_journal_id'].isin(list(data2['scopus_journal_id']))]
+
+    group_data = data.groupby('scopus_journal_id', as_index=False)['cited_citing_percent_sum'].sum()
+    data = pd.merge(data, group_data, on='scopus_journal_id')
+    data['percent'] = data['cited_citing_percent_sum_x'] / data['cited_citing_percent_sum_y']
+    data.to_excel('C:/Users/Administrator/Desktop/最后结果.xlsx', index=False)
+
+
+def deal24():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/最后结果.xlsx')
+    data2 = pd.read_excel('C:/Users/Administrator/Desktop/Journal Citation Score 2019带一级学科信息20200726.xlsx', sheet_name='Sheet1')
+
+    list1 = list(data['scopus_journal_id'])
+    list2 = list(data2['Scopus Source ID'])
+
+    print(set(list2).difference(set(list1)))
+
+
+def deal25():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/最后结果.xlsx')
+    data2 = pd.read_excel('C:/Users/Administrator/Desktop/旧-分学科结果-除以core_journal发文数.xlsx')
+
+    subject_list = ['公安学', '马克思主义理论', '军事思想及军事历史', '中国史', '中医学', '中国语言文学',
+                           '公安技术', '中药学', '军事装备学', '中西医结合', '战略学', '兵器科学与技术']
+
+    data2 = data2.loc[data2['Core journal'].isin(subject_list)]
+
+    data = data.loc[~data['scopus_journal_id'].isin(list(data2['scopus_journal_id']))]
+    data.to_excel('C:/Users/Administrator/Desktop/最后结果111.xlsx', index=False)
+
+    data2.to_excel('C:/Users/Administrator/Desktop/人工.xlsx', index=False)
+
+
+def deal26():
+    data2 = pd.read_excel('C:/Users/Administrator/Desktop/Journal Citation Score 2019带一级学科信息20200726.xlsx')
+
+    data2 = data2.loc[:, ['Scopus Source ID', 'WoS匹配学科名称', 'ASJC匹配学科名称']]
+    data2.fillna('0', inplace=True)
+    data2['WoS匹配学科名称'] = data2['WoS匹配学科名称'].astype('str')
+    data2['ASJC匹配学科名称'] = data2['ASJC匹配学科名称'].astype('str')
+
+    result_list = []
+    for scopus_journal_id, sub_df in data2.groupby('Scopus Source ID'):
+        result_list.append([scopus_journal_id, ', '.join(list(set(sub_df['WoS匹配学科名称']))), ', '.join(list(set(sub_df['ASJC匹配学科名称'])))])
+
+    df = pd.DataFrame(data=result_list, columns=['scopus期刊ID', 'WoS匹配学科', 'ASJC匹配学科'])
+    df.to_excel('C:/Users/Administrator/Desktop/wos和scopus参考学科.xlsx', index=False)
+
+
+def deal27():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/待核对期刊.xlsx')
+    to_check_list = []
+    wos_not_null = data.loc[data['WoS匹配学科'].notnull()]
+    scopus_not_null = data.loc[data['WoS匹配学科'].isnull() & data['ASJC匹配学科名称'].notnull()]
+    for journal_id, sub_df in wos_not_null.groupby('Journal ID'):
+        if set(sub_df['RF值划分学科']) != set(sub_df.iloc[0]['WoS匹配学科'].split(', ')):
+            to_check_list.append(journal_id)
+
+    for journal_id, sub_df in scopus_not_null.groupby('Journal ID'):
+        if set(sub_df['RF值划分学科']) != set(sub_df.iloc[0]['ASJC匹配学科名称'].split(', ')):
+            to_check_list.append(journal_id)
+
+    # result_df_list = []
+    # to_check_df = data.loc[data['Journal ID'].isin(to_check_list)]
+    # for journal_id, sub_df in to_check_df.groupby('Journal ID'):
+    #     sub_df['RF划分学科合并'] = ', '.join(list(sub_df['RF值划分学科']))
+    #     result_df_list.append(sub_df)
+
+    # result_df = pd.concat(result_df_list)
+    #
+    # result_df.to_excel('C:/Users/Administrator/Desktop/筛选待核对期刊.xlsx', index=False)
+
+    result_df_list = []
+    not_check_df = data.loc[~data['Journal ID'].isin(to_check_list)]
+    for journal_id, sub_df in not_check_df.groupby('Journal ID'):
+        sub_df['RF划分学科合并'] = ', '.join(list(sub_df['RF值划分学科']))
+        result_df_list.append(sub_df)
+
+    result_df = pd.concat(result_df_list)
+
+    result_df.to_excel('C:/Users/Administrator/Desktop/无需人工核对期刊.xlsx', index=False)
+
+
+def deal28():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/最终核对版本.xlsx')
+    data['人工确认学科'].fillna('0', inplace=True)
+
+    # 每篇文章拆分学科
+    temp_df_list = []
+    for journal_id, sub_df in data.groupby('Journal ID'):
+        subject_list = sub_df.iloc[0]['人工确认学科'].split(', ')
+        temp_df = pd.DataFrame(data=subject_list, columns=['人工确认学科拆分'])
+        temp_df['Journal ID'] = journal_id
+        temp_df_list.append(temp_df)
+
+    all_subject = pd.concat(temp_df_list)
+    # 合并
+    data = pd.merge(data, all_subject, on='Journal ID')
+    data.to_excel('C:/Users/Administrator/Desktop/学科拆分-最终核对版本.xlsx', index=False)
+
+
+def deal29():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/马峥-学科匹配0730.xlsx', sheet_name='Sheet1')
+    data = data.loc[data['是否匹配'].notnull()]
+    data['百度搜索'] = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=' + data['当选单位名称'] + data['姓名']
+    data['百度学术搜索'] = 'https://xueshu.baidu.com/usercenter/data/authorchannel?cmd=inject_page&author=' + \
+                     data['姓名'] + '&affiliate=' + data['当选单位名称']
+    data.to_excel('C:/Users/Administrator/Desktop/人工查找0907.xlsx', index=False)
+
+
+def deal30():
+    from src.config.DBUtil import DBUtil
+    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
+    dbutil = DBUtil(host, port, database, username, password)
+    sql = 'select distinct person_id from author_info_new'
+    df = dbutil.get_allresult(sql, 'df')
+    input_df = pd.read_excel('C:/Users/Administrator/Desktop/物理学人才清单_20200908.xlsx', sheet_name='Sheet2')
+    input_df['人才编号'] = input_df['人才编号'].astype('str')
+    input_df = input_df.loc[~input_df['人才编号'].isin(list(df['person_id']))]
+
+    input_df['百度搜索'] = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=' + input_df['当选单位信息'] + input_df['姓名']
+    input_df['百度学术搜索'] = 'https://xueshu.baidu.com/usercenter/data/authorchannel?cmd=inject_page&author=' + \
+                               input_df['姓名'] + '&affiliate=' + input_df['当选单位信息']
+    input_df.to_excel('C:/Users/Administrator/Desktop/人工查找0909.xlsx', index=False)
+
+
 if __name__ == '__main__':
-    deal16()
+    deal30()

@@ -31,7 +31,7 @@ base_url2 = 'https://api.elsevier.com/content/search/scopus?' \
 
 
 def get_co_author(input_data):
-    k = 0
+    k = 1
     find_list = []
     while k < 1:
         to_find_set = set(input_data).difference(set(find_list))
@@ -90,11 +90,29 @@ def get_publication(input_author_id):
             count = i
 
     result_df = pd.DataFrame(data=result_list, columns=['author_id', 'scopus_article_id', 'publication'])
-    result_df.to_excel('C:/Users/Administrator/Desktop/风景园林学论文发表期刊统计.xlsx', index=False)
+    result_df.to_excel('C:/Users/Administrator/Desktop/系统科学期刊统计.xlsx', index=False)
 
 
 if __name__ == '__main__':
-    input_data = ['41763090700', '57198528500', '56202568800', '7401750848',
-                  '57051712700', '57193349511', '56609388500', '56238988900']
+    input_data = ['56984215000',
+'55966759800',
+'26039230700',
+'14059260100',
+'55794370100',
+'55723019300',
+'7003734499',
+'11139324700',
+'57201570977',
+'55733323100',
+'18439000200',
+'16687313600',
+'26024156500',
+'7401629977',
+'56979720300',
+'35077414600',
+'56489059800',
+'35195159100',
+'56196546400',
+'55763794609']
     input_author_id = list(get_co_author(input_data))
     get_publication(input_author_id)

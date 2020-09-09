@@ -28,7 +28,8 @@ else:
         for i in past_list:
             try:
                 print(f'开始更新库：{i}……')
-                update = getstatusoutput(f'pip install --upgrade {i} -i https://mirrors.aliyun.com/pypi/simple/')
+                # update = getstatusoutput(f'pip install --upgrade {i} -i https://mirrors.aliyun.com/pypi/simple/')
+                update = getstatusoutput(f'pip install --upgrade {i}')
                 if update[0] == 0:
                     print(f'{i}:已更新完成。')
                 else:

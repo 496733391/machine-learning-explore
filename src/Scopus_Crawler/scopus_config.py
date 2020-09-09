@@ -51,6 +51,6 @@ polyphony_surname = {'曾': 'Zeng', '单': 'Shan', '呙': 'Guo', '吕': 'Lü', '
                      '仇': 'Qiu', '都': 'Du', '郝': 'Hao', '解': 'Xie', '乐': 'Le', '缪': 'Miao',
                      '覃': 'Qin', '翟': 'Zhai', '薄': 'Bo', '卜': 'Bu'}
 
-doc_num_limit = 10
+doc_num_limit = 5
 aff_limit_high = 40
-aff_limit_low = 2
+aff_limit_low = 1

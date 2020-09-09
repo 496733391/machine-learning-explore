@@ -124,7 +124,10 @@ if __name__ == '__main__':
     logger.info('********START********')
     logger.info('*********************')
     # 测试用，从本地excel中读数据
-    input_df = pd.read_excel('C:/Users/Administrator/Desktop/1-data20200702.xlsx')
+    # input_df = pd.read_excel('C:/Users/Administrator/Desktop/1-data20200702.xlsx')
+
+    input_df = pd.read_excel('C:/Users/Administrator/Desktop/物理学人才清单_20200908.xlsx', sheet_name='Sheet2')
+    input_df = input_df.loc[input_df['scopus机构ID'] != 0]
     input_df.rename(columns={'人才编号': 'person_id',
                              '姓名': 'name',
                              '英文名称': 'ins_en',

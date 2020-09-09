@@ -47,7 +47,7 @@ def start_driver():
 def get_detail_data(input_data):
     data_no = datetime.datetime.now().strftime('%Y%m%d%H%M%S') + str(random.randint(10, 99))
     count = 0
-    t_index = 6
+    t_index = 4
     while count < len(input_data):
         # 启动浏览器并获取cookies
         driver = start_driver()
@@ -113,8 +113,8 @@ def get_detail_data(input_data):
 
         all_hindex_data['flag'] = 2
 
-        # write2sql([['author_info_new', all_article_data], ['author_exp', all_ins_data],
-        #            ['h_index', all_hindex_data]])
+        write2sql([['author_info_new', all_article_data], ['author_exp', all_ins_data],
+                   ['h_index', all_hindex_data]])
 
 
 if __name__ == '__main__':
@@ -123,8 +123,7 @@ if __name__ == '__main__':
     # author_id_df = dbutil.get_allresult(sql, 'df')
     # dbutil.close()
 
-    df = pd.read_excel('C:/Users/Administrator/Desktop/人工匹配的.xlsx')
+    df = pd.read_excel('C:/Users/Administrator/Desktop/已匹配scopusID.xlsx')
     df['person_id'] = df['person_id'].astype('str')
     input_data = df.values.tolist()
-    # input_data = input_data[439:]
     get_detail_data(input_data)
