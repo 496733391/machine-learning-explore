@@ -170,7 +170,7 @@ if __name__ == '__main__':
     # for i in range(len(df2)):
     #     if len(df2.loc[i, 'id']) < 4:
     #         df2.loc[i, 'id'] = '0' + df2.loc[i, 'id']
-    #
+
     # input_df = pd.merge(input_df, df2, on='category_id')
 
     input_data = []

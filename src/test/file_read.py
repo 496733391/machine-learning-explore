@@ -5,11 +5,11 @@ import pymysql
 import pandas as pd
 from sqlalchemy import create_engine
 
+from src.config.DBUtil import DBUtil
+from src.Scopus_Crawler.scopus_config import host, port, database, username, password
+
 
 def deal1():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select DISTINCT person_id, name, scopus_id from author_info_new where data_no='2020060819255418'"
     author_list1 = dbutil.get_allresult(sql, 'df')
@@ -88,9 +88,6 @@ def deal4():
 
 
 def deal5():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select DISTINCT person_id from mult_matched_author where data_no='2020052716115197'"
     df = dbutil.get_allresult(sql, 'df')
@@ -106,9 +103,6 @@ def deal5():
 
 
 def deal6():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select person_id, name from not_matched_author where data_no='2020060819255418'"
     df = dbutil.get_allresult(sql, 'df')
@@ -152,8 +146,6 @@ def deal7():
 
 def deal8():
     df = pd.read_excel('C:/Users/Administrator/Desktop/0618webofscience.xlsx')
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select distinct (person_id+0) as person_id from not_find where person_id not in (select person_id from find_result)"
@@ -164,9 +156,6 @@ def deal8():
 
 
 def deal9():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select person_id+0 as person_id, find_num, ins from find_result"
     find_result = dbutil.get_allresult(sql, 'df')
@@ -183,9 +172,6 @@ def deal9():
 
 
 def deal10():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = "select person_id+0 as person_id from (select DISTINCT person_id from find_result UNION select " \
           "person_id from not_find) a ORDER BY person_id"
@@ -374,9 +360,6 @@ def deal20():
 
 
 def deal21():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = 'select * from wos_doc_data'
     df = dbutil.get_allresult(sql, 'df')
@@ -521,9 +504,6 @@ def deal29():
 
 
 def deal30():
-    from src.config.DBUtil import DBUtil
-    from src.Scopus_Crawler.scopus_config import host, port, database, username, password
-
     dbutil = DBUtil(host, port, database, username, password)
     sql = 'select distinct person_id from author_info_new'
     df = dbutil.get_allresult(sql, 'df')
@@ -537,5 +517,35 @@ def deal30():
     input_df.to_excel('C:/Users/Administrator/Desktop/人工查找0909.xlsx', index=False)
 
 
+def deal31():
+    dbutil = DBUtil(host, port, database, username, password)
+
+    sql = 'select * from author_info_new'
+    author_info_new0910 = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select * from h_index'
+    h_index0910 = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select * from article_cite_data'
+    article_cite_data0910 = dbutil.get_allresult(sql, 'df')
+
+    sql = 'select scopus_id, person_id, publish_year, count(*) as first_au_doc_num from scopus_author_article ' \
+          'group by scopus_id, person_id, publish_year'
+    scopus_author_article0910 = dbutil.get_allresult(sql, 'df')
+
+    physics_list = pd.read_excel('C:/Users/Administrator/Desktop/物理学人才清单_20200908.xlsx', sheet_name='data')
+    physics_list['人才编号'] = physics_list['人才编号'].astype('str')
+
+    author_info_new0910 = author_info_new0910.loc[author_info_new0910['person_id'].isin(list(physics_list['人才编号']))]
+    h_index0910 = h_index0910.loc[h_index0910['person_id'].isin(list(physics_list['人才编号']))]
+    article_cite_data0910 = article_cite_data0910.loc[article_cite_data0910['person_id'].isin(list(physics_list['人才编号']))]
+    scopus_author_article0910 = scopus_author_article0910.loc[scopus_author_article0910['person_id'].isin(list(physics_list['人才编号']))]
+
+    dbutil.df_insert('author_info_new0910', author_info_new0910)
+    dbutil.df_insert('h_index0910', h_index0910)
+    dbutil.df_insert('article_cite_data0910', article_cite_data0910)
+    dbutil.df_insert('scopus_author_article0910', scopus_author_article0910)
+
+
 if __name__ == '__main__':
-    deal30()
+    deal31()
