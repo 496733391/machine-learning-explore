@@ -93,7 +93,7 @@ class DBUtil:
         '''
         if len(df) > 0:
             datatype = {c: types.VARCHAR(df[c].str.len().max()) for c in df.columns[df.dtypes == 'object'].tolist()}
-            df.to_sql(table_name, self.engine, index=False, if_exists='append', dtype=datatype)
+            df.to_sql(table_name, self.engine, index=False, if_exists='append', dtype=datatype, chunksize=10000)
 
     def close(self):
         if self.cursor:

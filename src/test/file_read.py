@@ -547,5 +547,16 @@ def deal31():
     dbutil.df_insert('scopus_author_article0910', scopus_author_article0910)
 
 
+def deal32():
+    physics_list_no_email = pd.read_excel('C:/Users/Administrator/Desktop/物理学者邮箱查找0916.xlsx', sheet_name='Sheet3')
+    physics_list_no_email['百度搜索链接'] = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=' + physics_list_no_email['当选单位信息'] + physics_list_no_email['姓名']
+
+    physics_list_no_email['百度搜索链接_'] = None
+    physics_list_no_email.loc[physics_list_no_email['现职单位名称'].notnull(), '百度搜索链接_'] = \
+        'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=' + physics_list_no_email['现职单位名称'] + physics_list_no_email['姓名']
+
+    physics_list_no_email.to_excel('C:/Users/Administrator/Desktop/物理学者邮箱查找0916_.xlsx', index=False)
+
+
 if __name__ == '__main__':
-    deal31()
+    deal32()

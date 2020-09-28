@@ -9,11 +9,14 @@ sys.path.insert(0, base_dir)
 
 import requests
 import re
-from bs4 import BeautifulSoup as bs
+import math
 import pandas as pd
 
 from src.Scopus_Crawler.scopus_config import proxies
 from src.Scopus_Crawler.data_write import write2sql
+from src.wos_crawler.author_name_deal import pinyin_trans
+from src.config.DBUtil import DBUtil
+from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 
 
 url = 'http://www.webofscience.com/'
@@ -43,7 +46,7 @@ data_ini = 'fieldCount=4&action=search&product=WOS&search_mode=GeneralSearch&' \
            'E5%AD%97%E6%AE%B5%E7%9B%B8%E7%BB%84%E9%85%8D%E3%80%82&' \
            'sa_params=WOS%7C%7C{}' \
            '%7Chttp%3A%2F%2Fapps.webofknowledge.com%7C%27&formUpdated=true' \
-           '&value%28input1%29=2009-2019' \
+           '&value%28input1%29=2010-2019' \
            '&value%28select1%29=PY' \
            '&value%28hidInput1%29=' \
            '&value%28bool_1_2%29=AND' \
@@ -60,7 +63,7 @@ data_ini = 'fieldCount=4&action=search&product=WOS&search_mode=GeneralSearch&' \
            '&value%28hidInput4%29=' \
            '&limitStatus=expanded&ss_lemmatization=On&ss_spellchecking=Suggest&SinceLastVisit_UTC=' \
            '&SinceLastVisit_DATE=&range=CUSTOM' \
-           '&period=Year+Range&startYear=2009&endYear=2019' \
+           '&period=Year+Range&startYear=2010&endYear=2019' \
            '&editions=SCI' \
            '&editions=SSCI' \
            '&editions=AHCI' \
@@ -80,40 +83,92 @@ data_dl_ini = 'selectedIds=&displayCitedRefs=true&displayTimesCited=true&display
               '&format=saveToFile&filters=HIGHLY_CITED+HOT_PAPER+OPEN_ACCESS+PMID+USAGEIND+AUTHORSIDEN' \
               'TIFIERS+ACCESSION_NUM+FUNDING+SUBJECT_CATEGORY+JCR_CATEGORY+LANG+IDS+PAGEC+SABBR+CITREF' \
               'C+ISSN+PUBINFO+KEYWORDS+CITTIMES+ADDRS+CONFERENCE_SPONSORS+DOCTYPE+CITREF+ABSTRACT+CON' \
-              'FERENCE_INFO+SOURCE+TITLE+AUTHORS++&mark_to=500&mark_from=1' \
-              '&queryNatural=%3Cb%3E%E5%87%BA%E7%89%88%E5%B9%B4%3A%3C%2Fb%3E+%282009-2019%29+%3Ci%3E' \
+              'FERENCE_INFO+SOURCE+TITLE+AUTHORS++&mark_to={}&mark_from={}' \
+              '&queryNatural=%3Cb%3E%E5%87%BA%E7%89%88%E5%B9%B4%3A%3C%2Fb%3E+%282010-2019%29+%3Ci%3E' \
               'AND%3C%2Fi%3E+%3Cb%3E%E6%96%87%E7%8C%AE%E7%B1%BB%E5%9E%8B%3A%3C%2Fb%3E+%28Article+OR++Review%29+%3Ci%3E' \
               'AND%3C%2Fi%3E+%3Cb%3E%E4%BD%9C%E8%80%85%3A%3C%2Fb%3E+%28{}%29+%3Ci%3E' \
               'AND%3C%2Fi%3E+%3Cb%3E%E5%9C%B0%E5%9D%80%3A%3C%2Fb%3E+%28china%29' \
               '&count_new_items_marked=0&use_two_ets=false&IncitesEntitled=yes&value%28record_select_type%29=range' \
-              '&markFrom=1&markTo=500' \
+              '&markFrom={}&markTo={}' \
               '&fields_selection=HIGHLY_CITED+HOT_PAPER+OPEN_ACCESS+PMID+USAGEIND+AUTHORSIDENTIFIERS+ACCESS' \
               'ION_NUM+FUNDING+SUBJECT_CATEGORY+JCR_CATEGORY+LANG+IDS+PAGEC+SABBR+CITREFC+ISSN+PUBINFO+KEY' \
               'WORDS+CITTIMES+ADDRS+CONFERENCE_SPONSORS+DOCTYPE+CITREF+ABSTRACT+CONFERENCE_INFO+SOURCE+TITL' \
               'E+AUTHORS++&save_options=tabWinUTF8'
-
-# 建立连接session
-session = requests.session()
-connection = session.get(url, headers=headers, proxies=proxies)
-# 获取sid
-sid = re.findall(r'SID=(\w+)&', connection.url)[0]
-
-name = 'liu wei'
-data = data_ini.format(sid, sid, name)
-search_page = session.post(post_url, data=data, proxies=proxies, headers=headers, timeout=30)
-
-qid = re.findall(r'qid=([0-9]+)&', search_page.text)[0]
-
-data_dl = data_dl_ini.format(qid, sid, qid, sid, name)
-dl_page = session.post(dl_post_url, data=data_dl, proxies=proxies, headers=headers, timeout=30)
 
 columns = ['PT', 'AU', 'BA', 'BE', 'GP', 'AF', 'BF', 'CA', 'TI', 'SO', 'SE', 'BS', 'LA', 'DT', 'CT',
            'CY', 'CL', 'SP', 'HO', 'DE', 'ID', 'AB', 'C1', 'RP', 'EM', 'RI', 'OI', 'FU', 'FX', 'CR',
            'NR', 'TC', 'Z9', 'U1', 'U2', 'PU', 'PI', 'PA', 'SN', 'EI', 'BN', 'J9', 'JI', 'PD', 'PY',
            'VL', 'IS', 'PN', 'SU', 'SI', 'MA', 'BP', 'EP', 'AR', 'DI', 'D2', 'EA', 'PG', 'WC', 'SC',
            'GA', 'UT', 'PM', 'OA', 'HC', 'HP', 'DA']
-data_list = dl_page.text.strip().split('\n')
-articel_data = [i.strip().split('\t') for i in data_list[1:]]
 
-articel_data_df = pd.DataFrame(data=articel_data, columns=columns)
-print(1)
+
+def wos_article(input_data):
+    count = 0
+    page_count = 33
+    while count < len(input_data):
+        articel_data_all = []
+        try:
+            # 建立连接session
+            session = requests.session()
+            connection = session.get(url, headers=headers, proxies=proxies)
+            # 获取sid
+            sid = re.findall(r'SID=(\w+)&', connection.url)[0]
+            # 开始循环获取数据
+            for i in range(count, len(input_data)):
+                print('当前进度：%s / %s' % (i + 1, len(input_data)))
+                print(input_data[i])
+
+                name = input_data[i][0]
+                data = data_ini.format(sid, sid, name)
+                search_page = session.post(post_url, data=data, proxies=proxies, headers=headers, timeout=300)
+
+                qid = re.findall(r'qid=([0-9]+)&', search_page.text)[0]
+                search_result_num = re.findall(r'FINAL_DISPLAY_RESULTS_COUNT = ([0-9]+);', search_page.text)[0]
+                print(search_result_num)
+                page_num = math.ceil(int(search_result_num) / 500)
+
+                for k in range(page_count, page_num):
+                    print(f'{k}/{page_num}')
+                    data_dl = data_dl_ini.format(qid, sid, qid, sid, k*500+500, k*500+1, name, k*500+1, k*500+500)
+                    dl_page = session.post(dl_post_url, data=data_dl, proxies=proxies, headers=headers, timeout=300)
+                    if ('PT' not in dl_page.text) and ('AU' not in dl_page.text):
+                        raise Exception('error')
+                    data_list = dl_page.text.strip().split('\n')
+                    articel_data_temp = [j.strip().split('\t') for j in data_list[1:]]
+                    df_temp = pd.DataFrame(data=articel_data_temp, columns=columns)
+                    df_temp['name_zh'] = input_data[i][1]
+                    articel_data_all.append(df_temp)
+
+                page_count = 0
+
+            # 结束循环
+            count = len(input_data)
+            session.close()
+
+        # 出现错误时，从错误处中断，再从该处开始
+        except Exception as err:
+            print('ERROR:%s' % err)
+            session.close()
+            count = i
+            page_count = k
+
+        if articel_data_all:
+            articel_data_df = pd.concat(articel_data_all)
+            write2sql([['wos_article_data', articel_data_df]])
+
+
+if __name__ == '__main__':
+    # dbutil = DBUtil(host, port, database, username, password)
+    # sql = 'select DISTINCT name_zh from wos_article_data'
+    # already_df = dbutil.get_allresult(sql, 'df')
+    # dbutil.close()
+
+    df = pd.read_excel('C:/Users/Administrator/Desktop/物理学人才清单_20200908.xlsx', sheet_name='Sheet3')
+    # df = df.loc[~df['姓名'].isin(list(already_df['name_zh']))]
+
+    df = df.loc[df['姓名'] == '陈栋']
+
+    input_data = df['姓名'].values.tolist()
+    input_data = pinyin_trans(input_data)
+    # input_data = input_data[:5]
+    wos_article(input_data)

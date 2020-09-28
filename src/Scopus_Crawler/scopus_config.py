@@ -25,8 +25,8 @@ proxies = {
 
 # headers
 headers = {
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrom'
-                          'e/81.0.4044.138 Safari/537.36'
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                          'Chrome/85.0.4183.121 Safari/537.36'
 }
 
 # 学者机构信息地址
@@ -44,7 +44,7 @@ compound_surname = ['欧阳', '太史', '端木', '上官', '司马', '东方', 
                     '拓跋', '夹谷', '轩辕', '令狐', '段干', '百里', '呼延', '东郭', '南门', '羊舌', '微生',
                     '公户', '公玉', '公仪', '梁丘', '公仲', '公上', '公门', '公山', '公坚', '左丘', '公伯',
                     '西门', '公祖', '第五', '公乘', '贯丘', '公皙', '南荣', '东里', '东宫', '仲长', '子书',
-                    '子桑', '即墨', '达奚', '褚师', '吴铭']
+                    '子桑', '即墨', '达奚', '褚师', '吴铭', '屈贺']
 
 # 多音字姓氏
 polyphony_surname = {'曾': 'Zeng', '单': 'Shan', '呙': 'Guo', '吕': 'Lü', '柏': 'Bai', '查': 'Zha',

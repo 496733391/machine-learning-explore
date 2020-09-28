@@ -16,12 +16,12 @@ fromLang = 'auto'
 toLang = 'zh'
 salt = 32768
 
-df = pd.read_excel('C:/Users/Administrator/Desktop/journal_title.xlsx')
+df = pd.read_excel('C:/Users/Administrator/Desktop/编委title翻译.xlsx')
 
-title_list = list(set(df['Title']))
+title_list = list(df['职位'])
 result_list = []
 
-for i in range(506):
+for i in range(11):
     print(i)
     sub_title_list = title_list[50*i:50*(i+1)]
     q = '\n'.join(sub_title_list)
@@ -34,4 +34,4 @@ for i in range(506):
     time.sleep(1)
 
 result_df = pd.DataFrame(data=result_list)
-result_df.to_excel('C:/Users/Administrator/Desktop/期刊翻译结果.xlsx')
+result_df.to_excel('C:/Users/Administrator/Desktop/编委title翻译结果.xlsx')
