@@ -15,6 +15,7 @@ from src.Scopus_Crawler.data_write import write2sql
 from src.config.DBUtil import DBUtil
 from src.Scopus_Crawler.scopus_config import host, port, database, username, password
 
+
 # 浏览器选项
 options = webdriver.ChromeOptions()
 # 添加代理地址和header
@@ -46,65 +47,19 @@ headers_login = {
 
 post_data = {"take": 100000, "skip": 0, "sortBy": "timesCited", "sortOrder": "desc",
              "indicators": ["key", "seqNumber", "orgName", "rank", "wosDocuments", "norm", "timesCited",
-                            "percentCited", "hasProfile"],
+                            "percentCited", "hasProfile", "jifdocsq1"],
              "filters": {"orgtype": {"is": ["Academic"]}, "location": {"is": ["CHINA MAINLAND"]},
                          "personIdTypeGroup": {"is": "name"}, "personIdType": {"is": "fullName"},
-                         "schema": {"is": "Web of Science"}, "sbjname": {"is": ["ACOUSTICS"]},
-                         "jrnname": {"is": ["ACOUSTICS AUSTRALIA"]}, "publisherType": {"is": "All"},
-                         "articletype": {"is": ["Article"]}, "period": {"is": [2015, 2015]}}, "pinned": []}
+                         "schema": {"is": "China SCADC Subject 97 Narrow"}, "sbjname": {"is": ["ACOUSTICS"]},
+                         "publisherType": {"is": "All"}, "articletype": {"is": ["Article"]},
+                         "period": {"is": [2015, 2015]}}, "pinned": []}
 
 
-def start_driver():
-    # 启动浏览器
-    driver = webdriver.Chrome(driver_path, options=options)
-    return driver
-
-
-def get_subject_data():
-    # 启动浏览器并获取cookies
-    driver = start_driver()
-    cookies = get_cookies(driver, url=base_url)
-    driver.close()
-    subject_info = requests.get(journal_data_url, proxies=proxies, headers=headers, timeout=300, cookies=cookies).json()
-    df = pd.DataFrame(data=subject_info['data'])
-    df['group'] = 'SSCI'
-    df.to_excel('C:/Users/Administrator/Desktop/SSCI.xlsx', index=False)
-
-
-def get_journal_data(input_data):
-    count = 0
-    result_df_list = []
-    while count < len(input_data):
-        # 启动浏览器并获取cookies
-        driver = start_driver()
-        cookies = get_cookies(driver, url=base_url)
-        driver.close()
-        try:
-            for i in range(count, len(input_data)):
-                print('当前进度：%s / %s' % (i + 1, len(input_data)))
-                url = journal_data_url.format(input_data[i][2], input_data[i][0])
-                data_info = requests.get(url, proxies=proxies, headers=headers,
-                                         timeout=300, cookies=cookies).json()
-                data = []
-                for ele in data_info['data']:
-                    del ele['cites']
-                    del ele['articles']
-                    data.append(ele)
-
-                data_df = pd.DataFrame(data=data)
-                data_df['category_name'] = input_data[i][1]
-                data_df['category_id'] = input_data[i][0]
-                result_df_list.append(data_df)
-
-            count = len(input_data)
-
-        # 出现错误时，从错误处中断，再从该处开始
-        except Exception as err:
-            print('ERROR:%s' % err)
-            count = i
-
-    all_data_df = pd.concat(result_df_list)
-    all_data_df.to_excel('C:/Users/Administrator/Desktop/wos_journal_data.xlsx', index=False)
+# session = requests.session()
+# session.post(url=login_url, data=login_data, headers=headers_login, timeout=300)
+# url = 'https://incites.clarivate.com/incites-app/explore/0/filter/categories?schema=China+SCADC+Subject+97+Narrow'
+#
+# subject_list = session.get(url, headers=headers).json()
 
 
 def get_doc_data(input_data):
@@ -114,24 +69,23 @@ def get_doc_data(input_data):
         result_df_list = []
         try:
             session = requests.session()
-            session.post(url=login_url, data=login_data, proxies=proxies, headers=headers_login, timeout=300)
+            session.post(url=login_url, data=login_data, headers=headers_login, timeout=300)
             for i in range(count, len(input_data)):
                 print('当前进度：%s / %s' % (i + 1, len(input_data)))
                 for year in range(2015, 2020):
-                    post_data['filters']['sbjname']['is'] = input_data[i][0][1]
-                    post_data['filters']['jrnname']['is'] = input_data[i][1]
+                    post_data['filters']['sbjname']['is'] = input_data[i]
                     post_data['filters']['period']['is'] = [year, year]
-                    doc_data = session.post(url=post_url, data=json.dumps(post_data), headers=headers,
-                                            proxies=proxies, timeout=300).json()
+                    doc_data = session.post(url=post_url, data=json.dumps(post_data), headers=headers, timeout=300).json()
                     if doc_data['items']:
                         for item in doc_data['items']:
-                            item['doc_num'] = item['wosDocuments']['value']
+                            item['doc_num'] = item['jifdocsq1']['value']
+                            del item['jifdocsq1']
                             del item['wosDocuments']
 
                         data_df = pd.DataFrame(data=doc_data['items'])
                         data_df['year'] = year
-                        data_df['category_id'] = input_data[i][0][0]
-                        data_df['category_name'] = input_data[i][0][1]
+                        data_df['category_id'] = input_data[i][:4]
+                        data_df['category_name'] = input_data[i][5:]
                         result_df_list.append(data_df)
 
             count = len(input_data)
@@ -149,35 +103,6 @@ def get_doc_data(input_data):
 
 
 if __name__ == '__main__':
-    # dbutil = DBUtil(host, port, database, username, password)
-    # sql = 'select category_id, category_name, edition from wos_subject'
-    # input_df = dbutil.get_allresult(sql, 'df')
-    # dbutil.close()
-    # input_data = input_df.values.tolist()
-    # get_journal_data(input_data)
-
-    dbutil = DBUtil(host, port, database, username, password)
-    sql = 'select journalTitle, category_name, edition, category_id from wos_journal_data where flag="Q1"'
-    input_df = dbutil.get_allresult(sql, 'df')
-    input_df['journalTitle'] = input_df['journalTitle'].str.upper()
-    dbutil.close()
-
-    input_df = pd.read_excel('C:/Users/Administrator/Desktop/wos_journal_data.xlsx')
-    input_df['journalTitle'] = input_df['journalTitle'].str.upper()
-
-    # df2 = pd.read_excel('C:/Users/Administrator/Desktop/cssc-category-mapping.xlsx', sheet_name='Sheet1')
-    # df2['id'] = df2['id'].astype('str')
-    # for i in range(len(df2)):
-    #     if len(df2.loc[i, 'id']) < 4:
-    #         df2.loc[i, 'id'] = '0' + df2.loc[i, 'id']
-
-    # input_df = pd.merge(input_df, df2, on='category_id')
-
-    input_data = []
-    # for value, sub_df in input_df.groupby(['id', 'Description']):
-    for value, sub_df in input_df.groupby(['category_id', 'category_name', 'edition']):
-        # input_data.append([value, list(sub_df['journalTitle']), list(set(sub_df['category_name']))])
-        input_data.append([value, list(sub_df['journalTitle'])])
-
+    input_data = ['0101 Philosophy', '0201 Theoretical Economics', '0202 Applied Economics', '0301 Law', '0302 Political Science', '0303 Sociology', '0304 Ethnology', '0401 Education', '0402 Psychology', '0403 Physical Education and Sport Science', '0502 Foreign Language and Literature', '0503 Journalism and Communication', '0601 Archaeology', '0602 History of China', '0603 World History', '0701 Mathematics', '0702 Physics', '0703 Chemistry', '0704 Astronomy', '0705 Geography', '0706 Atmospheric Science', '0707 Marine Science', '0708 Geophysics', '0709 Geology', '0710 Biology', '0711 Systems Science', '0712 History of Science and Technology', '0713 Ecology', '0714 Statistics', '0801 Mechanics', '0802 Mechanical Engineering', '0803 Optical Engineering', '0804 Instrumentation Science and Technology', '0805 Materials Science and Engineering', '0806 Metallurgical Engineering', '0807 Power Engineering and Engineering Thermophysics', '0808 Electrical Engineering', '0809 Electronic Science and Technology', '0810 Information and Communication Engineering', '0811 Control Science and Engineering', '0812 Computer Science and Technology', '0813 Architecture', '0814 Civil Engineering', '0815 Hydraulic Engineering', '0816 Surveying and Mapping', '0817 Chemical Engineering and Technology', '0818 Geological Resources and Geological Engineering', '0819 Mining Engineering', '0820 Oil and Natural Gas Engineering', '0821 Textile Science and Engineering', '0822 Light Industry Technology and Engineering', '0823 Transportation Engineering', '0824 Naval Architecture and Ocean Engineering', '0825 Aerospace Science and Technology', '0826 Armament Science and Technology', '0827 Nuclear Science and Technology', '0828 Agricultural Engineering', '0829 Forestry Engineering', '0830 Environmental Science and Engineering', '0831 Biomedical Engineering', '0832 Food Science and Engineering', '0833 Urban and Rural Planning', '0834 Landscape Architecture', '0835 Software Engineering', '0836 Biotechnology and Bioengineering', '0837 Safety Science and Engineering', '0839 Cyberspace Security', '0901 Crop Science', '0902 Horticulture', '0903 Agricultural Resource and Environment Sciences', '0904 Plant Protection', '0905 Animal Science', '0906 Veterinary Medicine', '0907 Forestry', '0908 Fisheries', '0909 Grassland Science', '1001 Basic Medicine', '1002 Clinical Medicine', '1003 Stomatology', '1004 Public Health and Preventive Medicine', '1005 Chinese Medicine', '1007 Pharmaceutical Science', '1008 Chinese Materia Medica', '1009 Special Medicine', '1010 Medical Technology', '1011 Nursing', '1201 Management Science and Engineering', '1202 Business Administration', '1203 Economics and Management of Agriculture and Forestry', '1204 Public Administration', '1205 Library and Information Science & Archive Management', '1301 Art Theory', '1302 Music and Dance', '1303 Drama Film and Television', '1304 Fine Art', '1305 Design', '1401 Cross-field']
     get_doc_data(input_data)
 
