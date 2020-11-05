@@ -477,12 +477,11 @@ def deal27():
 
 
 def deal28():
-    data = pd.read_excel('C:/Users/Administrator/Desktop/最终核对版本.xlsx')
-    data['人工确认学科'].fillna('0', inplace=True)
+    data = pd.read_excel('C:/Users/Administrator/Desktop/category-mapping.xlsx')
 
     # 每篇文章拆分学科
     temp_df_list = []
-    for journal_id, sub_df in data.groupby('Journal ID'):
+    for journal_id, sub_df in data.groupby('期刊名称'):
         subject_list = sub_df.iloc[0]['人工确认学科'].split(', ')
         temp_df = pd.DataFrame(data=subject_list, columns=['人工确认学科拆分'])
         temp_df['Journal ID'] = journal_id
@@ -558,5 +557,27 @@ def deal32():
     physics_list_no_email.to_excel('C:/Users/Administrator/Desktop/物理学者邮箱查找0916_.xlsx', index=False)
 
 
+def deal33():
+    data2 = pd.read_excel('C:/Users/Administrator/Desktop/category-mapping.xlsx')
+
+    result_list = []
+    for scopus_journal_id, sub_df in data2.groupby('期刊名称'):
+        result_list.append([scopus_journal_id, ', '.join(list(set(sub_df['学科']))), ', '.join(list(set(sub_df['中文学科'])))])
+
+    df = pd.DataFrame(data=result_list, columns=['期刊名称', '学科', '中文学科'])
+    df.to_excel('C:/Users/Administrator/Desktop/1022.xlsx', index=False)
+
+
+def deal34():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/new.xlsx')
+
+    for i in range(len(data)):
+        data.loc[i, '人工确认后学科合并'] = ', '.join(sorted(data.loc[i, '人工确认后学科合并'].split(', ')))
+        data.loc[i, 'cssc学科'] = ', '.join(sorted(data.loc[i, 'cssc学科'].split(', ')))
+
+    data = data.loc[data['人工确认后学科合并'] != data['cssc学科'], :]
+    data.to_excel('C:/Users/Administrator/Desktop/1022.xlsx', index=False)
+
+
 if __name__ == '__main__':
-    deal32()
+    deal34()
