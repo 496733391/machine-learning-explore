@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup as bs
 from src.Scopus_Crawler.scopus_config import headers, proxies, driver_path
 
 
-data_df = pd.read_excel('C:/Users/Administrator/Desktop/1105光明日报文章链接知网.xlsx')
+data_df = pd.read_excel('C:/Users/Administrator/Desktop/报纸文献/1105光明日报文章链接知网.xlsx')
 data_list = data_df.values.tolist()
 
 count = 0
@@ -20,7 +20,7 @@ while count < len(data_list):
             print(k)
             data = data_list[k]
             url = data[-1]
-            page = requests.get(url=url, headers=headers, proxies=proxies)
+            page = requests.get(url=url, headers=headers)
             soup = bs(page.text, 'lxml')
             keyword_t = soup.find(class_='keywords')
             if keyword_t:

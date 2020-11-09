@@ -579,5 +579,29 @@ def deal34():
     data.to_excel('C:/Users/Administrator/Desktop/1022.xlsx', index=False)
 
 
+def deal35():
+    data = pd.read_excel('C:/Users/Administrator/Desktop/1106.xlsx')
+    df = data.loc[:, ['唯一码', 'k2']]
+
+    result_list = []
+    for i in range(len(df)):
+        k2_lis = list(set(df.loc[i, 'k2'].split('; ')))
+        tdf = pd.DataFrame(data=k2_lis, columns=['主题'])
+        tdf['唯一码'] = df.loc[i, '唯一码']
+        result_list.append(tdf)
+
+    tt = pd.concat(result_list)
+    result_df = pd.merge(data, tt, on='唯一码', how='left')
+    result_df.to_excel('C:/Users/Administrator/Desktop/1106result.xlsx', index=False)
+
+
+def deal36():
+    data1 = pd.read_excel('C:/Users/Administrator/Desktop/1106result-修改.xlsx', sheet_name='Sheet3')
+    data2 = pd.read_excel('C:/Users/Administrator/Desktop/1106result-修改.xlsx', sheet_name='Sheet2')
+    data2 = data2.loc[:, ['title', '一级学科', '主题', '一级学科1', '主题1']]
+    data = pd.merge(data1, data2, how='left', on='title')
+    data.to_excel('C:/Users/Administrator/Desktop/f1106result.xlsx', index=False)
+
+
 if __name__ == '__main__':
-    deal34()
+    deal36()
